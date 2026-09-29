@@ -1,0 +1,36 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 760 324.5" width="760" height="324.5"
+     role="img" aria-labelledby="fig-lecture26-gpu-programming-13-title fig-lecture26-gpu-programming-13-desc">
+  <title id="fig-lecture26-gpu-programming-13-title">协作的另一面：反面经验、算法阶段与基准套件</title>
+  <desc id="fig-lecture26-gpu-programming-13-desc">上面一条是这条线的反面经验：最优的设备数量并不总是最大值。下面四格是 RANSAC 循环里的四个阶段：拟合（SISD）、评估（SIMD）、与最优模型比较（SISD）、检查是否够好（SISD）。再下面一条说清这四格里哪两个是 SISD。最下面三格是 Chai 基准套件的构成：8 个数据划分、3 个粗粒度任务划分与 3 个细粒度任务划分基准。</desc>
+
+  <defs>
+    <style>
+      text { font-family: 'PingFang SC', 'Microsoft YaHei', 'Noto Sans CJK SC', system-ui, sans-serif; }
+    </style>
+  </defs>
+
+  <rect x="0" y="0" width="760" height="324.5" fill="#ffffff"/>
+
+  <text x="380" y="34" font-size="16" font-weight="600" fill="#1f2937" text-anchor="middle">协作的另一面：反面经验、算法阶段与基准套件</text>
+  <rect x="25" y="64" width="710" height="36" rx="6" fill="#fef3c7" stroke="#f59e0b"/>
+  <text x="380" y="86.2" font-size="12" fill="#b45309" text-anchor="middle">反面经验：最优的设备数量并不总是最大值（p98、p101）</text>
+  <rect x="25" y="128" width="158.75" height="33" rx="6" fill="#dbeafe" stroke="#3b82f6"/>
+  <text x="104.375" y="148.35" font-size="11" fill="#1e40af" text-anchor="middle">拟合阶段：SISD</text>
+  <rect x="208.75" y="128" width="158.75" height="33" rx="6" fill="#d1fae5" stroke="#22c55e"/>
+  <text x="288.125" y="148.35" font-size="11" fill="#166534" text-anchor="middle">评估阶段：SIMD</text>
+  <rect x="392.5" y="128" width="158.75" height="33" rx="6" fill="#dbeafe" stroke="#3b82f6"/>
+  <text x="471.875" y="148.35" font-size="11" fill="#1e40af" text-anchor="middle">与最优模型比较：SISD</text>
+  <rect x="576.25" y="128" width="158.75" height="33" rx="6" fill="#dbeafe" stroke="#3b82f6"/>
+  <text x="655.625" y="148.35" font-size="11" fill="#1e40af" text-anchor="middle">检查是否够好：SISD</text>
+  <rect x="25" y="189" width="710" height="33" rx="6" fill="#f8fafc" stroke="#94a3b8"/>
+  <text x="380" y="209.35" font-size="11" fill="#1e293b" text-anchor="middle">RANSAC 循环里的四个阶段：两个 SISD、一个 SIMD、再加一个收尾判断</text>
+  <rect x="25" y="250" width="220" height="49.5" rx="6" fill="#f3e8ff" stroke="#a855f7"/>
+  <text x="135" y="270.35" font-size="11" fill="#6b21a8" text-anchor="middle">Chai 套件</text>
+  <text x="135" y="286.85" font-size="11" fill="#6b21a8" text-anchor="middle">8 个数据划分基准</text>
+  <rect x="270" y="250" width="220" height="49.5" rx="6" fill="#f3e8ff" stroke="#a855f7"/>
+  <text x="380" y="270.35" font-size="11" fill="#6b21a8" text-anchor="middle">Chai 套件</text>
+  <text x="380" y="286.85" font-size="11" fill="#6b21a8" text-anchor="middle">3 个粗粒度任务划分</text>
+  <rect x="515" y="250" width="220" height="49.5" rx="6" fill="#f3e8ff" stroke="#a855f7"/>
+  <text x="625" y="270.35" font-size="11" fill="#6b21a8" text-anchor="middle">Chai 套件</text>
+  <text x="625" y="286.85" font-size="11" fill="#6b21a8" text-anchor="middle">3 个细粒度任务划分</text>
+</svg>

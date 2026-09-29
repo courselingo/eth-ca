@@ -1,0 +1,31 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 760 310" width="760" height="310"
+     role="img" aria-labelledby="fig-lecture26-gpu-programming-10-title fig-lecture26-gpu-programming-10-desc">
+  <title id="fig-lecture26-gpu-programming-10-title">数据传输与重叠</title>
+  <desc id="fig-lecture26-gpu-programming-10-desc">上排两格是同步与异步两种传输（流是命令队列，里面的操作按顺序执行）与异步的算法（计算分成若干条流，每条流处理D 除以流数的数据与 B 除以流数的块）。下面两格是两条估算：内核时间不小于传输时间时内核占主导，反过来传输占主导。最下面一条给出能从异步传输获益的例子。</desc>
+
+  <defs>
+    <style>
+      text { font-family: 'PingFang SC', 'Microsoft YaHei', 'Noto Sans CJK SC', system-ui, sans-serif; }
+    </style>
+  </defs>
+
+  <rect x="0" y="0" width="760" height="310" fill="#ffffff"/>
+
+  <text x="380" y="34" font-size="16" font-weight="600" fill="#1f2937" text-anchor="middle">数据传输与重叠</text>
+  <rect x="25" y="64" width="342.5" height="82.5" rx="6" fill="#dbeafe" stroke="#3b82f6"/>
+  <text x="196.25" y="100.85" font-size="11" fill="#1e40af" text-anchor="middle">同步与异步两种传输</text>
+  <text x="196.25" y="117.35" font-size="11" fill="#1e40af" text-anchor="middle">流是命令队列，里面的操作按顺序执行</text>
+  <rect x="392.5" y="64" width="342.5" height="82.5" rx="6" fill="#dbeafe" stroke="#3b82f6"/>
+  <text x="563.75" y="84.35" font-size="11" fill="#1e40af" text-anchor="middle">异步的算法</text>
+  <text x="563.75" y="100.85" font-size="11" fill="#1e40af" text-anchor="middle">计算分成若干条流</text>
+  <text x="563.75" y="117.35" font-size="11" fill="#1e40af" text-anchor="middle">每条流处理 D 除以流数的数据</text>
+  <text x="563.75" y="133.85" font-size="11" fill="#1e40af" text-anchor="middle">与 B 除以流数的块</text>
+  <rect x="25" y="174.5" width="342.5" height="49.5" rx="6" fill="#d1fae5" stroke="#22c55e"/>
+  <text x="196.25" y="194.85" font-size="11" fill="#166534" text-anchor="middle">内核时间不小于传输时间</text>
+  <text x="196.25" y="211.35" font-size="11" fill="#166534" text-anchor="middle">内核占主导，并行度受内核限制</text>
+  <rect x="392.5" y="174.5" width="342.5" height="49.5" rx="6" fill="#fef3c7" stroke="#f59e0b"/>
+  <text x="563.75" y="194.85" font-size="11" fill="#b45309" text-anchor="middle">传输时间大于内核时间</text>
+  <text x="563.75" y="211.35" font-size="11" fill="#b45309" text-anchor="middle">传输占主导，并行度受传输限制</text>
+  <rect x="25" y="252" width="710" height="33" rx="6" fill="#f3e8ff" stroke="#a855f7"/>
+  <text x="380" y="272.35" font-size="11" fill="#6b21a8" text-anchor="middle">在不同数据实例上有独立计算的应用能获益，例如视频处理</text>
+</svg>

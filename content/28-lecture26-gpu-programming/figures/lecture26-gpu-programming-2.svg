@@ -1,0 +1,41 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 760 354.5" width="760" height="354.5"
+     role="img" aria-labelledby="fig-lecture26-gpu-programming-2-title fig-lecture26-gpu-programming-2-desc">
+  <title id="fig-lecture26-gpu-programming-2-title">两台 GPU 的量级，以及 warp 级细粒度多线程</title>
+  <desc id="fig-lecture26-gpu-programming-2-desc">上面两格是 GTX 285：NVIDIA 的说法是 240 个流处理器，换成一般说法是 30 个核、每核 8 个 SIMD 单元。中间三格是它的资源与规模：每个核 64 KB 寄存器存储、32 线程一组叫一个 warp、最多 32 个 warp 交错、最多 1024 个线程上下文、整颗芯片 30,720 个线程。下面三格是 V100：5120 个流处理器等于 80 个核、每核 64 个 SIMD 单元并另有 tensor core、单精度 15.7 TFLOPS、双精度 7.8、深度学习 125。最下面一条是 warp 级细粒度多线程为什么能藏住延迟。</desc>
+
+  <defs>
+    <style>
+      text { font-family: 'PingFang SC', 'Microsoft YaHei', 'Noto Sans CJK SC', system-ui, sans-serif; }
+    </style>
+  </defs>
+
+  <rect x="0" y="0" width="760" height="354.5" fill="#ffffff"/>
+
+  <text x="380" y="34" font-size="16" font-weight="600" fill="#1f2937" text-anchor="middle">两台 GPU 的量级，以及 warp 级细粒度多线程</text>
+  <rect x="25" y="64" width="342.5" height="49.5" rx="6" fill="#dbeafe" stroke="#3b82f6"/>
+  <text x="196.25" y="84.35" font-size="11" fill="#1e40af" text-anchor="middle">GTX 285（2009）</text>
+  <text x="196.25" y="100.85" font-size="11" fill="#1e40af" text-anchor="middle">NVIDIA 说 240 个流处理器</text>
+  <rect x="392.5" y="64" width="342.5" height="49.5" rx="6" fill="#dbeafe" stroke="#3b82f6"/>
+  <text x="563.75" y="84.35" font-size="11" fill="#1e40af" text-anchor="middle">换成一般说法</text>
+  <text x="563.75" y="100.85" font-size="11" fill="#1e40af" text-anchor="middle">30 个核，每核 8 个 SIMD 单元</text>
+  <rect x="25" y="141.5" width="220" height="49.5" rx="6" fill="#d1fae5" stroke="#22c55e"/>
+  <text x="135" y="161.85" font-size="11" fill="#166534" text-anchor="middle">每个核 64 KB 寄存器存储</text>
+  <text x="135" y="178.35" font-size="11" fill="#166534" text-anchor="middle">32 线程一组叫一个 warp</text>
+  <rect x="270" y="141.5" width="220" height="49.5" rx="6" fill="#d1fae5" stroke="#22c55e"/>
+  <text x="380" y="161.85" font-size="11" fill="#166534" text-anchor="middle">最多 32 个 warp 交错</text>
+  <text x="380" y="178.35" font-size="11" fill="#166534" text-anchor="middle">最多 1024 个线程上下文</text>
+  <rect x="515" y="141.5" width="220" height="49.5" rx="6" fill="#d1fae5" stroke="#22c55e"/>
+  <text x="625" y="161.85" font-size="11" fill="#166534" text-anchor="middle">整颗芯片</text>
+  <text x="625" y="178.35" font-size="11" fill="#166534" text-anchor="middle">30 个核等于 30,720 个线程</text>
+  <rect x="25" y="219" width="220" height="49.5" rx="6" fill="#fef3c7" stroke="#f59e0b"/>
+  <text x="135" y="239.35" font-size="11" fill="#b45309" text-anchor="middle">V100（2017）</text>
+  <text x="135" y="255.85" font-size="11" fill="#b45309" text-anchor="middle">5120 个流处理器等于 80 个核</text>
+  <rect x="270" y="219" width="220" height="49.5" rx="6" fill="#fef3c7" stroke="#f59e0b"/>
+  <text x="380" y="239.35" font-size="11" fill="#b45309" text-anchor="middle">每核 64 个 SIMD 单元</text>
+  <text x="380" y="255.85" font-size="11" fill="#b45309" text-anchor="middle">另有 tensor core</text>
+  <rect x="515" y="219" width="220" height="49.5" rx="6" fill="#fef3c7" stroke="#f59e0b"/>
+  <text x="625" y="239.35" font-size="11" fill="#b45309" text-anchor="middle">单精度 15.7 TFLOPS</text>
+  <text x="625" y="255.85" font-size="11" fill="#b45309" text-anchor="middle">双精度 7.8，深度学习 125</text>
+  <rect x="25" y="296.5" width="710" height="33" rx="6" fill="#eff6ff" stroke="#3b82f6"/>
+  <text x="380" y="316.85" font-size="11" fill="#1e40af" text-anchor="middle">warp 级细粒度多线程：每个线程同一时刻只有一条指令在飞，不需要互锁；交错执行把长延迟藏掉</text>
+</svg>

@@ -1,0 +1,40 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 760 348.5" width="760" height="348.5"
+     role="img" aria-labelledby="fig-lecture26-gpu-programming-4-title fig-lecture26-gpu-programming-4-desc">
+  <title id="fig-lecture26-gpu-programming-4-title">一次典型的 CUDA 程序</title>
+  <desc id="fig-lecture26-gpu-programming-4-desc">上排五格是主机侧的五步：分配、传入、设置块数与线程数、启动内核、传回结果。中间一条是内核侧的写法：用全局函数声明，自动变量进寄存器，用共享内存声明，用块内同步。下面两排是索引：行主序布局按行摆、步长是宽度；一维网格的全局编号是块编号乘块内大小加线程编号（例 6 乘 4 加 1 等于 25）；二维网格的行与列各有自己的算法（行的例子得 3，列的例子得 1）。</desc>
+
+  <defs>
+    <style>
+      text { font-family: 'PingFang SC', 'Microsoft YaHei', 'Noto Sans CJK SC', system-ui, sans-serif; }
+    </style>
+  </defs>
+
+  <rect x="0" y="0" width="760" height="348.5" fill="#ffffff"/>
+
+  <text x="380" y="34" font-size="16" font-weight="600" fill="#1f2937" text-anchor="middle">一次典型的 CUDA 程序</text>
+  <rect x="25" y="64" width="122" height="30" rx="6" fill="#dbeafe" stroke="#3b82f6"/>
+  <text x="86" y="82.5" font-size="10" fill="#1e40af" text-anchor="middle">① cudaMalloc 分配</text>
+  <rect x="172" y="64" width="122" height="30" rx="6" fill="#dbeafe" stroke="#3b82f6"/>
+  <text x="233" y="82.5" font-size="10" fill="#1e40af" text-anchor="middle">② cudaMemcpy 传入</text>
+  <rect x="319" y="64" width="122" height="30" rx="6" fill="#dbeafe" stroke="#3b82f6"/>
+  <text x="380" y="82.5" font-size="10" fill="#1e40af" text-anchor="middle">③ 设置块数与线程数</text>
+  <rect x="466" y="64" width="122" height="30" rx="6" fill="#dbeafe" stroke="#3b82f6"/>
+  <text x="527" y="82.5" font-size="10" fill="#1e40af" text-anchor="middle">④ 启动内核</text>
+  <rect x="613" y="64" width="122" height="30" rx="6" fill="#dbeafe" stroke="#3b82f6"/>
+  <text x="674" y="82.5" font-size="10" fill="#1e40af" text-anchor="middle">⑤ 传回结果</text>
+  <rect x="25" y="122" width="710" height="30" rx="6" fill="#f8fafc" stroke="#94a3b8"/>
+  <text x="380" y="140.5" font-size="10" fill="#1e293b" text-anchor="middle">内核侧：__global__ 声明；自动变量进寄存器；__shared__ 声明共享内存；__syncthreads() 做块内同步</text>
+  <rect x="25" y="180" width="342.5" height="66" rx="6" fill="#d1fae5" stroke="#22c55e"/>
+  <text x="196.25" y="208.6" font-size="11" fill="#166534" text-anchor="middle">行主序布局</text>
+  <text x="196.25" y="225.1" font-size="11" fill="#166534" text-anchor="middle">Image[j][i] 等于 Image[j*width + i]，步长是宽度</text>
+  <rect x="392.5" y="180" width="342.5" height="66" rx="6" fill="#d1fae5" stroke="#22c55e"/>
+  <text x="563.75" y="200.35" font-size="11" fill="#166534" text-anchor="middle">一维网格</text>
+  <text x="563.75" y="216.85" font-size="11" fill="#166534" text-anchor="middle">gtid 等于 blockIdx.x*blockDim.x</text>
+  <text x="563.75" y="233.35" font-size="11" fill="#166534" text-anchor="middle">加 threadIdx.x；例 6*4+1 等于 25</text>
+  <rect x="25" y="274" width="342.5" height="49.5" rx="6" fill="#fef3c7" stroke="#f59e0b"/>
+  <text x="196.25" y="294.35" font-size="11" fill="#b45309" text-anchor="middle">二维网格的行</text>
+  <text x="196.25" y="310.85" font-size="11" fill="#b45309" text-anchor="middle">blockIdx.y*blockDim.y + threadIdx.y；例 1*2+1 等于 3</text>
+  <rect x="392.5" y="274" width="342.5" height="49.5" rx="6" fill="#fef3c7" stroke="#f59e0b"/>
+  <text x="563.75" y="294.35" font-size="11" fill="#b45309" text-anchor="middle">二维网格的列</text>
+  <text x="563.75" y="310.85" font-size="11" fill="#b45309" text-anchor="middle">blockIdx.x*blockDim.x + threadIdx.x；例 0*2+1 等于 1</text>
+</svg>

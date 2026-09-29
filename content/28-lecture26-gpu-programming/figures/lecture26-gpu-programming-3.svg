@@ -1,0 +1,35 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 760 382.5" width="760" height="382.5"
+     role="img" aria-labelledby="fig-lecture26-gpu-programming-3-title fig-lecture26-gpu-programming-3-desc">
+  <title id="fig-lecture26-gpu-programming-3-title">编程模型：SPMD 与批量同步</title>
+  <desc id="fig-lecture26-gpu-programming-3-desc">上排两格是 SPMD 的两条性质：单一份程序多份数据，它是一种编程模型而不是计算机组织；过程之间可以在某些点同步。中间一条说每条程序运行时可以走不同控制流路径，而且科学应用早就这么编、GPU 把它搬到 SIMD 硬件上。下面四格是模型的分层：网格（NDRange）、块（work-group）、块内有共享内存与同步、线程（work-item）。最下面两条是批量同步与透明可扩展性。</desc>
+
+  <defs>
+    <style>
+      text { font-family: 'PingFang SC', 'Microsoft YaHei', 'Noto Sans CJK SC', system-ui, sans-serif; }
+    </style>
+  </defs>
+
+  <rect x="0" y="0" width="760" height="382.5" fill="#ffffff"/>
+
+  <text x="380" y="34" font-size="16" font-weight="600" fill="#1f2937" text-anchor="middle">编程模型：SPMD 与批量同步</text>
+  <rect x="25" y="64" width="342.5" height="49.5" rx="6" fill="#dbeafe" stroke="#3b82f6"/>
+  <text x="196.25" y="84.35" font-size="11" fill="#1e40af" text-anchor="middle">SPMD：单一份程序、多份数据</text>
+  <text x="196.25" y="100.85" font-size="11" fill="#1e40af" text-anchor="middle">是一种编程模型，不是计算机组织</text>
+  <rect x="392.5" y="64" width="342.5" height="49.5" rx="6" fill="#dbeafe" stroke="#3b82f6"/>
+  <text x="563.75" y="84.35" font-size="11" fill="#1e40af" text-anchor="middle">过程之间可以在某些点同步</text>
+  <text x="563.75" y="100.85" font-size="11" fill="#1e40af" text-anchor="middle">比如屏障</text>
+  <rect x="25" y="141.5" width="710" height="33" rx="6" fill="#f8fafc" stroke="#94a3b8"/>
+  <text x="380" y="161.85" font-size="11" fill="#1e293b" text-anchor="middle">每条程序运行时可以走不同的控制流路径；科学应用早就这么编，GPU 把它搬到 SIMD 硬件上（p25）</text>
+  <rect x="25" y="202.5" width="158.75" height="33" rx="6" fill="#d1fae5" stroke="#22c55e"/>
+  <text x="104.375" y="222.85" font-size="11" fill="#166534" text-anchor="middle">网格 / NDRange</text>
+  <rect x="208.75" y="202.5" width="158.75" height="33" rx="6" fill="#d1fae5" stroke="#22c55e"/>
+  <text x="288.125" y="222.85" font-size="11" fill="#166534" text-anchor="middle">块 / work-group</text>
+  <rect x="392.5" y="202.5" width="158.75" height="33" rx="6" fill="#d1fae5" stroke="#22c55e"/>
+  <text x="471.875" y="222.85" font-size="11" fill="#166534" text-anchor="middle">块内有共享内存与同步</text>
+  <rect x="576.25" y="202.5" width="158.75" height="33" rx="6" fill="#d1fae5" stroke="#22c55e"/>
+  <text x="655.625" y="222.85" font-size="11" fill="#166534" text-anchor="middle">线程 / work-item</text>
+  <rect x="25" y="263.5" width="710" height="33" rx="6" fill="#eff6ff" stroke="#3b82f6"/>
+  <text x="380" y="283.85" font-size="11" fill="#1e40af" text-anchor="middle">批量同步：内核之间只有全局的、粗粒度的同步；主机分配与拷贝，设备执行内核</text>
+  <rect x="25" y="324.5" width="710" height="33" rx="6" fill="#f3e8ff" stroke="#a855f7"/>
+  <text x="380" y="344.85" font-size="11" fill="#6b21a8" text-anchor="middle">透明可扩展性：硬件可以自由调度线程块，块之间的执行顺序任意（p27）</text>
+</svg>

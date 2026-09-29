@@ -1,0 +1,31 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 760 321.5" width="760" height="321.5"
+     role="img" aria-labelledby="fig-lecture26-gpu-programming-7-title fig-lecture26-gpu-programming-7-desc">
+  <title id="fig-lecture26-gpu-programming-7-title">共享内存的分 bank 结构与 bank 冲突</title>
+  <desc id="fig-lecture26-gpu-programming-7-desc">上排两格是共享内存的结构：它是分 bank 的交错内存，每个 bank 每周期服务一个地址；通常 32 个 bank，连续的 32 位字分到连续 bank。中间一条给出 bank 编号是地址对 32 取模，并说明冲突只可能发生在同一个 warp 内部。下面三格是三种寻址：步长为 1 无冲突、步长为 2 造成两路冲突、步长为 8 造成八路冲突。最下面一条是三个缓解方向。</desc>
+
+  <defs>
+    <style>
+      text { font-family: 'PingFang SC', 'Microsoft YaHei', 'Noto Sans CJK SC', system-ui, sans-serif; }
+    </style>
+  </defs>
+
+  <rect x="0" y="0" width="760" height="321.5" fill="#ffffff"/>
+
+  <text x="380" y="34" font-size="16" font-weight="600" fill="#1f2937" text-anchor="middle">共享内存的分 bank 结构与 bank 冲突</text>
+  <rect x="25" y="64" width="342.5" height="49.5" rx="6" fill="#dbeafe" stroke="#3b82f6"/>
+  <text x="196.25" y="84.35" font-size="11" fill="#1e40af" text-anchor="middle">共享内存是分 bank 的交错内存</text>
+  <text x="196.25" y="100.85" font-size="11" fill="#1e40af" text-anchor="middle">每个 bank 每周期服务一个地址</text>
+  <rect x="392.5" y="64" width="342.5" height="49.5" rx="6" fill="#dbeafe" stroke="#3b82f6"/>
+  <text x="563.75" y="84.35" font-size="11" fill="#1e40af" text-anchor="middle">通常 32 个 bank</text>
+  <text x="563.75" y="100.85" font-size="11" fill="#1e40af" text-anchor="middle">连续的 32 位字分到连续 bank</text>
+  <rect x="25" y="141.5" width="710" height="33" rx="6" fill="#f8fafc" stroke="#94a3b8"/>
+  <text x="380" y="161.85" font-size="11" fill="#1e293b" text-anchor="middle">bank 编号等于地址对 32 取模；bank 冲突只可能发生在同一个 warp 内部</text>
+  <rect x="25" y="202.5" width="220" height="33" rx="6" fill="#d1fae5" stroke="#22c55e"/>
+  <text x="135" y="222.85" font-size="11" fill="#166534" text-anchor="middle">步长为 1（线性）无冲突</text>
+  <rect x="270" y="202.5" width="220" height="33" rx="6" fill="#fef3c7" stroke="#f59e0b"/>
+  <text x="380" y="222.85" font-size="11" fill="#b45309" text-anchor="middle">步长为 2 造成两路冲突</text>
+  <rect x="515" y="202.5" width="220" height="33" rx="6" fill="#fef3c7" stroke="#f59e0b"/>
+  <text x="625" y="222.85" font-size="11" fill="#b45309" text-anchor="middle">步长为 8 造成八路冲突</text>
+  <rect x="25" y="263.5" width="710" height="33" rx="6" fill="#f3e8ff" stroke="#a855f7"/>
+  <text x="380" y="283.85" font-size="11" fill="#6b21a8" text-anchor="middle">缓解方向：填充、随机化映射，以及哈希函数（p53）</text>
+</svg>
