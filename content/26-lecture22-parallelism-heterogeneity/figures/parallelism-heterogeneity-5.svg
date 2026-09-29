@@ -1,0 +1,30 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="2 13.0 786 312.0" width="786" height="312.0"
+     role="img" aria-labelledby="fig-parallelism-heterogeneity-5-title fig-parallelism-heterogeneity-5-desc">
+  <title id="fig-parallelism-heterogeneity-5-title">它站在通用与专用之间</title>
+  <desc id="fig-parallelism-heterogeneity-5-desc">讲义给了一个定位：纯粹的通用是针对所有负载用同一个设计，纯粹的专用是针对每个负载做一个设计，而不对称是若干个针对一组负载优化的子设计拼在一起。</desc>
+
+  <defs>
+    <style>
+      text { font-family: 'PingFang SC', 'Microsoft YaHei', 'Noto Sans CJK SC', system-ui, sans-serif; }
+    </style>
+    <marker id="arrow" markerWidth="8" markerHeight="8" refX="2" refY="4"
+            orient="auto" markerUnits="userSpaceOnUse">
+      <path d="M0,0 L8,4 L0,8 L2,4 z" fill="#64748b"/>
+    </marker>
+  </defs>
+
+  <rect x="2" y="13.0" width="786" height="312.0" fill="#ffffff"/>
+
+  <text x="395.0" y="48" font-size="16" font-weight="600" fill="#1f2937" text-anchor="middle">它站在通用与专用之间</text>
+  <rect x="25" y="70" width="712" height="42" fill="#eff6ff" stroke="#3b82f6"/>
+  <text x="381.0" y="95.9" font-size="14" fill="#1e40af" text-anchor="middle">通用、专用，与夹在中间的不对称</text>
+  <rect x="25" y="138" width="340" height="68" fill="#fce7f3" stroke="#ec4899"/>
+  <text x="195.0" y="167.7" font-size="15" fill="#9d174d" text-anchor="middle">两端的代价</text>
+  <text x="195.0" y="185.7" font-size="12" fill="#9d174d" text-anchor="middle">通用则处处不优，专用则不通用</text>
+  <rect x="393" y="138" width="340" height="68" fill="#d1fae5" stroke="#22c55e"/>
+  <text x="563.0" y="167.7" font-size="15" fill="#166534" text-anchor="middle">不对称的目标</text>
+  <text x="563.0" y="185.7" font-size="12" fill="#166534" text-anchor="middle">拿到通用的可用性，也拿到专用的好处</text>
+  <rect x="25" y="234" width="740" height="68" fill="#f3e8ff" stroke="#a855f7"/>
+  <text x="395.0" y="263.7" font-size="15" fill="#6b21a8" text-anchor="middle">这句「两端各有代价」正是这一讲反复出现的那种取舍</text>
+  <text x="395.0" y="281.7" font-size="12" fill="#6b21a8" text-anchor="middle">而它给的解法不是选一端，而是把两端拼在一个芯片上</text>
+</svg>

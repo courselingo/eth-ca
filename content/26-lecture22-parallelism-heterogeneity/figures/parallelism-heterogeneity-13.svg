@@ -1,0 +1,30 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="2 13.0 866 312.0" width="866" height="312.0"
+     role="img" aria-labelledby="fig-parallelism-heterogeneity-13-title fig-parallelism-heterogeneity-13-desc">
+  <title id="fig-parallelism-heterogeneity-13-title">瓶颈会变，所以要动态找</title>
+  <desc id="fig-parallelism-heterogeneity-13-desc">讲义给了一条关键观察：限速的那个瓶颈会随时间改变。它用一个链表程序的例子说明：前半段等的是 A 上的锁，后半段等的是 B 上的锁。</desc>
+
+  <defs>
+    <style>
+      text { font-family: 'PingFang SC', 'Microsoft YaHei', 'Noto Sans CJK SC', system-ui, sans-serif; }
+    </style>
+    <marker id="arrow" markerWidth="8" markerHeight="8" refX="2" refY="4"
+            orient="auto" markerUnits="userSpaceOnUse">
+      <path d="M0,0 L8,4 L0,8 L2,4 z" fill="#64748b"/>
+    </marker>
+  </defs>
+
+  <rect x="2" y="13.0" width="866" height="312.0" fill="#ffffff"/>
+
+  <text x="435.0" y="48" font-size="16" font-weight="600" fill="#1f2937" text-anchor="middle">瓶颈会变，所以要动态找</text>
+  <rect x="25" y="70" width="712" height="42" fill="#fce7f3" stroke="#ec4899"/>
+  <text x="381.0" y="95.9" font-size="14" fill="#9d174d" text-anchor="middle">限速瓶颈会随时间改变</text>
+  <rect x="25" y="138" width="340" height="68" fill="#dbeafe" stroke="#3b82f6"/>
+  <text x="195.0" y="167.7" font-size="15" fill="#1e40af" text-anchor="middle">例子</text>
+  <text x="195.0" y="185.7" font-size="12" fill="#1e40af" text-anchor="middle">前半段等 A 的锁，后半段等 B 的锁</text>
+  <rect x="393" y="138" width="340" height="68" fill="#d1fae5" stroke="#22c55e"/>
+  <text x="563.0" y="167.7" font-size="15" fill="#166534" text-anchor="middle">于是机制要能</text>
+  <text x="563.0" y="185.7" font-size="12" fill="#166534" text-anchor="middle">动态识别造成最多等待的那一段</text>
+  <rect x="25" y="234" width="820" height="68" fill="#f3e8ff" stroke="#a855f7"/>
+  <text x="435.0" y="263.7" font-size="15" fill="#6b21a8" text-anchor="middle">这条观察把问题从「优化哪个瓶颈」变成了「怎么持续找出当前的瓶颈」</text>
+  <text x="435.0" y="281.7" font-size="12" fill="#6b21a8" text-anchor="middle">而后者要靠「线程等待了多少周期」这个可测的量</text>
+</svg>

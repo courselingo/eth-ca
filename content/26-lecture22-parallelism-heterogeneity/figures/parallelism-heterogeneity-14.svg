@@ -1,0 +1,33 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="2 13.0 876 312.0" width="876" height="312.0"
+     role="img" aria-labelledby="fig-parallelism-heterogeneity-14-title fig-parallelism-heterogeneity-14-desc">
+  <title id="fig-parallelism-heterogeneity-14-title">三段递进：加速临界区、识别瓶颈、按效用决策</title>
+  <desc id="fig-parallelism-heterogeneity-14-desc">讲义把这条线讲成三步。第一步只加速临界区（把它送到大核上执行）；第二步发现瓶颈不止临界区，于是动态识别造成最多等待的代码段并加速它；第三步指出在多应用下还要比一比「加速谁更值」。</desc>
+
+  <defs>
+    <style>
+      text { font-family: 'PingFang SC', 'Microsoft YaHei', 'Noto Sans CJK SC', system-ui, sans-serif; }
+    </style>
+    <marker id="arrow" markerWidth="8" markerHeight="8" refX="2" refY="4"
+            orient="auto" markerUnits="userSpaceOnUse">
+      <path d="M0,0 L8,4 L0,8 L2,4 z" fill="#64748b"/>
+    </marker>
+  </defs>
+
+  <rect x="2" y="13.0" width="876" height="312.0" fill="#ffffff"/>
+
+  <text x="440.0" y="48" font-size="16" font-weight="600" fill="#1f2937" text-anchor="middle">三段递进：加速临界区、识别瓶颈、按效用决策</text>
+  <rect x="25" y="70" width="712" height="42" fill="#d1fae5" stroke="#22c55e"/>
+  <text x="381.0" y="95.9" font-size="14" fill="#166534" text-anchor="middle">三步，每一步解开上一步的一个限制</text>
+  <rect x="25" y="138" width="225" height="68" fill="#fef3c7" stroke="#f59e0b"/>
+  <text x="137.5" y="167.7" font-size="15" fill="#b45309" text-anchor="middle">第一步</text>
+  <text x="137.5" y="185.7" font-size="12" fill="#b45309" text-anchor="middle">把临界区送到大核</text>
+  <rect x="278" y="138" width="225" height="68" fill="#fef3c7" stroke="#f59e0b"/>
+  <text x="390.5" y="167.7" font-size="15" fill="#b45309" text-anchor="middle">第二步</text>
+  <text x="390.5" y="185.7" font-size="12" fill="#b45309" text-anchor="middle">动态识别瓶颈并加速</text>
+  <rect x="531" y="138" width="225" height="68" fill="#d1fae5" stroke="#22c55e"/>
+  <text x="643.5" y="167.7" font-size="15" fill="#166534" text-anchor="middle">第三步</text>
+  <text x="643.5" y="185.7" font-size="12" fill="#166534" text-anchor="middle">按效用决定加速谁</text>
+  <rect x="25" y="234" width="830" height="68" fill="#f3e8ff" stroke="#a855f7"/>
+  <text x="440.0" y="263.7" font-size="15" fill="#6b21a8" text-anchor="middle">第一步的收益是相对等面积对称多核快三成多</text>
+  <text x="440.0" y="281.7" font-size="12" fill="#6b21a8" text-anchor="middle">第三步要处理的正是多应用共存时的公平问题</text>
+</svg>
