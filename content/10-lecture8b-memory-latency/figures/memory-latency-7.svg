@@ -1,0 +1,30 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="2 13.0 806 312.0" width="806" height="312.0"
+     role="img" aria-labelledby="fig-memory-latency-7-title fig-memory-latency-7-desc">
+  <title id="fig-memory-latency-7-title">出路一：把子阵列拆成近段与远段</title>
+  <desc id="fig-memory-latency-7-desc">分层延迟 DRAM 的做法是把一个子阵列的位线切成近段与远段，大部分容量放在远段，访问得少的那部分放在近段；于是常用的数据可以用短位线的速度读到。</desc>
+
+  <defs>
+    <style>
+      text { font-family: 'PingFang SC', 'Microsoft YaHei', 'Noto Sans CJK SC', system-ui, sans-serif; }
+    </style>
+    <marker id="arrow" markerWidth="8" markerHeight="8" refX="2" refY="4"
+            orient="auto" markerUnits="userSpaceOnUse">
+      <path d="M0,0 L8,4 L0,8 L2,4 z" fill="#64748b"/>
+    </marker>
+  </defs>
+
+  <rect x="2" y="13.0" width="806" height="312.0" fill="#ffffff"/>
+
+  <text x="405.0" y="48" font-size="16" font-weight="600" fill="#1f2937" text-anchor="middle">出路一：把子阵列拆成近段与远段</text>
+  <rect x="25" y="70" width="712" height="42" fill="#eff6ff" stroke="#3b82f6"/>
+  <text x="381.0" y="95.9" font-size="14" fill="#1e40af" text-anchor="middle">分层延迟 DRAM：一个子阵列，两段位线</text>
+  <rect x="25" y="138" width="340" height="68" fill="#d1fae5" stroke="#22c55e"/>
+  <text x="195.0" y="167.7" font-size="15" fill="#166534" text-anchor="middle">近段</text>
+  <text x="195.0" y="185.7" font-size="12" fill="#166534" text-anchor="middle">位线短、快，但容量小</text>
+  <rect x="393" y="138" width="340" height="68" fill="#fef3c7" stroke="#f59e0b"/>
+  <text x="563.0" y="167.7" font-size="15" fill="#b45309" text-anchor="middle">远段</text>
+  <text x="563.0" y="185.7" font-size="12" fill="#b45309" text-anchor="middle">位线长、慢，但容量大</text>
+  <rect x="25" y="234" width="760" height="68" fill="#f3e8ff" stroke="#a855f7"/>
+  <text x="405.0" y="263.7" font-size="15" fill="#6b21a8" text-anchor="middle">目标是同时拿到「低延迟」与「小面积」</text>
+  <text x="405.0" y="281.7" font-size="12" fill="#6b21a8" text-anchor="middle">讲义把它总结成：用长位线拿到小面积，用短位线拿到低延迟</text>
+</svg>

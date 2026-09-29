@@ -1,0 +1,30 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="2 13.0 826 312.0" width="826" height="312.0"
+     role="img" aria-labelledby="fig-memory-latency-9-title fig-memory-latency-9-desc">
+  <title id="fig-memory-latency-9-title">LISA：让数据在子阵列之间搬</title>
+  <desc id="fig-memory-latency-9-desc">LISA 用很低的芯片面积代价（讲义说约 0.8%）在相邻子阵列之间开一条宽通路，于是数据可以在内存内部搬家，而不必绕到处理器再回来。</desc>
+
+  <defs>
+    <style>
+      text { font-family: 'PingFang SC', 'Microsoft YaHei', 'Noto Sans CJK SC', system-ui, sans-serif; }
+    </style>
+    <marker id="arrow" markerWidth="8" markerHeight="8" refX="2" refY="4"
+            orient="auto" markerUnits="userSpaceOnUse">
+      <path d="M0,0 L8,4 L0,8 L2,4 z" fill="#64748b"/>
+    </marker>
+  </defs>
+
+  <rect x="2" y="13.0" width="826" height="312.0" fill="#ffffff"/>
+
+  <text x="415.0" y="48" font-size="16" font-weight="600" fill="#1f2937" text-anchor="middle">LISA：让数据在子阵列之间搬</text>
+  <rect x="25" y="70" width="712" height="42" fill="#d1fae5" stroke="#22c55e"/>
+  <text x="381.0" y="95.9" font-size="14" fill="#166534" text-anchor="middle">LISA：子阵列之间的一条宽通路</text>
+  <rect x="25" y="138" width="340" height="68" fill="#dbeafe" stroke="#3b82f6"/>
+  <text x="195.0" y="167.7" font-size="15" fill="#1e40af" text-anchor="middle">代价</text>
+  <text x="195.0" y="185.7" font-size="12" fill="#1e40af" text-anchor="middle">约 0.8% 的芯片面积</text>
+  <rect x="393" y="138" width="340" height="68" fill="#d1fae5" stroke="#22c55e"/>
+  <text x="563.0" y="167.7" font-size="15" fill="#166534" text-anchor="middle">用途</text>
+  <text x="563.0" y="185.7" font-size="12" fill="#166534" text-anchor="middle">批量拷贝、内存内缓存、快速预充电</text>
+  <rect x="25" y="234" width="780" height="68" fill="#f3e8ff" stroke="#a855f7"/>
+  <text x="415.0" y="263.7" font-size="15" fill="#6b21a8" text-anchor="middle">讲义给了三种用途各自的加速与节能数字</text>
+  <text x="415.0" y="281.7" font-size="12" fill="#6b21a8" text-anchor="middle">它的价值不在某一项，而在它是一条通用的底座</text>
+</svg>

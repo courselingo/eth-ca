@@ -1,0 +1,30 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="2 13.0 786 312.0" width="786" height="312.0"
+     role="img" aria-labelledby="fig-memory-latency-5-title fig-memory-latency-5-desc">
+  <title id="fig-memory-latency-5-title">延迟由两段组成</title>
+  <desc id="fig-memory-latency-5-desc">讲义把一次访问的延迟拆成子阵列延迟与 I/O 延迟两段，并指出前者是主要部分：要降低总延迟，得先看清它落在哪一段。</desc>
+
+  <defs>
+    <style>
+      text { font-family: 'PingFang SC', 'Microsoft YaHei', 'Noto Sans CJK SC', system-ui, sans-serif; }
+    </style>
+    <marker id="arrow" markerWidth="8" markerHeight="8" refX="2" refY="4"
+            orient="auto" markerUnits="userSpaceOnUse">
+      <path d="M0,0 L8,4 L0,8 L2,4 z" fill="#64748b"/>
+    </marker>
+  </defs>
+
+  <rect x="2" y="13.0" width="786" height="312.0" fill="#ffffff"/>
+
+  <text x="395.0" y="48" font-size="16" font-weight="600" fill="#1f2937" text-anchor="middle">延迟由两段组成</text>
+  <rect x="25" y="70" width="712" height="42" fill="#eff6ff" stroke="#3b82f6"/>
+  <text x="381.0" y="95.9" font-size="14" fill="#1e40af" text-anchor="middle">一次访问的延迟 = 子阵列延迟 + I/O 延迟</text>
+  <rect x="25" y="138" width="340" height="68" fill="#fce7f3" stroke="#ec4899"/>
+  <text x="195.0" y="167.7" font-size="15" fill="#9d174d" text-anchor="middle">子阵列那一段</text>
+  <text x="195.0" y="185.7" font-size="12" fill="#9d174d" text-anchor="middle">占主要部分</text>
+  <rect x="393" y="138" width="340" height="68" fill="#fef3c7" stroke="#f59e0b"/>
+  <text x="563.0" y="167.7" font-size="15" fill="#b45309" text-anchor="middle">I/O 那一段</text>
+  <text x="563.0" y="185.7" font-size="12" fill="#b45309" text-anchor="middle">把数据送出芯片</text>
+  <rect x="25" y="234" width="740" height="68" fill="#f3e8ff" stroke="#a855f7"/>
+  <text x="395.0" y="263.7" font-size="15" fill="#6b21a8" text-anchor="middle">这个拆法是后面所有微架构方案的前提</text>
+  <text x="395.0" y="281.7" font-size="12" fill="#6b21a8" text-anchor="middle">不知道延迟落在哪，就不知道该改哪里</text>
+</svg>

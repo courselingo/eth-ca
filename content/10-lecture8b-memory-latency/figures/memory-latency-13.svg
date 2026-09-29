@@ -1,0 +1,30 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="2 13.0 866 312.0" width="866" height="312.0"
+     role="img" aria-labelledby="fig-memory-latency-13-title fig-memory-latency-13-desc">
+  <title id="fig-memory-latency-13-title">把「一刀切」拆得更细：按部位分档</title>
+  <desc id="fig-memory-latency-13-desc">Solar-DRAM 观察到同一条位线上的快慢是局部的：快的位线可以可靠地用更短的时序。DIVA 则把这个思路做成在线剖析，只对慢的区域做剖析，从而动态地省下延迟。</desc>
+
+  <defs>
+    <style>
+      text { font-family: 'PingFang SC', 'Microsoft YaHei', 'Noto Sans CJK SC', system-ui, sans-serif; }
+    </style>
+    <marker id="arrow" markerWidth="8" markerHeight="8" refX="2" refY="4"
+            orient="auto" markerUnits="userSpaceOnUse">
+      <path d="M0,0 L8,4 L0,8 L2,4 z" fill="#64748b"/>
+    </marker>
+  </defs>
+
+  <rect x="2" y="13.0" width="866" height="312.0" fill="#ffffff"/>
+
+  <text x="435.0" y="48" font-size="16" font-weight="600" fill="#1f2937" text-anchor="middle">把「一刀切」拆得更细：按部位分档</text>
+  <rect x="25" y="70" width="712" height="42" fill="#d1fae5" stroke="#22c55e"/>
+  <text x="381.0" y="95.9" font-size="14" fill="#166534" text-anchor="middle">同一个芯片内部，快慢也是分区域的</text>
+  <rect x="25" y="138" width="340" height="68" fill="#fef3c7" stroke="#f59e0b"/>
+  <text x="195.0" y="167.7" font-size="15" fill="#b45309" text-anchor="middle">Solar-DRAM</text>
+  <text x="195.0" y="185.7" font-size="12" fill="#b45309" text-anchor="middle">按位线的局部差异静态分档</text>
+  <rect x="393" y="138" width="340" height="68" fill="#fef3c7" stroke="#f59e0b"/>
+  <text x="563.0" y="167.7" font-size="15" fill="#b45309" text-anchor="middle">DIVA</text>
+  <text x="563.0" y="185.7" font-size="12" fill="#b45309" text-anchor="middle">只剖析慢的区域，在线调整</text>
+  <rect x="25" y="234" width="820" height="68" fill="#f3e8ff" stroke="#a855f7"/>
+  <text x="435.0" y="263.7" font-size="15" fill="#6b21a8" text-anchor="middle">两者都在回答同一个问题：分档要分到多细</text>
+  <text x="435.0" y="281.7" font-size="12" fill="#6b21a8" text-anchor="middle">讲义还提到一类相反方向的观察：激活错误在空间上是高度聚集的</text>
+</svg>
