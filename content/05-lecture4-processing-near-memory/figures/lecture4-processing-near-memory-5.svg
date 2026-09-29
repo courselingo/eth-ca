@@ -1,7 +1,7 @@
 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 606 210" width="606" height="210"
      role="img" aria-labelledby="fig-l4-5-title fig-l4-5-desc">
   <title id="fig-l4-5-title">PEI 的两条设计决定与结果</title>
-  <desc id="fig-l4-5-desc">每条 PIM 操作都是一条只碰一个缓存块的普通指令，执行位置由硬件动态决定；大输入集平均加速 47%、小输入集 32%、能量降低 25%。</desc>
+  <desc id="fig-l4-5-desc">每条 PIM 操作都是一条只碰一个缓存块的普通指令，执行位置由硬件动态决定；大输入集平均加速 47%、能量降低 25%，小输入集平均加速 32%。</desc>
 
   <defs>
     <style>
@@ -29,5 +29,5 @@
   <path d="M411,123 L411,135" fill="none" stroke="#64748b" stroke-width="1.5" marker-end="url(#arrow)"/>
 
   <rect x="23" y="146" width="560" height="42" rx="8" fill="#d1fae5" stroke="#22c55e" stroke-width="1.5"/>
-  <text x="303" y="171.2" font-size="12" fill="#166534" text-anchor="middle">结果：大输入平均 +47%、小输入 +32%、能量 -25%</text>
+  <text x="303" y="171.2" font-size="12" fill="#166534" text-anchor="middle">结果：大输入 +47% 性能、-25% 能量；小输入 +32% 性能</text>
 </svg>

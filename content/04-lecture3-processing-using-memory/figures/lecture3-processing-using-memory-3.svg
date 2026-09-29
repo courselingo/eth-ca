@@ -1,6 +1,6 @@
 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 566 268" width="566" height="268"
      role="img" aria-labelledby="fig-l3-3-title fig-l3-3-desc">
-  <title id="fig-l3-3-title">三股推力把设计挤在中间</title>
+  <title id="fig-l3-3-title">两股力把设计挤在中间</title>
   <desc id="fig-l3-3-desc">应用与系统从上往下拉，器件与电路从下往上推，设计者被挤在中间，必须同时满足两边的诉求。</desc>
 
   <defs>
@@ -15,7 +15,7 @@
 
   <rect x="0" y="0" width="566" height="268" fill="#ffffff"/>
 
-  <text x="283" y="34" font-size="16" font-weight="600" fill="#1f2937" text-anchor="middle">三股推力把设计挤在中间</text>
+  <text x="283" y="34" font-size="16" font-weight="600" fill="#1f2937" text-anchor="middle">两股力把设计挤在中间</text>
 
   <rect x="23" y="64" width="520" height="42" rx="8" fill="#dbeafe" stroke="#3b82f6" stroke-width="1.5"/>
   <text x="283" y="89.2" font-size="12" fill="#1e40af" text-anchor="middle">应用与系统：数据密集、访存与能量都是瓶颈</text>

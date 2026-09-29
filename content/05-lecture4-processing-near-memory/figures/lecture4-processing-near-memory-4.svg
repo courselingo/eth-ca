@@ -27,7 +27,7 @@
 
   <rect x="419" y="64" width="170" height="54" rx="8" fill="#fce7f3" stroke="#ec4899" stroke-width="1.5"/>
   <text x="504" y="86.2" font-size="12" fill="#9d174d" text-anchor="middle">取节点 C</text>
-  <text x="504" y="104.2" font-size="12" fill="#9d174d" text-anchor="middle">还得等 B 回来</text>
+  <text x="504" y="104.2" font-size="12" fill="#9d174d" text-anchor="middle">还得等 C 回来</text>
 
   <path d="M198,91 L210,91" fill="none" stroke="#64748b" stroke-width="1.5" marker-end="url(#arrow)"/>
   <path d="M396,91 L408,91" fill="none" stroke="#64748b" stroke-width="1.5" marker-end="url(#arrow)"/>

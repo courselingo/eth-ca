@@ -1,6 +1,6 @@
 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 626 210" width="626" height="210"
      role="img" aria-labelledby="fig-l4-3-title fig-l4-3-desc">
-  <title id="fig-l4-3-title">手机上最值得做近内存计算的四个负载</title>
+  <title id="fig-l4-3-title">手机上的四个重要负载</title>
   <desc id="fig-l4-3-desc">Chrome、TensorFlow Mobile、视频播放与视频采集四条负载的共同点是搬运占比高、且搬运多来自简单函数；把这些函数卸载到内存逻辑，平均能量降 55.4%、性能升 54.2%。</desc>
 
   <defs>
@@ -15,7 +15,7 @@
 
   <rect x="0" y="0" width="626" height="210" fill="#ffffff"/>
 
-  <text x="313" y="34" font-size="16" font-weight="600" fill="#1f2937" text-anchor="middle">手机上最值得做的四个负载</text>
+  <text x="313" y="34" font-size="16" font-weight="600" fill="#1f2937" text-anchor="middle">手机上的四个重要负载</text>
 
   <rect x="23" y="64" width="124" height="54" rx="8" fill="#dbeafe" stroke="#3b82f6" stroke-width="1.5"/>
   <text x="85" y="86.2" font-size="12" fill="#1e40af" text-anchor="middle">Chrome</text>

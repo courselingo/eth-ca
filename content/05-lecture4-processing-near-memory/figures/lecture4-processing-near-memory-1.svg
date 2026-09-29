@@ -1,7 +1,7 @@
 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 558 229" width="558" height="229"
      role="img" aria-labelledby="fig-l4-1-title fig-l4-1-desc">
   <title id="fig-l4-1-title">三维堆叠：内存上方多出一层可设计的硅</title>
-  <desc id="fig-l4-1-desc">内存裸片上方堆叠一层逻辑裸片，数据只隔几十微米；这层硅既能放专用单元，也能放通用小核。</desc>
+  <desc id="fig-l4-1-desc">逻辑裸片堆叠在内存裸片上方，这层硅离数据只有几十微米（这个量级由我们补充）；它既能放专用单元，也能放通用小核。</desc>
 
   <defs>
     <style>
@@ -13,14 +13,15 @@
 
   <text x="243" y="34" font-size="16" font-weight="600" fill="#1f2937" text-anchor="middle">三维堆叠：内存上方多出一层硅</text>
 
-  <rect x="23" y="64" width="440" height="42" rx="8" fill="#dbeafe" stroke="#3b82f6" stroke-width="1.5"/>
-  <text x="243" y="89.2" font-size="12" fill="#1e40af" text-anchor="middle">内存裸片（DRAM）</text>
+  <rect x="23" y="64" width="440" height="42" rx="8" fill="#fef3c7" stroke="#f59e0b" stroke-width="1.5"/>
+  <text x="243" y="89.2" font-size="12" fill="#b45309" text-anchor="middle">逻辑裸片：可放专用单元或通用小核</text>
 
-  <rect x="23" y="134" width="440" height="42" rx="8" fill="#fef3c7" stroke="#f59e0b" stroke-width="1.5"/>
-  <text x="243" y="159.2" font-size="12" fill="#b45309" text-anchor="middle">逻辑裸片：可放专用单元或通用小核</text>
+  <rect x="23" y="134" width="440" height="42" rx="8" fill="#dbeafe" stroke="#3b82f6" stroke-width="1.5"/>
+  <text x="243" y="159.2" font-size="12" fill="#1e40af" text-anchor="middle">内存裸片（DRAM）</text>
 
-  <text x="475" y="80" font-size="12" fill="#1e293b" text-anchor="start">数据就在</text>
-  <text x="475" y="98" font-size="12" fill="#1e293b" text-anchor="start">几十微米外</text>
+  <text x="475" y="102" font-size="12" fill="#1e293b" text-anchor="start">离数据只有</text>
+  <text x="475" y="120" font-size="12" fill="#1e293b" text-anchor="start">几十微米外</text>
+  <text x="475" y="138" font-size="12" fill="#1e293b" text-anchor="start">（我们补）</text>
 
   <text x="243" y="204" font-size="12" fill="#64748b" text-anchor="middle">关键不是「近」，而是多出一层可以自由设计的硅</text>
 </svg>
