@@ -236,3 +236,71 @@ key = "energy-delay-product"
 zh = "能耗延迟积"
 en = "energy delay product"
 note = "把能耗与延迟相乘得到的一个综合指标，用来比较方案在两个方向上的总收益"
+
+[[term]]
+key = "row-buffer"
+zh = "行缓冲"
+en = "row buffer"
+note = "存储体里被激活那一行的暂存区；访问落在它上面就是行命中，落在别的行上要先预充电再激活"
+
+[[term]]
+key = "row-hit"
+zh = "行命中"
+en = "row hit"
+note = "请求要访问的行已经在行缓冲里打开，只需一条读或写命令"
+
+[[term]]
+key = "memory-scheduling"
+zh = "内存调度"
+en = "memory scheduling"
+note = "在多个待处理访存请求之间决定先后顺序；这个顺序最终要落到 DRAM 命令这一级"
+
+[[term]]
+key = "reinforcement-learning"
+zh = "强化学习"
+en = "reinforcement learning"
+note = "智能体在状态里选动作、按收到的奖励更新估计，目标是最大化长期累计回报"
+
+# ---- 第 11 讲（Lecture 9: Memory Latency II）新增：延迟为什么长、怎么拆 ----
+
+[[term]]
+key = "subarray"
+zh = "子阵列"
+en = "subarray"
+note = "DRAM 存储体里更小的一块单元阵列；每个子阵列有自己的本地行缓冲，访问延迟主要花在子阵列这一段"
+
+[[term]]
+key = "sense-amplifier"
+zh = "读出放大器"
+en = "sense amplifier"
+note = "把位线上微弱的电荷差放大成 0 或 1 的电路；课内页面也常简写成「感放器」"
+
+[[term]]
+key = "bitline"
+zh = "位线"
+en = "bitline"
+note = "把一列单元的电荷引到读出放大器的那条长线；线越长电容越大，充放电越慢，延迟与功耗一起上去"
+
+[[term]]
+key = "timing-parameter"
+zh = "时序参数"
+en = "timing parameter"
+note = "DRAM 规范里规定的那几个等待时间，例如激活到可读的 tRCD、激活到可预充电的 tRAS、预充电的 tRP"
+
+[[term]]
+key = "timing-margin"
+zh = "时序裕量"
+en = "timing margin"
+note = "参数按最坏情况取，常见情况下用不到的那部分等待时间；本讲大部分工作都在拆这份裕量"
+
+[[term]]
+key = "physical-unclonable-function"
+zh = "物理不可克隆函数"
+en = "physical unclonable function"
+note = "用制造过程中不可复制的物理差异当器件指纹：同一颗器件每次测出来一样，不同器件彼此不同"
+
+[[term]]
+key = "true-random-number-generator"
+zh = "真随机数发生器"
+en = "true random number generator"
+note = "从物理过程里采样熵来产生随机数，而不是用算法算出一串看起来随机的数列"

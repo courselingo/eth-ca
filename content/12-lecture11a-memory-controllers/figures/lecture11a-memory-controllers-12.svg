@@ -1,0 +1,30 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 760 405" width="760" height="405"
+     role="img" aria-labelledby="fig-lecture11a-memory-controllers-12-title fig-lecture11a-memory-controllers-12-desc">
+  <title id="fig-lecture11a-memory-controllers-12-title">从人驱动的设计，到由数据驱动的设计</title>
+  <desc id="fig-lecture11a-memory-controllers-12-desc">上排左边是今天由人驱动的设计，右边是由数据驱动的方向。中间一条是三个已经出现的例子：Pythia、Sibyl 与一项基于学习的片外加载预测。再下面是最后收束成的三个词与今天按这三个词排开的问题。最后一条是讲义在跨栈图上的那句话：我们可以一步一步走到那里。</desc>
+
+  <defs>
+    <style>
+      text { font-family: 'PingFang SC', 'Microsoft YaHei', 'Noto Sans CJK SC', system-ui, sans-serif; }
+    </style>
+  </defs>
+
+  <rect x="0" y="0" width="760" height="405" fill="#ffffff"/>
+
+  <text x="380" y="34" font-size="16" font-weight="600" fill="#1f2937" text-anchor="middle">从人驱动的设计，到由数据驱动的设计</text>
+  <rect x="25" y="64" width="342.5" height="49.5" rx="6" fill="#fef3c7" stroke="#f59e0b"/>
+  <text x="196.25" y="84.35" font-size="11" fill="#b45309" text-anchor="middle">今天：由人驱动</text>
+  <text x="196.25" y="100.85" font-size="11" fill="#b45309" text-anchor="middle">人设计策略，系统里到处是简单而短视的策略，几乎没有学习</text>
+  <rect x="392.5" y="64" width="342.5" height="49.5" rx="6" fill="#d1fae5" stroke="#22c55e"/>
+  <text x="563.75" y="84.35" font-size="11" fill="#166534" text-anchor="middle">方向：由数据驱动</text>
+  <text x="563.75" y="100.85" font-size="11" fill="#166534" text-anchor="middle">机器学出策略，所有控制器都是智能的数据驱动智能体</text>
+  <rect x="25" y="141.5" width="710" height="49.5" rx="6" fill="#dbeafe" stroke="#3b82f6"/>
+  <text x="380" y="161.85" font-size="11" fill="#1e40af" text-anchor="middle">三个已经出现的例子：Pythia 用在线强化学习做硬件预取（MICRO 2021）；Sibyl 用在线强化学习做</text>
+  <text x="380" y="178.35" font-size="11" fill="#1e40af" text-anchor="middle">混合存储的数据放置（ISCA 2022）；还有一项基于学习的片外加载预测拿了 MICRO 2022 最佳论文</text>
+  <rect x="25" y="219" width="710" height="36" rx="6" fill="#f3e8ff" stroke="#a855f7"/>
+  <text x="380" y="241.2" font-size="12" fill="#6b21a8" text-anchor="middle">最后收束成三个词：以数据为中心、由数据驱动、对数据有感知</text>
+  <rect x="25" y="283" width="710" height="33" rx="6" fill="#f8fafc" stroke="#94a3b8"/>
+  <text x="380" y="303.35" font-size="11" fill="#1e293b" text-anchor="middle">今天的问题也按这三个词排开：为存储与搬运而设计、只做简单决定、把所有数据一视同仁</text>
+  <rect x="25" y="344" width="710" height="36" rx="6" fill="#eff6ff" stroke="#3b82f6"/>
+  <text x="380" y="366.2" font-size="12" fill="#1e40af" text-anchor="middle">讲义在跨栈图上写了一句：我们可以一步一步走到那里</text>
+</svg>

@@ -1,0 +1,27 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 760 381" width="760" height="381"
+     role="img" aria-labelledby="fig-lecture11a-memory-controllers-11-title fig-lecture11a-memory-controllers-11-desc">
+  <title id="fig-lecture11a-memory-controllers-11-title">收益两条，待解问题三条</title>
+  <desc id="fig-lecture11a-memory-controllers-11-desc">上排两格是两条收益：环境变化时持续学习、设计者负担变轻。下面三条是待解的问题：公平性与服务质量这类不同的目标该怎么指定、硬件复杂度如何、设计思路与流程要怎么变。</desc>
+
+  <defs>
+    <style>
+      text { font-family: 'PingFang SC', 'Microsoft YaHei', 'Noto Sans CJK SC', system-ui, sans-serif; }
+    </style>
+  </defs>
+
+  <rect x="0" y="0" width="760" height="381" fill="#ffffff"/>
+
+  <text x="380" y="34" font-size="16" font-weight="600" fill="#1f2937" text-anchor="middle">收益两条，待解问题三条</text>
+  <rect x="25" y="64" width="710" height="36" rx="6" fill="#eff6ff" stroke="#3b82f6"/>
+  <text x="380" y="86.2" font-size="12" fill="#1e40af" text-anchor="middle">收益两条，待解问题三条</text>
+  <rect x="25" y="128" width="342.5" height="36" rx="6" fill="#d1fae5" stroke="#22c55e"/>
+  <text x="196.25" y="150.2" font-size="12" fill="#166534" text-anchor="middle">+ 环境变化时持续学习</text>
+  <rect x="392.5" y="128" width="342.5" height="36" rx="6" fill="#d1fae5" stroke="#22c55e"/>
+  <text x="563.75" y="150.2" font-size="12" fill="#166534" text-anchor="middle">+ 设计者负担变轻：指定变量与目标即可</text>
+  <rect x="25" y="192" width="710" height="36" rx="6" fill="#fef3c7" stroke="#f59e0b"/>
+  <text x="380" y="214.2" font-size="12" fill="#b45309" text-anchor="middle">公平性与服务质量这类不同的目标该怎么指定</text>
+  <rect x="25" y="256" width="710" height="36" rx="6" fill="#fef3c7" stroke="#f59e0b"/>
+  <text x="380" y="278.2" font-size="12" fill="#b45309" text-anchor="middle">硬件复杂度如何</text>
+  <rect x="25" y="320" width="710" height="36" rx="6" fill="#fef3c7" stroke="#f59e0b"/>
+  <text x="380" y="342.2" font-size="12" fill="#b45309" text-anchor="middle">设计思路与流程要怎么变</text>
+</svg>

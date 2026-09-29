@@ -1,0 +1,37 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 760 383" width="760" height="383"
+     role="img" aria-labelledby="fig-lecture11a-memory-controllers-2-title fig-lecture11a-memory-controllers-2-desc">
+  <title id="fig-lecture11a-memory-controllers-2-title">控制器站在缓存与内存条之间，而且它在芯片上占的地方不小</title>
+  <desc id="fig-lecture11a-memory-controllers-2-desc">上排三格是核心与缓存层次、内存控制器、内存条上的存储体。下面两条说它站在缓存与内存条之间、是所有访存请求的必经之路，以及三张芯片照片页的标题「DRAM 控制逻辑很大」与 Apple M1、AMD Ryzen 5000、IBM POWER10 三颗芯片。最下面两格是两颗芯片的规格：Ryzen 5000 是 8 核 16 线程、每核 L1 32 KB、每核 L2 512 KB、共享 L3 32 MB；POWER10 是 15 到 16 核、每核 8 线程、每核 L2 2 MB、共享 L3 120 MB。</desc>
+
+  <defs>
+    <style>
+      text { font-family: 'PingFang SC', 'Microsoft YaHei', 'Noto Sans CJK SC', system-ui, sans-serif; }
+    </style>
+  </defs>
+
+  <rect x="0" y="0" width="760" height="383" fill="#ffffff"/>
+
+  <text x="380" y="34" font-size="16" font-weight="600" fill="#1f2937" text-anchor="middle">控制器站在缓存与内存条之间，而且它在芯片上占的地方不小</text>
+  <rect x="25" y="64" width="220" height="54" rx="6" fill="#dbeafe" stroke="#3b82f6"/>
+  <text x="135" y="86.2" font-size="12" fill="#1e40af" text-anchor="middle">核心与缓存层次</text>
+  <text x="135" y="104.2" font-size="12" fill="#1e40af" text-anchor="middle">提出访存请求</text>
+  <rect x="270" y="64" width="220" height="54" rx="6" fill="#fef3c7" stroke="#f59e0b"/>
+  <text x="380" y="86.2" font-size="12" fill="#b45309" text-anchor="middle">内存控制器</text>
+  <text x="380" y="104.2" font-size="12" fill="#b45309" text-anchor="middle">夹在中间的唯一通道</text>
+  <rect x="515" y="64" width="220" height="54" rx="6" fill="#d1fae5" stroke="#22c55e"/>
+  <text x="625" y="86.2" font-size="12" fill="#166534" text-anchor="middle">内存条上的存储体</text>
+  <text x="625" y="104.2" font-size="12" fill="#166534" text-anchor="middle">被驱动的器件</text>
+  <rect x="25" y="146" width="710" height="36" rx="6" fill="#eff6ff" stroke="#3b82f6"/>
+  <text x="380" y="168.2" font-size="12" fill="#1e40af" text-anchor="middle">它站在缓存与内存条之间，是所有访存请求的必经之路</text>
+  <rect x="25" y="210" width="710" height="54" rx="6" fill="#f3e8ff" stroke="#a855f7"/>
+  <text x="380" y="232.2" font-size="12" fill="#6b21a8" text-anchor="middle">三张芯片照片页的标题都叫「DRAM 控制逻辑很大」：</text>
+  <text x="380" y="250.2" font-size="12" fill="#6b21a8" text-anchor="middle">Apple M1（2021）、AMD Ryzen 5000（2020）、IBM POWER10（2020）</text>
+  <rect x="25" y="292" width="342.5" height="66" rx="6" fill="#f8fafc" stroke="#94a3b8"/>
+  <text x="196.25" y="312.35" font-size="11" fill="#1e293b" text-anchor="middle">Ryzen 5000：8 核 16 线程</text>
+  <text x="196.25" y="328.85" font-size="11" fill="#1e293b" text-anchor="middle">每核 L1 32 KB、每核 L2 512 KB</text>
+  <text x="196.25" y="345.35" font-size="11" fill="#1e293b" text-anchor="middle">共享 L3 32 MB</text>
+  <rect x="392.5" y="292" width="342.5" height="66" rx="6" fill="#f8fafc" stroke="#94a3b8"/>
+  <text x="563.75" y="312.35" font-size="11" fill="#1e293b" text-anchor="middle">POWER10：15 到 16 核、每核 8 线程</text>
+  <text x="563.75" y="328.85" font-size="11" fill="#1e293b" text-anchor="middle">每核 L2 2 MB</text>
+  <text x="563.75" y="345.35" font-size="11" fill="#1e293b" text-anchor="middle">共享 L3 120 MB</text>
+</svg>

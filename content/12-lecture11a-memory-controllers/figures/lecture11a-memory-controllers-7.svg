@@ -1,0 +1,26 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 760 289" width="760" height="289"
+     role="img" aria-labelledby="fig-lecture11a-memory-controllers-7-title fig-lecture11a-memory-controllers-7-desc">
+  <title id="fig-lecture11a-memory-controllers-7-title">定时约束的来历：位线电压要时间，工艺变异要保护带</title>
+  <desc id="fig-lecture11a-memory-controllers-7-desc">上排左边是位线电压要时间才能建立、激活之后要等 tRCD，右边是工艺变异让单元行为各异、时序里必须留保护带。中间一条说保护带是为正确性买的保险，取值要覆盖最差的单元，这个下限叫 Vmin。最下面一条说代价是每次访问都要多等一会儿，而 DRAM 里有 50 条以上的定时约束，违反它读出来的数据就是错的。</desc>
+
+  <defs>
+    <style>
+      text { font-family: 'PingFang SC', 'Microsoft YaHei', 'Noto Sans CJK SC', system-ui, sans-serif; }
+    </style>
+  </defs>
+
+  <rect x="0" y="0" width="760" height="289" fill="#ffffff"/>
+
+  <text x="380" y="34" font-size="16" font-weight="600" fill="#1f2937" text-anchor="middle">定时约束的来历：位线电压要时间，工艺变异要保护带</text>
+  <rect x="25" y="64" width="342.5" height="54" rx="6" fill="#dbeafe" stroke="#3b82f6"/>
+  <text x="196.25" y="86.2" font-size="12" fill="#1e40af" text-anchor="middle">位线电压要时间才能建立</text>
+  <text x="196.25" y="104.2" font-size="12" fill="#1e40af" text-anchor="middle">激活之后要等 tRCD 才能安全读出</text>
+  <rect x="392.5" y="64" width="342.5" height="54" rx="6" fill="#fef3c7" stroke="#f59e0b"/>
+  <text x="563.75" y="86.2" font-size="12" fill="#b45309" text-anchor="middle">工艺变异让每个单元的行为都不一样</text>
+  <text x="563.75" y="104.2" font-size="12" fill="#b45309" text-anchor="middle">时序里必须留保护带，覆盖最差单元</text>
+  <rect x="25" y="146" width="710" height="36" rx="6" fill="#d1fae5" stroke="#22c55e"/>
+  <text x="380" y="168.2" font-size="12" fill="#166534" text-anchor="middle">保护带是为了正确性买的保险：取值要覆盖最差的那个单元，这个下限叫 Vmin</text>
+  <rect x="25" y="210" width="710" height="54" rx="6" fill="#f3e8ff" stroke="#a855f7"/>
+  <text x="380" y="232.2" font-size="12" fill="#6b21a8" text-anchor="middle">代价是每一次访问都要多等一会儿，而约束之所以多，是因为要覆盖的不确定性多：</text>
+  <text x="380" y="250.2" font-size="12" fill="#6b21a8" text-anchor="middle">DRAM 里有 50 条以上的定时约束，违反它读出来的数据就是错的</text>
+</svg>

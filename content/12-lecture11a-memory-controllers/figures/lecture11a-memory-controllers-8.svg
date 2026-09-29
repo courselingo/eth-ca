@@ -1,0 +1,25 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 760 266.5" width="760" height="266.5"
+     role="img" aria-labelledby="fig-lecture11a-memory-controllers-8-title fig-lecture11a-memory-controllers-8-desc">
+  <title id="fig-lecture11a-memory-controllers-8-title">目标是一串，条件一直在变，于是有了那个愿望</title>
+  <desc id="fig-lecture11a-memory-controllers-8-desc">上面一条说目标是一串、条件一直在变。下排左边是现实：很难写出同时做好性能、服务质量与能效的策略；右边是愿望：要是控制器能自己找到一套好的调度策略就好了。最后一条说控制器在多个核心之间解决内存争用，输出是调度顺序，要最大化的量是系统性能。</desc>
+
+  <defs>
+    <style>
+      text { font-family: 'PingFang SC', 'Microsoft YaHei', 'Noto Sans CJK SC', system-ui, sans-serif; }
+    </style>
+  </defs>
+
+  <rect x="0" y="0" width="760" height="266.5" fill="#ffffff"/>
+
+  <text x="380" y="34" font-size="16" font-weight="600" fill="#1f2937" text-anchor="middle">目标是一串，条件一直在变，于是有了那个愿望</text>
+  <rect x="25" y="64" width="710" height="36" rx="6" fill="#eff6ff" stroke="#3b82f6"/>
+  <text x="380" y="86.2" font-size="12" fill="#1e40af" text-anchor="middle">目标是一串，条件一直在变</text>
+  <rect x="25" y="128" width="342.5" height="49.5" rx="6" fill="#fef3c7" stroke="#f59e0b"/>
+  <text x="196.25" y="148.35" font-size="11" fill="#b45309" text-anchor="middle">现实：很难写出同时做好性能、服务质量与能效的策略</text>
+  <text x="196.25" y="164.85" font-size="11" fill="#b45309" text-anchor="middle">要考虑的东西太多，工作负载与系统行为还在持续变化</text>
+  <rect x="392.5" y="128" width="342.5" height="49.5" rx="6" fill="#d1fae5" stroke="#22c55e"/>
+  <text x="563.75" y="148.35" font-size="11" fill="#166534" text-anchor="middle">愿望：要是控制器能自己找到一套好的调度策略就好了</text>
+  <text x="563.75" y="164.85" font-size="11" fill="#166534" text-anchor="middle">这一讲的后半段就是在回答这个愿望</text>
+  <rect x="25" y="205.5" width="710" height="36" rx="6" fill="#dbeafe" stroke="#3b82f6"/>
+  <text x="380" y="227.7" font-size="12" fill="#1e40af" text-anchor="middle">控制器在多个核心之间解决内存争用，它的输出是调度顺序，要最大化的量是系统性能</text>
+</svg>

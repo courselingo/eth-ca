@@ -1,0 +1,33 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 760 412.5" width="760" height="412.5"
+     role="img" aria-labelledby="fig-lecture11a-memory-controllers-6-title fig-lecture11a-memory-controllers-6-desc">
+  <title id="fig-lecture11a-memory-controllers-6-title">行缓冲与功耗：省下来的开销要在别处付回去</title>
+  <desc id="fig-lecture11a-memory-controllers-6-desc">上排左边是行缓冲开着行的代价，右边是关掉行的代价。中间两条分别是自适应策略的做法与功耗的四个状态：活动、所有存储体空闲、掉电、自刷新。下排两格是降下去省电与升上去要花的代价：状态切换要花时间，切换期间芯片不能被访问。</desc>
+
+  <defs>
+    <style>
+      text { font-family: 'PingFang SC', 'Microsoft YaHei', 'Noto Sans CJK SC', system-ui, sans-serif; }
+    </style>
+  </defs>
+
+  <rect x="0" y="0" width="760" height="412.5" fill="#ffffff"/>
+
+  <text x="380" y="34" font-size="16" font-weight="600" fill="#1f2937" text-anchor="middle">行缓冲与功耗：省下来的开销要在别处付回去</text>
+  <rect x="25" y="64" width="710" height="36" rx="6" fill="#eff6ff" stroke="#3b82f6"/>
+  <text x="380" y="86.2" font-size="12" fill="#1e40af" text-anchor="middle">行缓冲：开着与关掉，代价落在命令条数上</text>
+  <rect x="25" y="128" width="342.5" height="54" rx="6" fill="#dbeafe" stroke="#3b82f6"/>
+  <text x="196.25" y="150.2" font-size="12" fill="#1e40af" text-anchor="middle">开着行</text>
+  <text x="196.25" y="168.2" font-size="12" fill="#1e40af" text-anchor="middle">命中：只读；换行：预充电 + 激活 + 读</text>
+  <rect x="392.5" y="128" width="342.5" height="54" rx="6" fill="#dbeafe" stroke="#3b82f6"/>
+  <text x="563.75" y="150.2" font-size="12" fill="#1e40af" text-anchor="middle">关掉行</text>
+  <text x="563.75" y="168.2" font-size="12" fill="#1e40af" text-anchor="middle">缓冲里命中：只读；换行：激活 + 读 + 预充电</text>
+  <rect x="25" y="210" width="710" height="36" rx="6" fill="#fef3c7" stroke="#f59e0b"/>
+  <text x="380" y="232.2" font-size="12" fill="#b45309" text-anchor="middle">自适应策略：先预测下一次访问同一存储体时会不会落在同一行，再决定关不关</text>
+  <rect x="25" y="274" width="710" height="36" rx="6" fill="#d1fae5" stroke="#22c55e"/>
+  <text x="380" y="296.2" font-size="12" fill="#166534" text-anchor="middle">功耗四个状态：活动、所有存储体空闲、掉电、自刷新（功耗最低）</text>
+  <rect x="25" y="338" width="342.5" height="49.5" rx="6" fill="#f3e8ff" stroke="#a855f7"/>
+  <text x="196.25" y="358.35" font-size="11" fill="#6b21a8" text-anchor="middle">被访问时才升上去</text>
+  <text x="196.25" y="374.85" font-size="11" fill="#6b21a8" text-anchor="middle">状态切换要花时间</text>
+  <rect x="392.5" y="338" width="342.5" height="49.5" rx="6" fill="#f3e8ff" stroke="#a855f7"/>
+  <text x="563.75" y="358.35" font-size="11" fill="#6b21a8" text-anchor="middle">不被访问时就降下去</text>
+  <text x="563.75" y="374.85" font-size="11" fill="#6b21a8" text-anchor="middle">切换期间芯片不能被访问</text>
+</svg>

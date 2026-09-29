@@ -1,0 +1,44 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 760 444" width="760" height="444"
+     role="img" aria-labelledby="fig-lecture11a-memory-controllers-3-title fig-lecture11a-memory-controllers-3-desc">
+  <title id="fig-lecture11a-memory-controllers-3-title">DRAM 是一族器件：五类用途、一张对照表、一份复杂度账单</title>
+  <desc id="fig-lecture11a-memory-controllers-3-desc">上排五格是 DRAM 按用途分成的五类：商用型（DDR 到 DDR5）、低功耗（LPDDR1 到 LPDDR5）、高带宽（GDDR2 到 GDDR5）、低延迟（eDRAM、RLDRAM）、三维堆叠（WIO、HBM、HMC）。下面两条说灵活控制器支持的类型越多就越复杂，以及以 DDR3 为基准的那张对照表：DDR3 每 rank 8 个存储体、DDR4 16 个并引入存储体组、GDDR5 16 个加存储体组、HBM 16 个加三维堆叠、HMC 256 个、LPDDR4 16 个。最下面两格是三维堆叠的结构与同一页标出的代价。</desc>
+
+  <defs>
+    <style>
+      text { font-family: 'PingFang SC', 'Microsoft YaHei', 'Noto Sans CJK SC', system-ui, sans-serif; }
+    </style>
+  </defs>
+
+  <rect x="0" y="0" width="760" height="444" fill="#ffffff"/>
+
+  <text x="380" y="34" font-size="16" font-weight="600" fill="#1f2937" text-anchor="middle">DRAM 是一族器件：五类用途、一张对照表、一份复杂度账单</text>
+  <rect x="25" y="64" width="710" height="36" rx="6" fill="#eff6ff" stroke="#3b82f6"/>
+  <text x="380" y="86.2" font-size="12" fill="#1e40af" text-anchor="middle">DRAM 是一族器件，底层微体系结构在根本上是同一回事</text>
+  <rect x="25" y="128" width="122" height="49.5" rx="6" fill="#d1fae5" stroke="#22c55e"/>
+  <text x="86" y="148.35" font-size="11" fill="#166534" text-anchor="middle">商用型</text>
+  <text x="86" y="164.85" font-size="11" fill="#166534" text-anchor="middle">DDR 到 DDR5</text>
+  <rect x="172" y="128" width="122" height="49.5" rx="6" fill="#d1fae5" stroke="#22c55e"/>
+  <text x="233" y="148.35" font-size="11" fill="#166534" text-anchor="middle">低功耗</text>
+  <text x="233" y="164.85" font-size="11" fill="#166534" text-anchor="middle">LPDDR1 到 LPDDR5</text>
+  <rect x="319" y="128" width="122" height="49.5" rx="6" fill="#d1fae5" stroke="#22c55e"/>
+  <text x="380" y="148.35" font-size="11" fill="#166534" text-anchor="middle">高带宽</text>
+  <text x="380" y="164.85" font-size="11" fill="#166534" text-anchor="middle">GDDR2 到 GDDR5</text>
+  <rect x="466" y="128" width="122" height="49.5" rx="6" fill="#d1fae5" stroke="#22c55e"/>
+  <text x="527" y="148.35" font-size="11" fill="#166534" text-anchor="middle">低延迟</text>
+  <text x="527" y="164.85" font-size="11" fill="#166534" text-anchor="middle">eDRAM、RLDRAM</text>
+  <rect x="613" y="128" width="122" height="49.5" rx="6" fill="#d1fae5" stroke="#22c55e"/>
+  <text x="674" y="148.35" font-size="11" fill="#166534" text-anchor="middle">三维堆叠</text>
+  <text x="674" y="164.85" font-size="11" fill="#166534" text-anchor="middle">WIO、HBM、HMC</text>
+  <rect x="25" y="205.5" width="710" height="54" rx="6" fill="#fef3c7" stroke="#f59e0b"/>
+  <text x="380" y="227.7" font-size="12" fill="#b45309" text-anchor="middle">一份灵活的控制器可以支持多种类型，但类型越多控制器越复杂：</text>
+  <text x="380" y="245.7" font-size="12" fill="#b45309" text-anchor="middle">很难同时支持所有类型与升级版，而且不同类型的模拟接口并不一样</text>
+  <rect x="25" y="287.5" width="710" height="54" rx="6" fill="#dbeafe" stroke="#3b82f6"/>
+  <text x="380" y="309.7" font-size="12" fill="#1e40af" text-anchor="middle">对照表以 DDR3 为基准：DDR3 每 rank 8 个存储体；DDR4 16 个并引入存储体组；</text>
+  <text x="380" y="327.7" font-size="12" fill="#1e40af" text-anchor="middle">GDDR5 16 个加存储体组；HBM 16 个加三维堆叠；HMC 256 个；LPDDR4 16 个</text>
+  <rect x="25" y="369.5" width="342.5" height="49.5" rx="6" fill="#f3e8ff" stroke="#a855f7"/>
+  <text x="196.25" y="389.85" font-size="11" fill="#6b21a8" text-anchor="middle">三维堆叠的结构</text>
+  <text x="196.25" y="406.35" font-size="11" fill="#6b21a8" text-anchor="middle">多层存储体 + 硅通孔 + 专用逻辑层</text>
+  <rect x="392.5" y="369.5" width="342.5" height="49.5" rx="6" fill="#f3e8ff" stroke="#a855f7"/>
+  <text x="563.75" y="389.85" font-size="11" fill="#6b21a8" text-anchor="middle">同一页标出的代价</text>
+  <text x="563.75" y="406.35" font-size="11" fill="#6b21a8" text-anchor="middle">延迟更大、面积与功耗更大、行更窄</text>
+</svg>

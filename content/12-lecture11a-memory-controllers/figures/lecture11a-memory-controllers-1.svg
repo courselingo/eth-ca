@@ -1,0 +1,38 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 760 408" width="760" height="408"
+     role="img" aria-labelledby="fig-lecture11a-memory-controllers-1-title fig-lecture11a-memory-controllers-1-desc">
+  <title id="fig-lecture11a-memory-controllers-1-title">长延迟内存都要被控制，闪存控制器还要多背一串活</title>
+  <desc id="fig-lecture11a-memory-controllers-1-desc">上排是长延迟内存共有的处境：延迟长，都要被控制器管起来。中间三格是闪存、相变存储器、自旋转移矩磁存储器。再下面两条说闪存（SSD）控制器与 DRAM 控制器相似，但它是闪存专用的，而且做得更多：复杂纠错、磨损均衡、电压优化、垃圾回收、页重映射。最下面是这一讲要回答的三个问题：控制器要管哪些事、这件事为什么难、能不能让控制器自己学出一套调度策略。</desc>
+
+  <defs>
+    <style>
+      text { font-family: 'PingFang SC', 'Microsoft YaHei', 'Noto Sans CJK SC', system-ui, sans-serif; }
+    </style>
+  </defs>
+
+  <rect x="0" y="0" width="760" height="408" fill="#ffffff"/>
+
+  <text x="380" y="34" font-size="16" font-weight="600" fill="#1f2937" text-anchor="middle">长延迟内存都要被控制，闪存控制器还要多背一串活</text>
+  <rect x="25" y="64" width="710" height="42" rx="6" fill="#eff6ff" stroke="#3b82f6"/>
+  <text x="380" y="89.9" font-size="14" fill="#1e40af" text-anchor="middle">长延迟内存共有的处境：延迟长，都要被控制器管起来</text>
+  <rect x="25" y="134" width="220" height="42" rx="6" fill="#fef3c7" stroke="#f59e0b"/>
+  <text x="135" y="159.9" font-size="14" fill="#b45309" text-anchor="middle">闪存</text>
+  <rect x="270" y="134" width="220" height="42" rx="6" fill="#fef3c7" stroke="#f59e0b"/>
+  <text x="380" y="159.9" font-size="14" fill="#b45309" text-anchor="middle">相变存储器</text>
+  <rect x="515" y="134" width="220" height="42" rx="6" fill="#fef3c7" stroke="#f59e0b"/>
+  <text x="625" y="159.2" font-size="12" fill="#b45309" text-anchor="middle">自旋转移矩磁存储器</text>
+  <rect x="25" y="204" width="710" height="36" rx="6" fill="#eff6ff" stroke="#3b82f6"/>
+  <text x="380" y="226.2" font-size="12" fill="#1e40af" text-anchor="middle">闪存（SSD）控制器与 DRAM 控制器相似，但它是闪存专用的，而且做得更多</text>
+  <rect x="25" y="268" width="122" height="33" rx="6" fill="#d1fae5" stroke="#22c55e"/>
+  <text x="86" y="288.35" font-size="11" fill="#166534" text-anchor="middle">复杂纠错</text>
+  <rect x="172" y="268" width="122" height="33" rx="6" fill="#d1fae5" stroke="#22c55e"/>
+  <text x="233" y="288.35" font-size="11" fill="#166534" text-anchor="middle">磨损均衡</text>
+  <rect x="319" y="268" width="122" height="33" rx="6" fill="#d1fae5" stroke="#22c55e"/>
+  <text x="380" y="288.35" font-size="11" fill="#166534" text-anchor="middle">电压优化</text>
+  <rect x="466" y="268" width="122" height="33" rx="6" fill="#d1fae5" stroke="#22c55e"/>
+  <text x="527" y="288.35" font-size="11" fill="#166534" text-anchor="middle">垃圾回收</text>
+  <rect x="613" y="268" width="122" height="33" rx="6" fill="#d1fae5" stroke="#22c55e"/>
+  <text x="674" y="288.35" font-size="11" fill="#166534" text-anchor="middle">页重映射</text>
+  <rect x="25" y="329" width="710" height="54" rx="6" fill="#f3e8ff" stroke="#a855f7"/>
+  <text x="380" y="351.2" font-size="12" fill="#6b21a8" text-anchor="middle">这一讲要回答三件事：控制器要管哪些事；这件事为什么难；</text>
+  <text x="380" y="369.2" font-size="12" fill="#6b21a8" text-anchor="middle">能不能让控制器自己学出一套调度策略</text>
+</svg>

@@ -1,0 +1,33 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 760 412.5" width="760" height="412.5"
+     role="img" aria-labelledby="fig-lecture11a-memory-controllers-9-title fig-lecture11a-memory-controllers-9-desc">
+  <title id="fig-lecture11a-memory-controllers-9-title">把控制器当成强化学习智能体</title>
+  <desc id="fig-lecture11a-memory-controllers-9-desc">上面一条说让控制器自己学：状态与动作关联长期回报，挑回报最高的命令，再按反馈更新。三格分别是状态、动作与奖励。下面两条是折扣累计的回报 r0 + γr1 + γ²r2 + …（折扣因子大于等于 0 且小于 1）、设计者只需要指定哪些变量可能有用与要优化什么目标，以及它在 2008 年 ISCA 上被提出。</desc>
+
+  <defs>
+    <style>
+      text { font-family: 'PingFang SC', 'Microsoft YaHei', 'Noto Sans CJK SC', system-ui, sans-serif; }
+    </style>
+  </defs>
+
+  <rect x="0" y="0" width="760" height="412.5" fill="#ffffff"/>
+
+  <text x="380" y="34" font-size="16" font-weight="600" fill="#1f2937" text-anchor="middle">把控制器当成强化学习智能体</text>
+  <rect x="25" y="64" width="710" height="36" rx="6" fill="#eff6ff" stroke="#3b82f6"/>
+  <text x="380" y="86.2" font-size="12" fill="#1e40af" text-anchor="middle">让控制器自己学：状态与动作关联长期回报，挑回报最高的命令发出去，再按反馈更新</text>
+  <rect x="25" y="128" width="220" height="49.5" rx="6" fill="#dbeafe" stroke="#3b82f6"/>
+  <text x="135" y="148.35" font-size="11" fill="#1e40af" text-anchor="middle">状态</text>
+  <text x="135" y="164.85" font-size="11" fill="#1e40af" text-anchor="middle">队列里的读、写、缺失</text>
+  <rect x="270" y="128" width="220" height="49.5" rx="6" fill="#dbeafe" stroke="#3b82f6"/>
+  <text x="380" y="148.35" font-size="11" fill="#1e40af" text-anchor="middle">动作</text>
+  <text x="380" y="164.85" font-size="11" fill="#1e40af" text-anchor="middle">七条命令里选一条</text>
+  <rect x="515" y="128" width="220" height="49.5" rx="6" fill="#dbeafe" stroke="#3b82f6"/>
+  <text x="625" y="148.35" font-size="11" fill="#1e40af" text-anchor="middle">奖励</text>
+  <text x="625" y="164.85" font-size="11" fill="#1e40af" text-anchor="middle">调度读或写命令时给 +1</text>
+  <rect x="25" y="205.5" width="710" height="36" rx="6" fill="#fef3c7" stroke="#f59e0b"/>
+  <text x="380" y="227.7" font-size="12" fill="#b45309" text-anchor="middle">回报是折扣累计：r0 + γr1 + γ²r2 + …，折扣因子大于等于 0 且小于 1</text>
+  <rect x="25" y="269.5" width="710" height="54" rx="6" fill="#d1fae5" stroke="#22c55e"/>
+  <text x="380" y="291.7" font-size="12" fill="#166534" text-anchor="middle">设计者只需要指定：哪些系统变量可能有用，以及要优化什么目标，</text>
+  <text x="380" y="309.7" font-size="12" fill="#166534" text-anchor="middle">但不需要指定怎么优化</text>
+  <rect x="25" y="351.5" width="710" height="36" rx="6" fill="#f3e8ff" stroke="#a855f7"/>
+  <text x="380" y="373.7" font-size="12" fill="#6b21a8" text-anchor="middle">它在 2008 年 ISCA 上被提出：Self Optimizing Memory Controllers</text>
+</svg>

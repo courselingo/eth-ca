@@ -1,0 +1,32 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 760 366.5" width="760" height="366.5"
+     role="img" aria-labelledby="fig-lecture11a-memory-controllers-5-title fig-lecture11a-memory-controllers-5-desc">
+  <title id="fig-lecture11a-memory-controllers-5-title">请求级先看行命中，命令级还要再排一次</title>
+  <desc id="fig-lecture11a-memory-controllers-5-desc">上排左边是 FCFS 只看年龄，右边是 FR-FCFS 先看行命中。中间一条说调度其实是在命令这一级做的：列命令优先于行命令，同一组之内老的命令优先于新的。下排两格是优先级还可以基于什么：一边是年龄、行命中与否与请求类型，另一边是请求者类型、关键程度与对别的核心的干扰。</desc>
+
+  <defs>
+    <style>
+      text { font-family: 'PingFang SC', 'Microsoft YaHei', 'Noto Sans CJK SC', system-ui, sans-serif; }
+    </style>
+  </defs>
+
+  <rect x="0" y="0" width="760" height="366.5" fill="#ffffff"/>
+
+  <text x="380" y="34" font-size="16" font-weight="600" fill="#1f2937" text-anchor="middle">请求级先看行命中，命令级还要再排一次</text>
+  <rect x="25" y="64" width="710" height="36" rx="6" fill="#eff6ff" stroke="#3b82f6"/>
+  <text x="380" y="86.2" font-size="12" fill="#1e40af" text-anchor="middle">请求级：先看行命中，再看年龄</text>
+  <rect x="25" y="128" width="342.5" height="54" rx="6" fill="#fef3c7" stroke="#f59e0b"/>
+  <text x="196.25" y="150.2" font-size="12" fill="#b45309" text-anchor="middle">FCFS：最老的请求先走</text>
+  <text x="196.25" y="168.2" font-size="12" fill="#b45309" text-anchor="middle">公平、好实现，但看不见行缓冲</text>
+  <rect x="392.5" y="128" width="342.5" height="54" rx="6" fill="#d1fae5" stroke="#22c55e"/>
+  <text x="563.75" y="150.2" font-size="12" fill="#166534" text-anchor="middle">FR-FCFS：行命中优先</text>
+  <text x="563.75" y="168.2" font-size="12" fill="#166534" text-anchor="middle">同等情况最老的优先；目标是命中率与吞吐</text>
+  <rect x="25" y="210" width="710" height="54" rx="6" fill="#dbeafe" stroke="#3b82f6"/>
+  <text x="380" y="232.2" font-size="12" fill="#1e40af" text-anchor="middle">命令级：列命令（读、写）优先于行命令（激活、预充电）</text>
+  <text x="380" y="250.2" font-size="12" fill="#1e40af" text-anchor="middle">同一组之内，老的命令优先于新的命令</text>
+  <rect x="25" y="292" width="342.5" height="49.5" rx="6" fill="#f3e8ff" stroke="#a855f7"/>
+  <text x="196.25" y="312.35" font-size="11" fill="#6b21a8" text-anchor="middle">优先级可以基于</text>
+  <text x="196.25" y="328.85" font-size="11" fill="#6b21a8" text-anchor="middle">年龄、行命中与否、请求类型</text>
+  <rect x="392.5" y="292" width="342.5" height="49.5" rx="6" fill="#f3e8ff" stroke="#a855f7"/>
+  <text x="563.75" y="312.35" font-size="11" fill="#6b21a8" text-anchor="middle">也可以基于</text>
+  <text x="563.75" y="328.85" font-size="11" fill="#6b21a8" text-anchor="middle">请求者类型、关键程度、对别的核的干扰</text>
+</svg>

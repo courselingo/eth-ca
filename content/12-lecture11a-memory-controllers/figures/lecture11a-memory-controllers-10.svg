@@ -1,0 +1,41 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 760 405" width="760" height="405"
+     role="img" aria-labelledby="fig-lecture11a-memory-controllers-10-title fig-lecture11a-memory-controllers-10-desc">
+  <title id="fig-lecture11a-memory-controllers-10-title">奖励规则、三条状态属性、七个可选动作</title>
+  <desc id="fig-lecture11a-memory-controllers-10-desc">上排左边是奖励函数：调度读或写命令时 +1、其他时候 0，要最大化的是长期数据总线利用率；右边是三条状态属性。下面两排是七个可选动作：激活、写、读（取指缺失）、读（存储缺失）、预充电（有待处理）、预充电（抢先）、空操作。最后一条是讲义给出的结论：相对许多人类设计的策略，取得了大幅且稳健的性能提升。</desc>
+
+  <defs>
+    <style>
+      text { font-family: 'PingFang SC', 'Microsoft YaHei', 'Noto Sans CJK SC', system-ui, sans-serif; }
+    </style>
+  </defs>
+
+  <rect x="0" y="0" width="760" height="405" fill="#ffffff"/>
+
+  <text x="380" y="34" font-size="16" font-weight="600" fill="#1f2937" text-anchor="middle">奖励规则、三条状态属性、七个可选动作</text>
+  <rect x="25" y="64" width="710" height="36" rx="6" fill="#eff6ff" stroke="#3b82f6"/>
+  <text x="380" y="86.2" font-size="12" fill="#1e40af" text-anchor="middle">奖励规则、三条状态属性、七个可选动作</text>
+  <rect x="25" y="128" width="342.5" height="66" rx="6" fill="#fef3c7" stroke="#f59e0b"/>
+  <text x="196.25" y="148.35" font-size="11" fill="#b45309" text-anchor="middle">奖励函数</text>
+  <text x="196.25" y="164.85" font-size="11" fill="#b45309" text-anchor="middle">调度读或写命令时 +1，其他时候 0</text>
+  <text x="196.25" y="181.35" font-size="11" fill="#b45309" text-anchor="middle">要最大化的是长期数据总线利用率</text>
+  <rect x="392.5" y="128" width="342.5" height="66" rx="6" fill="#dbeafe" stroke="#3b82f6"/>
+  <text x="563.75" y="148.35" font-size="11" fill="#1e40af" text-anchor="middle">状态属性</text>
+  <text x="563.75" y="164.85" font-size="11" fill="#1e40af" text-anchor="middle">队列里的读、写与取指缺失数量</text>
+  <text x="563.75" y="181.35" font-size="11" fill="#1e40af" text-anchor="middle">待写请求与重排序缓冲头部数量；请求的相对 ROB 顺序</text>
+  <rect x="25" y="222" width="158.75" height="33" rx="6" fill="#d1fae5" stroke="#22c55e"/>
+  <text x="104.375" y="242.35" font-size="11" fill="#166534" text-anchor="middle">激活</text>
+  <rect x="208.75" y="222" width="158.75" height="33" rx="6" fill="#d1fae5" stroke="#22c55e"/>
+  <text x="288.125" y="242.35" font-size="11" fill="#166534" text-anchor="middle">写</text>
+  <rect x="392.5" y="222" width="158.75" height="33" rx="6" fill="#d1fae5" stroke="#22c55e"/>
+  <text x="471.875" y="242.35" font-size="11" fill="#166534" text-anchor="middle">读（取指缺失）</text>
+  <rect x="576.25" y="222" width="158.75" height="33" rx="6" fill="#d1fae5" stroke="#22c55e"/>
+  <text x="655.625" y="242.35" font-size="11" fill="#166534" text-anchor="middle">读（存储缺失）</text>
+  <rect x="25" y="283" width="220" height="33" rx="6" fill="#d1fae5" stroke="#22c55e"/>
+  <text x="135" y="303.35" font-size="11" fill="#166534" text-anchor="middle">预充电（有待处理）</text>
+  <rect x="270" y="283" width="220" height="33" rx="6" fill="#d1fae5" stroke="#22c55e"/>
+  <text x="380" y="303.35" font-size="11" fill="#166534" text-anchor="middle">预充电（抢先）</text>
+  <rect x="515" y="283" width="220" height="33" rx="6" fill="#d1fae5" stroke="#22c55e"/>
+  <text x="625" y="303.35" font-size="11" fill="#166534" text-anchor="middle">空操作</text>
+  <rect x="25" y="344" width="710" height="36" rx="6" fill="#f3e8ff" stroke="#a855f7"/>
+  <text x="380" y="366.2" font-size="12" fill="#6b21a8" text-anchor="middle">讲义只给了一句结论：相对许多人类设计的策略，取得了大幅且稳健的性能提升</text>
+</svg>
