@@ -97,7 +97,7 @@ output_mode = "explanation"
 
 ![上面一条是两件产品，中间两条分别是它们是什么，下面一条给出其中一个的规格](figures/emerging-memory-7.svg)
 
-一件是 Intel 的 Optane 持久内存，基于三维交叉点技术。另一件是 UPMEM 的处理在内存引擎：标准内存条形态，单条 8GB 配 128 个处理器，用的是常规的 DRAM 工艺。
+一件是 Intel 的 Optane 持久内存，基于三维交叉点技术，做成 DDR4 的 DIMM 插在内存槽上。另一件是 UPMEM 的处理在内存引擎：标准内存条形态，单条 8GB 配 128 个处理器，用的是常规的 DRAM 工艺。
 
 后者值得单独提一句，因为它说明 [[term:processing-in-memory]] 从概念走到了可以买到的硬件。它把「内存[[term:bandwidth]] 不够」这个问题的解法换了个方向：既然 [[term:data-movement]] 贵，那就不搬，把计算放过去。
 
