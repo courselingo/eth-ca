@@ -1,0 +1,34 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 760 338" width="760" height="338"
+     role="img" aria-labelledby="fig-lecture17a-multiprocessors-10-title fig-lecture17a-multiprocessors-10-desc">
+  <title id="fig-lecture17a-multiprocessors-10-title">任务队列的三种形态、任务窃取，以及谁来做分配</title>
+  <desc id="fig-lecture17a-multiprocessors-10-desc">上排三格是软件任务队列的三种形态：集中式、分布式与层次式。中间一条讲任务窃取：一个处理器的队列空了就去偷别人的任务，随机选择偷谁效果就不错。下面两格是两种分配者：软件做视野更好，但时间开销更大、对动态事件反应慢；硬件做时间开销低、能更快适应动态事件，但需要改硬件，带来面积与能耗开销。最下面一条是硬件怎么帮上忙：每个处理器一个专用任务队列，软件按需填充，硬件负责搬动任务，也可以有一个全局队列（Carbon，ISCA 2007）。</desc>
+
+  <defs>
+    <style>
+      text { font-family: 'PingFang SC', 'Microsoft YaHei', 'Noto Sans CJK SC', system-ui, sans-serif; }
+    </style>
+  </defs>
+
+  <rect x="0" y="0" width="760" height="338" fill="#ffffff"/>
+
+  <text x="380" y="34" font-size="16" font-weight="600" fill="#1f2937" text-anchor="middle">任务队列的三种形态、任务窃取，以及谁来做分配</text>
+  <rect x="25" y="64" width="220" height="49.5" rx="6" fill="#dbeafe" stroke="#3b82f6"/>
+  <text x="135" y="84.35" font-size="11" fill="#1e40af" text-anchor="middle">软件任务队列</text>
+  <text x="135" y="100.85" font-size="11" fill="#1e40af" text-anchor="middle">集中式</text>
+  <rect x="270" y="64" width="220" height="49.5" rx="6" fill="#dbeafe" stroke="#3b82f6"/>
+  <text x="380" y="84.35" font-size="11" fill="#1e40af" text-anchor="middle">软件任务队列</text>
+  <text x="380" y="100.85" font-size="11" fill="#1e40af" text-anchor="middle">分布式</text>
+  <rect x="515" y="64" width="220" height="49.5" rx="6" fill="#dbeafe" stroke="#3b82f6"/>
+  <text x="625" y="84.35" font-size="11" fill="#1e40af" text-anchor="middle">软件任务队列</text>
+  <text x="625" y="100.85" font-size="11" fill="#1e40af" text-anchor="middle">层次式</text>
+  <rect x="25" y="141.5" width="710" height="33" rx="6" fill="#fef3c7" stroke="#f59e0b"/>
+  <text x="380" y="161.85" font-size="11" fill="#b45309" text-anchor="middle">任务窃取：队列空了的处理器去偷别人的任务；随机选择效果不错（p117）</text>
+  <rect x="25" y="202.5" width="342.5" height="49.5" rx="6" fill="#d1fae5" stroke="#22c55e"/>
+  <text x="196.25" y="222.85" font-size="11" fill="#166534" text-anchor="middle">软件做分配</text>
+  <text x="196.25" y="239.35" font-size="11" fill="#166534" text-anchor="middle">视野更好；时间开销大、对动态事件反应慢</text>
+  <rect x="392.5" y="202.5" width="342.5" height="49.5" rx="6" fill="#fef3c7" stroke="#f59e0b"/>
+  <text x="563.75" y="222.85" font-size="11" fill="#b45309" text-anchor="middle">硬件做分配</text>
+  <text x="563.75" y="239.35" font-size="11" fill="#b45309" text-anchor="middle">开销低、反应快；要改硬件，有面积与能耗开销</text>
+  <rect x="25" y="280" width="710" height="33" rx="6" fill="#f8fafc" stroke="#94a3b8"/>
+  <text x="380" y="300.35" font-size="11" fill="#1e293b" text-anchor="middle">硬件任务队列（Carbon，ISCA 2007）：每个处理器一个队列，软件按需填充，硬件搬动任务</text>
+</svg>

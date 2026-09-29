@@ -1,0 +1,38 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 760 272.5" width="760" height="272.5"
+     role="img" aria-labelledby="fig-lecture17a-multiprocessors-3-title fig-lecture17a-multiprocessors-3-desc">
+  <title id="fig-lecture17a-multiprocessors-3-title">Flynn 的四种分类与三类并行</title>
+  <desc id="fig-lecture17a-multiprocessors-3-desc">上排四格是 Flynn 分类：SISD 一条指令处理一个数据；SIMD 一条指令处理多个数据；MISD 多条指令处理一个数据；MIMD 多条指令处理多个数据。下面三格是三类并行各自动用的手段：指令级用流水、乱序、投机、VLIW 与数据流；数据级用 SIMD 向量与阵列、脉动阵列与流处理器；任务级用多线程与多处理（多核）。最下面一条补上并行的其它目标：除性能之外还有功耗、成本效率、设计复杂度与可靠性。</desc>
+
+  <defs>
+    <style>
+      text { font-family: 'PingFang SC', 'Microsoft YaHei', 'Noto Sans CJK SC', system-ui, sans-serif; }
+    </style>
+  </defs>
+
+  <rect x="0" y="0" width="760" height="272.5" fill="#ffffff"/>
+
+  <text x="380" y="34" font-size="16" font-weight="600" fill="#1f2937" text-anchor="middle">Flynn 的四种分类与三类并行</text>
+  <rect x="25" y="64" width="158.75" height="45" rx="6" fill="#dbeafe" stroke="#3b82f6"/>
+  <text x="104.375" y="82.5" font-size="10" fill="#1e40af" text-anchor="middle">SISD</text>
+  <text x="104.375" y="97.5" font-size="10" fill="#1e40af" text-anchor="middle">一条指令一个数据</text>
+  <rect x="208.75" y="64" width="158.75" height="45" rx="6" fill="#dbeafe" stroke="#3b82f6"/>
+  <text x="288.125" y="82.5" font-size="10" fill="#1e40af" text-anchor="middle">SIMD</text>
+  <text x="288.125" y="97.5" font-size="10" fill="#1e40af" text-anchor="middle">一条指令多个数据</text>
+  <rect x="392.5" y="64" width="158.75" height="45" rx="6" fill="#dbeafe" stroke="#3b82f6"/>
+  <text x="471.875" y="82.5" font-size="10" fill="#1e40af" text-anchor="middle">MISD</text>
+  <text x="471.875" y="97.5" font-size="10" fill="#1e40af" text-anchor="middle">多条指令一个数据</text>
+  <rect x="576.25" y="64" width="158.75" height="45" rx="6" fill="#dbeafe" stroke="#3b82f6"/>
+  <text x="655.625" y="82.5" font-size="10" fill="#1e40af" text-anchor="middle">MIMD</text>
+  <text x="655.625" y="97.5" font-size="10" fill="#1e40af" text-anchor="middle">多条指令多个数据</text>
+  <rect x="25" y="137" width="220" height="49.5" rx="6" fill="#d1fae5" stroke="#22c55e"/>
+  <text x="135" y="157.35" font-size="11" fill="#166534" text-anchor="middle">指令级</text>
+  <text x="135" y="173.85" font-size="11" fill="#166534" text-anchor="middle">流水、乱序、投机、VLIW、数据流</text>
+  <rect x="270" y="137" width="220" height="49.5" rx="6" fill="#d1fae5" stroke="#22c55e"/>
+  <text x="380" y="157.35" font-size="11" fill="#166534" text-anchor="middle">数据级</text>
+  <text x="380" y="173.85" font-size="11" fill="#166534" text-anchor="middle">SIMD 向量与阵列、脉动阵列</text>
+  <rect x="515" y="137" width="220" height="49.5" rx="6" fill="#d1fae5" stroke="#22c55e"/>
+  <text x="625" y="157.35" font-size="11" fill="#166534" text-anchor="middle">任务级</text>
+  <text x="625" y="173.85" font-size="11" fill="#166534" text-anchor="middle">多线程、多处理（多核）</text>
+  <rect x="25" y="214.5" width="710" height="33" rx="6" fill="#f8fafc" stroke="#94a3b8"/>
+  <text x="380" y="234.85" font-size="11" fill="#1e293b" text-anchor="middle">并行的目标不止性能：还有功耗、成本效率、设计复杂度与可靠性（p58）</text>
+</svg>

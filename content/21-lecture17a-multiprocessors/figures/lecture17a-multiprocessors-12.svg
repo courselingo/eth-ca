@@ -1,0 +1,36 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 760 280" width="760" height="280"
+     role="img" aria-labelledby="fig-lecture17a-multiprocessors-12-title fig-lecture17a-multiprocessors-12-desc">
+  <title id="fig-lecture17a-multiprocessors-12-title">历史上的并行机器，以及任何硬件都能支持任何编程模型</title>
+  <desc id="fig-lecture17a-multiprocessors-12-desc">上排三格是按模型分组的历史机器：消息传递这一侧有 Caltech 的 Cosmic Cube、Intel 的 Hypercube 与 Paragon；共享内存这一侧有 CMU 的 C.mmp、Sequent 的 Balance 与 SGI 的 Origin；SIMD 这一侧有 ILLIAC IV 与 CM-1。下面四格是分层链：应用经编译器或程序库，再到操作系统的服务，最后落到硬件。最下面一条是这一节的判断：任何硬件其实都能支持任何编程模型。</desc>
+
+  <defs>
+    <style>
+      text { font-family: 'PingFang SC', 'Microsoft YaHei', 'Noto Sans CJK SC', system-ui, sans-serif; }
+    </style>
+  </defs>
+
+  <rect x="0" y="0" width="760" height="280" fill="#ffffff"/>
+
+  <text x="380" y="34" font-size="16" font-weight="600" fill="#1f2937" text-anchor="middle">历史上的并行机器，以及任何硬件都能支持任何编程模型</text>
+  <rect x="25" y="64" width="220" height="66" rx="6" fill="#fef3c7" stroke="#f59e0b"/>
+  <text x="135" y="84.35" font-size="11" fill="#b45309" text-anchor="middle">消息传递机器</text>
+  <text x="135" y="100.85" font-size="11" fill="#b45309" text-anchor="middle">Cosmic Cube、Intel Hypercube</text>
+  <text x="135" y="117.35" font-size="11" fill="#b45309" text-anchor="middle">Intel Paragon</text>
+  <rect x="270" y="64" width="220" height="66" rx="6" fill="#dbeafe" stroke="#3b82f6"/>
+  <text x="380" y="84.35" font-size="11" fill="#1e40af" text-anchor="middle">共享内存机器</text>
+  <text x="380" y="100.85" font-size="11" fill="#1e40af" text-anchor="middle">CMU C.mmp、Sequent Balance</text>
+  <text x="380" y="117.35" font-size="11" fill="#1e40af" text-anchor="middle">SGI Origin</text>
+  <rect x="515" y="64" width="220" height="66" rx="6" fill="#d1fae5" stroke="#22c55e"/>
+  <text x="625" y="92.6" font-size="11" fill="#166534" text-anchor="middle">SIMD 机器</text>
+  <text x="625" y="109.1" font-size="11" fill="#166534" text-anchor="middle">ILLIAC IV、CM-1</text>
+  <rect x="25" y="158" width="158.75" height="33" rx="6" fill="#f3e8ff" stroke="#a855f7"/>
+  <text x="104.375" y="178.35" font-size="11" fill="#6b21a8" text-anchor="middle">应用</text>
+  <rect x="208.75" y="158" width="158.75" height="33" rx="6" fill="#f3e8ff" stroke="#a855f7"/>
+  <text x="288.125" y="178.35" font-size="11" fill="#6b21a8" text-anchor="middle">编译器或程序库</text>
+  <rect x="392.5" y="158" width="158.75" height="33" rx="6" fill="#f3e8ff" stroke="#a855f7"/>
+  <text x="471.875" y="178.35" font-size="11" fill="#6b21a8" text-anchor="middle">操作系统服务</text>
+  <rect x="576.25" y="158" width="158.75" height="33" rx="6" fill="#f3e8ff" stroke="#a855f7"/>
+  <text x="655.625" y="178.35" font-size="11" fill="#6b21a8" text-anchor="middle">硬件</text>
+  <rect x="25" y="219" width="710" height="36" rx="6" fill="#eff6ff" stroke="#3b82f6"/>
+  <text x="380" y="241.2" font-size="12" fill="#1e40af" text-anchor="middle">判断：任何硬件其实都能支持任何编程模型（p126）</text>
+</svg>

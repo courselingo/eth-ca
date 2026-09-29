@@ -1,0 +1,27 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 760 216" width="760" height="216"
+     role="img" aria-labelledby="fig-lecture17a-multiprocessors-9-title fig-lecture17a-multiprocessors-9-desc">
+  <title id="fig-lecture17a-multiprocessors-9-title">任务分配的取舍：静态与动态</title>
+  <desc id="fig-lecture17a-multiprocessors-9-desc">上排两格是两类调度的定义：静态在编译期或创建任务时决定，调度不随运行期信息变化；动态在运行期决定，会随运行期信息变化。下面两格是它们的取舍：静态的好处是简单、任务不需要搬动，坏处是负载不平衡时资源用不满；动态的好处是负载不平衡时处理器利用得更好，坏处是更复杂、搬动任务有开销、而且会破坏局部性。</desc>
+
+  <defs>
+    <style>
+      text { font-family: 'PingFang SC', 'Microsoft YaHei', 'Noto Sans CJK SC', system-ui, sans-serif; }
+    </style>
+  </defs>
+
+  <rect x="0" y="0" width="760" height="216" fill="#ffffff"/>
+
+  <text x="380" y="34" font-size="16" font-weight="600" fill="#1f2937" text-anchor="middle">任务分配的取舍：静态与动态</text>
+  <rect x="25" y="64" width="342.5" height="49.5" rx="6" fill="#dbeafe" stroke="#3b82f6"/>
+  <text x="196.25" y="84.35" font-size="11" fill="#1e40af" text-anchor="middle">静态：编译期或创建任务时决定</text>
+  <text x="196.25" y="100.85" font-size="11" fill="#1e40af" text-anchor="middle">调度不随运行期信息变化</text>
+  <rect x="392.5" y="64" width="342.5" height="49.5" rx="6" fill="#d1fae5" stroke="#22c55e"/>
+  <text x="563.75" y="84.35" font-size="11" fill="#166534" text-anchor="middle">动态：运行期决定</text>
+  <text x="563.75" y="100.85" font-size="11" fill="#166534" text-anchor="middle">调度随运行期信息变化</text>
+  <rect x="25" y="141.5" width="342.5" height="49.5" rx="6" fill="#dbeafe" stroke="#3b82f6"/>
+  <text x="196.25" y="161.85" font-size="11" fill="#1e40af" text-anchor="middle">静态的好处与坏处</text>
+  <text x="196.25" y="178.35" font-size="11" fill="#1e40af" text-anchor="middle">简单、任务不搬动；负载不平衡时资源用不满</text>
+  <rect x="392.5" y="141.5" width="342.5" height="49.5" rx="6" fill="#d1fae5" stroke="#22c55e"/>
+  <text x="563.75" y="161.85" font-size="11" fill="#166534" text-anchor="middle">动态的好处与坏处</text>
+  <text x="563.75" y="178.35" font-size="11" fill="#166534" text-anchor="middle">利用更好；复杂、搬动有开销、破坏局部性</text>
+</svg>

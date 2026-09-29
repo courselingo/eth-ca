@@ -1,0 +1,23 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 760 199.5" width="760" height="199.5"
+     role="img" aria-labelledby="fig-lecture17a-multiprocessors-4-title fig-lecture17a-multiprocessors-4-desc">
+  <title id="fig-lecture17a-multiprocessors-4-title">两类多处理器：松耦合与紧耦合</title>
+  <desc id="fig-lecture17a-multiprocessors-4-desc">左边一格是松耦合：没有共享的全局地址空间，是一张多计算机网络，通常用消息传递编程，靠显式发送与接收通信。右边一格是紧耦合：有共享的全局地址空间，对称多处理、现成的多核与多线程处理器都属于这一类，编程模型与单处理器相似。最下面一条是讲义给的唯一差别：对共享数据的操作需要同步。</desc>
+
+  <defs>
+    <style>
+      text { font-family: 'PingFang SC', 'Microsoft YaHei', 'Noto Sans CJK SC', system-ui, sans-serif; }
+    </style>
+  </defs>
+
+  <rect x="0" y="0" width="760" height="199.5" fill="#ffffff"/>
+
+  <text x="380" y="34" font-size="16" font-weight="600" fill="#1f2937" text-anchor="middle">两类多处理器：松耦合与紧耦合</text>
+  <rect x="25" y="64" width="342.5" height="49.5" rx="6" fill="#fef3c7" stroke="#f59e0b"/>
+  <text x="196.25" y="84.35" font-size="11" fill="#b45309" text-anchor="middle">松耦合：没有共享的全局地址空间</text>
+  <text x="196.25" y="100.85" font-size="11" fill="#b45309" text-anchor="middle">多计算机网络；通常消息传递，显式发送与接收</text>
+  <rect x="392.5" y="64" width="342.5" height="49.5" rx="6" fill="#dbeafe" stroke="#3b82f6"/>
+  <text x="563.75" y="84.35" font-size="11" fill="#1e40af" text-anchor="middle">紧耦合：有共享的全局地址空间</text>
+  <text x="563.75" y="100.85" font-size="11" fill="#1e40af" text-anchor="middle">SMP、现成多核与多线程处理器；编程模型像单处理器</text>
+  <rect x="25" y="141.5" width="710" height="33" rx="6" fill="#f8fafc" stroke="#94a3b8"/>
+  <text x="380" y="161.85" font-size="11" fill="#1e293b" text-anchor="middle">紧耦合的唯一差别：对共享数据的操作需要同步（p62）</text>
+</svg>

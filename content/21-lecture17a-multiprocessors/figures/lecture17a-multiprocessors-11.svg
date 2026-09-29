@@ -1,0 +1,35 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 760 321.5" width="760" height="321.5"
+     role="img" aria-labelledby="fig-lecture17a-multiprocessors-11-title fig-lecture17a-multiprocessors-11-desc">
+  <title id="fig-lecture17a-multiprocessors-11-title">主要编程模型，以及两种通信方式</title>
+  <desc id="fig-lecture17a-multiprocessors-11-desc">上面两排六格是讲义列出的模型清单：带括号的（顺序）、共享内存、消息传递、数据并行 SIMD、数据流与脉动阵列。中间一条说明讲义原文写的是「五个主要模型」，而列表里除带括号的（顺序）之外还有五项，本图照录不改。下面两格是两种通信方式：消息传递靠显式消息，程序各部分松耦合，类比是打电话或寄信；共享内存靠读写隐式通信，程序各部分紧耦合，类比是公告板。</desc>
+
+  <defs>
+    <style>
+      text { font-family: 'PingFang SC', 'Microsoft YaHei', 'Noto Sans CJK SC', system-ui, sans-serif; }
+    </style>
+  </defs>
+
+  <rect x="0" y="0" width="760" height="321.5" fill="#ffffff"/>
+
+  <text x="380" y="34" font-size="16" font-weight="600" fill="#1f2937" text-anchor="middle">主要编程模型，以及两种通信方式</text>
+  <rect x="25" y="64" width="220" height="33" rx="6" fill="#f8fafc" stroke="#94a3b8"/>
+  <text x="135" y="84.35" font-size="11" fill="#1e293b" text-anchor="middle">（顺序）</text>
+  <rect x="270" y="64" width="220" height="33" rx="6" fill="#dbeafe" stroke="#3b82f6"/>
+  <text x="380" y="84.35" font-size="11" fill="#1e40af" text-anchor="middle">共享内存</text>
+  <rect x="515" y="64" width="220" height="33" rx="6" fill="#dbeafe" stroke="#3b82f6"/>
+  <text x="625" y="84.35" font-size="11" fill="#1e40af" text-anchor="middle">消息传递</text>
+  <rect x="25" y="125" width="220" height="33" rx="6" fill="#dbeafe" stroke="#3b82f6"/>
+  <text x="135" y="145.35" font-size="11" fill="#1e40af" text-anchor="middle">数据并行 SIMD</text>
+  <rect x="270" y="125" width="220" height="33" rx="6" fill="#dbeafe" stroke="#3b82f6"/>
+  <text x="380" y="145.35" font-size="11" fill="#1e40af" text-anchor="middle">数据流</text>
+  <rect x="515" y="125" width="220" height="33" rx="6" fill="#dbeafe" stroke="#3b82f6"/>
+  <text x="625" y="145.35" font-size="11" fill="#1e40af" text-anchor="middle">脉动阵列</text>
+  <rect x="25" y="186" width="710" height="33" rx="6" fill="#f8fafc" stroke="#94a3b8"/>
+  <text x="380" y="206.35" font-size="11" fill="#1e293b" text-anchor="middle">讲义写的是「五个主要模型」，而列表里除带括号的（顺序）之外还有五项（p122）</text>
+  <rect x="25" y="247" width="342.5" height="49.5" rx="6" fill="#fef3c7" stroke="#f59e0b"/>
+  <text x="196.25" y="267.35" font-size="11" fill="#b45309" text-anchor="middle">消息传递：显式消息</text>
+  <text x="196.25" y="283.85" font-size="11" fill="#b45309" text-anchor="middle">松耦合；类比打电话或寄信</text>
+  <rect x="392.5" y="247" width="342.5" height="49.5" rx="6" fill="#d1fae5" stroke="#22c55e"/>
+  <text x="563.75" y="267.35" font-size="11" fill="#166534" text-anchor="middle">共享内存：读写隐式通信</text>
+  <text x="563.75" y="283.85" font-size="11" fill="#166534" text-anchor="middle">紧耦合；类比公告板</text>
+</svg>

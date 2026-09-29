@@ -1,0 +1,34 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 760 341" width="760" height="341"
+     role="img" aria-labelledby="fig-lecture17a-multiprocessors-2-title fig-lecture17a-multiprocessors-2-desc">
+  <title id="fig-lecture17a-multiprocessors-2-title">runahead：想法、得失与三处工业落地</title>
+  <desc id="fig-lecture17a-multiprocessors-2-desc">上面一条是想法：预先执行一段剪枝过的程序，唯一目的是把数据取进缓存。中间两格是好处（覆盖面广、成本低，因为它复用同一个硬件上下文，而且带宽高效）与代价（依赖分支预测与值预测的准确率、可能浪费地投机执行、何时预执行什么很复杂）。下面三格是它进入的三颗处理器：Sun ROCK 的 hardware scouting、IBM POWER6 的 load lookahead、NVIDIA Denver（一颗 64 位 ARM 处理器）。最下面一条是 2021 年的 HPCA Test of Time Award 给出的理由：有效扩展了指令窗口而不需要增加物理资源。</desc>
+
+  <defs>
+    <style>
+      text { font-family: 'PingFang SC', 'Microsoft YaHei', 'Noto Sans CJK SC', system-ui, sans-serif; }
+    </style>
+  </defs>
+
+  <rect x="0" y="0" width="760" height="341" fill="#ffffff"/>
+
+  <text x="380" y="34" font-size="16" font-weight="600" fill="#1f2937" text-anchor="middle">runahead：想法、得失与三处工业落地</text>
+  <rect x="25" y="64" width="710" height="36" rx="6" fill="#eff6ff" stroke="#3b82f6"/>
+  <text x="380" y="86.2" font-size="12" fill="#1e40af" text-anchor="middle">想法：预先执行一段剪枝过的程序，唯一目的是把数据取进缓存（p4）</text>
+  <rect x="25" y="128" width="342.5" height="49.5" rx="6" fill="#d1fae5" stroke="#22c55e"/>
+  <text x="196.25" y="148.35" font-size="11" fill="#166534" text-anchor="middle">好处：覆盖面广、成本低</text>
+  <text x="196.25" y="164.85" font-size="11" fill="#166534" text-anchor="middle">复用同一个硬件上下文、带宽高效</text>
+  <rect x="392.5" y="128" width="342.5" height="49.5" rx="6" fill="#fef3c7" stroke="#f59e0b"/>
+  <text x="563.75" y="148.35" font-size="11" fill="#b45309" text-anchor="middle">代价：依赖预测准确率、可能浪费</text>
+  <text x="563.75" y="164.85" font-size="11" fill="#b45309" text-anchor="middle">何时预执行什么很复杂</text>
+  <rect x="25" y="205.5" width="220" height="49.5" rx="6" fill="#dbeafe" stroke="#3b82f6"/>
+  <text x="135" y="225.85" font-size="11" fill="#1e40af" text-anchor="middle">Sun ROCK</text>
+  <text x="135" y="242.35" font-size="11" fill="#1e40af" text-anchor="middle">hardware scouting</text>
+  <rect x="270" y="205.5" width="220" height="49.5" rx="6" fill="#dbeafe" stroke="#3b82f6"/>
+  <text x="380" y="225.85" font-size="11" fill="#1e40af" text-anchor="middle">IBM POWER6</text>
+  <text x="380" y="242.35" font-size="11" fill="#1e40af" text-anchor="middle">load lookahead</text>
+  <rect x="515" y="205.5" width="220" height="49.5" rx="6" fill="#dbeafe" stroke="#3b82f6"/>
+  <text x="625" y="225.85" font-size="11" fill="#1e40af" text-anchor="middle">NVIDIA Denver</text>
+  <text x="625" y="242.35" font-size="11" fill="#1e40af" text-anchor="middle">64 位的 ARM 处理器</text>
+  <rect x="25" y="283" width="710" height="33" rx="6" fill="#f3e8ff" stroke="#a855f7"/>
+  <text x="380" y="303.35" font-size="11" fill="#6b21a8" text-anchor="middle">2021 年 HPCA Test of Time Award：有效扩展了指令窗口，而不需要增加物理资源</text>
+</svg>

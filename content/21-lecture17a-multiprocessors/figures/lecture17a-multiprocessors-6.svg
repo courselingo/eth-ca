@@ -1,0 +1,30 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 760 327.5" width="760" height="327.5"
+     role="img" aria-labelledby="fig-lecture17a-multiprocessors-6-title fig-lecture17a-multiprocessors-6-desc">
+  <title id="fig-lecture17a-multiprocessors-6-title">Amdahl 定律给出的上限与三个扣减项</title>
+  <desc id="fig-lecture17a-multiprocessors-6-desc">上面两条是公式与含义：加速比等于 1 除以 (1 减 f 加 f 除以 N)，f 是可并行部分、N 是处理器数量；最大加速比被串行部分卡住，讲义称之为串行瓶颈。下面三格是并行部分不完美的三个扣减项：同步开销（例如对共享数据的更新）、负载不均开销（并行化不完美）、资源共享开销（N 个处理器之间的争用）。最下面一条指出第三条正是前几讲处理的干扰，共享在这里变成了加速比公式里的一项。</desc>
+
+  <defs>
+    <style>
+      text { font-family: 'PingFang SC', 'Microsoft YaHei', 'Noto Sans CJK SC', system-ui, sans-serif; }
+    </style>
+  </defs>
+
+  <rect x="0" y="0" width="760" height="327.5" fill="#ffffff"/>
+
+  <text x="380" y="34" font-size="16" font-weight="600" fill="#1f2937" text-anchor="middle">Amdahl 定律给出的上限与三个扣减项</text>
+  <rect x="25" y="64" width="710" height="36" rx="6" fill="#eff6ff" stroke="#3b82f6"/>
+  <text x="380" y="86.2" font-size="12" fill="#1e40af" text-anchor="middle">加速比 = 1 ÷ (1 − f + f ÷ N)：f 是可并行部分，N 是处理器数量（p84）</text>
+  <rect x="25" y="128" width="710" height="36" rx="6" fill="#eff6ff" stroke="#3b82f6"/>
+  <text x="380" y="150.2" font-size="12" fill="#1e40af" text-anchor="middle">含义：最大加速比被串行部分卡住，讲义称之为串行瓶颈（p84、p90）</text>
+  <rect x="25" y="192" width="220" height="49.5" rx="6" fill="#fef3c7" stroke="#f59e0b"/>
+  <text x="135" y="212.35" font-size="11" fill="#b45309" text-anchor="middle">同步开销</text>
+  <text x="135" y="228.85" font-size="11" fill="#b45309" text-anchor="middle">例如对共享数据的更新</text>
+  <rect x="270" y="192" width="220" height="49.5" rx="6" fill="#fef3c7" stroke="#f59e0b"/>
+  <text x="380" y="212.35" font-size="11" fill="#b45309" text-anchor="middle">负载不均开销</text>
+  <text x="380" y="228.85" font-size="11" fill="#b45309" text-anchor="middle">并行化不完美</text>
+  <rect x="515" y="192" width="220" height="49.5" rx="6" fill="#fef3c7" stroke="#f59e0b"/>
+  <text x="625" y="212.35" font-size="11" fill="#b45309" text-anchor="middle">资源共享开销</text>
+  <text x="625" y="228.85" font-size="11" fill="#b45309" text-anchor="middle">N 个处理器之间的争用（p89）</text>
+  <rect x="25" y="269.5" width="710" height="33" rx="6" fill="#f3e8ff" stroke="#a855f7"/>
+  <text x="380" y="289.85" font-size="11" fill="#6b21a8" text-anchor="middle">第三条扣减项，正是前几讲处理的干扰：共享在这里变成了加速比公式里的一项</text>
+</svg>
