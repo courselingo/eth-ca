@@ -1,0 +1,30 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 760 399" width="760" height="399"
+     role="img" aria-labelledby="fig-lecture21-on-chip-networks-11-title fig-lecture21-on-chip-networks-11-desc">
+  <title id="fig-lecture21-on-chip-networks-11-title">Kilo-NoC：为什么把服务质量缩到一块，以及它的配方</title>
+  <desc id="fig-lecture21-on-chip-networks-11-desc">上排两格是动机（芯片级的极端规模集成，今天 10 到 100 核、不久将 1000 个以上主体）与四条要求（效率高、性能好、强的服务保证）。下面几条依次是：问题在于每个路由器都做服务质量支持太贵；做法是把服务质量限制在专用区域、芯片其余部分无服务质量，再配一个低直径拓扑；多落点快速通道的形状是一对多、直径 2 跳、每行每列 k 条通道，代价是不对称与仲裁复杂；参数是 15 纳米工艺、1024 个 tile，其中 256 个集中节点。</desc>
+
+  <defs>
+    <style>
+      text { font-family: 'PingFang SC', 'Microsoft YaHei', 'Noto Sans CJK SC', system-ui, sans-serif; }
+    </style>
+  </defs>
+
+  <rect x="0" y="0" width="760" height="399" fill="#ffffff"/>
+
+  <text x="380" y="34" font-size="16" font-weight="600" fill="#1f2937" text-anchor="middle">Kilo-NoC：为什么把服务质量缩到一块，以及它的配方</text>
+  <rect x="25" y="64" width="342.5" height="66" rx="6" fill="#fef3c7" stroke="#f59e0b"/>
+  <text x="196.25" y="84.35" font-size="11" fill="#b45309" text-anchor="middle">动机：芯片级的极端规模集成</text>
+  <text x="196.25" y="100.85" font-size="11" fill="#b45309" text-anchor="middle">核、缓存体、加速器、I/O 逻辑与片上网络</text>
+  <text x="196.25" y="117.35" font-size="11" fill="#b45309" text-anchor="middle">今天 10 到 100 核，不久将 1000 个以上主体</text>
+  <rect x="392.5" y="64" width="342.5" height="66" rx="6" fill="#d1fae5" stroke="#22c55e"/>
+  <text x="563.75" y="92.6" font-size="11" fill="#166534" text-anchor="middle">四条要求</text>
+  <text x="563.75" y="109.1" font-size="11" fill="#166534" text-anchor="middle">效率高（面积与能量）、性能好、以及强的服务保证</text>
+  <rect x="25" y="158" width="710" height="33" rx="6" fill="#eff6ff" stroke="#3b82f6"/>
+  <text x="380" y="178.35" font-size="11" fill="#1e40af" text-anchor="middle">问题：在每个路由器里都做服务质量支持太贵，缓冲、仲裁与记账都要付代价（p151）</text>
+  <rect x="25" y="219" width="710" height="33" rx="6" fill="#eff6ff" stroke="#3b82f6"/>
+  <text x="380" y="239.35" font-size="11" fill="#1e40af" text-anchor="middle">做法：把服务质量限制在专用区域，芯片其余部分无服务质量；再配一个低直径拓扑，也就是多落点快速通道</text>
+  <rect x="25" y="280" width="710" height="33" rx="6" fill="#f3e8ff" stroke="#a855f7"/>
+  <text x="380" y="300.35" font-size="11" fill="#6b21a8" text-anchor="middle">多落点快速通道：一对多、直径 2 跳、每行每列 k 条通道；代价是不对称与仲裁复杂</text>
+  <rect x="25" y="341" width="710" height="33" rx="6" fill="#f8fafc" stroke="#94a3b8"/>
+  <text x="380" y="361.35" font-size="11" fill="#1e293b" text-anchor="middle">参数：15 纳米工艺、1024 个 tile，其中 256 个集中节点</text>
+</svg>

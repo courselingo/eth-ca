@@ -1,0 +1,31 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 760 338" width="760" height="338"
+     role="img" aria-labelledby="fig-lecture21-on-chip-networks-5-title fig-lecture21-on-chip-networks-5-desc">
+  <title id="fig-lecture21-on-chip-networks-5-title">CHIPPER：两个问题与两个解法</title>
+  <desc id="fig-lecture21-on-chip-networks-5-desc">上排两格是它要解决的两个问题与原来的代价：为了活锁自由要按年龄排序再顺序分配，关键路径比带缓冲长 43%；为了重装要把缓冲按最坏情况定大小，在 8 乘 8、64 字节缓存块的配置下每节点 4 KB。下面两格是对应的解法：金色包（不需要全序，只要挑一个 flit 优先到到达并保证最终会被挑中，再落成置换网络）与只重传一次加用 MSHR 当重装缓冲。再下面一条是两个洞察的合并，最后一条是它的全名。</desc>
+
+  <defs>
+    <style>
+      text { font-family: 'PingFang SC', 'Microsoft YaHei', 'Noto Sans CJK SC', system-ui, sans-serif; }
+    </style>
+  </defs>
+
+  <rect x="0" y="0" width="760" height="338" fill="#ffffff"/>
+
+  <text x="380" y="34" font-size="16" font-weight="600" fill="#1f2937" text-anchor="middle">CHIPPER：两个问题与两个解法</text>
+  <rect x="25" y="64" width="342.5" height="49.5" rx="6" fill="#fef3c7" stroke="#f59e0b"/>
+  <text x="196.25" y="84.35" font-size="11" fill="#b45309" text-anchor="middle">问题一 活锁自由</text>
+  <text x="196.25" y="100.85" font-size="11" fill="#b45309" text-anchor="middle">按年龄排序再顺序分配：关键路径比带缓冲长 43%</text>
+  <rect x="392.5" y="64" width="342.5" height="49.5" rx="6" fill="#fef3c7" stroke="#f59e0b"/>
+  <text x="563.75" y="84.35" font-size="11" fill="#b45309" text-anchor="middle">问题二 把包重新拼起来</text>
+  <text x="563.75" y="100.85" font-size="11" fill="#b45309" text-anchor="middle">缓冲按最坏情况定：8 乘 8、64 字节块下每节点 4 KB</text>
+  <rect x="25" y="141.5" width="342.5" height="49.5" rx="6" fill="#d1fae5" stroke="#22c55e"/>
+  <text x="196.25" y="161.85" font-size="11" fill="#166534" text-anchor="middle">解法一 金色包</text>
+  <text x="196.25" y="178.35" font-size="11" fill="#166534" text-anchor="middle">不需要全序，只要挑一个 flit 优先到到达、并保证最终会被挑中</text>
+  <rect x="392.5" y="141.5" width="342.5" height="49.5" rx="6" fill="#d1fae5" stroke="#22c55e"/>
+  <text x="563.75" y="161.85" font-size="11" fill="#166534" text-anchor="middle">解法二 只重传一次，再用 MSHR 当重装缓冲</text>
+  <text x="563.75" y="178.35" font-size="11" fill="#166534" text-anchor="middle">满了就丢并记下，腾出空间先预约再通知重传</text>
+  <rect x="25" y="219" width="710" height="33" rx="6" fill="#dbeafe" stroke="#3b82f6"/>
+  <text x="380" y="239.35" font-size="11" fill="#1e40af" text-anchor="middle">两个洞察合起来：不需要完整排序，也不需要顺序分配；实现落成一个置换网络</text>
+  <rect x="25" y="280" width="710" height="33" rx="6" fill="#f3e8ff" stroke="#a855f7"/>
+  <text x="380" y="300.35" font-size="11" fill="#6b21a8" text-anchor="middle">CHIPPER = 廉价互连部分置换路由器</text>
+</svg>

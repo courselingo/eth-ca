@@ -1,0 +1,39 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 760 336.5" width="760" height="336.5"
+     role="img" aria-labelledby="fig-lecture21-on-chip-networks-2-title fig-lecture21-on-chip-networks-2-desc">
+  <title id="fig-lecture21-on-chip-networks-2-title">片上网络的常规形态，以及路由器里的五个部件</title>
+  <desc id="fig-lecture21-on-chip-networks-2-desc">上面一条是常规形态：连核、缓存与内存控制器；总线和交叉开关都扩展不上去；通常是包交换。中间四格是常见的配置：2D 网格、XY 路由、FIFO 或轮询端口仲裁、虚拟通道缓冲。下面五格是路由器内部：输入端口与缓冲（带虚拟通道标识）、路由单元、虚拟通道分配、开关分配与 5 乘 5 交叉开关。最下面一条说它主要服务的流量是缓存缺失与内存请求。</desc>
+
+  <defs>
+    <style>
+      text { font-family: 'PingFang SC', 'Microsoft YaHei', 'Noto Sans CJK SC', system-ui, sans-serif; }
+    </style>
+  </defs>
+
+  <rect x="0" y="0" width="760" height="336.5" fill="#ffffff"/>
+
+  <text x="380" y="34" font-size="16" font-weight="600" fill="#1f2937" text-anchor="middle">片上网络的常规形态，以及路由器里的五个部件</text>
+  <rect x="25" y="64" width="710" height="36" rx="6" fill="#eff6ff" stroke="#3b82f6"/>
+  <text x="380" y="86.2" font-size="12" fill="#1e40af" text-anchor="middle">连核、缓存与内存控制器；总线和交叉开关都扩展不上去；通常是包交换</text>
+  <rect x="25" y="128" width="158.75" height="49.5" rx="6" fill="#dbeafe" stroke="#3b82f6"/>
+  <text x="104.375" y="148.35" font-size="11" fill="#1e40af" text-anchor="middle">2D 网格</text>
+  <text x="104.375" y="164.85" font-size="11" fill="#1e40af" text-anchor="middle">最常见的拓扑</text>
+  <rect x="208.75" y="128" width="158.75" height="49.5" rx="6" fill="#dbeafe" stroke="#3b82f6"/>
+  <text x="288.125" y="156.6" font-size="11" fill="#1e40af" text-anchor="middle">XY 路由</text>
+  <rect x="392.5" y="128" width="158.75" height="49.5" rx="6" fill="#dbeafe" stroke="#3b82f6"/>
+  <text x="471.875" y="156.6" font-size="11" fill="#1e40af" text-anchor="middle">FIFO 或轮询端口仲裁</text>
+  <rect x="576.25" y="128" width="158.75" height="49.5" rx="6" fill="#dbeafe" stroke="#3b82f6"/>
+  <text x="655.625" y="156.6" font-size="11" fill="#1e40af" text-anchor="middle">虚拟通道缓冲</text>
+  <rect x="25" y="205.5" width="122" height="45" rx="6" fill="#d1fae5" stroke="#22c55e"/>
+  <text x="86" y="224" font-size="10" fill="#166534" text-anchor="middle">输入端口与缓冲</text>
+  <text x="86" y="239" font-size="10" fill="#166534" text-anchor="middle">带虚拟通道标识</text>
+  <rect x="172" y="205.5" width="122" height="45" rx="6" fill="#d1fae5" stroke="#22c55e"/>
+  <text x="233" y="231.5" font-size="10" fill="#166534" text-anchor="middle">路由单元 RC</text>
+  <rect x="319" y="205.5" width="122" height="45" rx="6" fill="#d1fae5" stroke="#22c55e"/>
+  <text x="380" y="231.5" font-size="10" fill="#166534" text-anchor="middle">虚拟通道分配 VA</text>
+  <rect x="466" y="205.5" width="122" height="45" rx="6" fill="#d1fae5" stroke="#22c55e"/>
+  <text x="527" y="231.5" font-size="10" fill="#166534" text-anchor="middle">开关分配 SA</text>
+  <rect x="613" y="205.5" width="122" height="45" rx="6" fill="#d1fae5" stroke="#22c55e"/>
+  <text x="674" y="231.5" font-size="10" fill="#166534" text-anchor="middle">5 乘 5 交叉开关</text>
+  <rect x="25" y="278.5" width="710" height="33" rx="6" fill="#f8fafc" stroke="#94a3b8"/>
+  <text x="380" y="298.85" font-size="11" fill="#1e293b" text-anchor="middle">主要服务的流量是缓存缺失与内存请求（p18、p19）</text>
+</svg>

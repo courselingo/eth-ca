@@ -1,0 +1,32 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 760 357.5" width="760" height="357.5"
+     role="img" aria-labelledby="fig-lecture21-on-chip-networks-4-title fig-lecture21-on-chip-networks-4-desc">
+  <title id="fig-lecture21-on-chip-networks-4-title">BLESS：一个动作、一组得失与两处实测</title>
+  <desc id="fig-lecture21-on-chip-networks-4-desc">上面一条是它的动作：永远把进来的 flit 往某个输出端口送，没有靠近目的地的方向就弹开，也就是热土豆路由。中间两格是好处（无缓冲、流控纯局部、设计简单、无死锁活锁、自适应、延迟低、面积省）与代价（延迟高、带宽低、接收端缓冲压力大、每个 flit 带头部、最老优先仲裁复杂、服务质量难做）。下面两格是两处实测：合成流量下饱和吞吐明显低于基线；同质案例里损失不到 4%、路由器延迟压到 1 时快约 10%、能量接近 40%。最下面一条是结论页的 32% 与 60%。</desc>
+
+  <defs>
+    <style>
+      text { font-family: 'PingFang SC', 'Microsoft YaHei', 'Noto Sans CJK SC', system-ui, sans-serif; }
+    </style>
+  </defs>
+
+  <rect x="0" y="0" width="760" height="357.5" fill="#ffffff"/>
+
+  <text x="380" y="34" font-size="16" font-weight="600" fill="#1f2937" text-anchor="middle">BLESS：一个动作、一组得失与两处实测</text>
+  <rect x="25" y="64" width="710" height="36" rx="6" fill="#eff6ff" stroke="#3b82f6"/>
+  <text x="380" y="86.2" font-size="12" fill="#1e40af" text-anchor="middle">动作：永远把进来的 flit 往某个输出端口送；没有靠近目的地的方向就弹开，也就是热土豆路由（Baran 1962）</text>
+  <rect x="25" y="128" width="342.5" height="66" rx="6" fill="#d1fae5" stroke="#22c55e"/>
+  <text x="196.25" y="156.6" font-size="11" fill="#166534" text-anchor="middle">好处：无缓冲、流控纯局部</text>
+  <text x="196.25" y="173.1" font-size="11" fill="#166534" text-anchor="middle">设计简单、无死锁活锁、自适应、延迟低、面积省</text>
+  <rect x="392.5" y="128" width="342.5" height="66" rx="6" fill="#fef3c7" stroke="#f59e0b"/>
+  <text x="563.75" y="148.35" font-size="11" fill="#b45309" text-anchor="middle">代价：延迟高、带宽低</text>
+  <text x="563.75" y="164.85" font-size="11" fill="#b45309" text-anchor="middle">接收端缓冲压力大、每个 flit 带头部</text>
+  <text x="563.75" y="181.35" font-size="11" fill="#b45309" text-anchor="middle">最老优先仲裁复杂、QoS 难做</text>
+  <rect x="25" y="222" width="342.5" height="49.5" rx="6" fill="#f8fafc" stroke="#94a3b8"/>
+  <text x="196.25" y="242.35" font-size="11" fill="#1e293b" text-anchor="middle">合成流量：均匀随机注入</text>
+  <text x="196.25" y="258.85" font-size="11" fill="#1e293b" text-anchor="middle">饱和吞吐明显低于带缓冲基线</text>
+  <rect x="392.5" y="222" width="342.5" height="49.5" rx="6" fill="#f8fafc" stroke="#94a3b8"/>
+  <text x="563.75" y="242.35" font-size="11" fill="#1e293b" text-anchor="middle">同质案例 milc 加理想缓存</text>
+  <text x="563.75" y="258.85" font-size="11" fill="#1e293b" text-anchor="middle">损失不到 4%；路由器延迟 1 时快约 10%；能量接近 40%</text>
+  <rect x="25" y="299.5" width="710" height="33" rx="6" fill="#f3e8ff" stroke="#a855f7"/>
+  <text x="380" y="319.85" font-size="11" fill="#6b21a8" text-anchor="middle">结论页：能量省 32%、面积省 60%；性能损失很小，甚至可能变快（p35）</text>
+</svg>

@@ -1,0 +1,28 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 760 263.5" width="760" height="263.5"
+     role="img" aria-labelledby="fig-lecture21-on-chip-networks-3-title fig-lecture21-on-chip-networks-3-desc">
+  <title id="fig-lecture21-on-chip-networks-3-title">缓冲的三笔账，以及由此提出的四个问题</title>
+  <desc id="fig-lecture21-on-chip-networks-3-desc">上面一条是前提：缓冲是拿到高吞吐的条件，它增加网络可用的带宽，而缓冲越小、延迟随注入率上升得越早。中间三格是三笔代价：能量（读写的动态能量与空闲时的静态能量）、复杂度与延迟（缓冲管理、虚拟通道分配、信用流控）、以及面积，其中给出 TRIPS 原型芯片里输入缓冲占总面积 75% 这个数字。最下面一条是由此提出的四个问题。</desc>
+
+  <defs>
+    <style>
+      text { font-family: 'PingFang SC', 'Microsoft YaHei', 'Noto Sans CJK SC', system-ui, sans-serif; }
+    </style>
+  </defs>
+
+  <rect x="0" y="0" width="760" height="263.5" fill="#ffffff"/>
+
+  <text x="380" y="34" font-size="16" font-weight="600" fill="#1f2937" text-anchor="middle">缓冲的三笔账，以及由此提出的四个问题</text>
+  <rect x="25" y="64" width="710" height="36" rx="6" fill="#eff6ff" stroke="#3b82f6"/>
+  <text x="380" y="86.2" font-size="12" fill="#1e40af" text-anchor="middle">缓冲是拿到高吞吐的前提：它增加网络可用的带宽；缓冲越小，延迟随注入率上升得越早（p25）</text>
+  <rect x="25" y="128" width="220" height="49.5" rx="6" fill="#fef3c7" stroke="#f59e0b"/>
+  <text x="135" y="148.35" font-size="11" fill="#b45309" text-anchor="middle">能量</text>
+  <text x="135" y="164.85" font-size="11" fill="#b45309" text-anchor="middle">动态能量与空闲时的静态能量</text>
+  <rect x="270" y="128" width="220" height="49.5" rx="6" fill="#fef3c7" stroke="#f59e0b"/>
+  <text x="380" y="148.35" font-size="11" fill="#b45309" text-anchor="middle">复杂度与延迟</text>
+  <text x="380" y="164.85" font-size="11" fill="#b45309" text-anchor="middle">缓冲管理、虚拟通道分配、信用流控</text>
+  <rect x="515" y="128" width="220" height="49.5" rx="6" fill="#fef3c7" stroke="#f59e0b"/>
+  <text x="625" y="148.35" font-size="11" fill="#b45309" text-anchor="middle">面积：TRIPS 原型芯片里</text>
+  <text x="625" y="164.85" font-size="11" fill="#b45309" text-anchor="middle">输入缓冲占片上网络总面积的 75%</text>
+  <rect x="25" y="205.5" width="710" height="33" rx="6" fill="#f3e8ff" stroke="#a855f7"/>
+  <text x="380" y="225.85" font-size="11" fill="#6b21a8" text-anchor="middle">于是有四个问题：损失多少吞吐与延迟；什么注入率以下可以无缓冲；真实场景是否落在这个区间；能省多少能量与面积（p27）</text>
+</svg>

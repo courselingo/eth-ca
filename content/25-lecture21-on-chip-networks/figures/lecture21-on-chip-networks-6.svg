@@ -1,0 +1,25 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 760 241" width="760" height="241"
+     role="img" aria-labelledby="fig-lecture21-on-chip-networks-6-title fig-lecture21-on-chip-networks-6-desc">
+  <title id="fig-lecture21-on-chip-networks-6-title">CHIPPER 的结果账与方法学</title>
+  <desc id="fig-lecture21-on-chip-networks-6-desc">上排三格是结果：面积图上标 -36.2% 与 -29.1%；关键路径图上标 +1.1% 与 -1.6%；功率图上标 54.9% 与 73.4% 的降幅。下面一条说低到中等强度负载下性能损失很小，而且从 BLESS 到 CHIPPER 还有小幅功率节省。最下面一条是方法学：8 乘 8 共 64 核、39 组同质加 10 组混合；4 乘 4 共 16 核、SPLASH-2；64 KB 一级缓存加理想二级缓存；Verilog、65 纳米与 ORION。</desc>
+
+  <defs>
+    <style>
+      text { font-family: 'PingFang SC', 'Microsoft YaHei', 'Noto Sans CJK SC', system-ui, sans-serif; }
+    </style>
+  </defs>
+
+  <rect x="0" y="0" width="760" height="241" fill="#ffffff"/>
+
+  <text x="380" y="34" font-size="16" font-weight="600" fill="#1f2937" text-anchor="middle">CHIPPER 的结果账与方法学</text>
+  <rect x="25" y="64" width="220" height="33" rx="6" fill="#d1fae5" stroke="#22c55e"/>
+  <text x="135" y="84.35" font-size="11" fill="#166534" text-anchor="middle">面积：图上标 -36.2% 与 -29.1%</text>
+  <rect x="270" y="64" width="220" height="33" rx="6" fill="#d1fae5" stroke="#22c55e"/>
+  <text x="380" y="84.35" font-size="11" fill="#166534" text-anchor="middle">关键路径：图上标 +1.1% 与 -1.6%</text>
+  <rect x="515" y="64" width="220" height="33" rx="6" fill="#d1fae5" stroke="#22c55e"/>
+  <text x="625" y="84.35" font-size="11" fill="#166534" text-anchor="middle">功率：图上标 54.9% 与 73.4% 的降幅</text>
+  <rect x="25" y="125" width="710" height="33" rx="6" fill="#eff6ff" stroke="#3b82f6"/>
+  <text x="380" y="145.35" font-size="11" fill="#1e40af" text-anchor="middle">低到中等强度的负载下性能损失很小；从 BLESS 到 CHIPPER 还有一点小幅的功率节省</text>
+  <rect x="25" y="186" width="710" height="30" rx="6" fill="#f8fafc" stroke="#94a3b8"/>
+  <text x="380" y="204.5" font-size="10" fill="#1e293b" text-anchor="middle">方法学：8 乘 8 共 64 核、39 组同质加 10 组混合；4 乘 4 共 16 核、SPLASH-2；64 KB 一级缓存加理想二级缓存；Verilog 加 65 纳米加 ORION</text>
+</svg>

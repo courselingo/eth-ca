@@ -1,0 +1,34 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 760 296.5" width="760" height="296.5"
+     role="img" aria-labelledby="fig-lecture21-on-chip-networks-10-title fig-lecture21-on-chip-networks-10-desc">
+  <title id="fig-lecture21-on-chip-networks-10-title">包调度：为什么本地策略不够，以及三种更好的依据</title>
+  <desc id="fig-lecture21-on-chip-networks-10-desc">上排两格是常见策略的两个问题：决定是本地的，于是不同路由器互相矛盾；以及对应用无感知，把所有应用一视同仁。中间一条是 STC 例子的数字：平均停顿时钟从轮询的 8.3 与年龄优先的 7.0 降到 5.0。下面三格是三种更好的依据：松弛（估计每个包能被延迟多少周期而不显著伤性能，优先松弛小的包）、减速估计（估计应用在网上的减速以改善公平与性能）、以及多播与热点问题，外加按应用分流的异构多网络。</desc>
+
+  <defs>
+    <style>
+      text { font-family: 'PingFang SC', 'Microsoft YaHei', 'Noto Sans CJK SC', system-ui, sans-serif; }
+    </style>
+  </defs>
+
+  <rect x="0" y="0" width="760" height="296.5" fill="#ffffff"/>
+
+  <text x="380" y="34" font-size="16" font-weight="600" fill="#1f2937" text-anchor="middle">包调度：为什么本地策略不够，以及三种更好的依据</text>
+  <rect x="25" y="64" width="342.5" height="49.5" rx="6" fill="#fef3c7" stroke="#f59e0b"/>
+  <text x="196.25" y="84.35" font-size="11" fill="#b45309" text-anchor="middle">问题一 决定是本地的</text>
+  <text x="196.25" y="100.85" font-size="11" fill="#b45309" text-anchor="middle">不同路由器互相矛盾：这个路由器优先，下一个压后</text>
+  <rect x="392.5" y="64" width="342.5" height="49.5" rx="6" fill="#fef3c7" stroke="#f59e0b"/>
+  <text x="563.75" y="84.35" font-size="11" fill="#b45309" text-anchor="middle">问题二 对应用无感知</text>
+  <text x="563.75" y="100.85" font-size="11" fill="#b45309" text-anchor="middle">把所有应用的包一视同仁，可应用本身是异质的</text>
+  <rect x="25" y="141.5" width="710" height="36" rx="6" fill="#d1fae5" stroke="#22c55e"/>
+  <text x="380" y="163.7" font-size="12" fill="#166534" text-anchor="middle">STC 例子：平均停顿时钟从轮询的 8.3 与年龄优先的 7.0 降到 5.0</text>
+  <rect x="25" y="205.5" width="220" height="66" rx="6" fill="#dbeafe" stroke="#3b82f6"/>
+  <text x="135" y="225.85" font-size="11" fill="#1e40af" text-anchor="middle">松弛</text>
+  <text x="135" y="242.35" font-size="11" fill="#1e40af" text-anchor="middle">估计每个包能被延迟多少周期</text>
+  <text x="135" y="258.85" font-size="11" fill="#1e40af" text-anchor="middle">优先 slack 小的包</text>
+  <rect x="270" y="205.5" width="220" height="66" rx="6" fill="#dbeafe" stroke="#3b82f6"/>
+  <text x="380" y="225.85" font-size="11" fill="#1e40af" text-anchor="middle">减速估计</text>
+  <text x="380" y="242.35" font-size="11" fill="#1e40af" text-anchor="middle">估计应用在网上的减速</text>
+  <text x="380" y="258.85" font-size="11" fill="#1e40af" text-anchor="middle">用来同时改善公平与性能</text>
+  <rect x="515" y="205.5" width="220" height="66" rx="6" fill="#dbeafe" stroke="#3b82f6"/>
+  <text x="625" y="234.1" font-size="11" fill="#1e40af" text-anchor="middle">多播与热点问题</text>
+  <text x="625" y="250.6" font-size="11" fill="#1e40af" text-anchor="middle">以及按应用分流的异构多网络</text>
+</svg>

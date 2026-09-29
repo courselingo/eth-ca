@@ -1,0 +1,36 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 760 293.5" width="760" height="293.5"
+     role="img" aria-labelledby="fig-lecture21-on-chip-networks-8-title fig-lecture21-on-chip-networks-8-desc">
+  <title id="fig-lecture21-on-chip-networks-8-title">MinBD 的机制贡献与总体结果</title>
+  <desc id="fig-lecture21-on-chip-networks-8-desc">上面一条是机制层面的结论：三个机制各自都能降低偏转率，而侧缓冲单独不够，因为弹出瓶颈还在。中间三格是相对提升：相对基线 +5.8%（偏转率降 64%）、相对只加双宽弹出 +2.7%（偏转率降 54%）、高负载下比 CHIPPER +8.1% 且与带缓冲 (4,4) 相差 2.7%。下面三格是面积、关键路径与总体：面积比 CHIPPER 加 3%、比 (4,4) 省 36%；关键路径比 CHIPPER 加 7%、比 (4,4) 加 8%；相对带缓冲路由器功率省 31%、面积省 36%，并且在所有被评估的设计里能效最好。</desc>
+
+  <defs>
+    <style>
+      text { font-family: 'PingFang SC', 'Microsoft YaHei', 'Noto Sans CJK SC', system-ui, sans-serif; }
+    </style>
+  </defs>
+
+  <rect x="0" y="0" width="760" height="293.5" fill="#ffffff"/>
+
+  <text x="380" y="34" font-size="16" font-weight="600" fill="#1f2937" text-anchor="middle">MinBD 的机制贡献与总体结果</text>
+  <rect x="25" y="64" width="710" height="33" rx="6" fill="#eff6ff" stroke="#3b82f6"/>
+  <text x="380" y="84.35" font-size="11" fill="#1e40af" text-anchor="middle">三个机制各自都能降低偏转率；而侧缓冲单独不够，因为弹出瓶颈还在（p105）</text>
+  <rect x="25" y="125" width="220" height="66" rx="6" fill="#d1fae5" stroke="#22c55e"/>
+  <text x="135" y="153.6" font-size="11" fill="#166534" text-anchor="middle">相对基线 +5.8%</text>
+  <text x="135" y="170.1" font-size="11" fill="#166534" text-anchor="middle">偏转率降 64%</text>
+  <rect x="270" y="125" width="220" height="66" rx="6" fill="#d1fae5" stroke="#22c55e"/>
+  <text x="380" y="153.6" font-size="11" fill="#166534" text-anchor="middle">相对只加双宽弹出 +2.7%</text>
+  <text x="380" y="170.1" font-size="11" fill="#166534" text-anchor="middle">偏转率降 54%</text>
+  <rect x="515" y="125" width="220" height="66" rx="6" fill="#d1fae5" stroke="#22c55e"/>
+  <text x="625" y="145.35" font-size="11" fill="#166534" text-anchor="middle">高负载下比 CHIPPER +8.1%</text>
+  <text x="625" y="161.85" font-size="11" fill="#166534" text-anchor="middle">与带缓冲 (4,4) 相差 2.7%</text>
+  <text x="625" y="178.35" font-size="11" fill="#166534" text-anchor="middle">高负载下相差 8.3%</text>
+  <rect x="25" y="219" width="220" height="49.5" rx="6" fill="#dbeafe" stroke="#3b82f6"/>
+  <text x="135" y="239.35" font-size="11" fill="#1e40af" text-anchor="middle">面积：比 CHIPPER 加 3%</text>
+  <text x="135" y="255.85" font-size="11" fill="#1e40af" text-anchor="middle">比 (4,4) 省 36%</text>
+  <rect x="270" y="219" width="220" height="49.5" rx="6" fill="#dbeafe" stroke="#3b82f6"/>
+  <text x="380" y="239.35" font-size="11" fill="#1e40af" text-anchor="middle">关键路径：比 CHIPPER 加 7%</text>
+  <text x="380" y="255.85" font-size="11" fill="#1e40af" text-anchor="middle">比 (4,4) 加 8%</text>
+  <rect x="515" y="219" width="220" height="49.5" rx="6" fill="#f3e8ff" stroke="#a855f7"/>
+  <text x="625" y="239.35" font-size="11" fill="#6b21a8" text-anchor="middle">相对带缓冲：功率省 31%、面积省 36%</text>
+  <text x="625" y="255.85" font-size="11" fill="#6b21a8" text-anchor="middle">在所有被评估的设计里能效最好</text>
+</svg>

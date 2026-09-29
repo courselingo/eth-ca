@@ -1,0 +1,36 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 760 293.5" width="760" height="293.5"
+     role="img" aria-labelledby="fig-lecture21-on-chip-networks-12-title fig-lecture21-on-chip-networks-12-desc">
+  <title id="fig-lecture21-on-chip-networks-12-title">这一讲在整门课里的位置</title>
+  <desc id="fig-lecture21-on-chip-networks-12-desc">上排四格是这门课里与这张网相连的四讲：第 13 与第 18 讲的内存控制器是网上的一端；第 15 讲用 Ramulator 这类模拟器评估内存系统；第 19 讲的 CPU、GPU 与加速器共享内存；第 12 讲的 UPMEM 这类内存内计算系统。下面两格是第 6 与第 7 讲的RowHammer（缓解机制产生的额外请求会经过这张网）与这一讲的那张网本身（核、缓存体、内存控制器与加速器之间的通信）。最下面一条说明这一节与这张图是 CourseLingo 添加的连接，讲义里没有出现这些名字。</desc>
+
+  <defs>
+    <style>
+      text { font-family: 'PingFang SC', 'Microsoft YaHei', 'Noto Sans CJK SC', system-ui, sans-serif; }
+    </style>
+  </defs>
+
+  <rect x="0" y="0" width="760" height="293.5" fill="#ffffff"/>
+
+  <text x="380" y="34" font-size="16" font-weight="600" fill="#1f2937" text-anchor="middle">这一讲在整门课里的位置</text>
+  <rect x="25" y="64" width="158.75" height="66" rx="6" fill="#dbeafe" stroke="#3b82f6"/>
+  <text x="104.375" y="92.6" font-size="11" fill="#1e40af" text-anchor="middle">第 13 与第 18 讲</text>
+  <text x="104.375" y="109.1" font-size="11" fill="#1e40af" text-anchor="middle">内存控制器：网上的一端</text>
+  <rect x="208.75" y="64" width="158.75" height="66" rx="6" fill="#dbeafe" stroke="#3b82f6"/>
+  <text x="288.125" y="84.35" font-size="11" fill="#1e40af" text-anchor="middle">第 15 讲</text>
+  <text x="288.125" y="100.85" font-size="11" fill="#1e40af" text-anchor="middle">用 Ramulator 这类模拟器</text>
+  <text x="288.125" y="117.35" font-size="11" fill="#1e40af" text-anchor="middle">评估内存系统</text>
+  <rect x="392.5" y="64" width="158.75" height="66" rx="6" fill="#dbeafe" stroke="#3b82f6"/>
+  <text x="471.875" y="92.6" font-size="11" fill="#1e40af" text-anchor="middle">第 19 讲</text>
+  <text x="471.875" y="109.1" font-size="11" fill="#1e40af" text-anchor="middle">CPU、GPU 与加速器共享内存</text>
+  <rect x="576.25" y="64" width="158.75" height="66" rx="6" fill="#dbeafe" stroke="#3b82f6"/>
+  <text x="655.625" y="92.6" font-size="11" fill="#1e40af" text-anchor="middle">第 12 讲</text>
+  <text x="655.625" y="109.1" font-size="11" fill="#1e40af" text-anchor="middle">UPMEM 这类内存内计算系统</text>
+  <rect x="25" y="158" width="342.5" height="49.5" rx="6" fill="#fef3c7" stroke="#f59e0b"/>
+  <text x="196.25" y="178.35" font-size="11" fill="#b45309" text-anchor="middle">第 6 与第 7 讲</text>
+  <text x="196.25" y="194.85" font-size="11" fill="#b45309" text-anchor="middle">RowHammer：缓解机制产生的额外请求会经过这张网</text>
+  <rect x="392.5" y="158" width="342.5" height="49.5" rx="6" fill="#d1fae5" stroke="#22c55e"/>
+  <text x="563.75" y="178.35" font-size="11" fill="#166534" text-anchor="middle">这一讲的那张网</text>
+  <text x="563.75" y="194.85" font-size="11" fill="#166534" text-anchor="middle">核、缓存体、内存控制器与加速器之间的通信</text>
+  <rect x="25" y="235.5" width="710" height="33" rx="6" fill="#f8fafc" stroke="#94a3b8"/>
+  <text x="380" y="255.85" font-size="11" fill="#1e293b" text-anchor="middle">这一节与这张图是 CourseLingo 添加的连接，讲义里没有出现这些名字</text>
+</svg>

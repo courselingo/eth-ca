@@ -1,0 +1,40 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 760 304" width="760" height="304"
+     role="img" aria-labelledby="fig-lecture21-on-chip-networks-7-title fig-lecture21-on-chip-networks-7-desc">
+  <title id="fig-lecture21-on-chip-networks-7-title">MinBD：三个性能问题与三个解法</title>
+  <desc id="fig-lecture21-on-chip-networks-7-desc">上排三格是三个问题：链路争用（任何一次争用都造成偏转）、弹出瓶颈（每周期只能弹一个）、偏转仲裁（快速仲裁器太简单）。下面三格是对应的解法与数字：侧缓冲只缓会被弹开的 flit，四 flit 缓冲把偏转率降 39%，用 25% 的缓冲空间拿到相近性能；双宽弹出每周期两个 flit，偏转率降 21%；银 flit 每路由器每周期一个、伪随机且只在本路由器内，保证至少一个 flit 不被弹开。最下面一条是它的背景：CHIPPER 已经省了 55% 的功耗与 36% 的面积，但高负载下仍要还债。</desc>
+
+  <defs>
+    <style>
+      text { font-family: 'PingFang SC', 'Microsoft YaHei', 'Noto Sans CJK SC', system-ui, sans-serif; }
+    </style>
+  </defs>
+
+  <rect x="0" y="0" width="760" height="304" fill="#ffffff"/>
+
+  <text x="380" y="34" font-size="16" font-weight="600" fill="#1f2937" text-anchor="middle">MinBD：三个性能问题与三个解法</text>
+  <rect x="25" y="64" width="220" height="60" rx="6" fill="#fef3c7" stroke="#f59e0b"/>
+  <text x="135" y="82.5" font-size="10" fill="#b45309" text-anchor="middle">问题一 链路争用</text>
+  <text x="135" y="97.5" font-size="10" fill="#b45309" text-anchor="middle">任何一次争用都造成偏转</text>
+  <text x="135" y="112.5" font-size="10" fill="#b45309" text-anchor="middle">解法：侧缓冲只缓会被弹开的 flit</text>
+  <rect x="270" y="64" width="220" height="60" rx="6" fill="#fef3c7" stroke="#f59e0b"/>
+  <text x="380" y="82.5" font-size="10" fill="#b45309" text-anchor="middle">问题二 弹出瓶颈</text>
+  <text x="380" y="97.5" font-size="10" fill="#b45309" text-anchor="middle">每周期只能弹一个</text>
+  <text x="380" y="112.5" font-size="10" fill="#b45309" text-anchor="middle">解法：双宽弹出，每周期两个 flit</text>
+  <rect x="515" y="64" width="220" height="60" rx="6" fill="#fef3c7" stroke="#f59e0b"/>
+  <text x="625" y="82.5" font-size="10" fill="#b45309" text-anchor="middle">问题三 偏转仲裁</text>
+  <text x="625" y="97.5" font-size="10" fill="#b45309" text-anchor="middle">快速仲裁器太简单</text>
+  <text x="625" y="112.5" font-size="10" fill="#b45309" text-anchor="middle">解法：加一个银 flit</text>
+  <rect x="25" y="152" width="220" height="66" rx="6" fill="#d1fae5" stroke="#22c55e"/>
+  <text x="135" y="172.35" font-size="11" fill="#166534" text-anchor="middle">侧缓冲：四 flit 缓冲</text>
+  <text x="135" y="188.85" font-size="11" fill="#166534" text-anchor="middle">偏转率降 39%</text>
+  <text x="135" y="205.35" font-size="11" fill="#166534" text-anchor="middle">用 25% 缓冲空间拿到相近性能</text>
+  <rect x="270" y="152" width="220" height="66" rx="6" fill="#d1fae5" stroke="#22c55e"/>
+  <text x="380" y="180.6" font-size="11" fill="#166534" text-anchor="middle">双宽弹出：偏转率降 21%</text>
+  <text x="380" y="197.1" font-size="11" fill="#166534" text-anchor="middle">20% 的弹出事件里本来可以同时弹两个</text>
+  <rect x="515" y="152" width="220" height="66" rx="6" fill="#d1fae5" stroke="#22c55e"/>
+  <text x="625" y="172.35" font-size="11" fill="#166534" text-anchor="middle">银 flit：每路由器每周期一个</text>
+  <text x="625" y="188.85" font-size="11" fill="#166534" text-anchor="middle">伪随机、只在本路由器内</text>
+  <text x="625" y="205.35" font-size="11" fill="#166534" text-anchor="middle">保证至少一个不被弹开</text>
+  <rect x="25" y="246" width="710" height="33" rx="6" fill="#f8fafc" stroke="#94a3b8"/>
+  <text x="380" y="266.35" font-size="11" fill="#1e293b" text-anchor="middle">CHIPPER 相对带缓冲路由器已经省了 55% 的功耗与 36% 的面积，但高负载下仍要还债（p77）</text>
+</svg>
