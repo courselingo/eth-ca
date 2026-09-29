@@ -1,0 +1,30 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="2 13.0 826 312.0" width="826" height="312.0"
+     role="img" aria-labelledby="fig-vliw-systolic-9-title fig-vliw-systolic-9-desc">
+  <title id="fig-vliw-systolic-9-title">而它并没有白讲：两条线索留了下来</title>
+  <desc id="fig-vliw-systolic-9-desc">讲义在 VLIW 这一半的最后给了两条线索。一条是为 VLIW 开发的编译优化，后来大多被用进了面向超标量的优化编译器。另一条是把一种指令集翻译成另一种实现指令集这件做法，它在商用系统里反复出现。</desc>
+
+  <defs>
+    <style>
+      text { font-family: 'PingFang SC', 'Microsoft YaHei', 'Noto Sans CJK SC', system-ui, sans-serif; }
+    </style>
+    <marker id="arrow" markerWidth="8" markerHeight="8" refX="2" refY="4"
+            orient="auto" markerUnits="userSpaceOnUse">
+      <path d="M0,0 L8,4 L0,8 L2,4 z" fill="#64748b"/>
+    </marker>
+  </defs>
+
+  <rect x="2" y="13.0" width="826" height="312.0" fill="#ffffff"/>
+
+  <text x="415.0" y="48" font-size="16" font-weight="600" fill="#1f2937" text-anchor="middle">而它并没有白讲：两条线索留了下来</text>
+  <rect x="25" y="70" width="712" height="42" fill="#d1fae5" stroke="#22c55e"/>
+  <text x="381.0" y="95.9" font-size="14" fill="#166534" text-anchor="middle">两条留下来的线索</text>
+  <rect x="25" y="138" width="340" height="68" fill="#d1fae5" stroke="#22c55e"/>
+  <text x="195.0" y="167.7" font-size="15" fill="#166534" text-anchor="middle">第一条</text>
+  <text x="195.0" y="185.7" font-size="12" fill="#166534" text-anchor="middle">为它开发的编译优化，用进了普通优化编译器</text>
+  <rect x="393" y="138" width="340" height="68" fill="#d1fae5" stroke="#22c55e"/>
+  <text x="563.0" y="167.7" font-size="15" fill="#166534" text-anchor="middle">第二条</text>
+  <text x="563.0" y="185.7" font-size="12" fill="#166534" text-anchor="middle">指令集之间互相翻译，把难题挪到软件侧</text>
+  <rect x="25" y="234" width="780" height="68" fill="#f3e8ff" stroke="#a855f7"/>
+  <text x="415.0" y="263.7" font-size="15" fill="#6b21a8" text-anchor="middle">第二条讲义举了几个真实例子：把一种老指令集翻译成内部的 VLIW</text>
+  <text x="415.0" y="281.7" font-size="12" fill="#6b21a8" text-anchor="middle">以及近年在两种处理器架构之间做二进制翻译的做法</text>
+</svg>

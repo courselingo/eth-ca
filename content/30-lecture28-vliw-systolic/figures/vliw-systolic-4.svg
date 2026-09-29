@@ -1,0 +1,30 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="2 13.0 776 312.0" width="776" height="312.0"
+     role="img" aria-labelledby="fig-vliw-systolic-4-title fig-vliw-systolic-4-desc">
+  <title id="fig-vliw-systolic-4-title">长指令里装的是什么</title>
+  <desc id="fig-vliw-systolic-4-desc">一条长指令由编译器把多条彼此独立的指令打包而成，而且这些指令在逻辑上可以毫无关系。这与单指令多数据形成鲜明对照：后者是同一条操作作用在多份数据上。</desc>
+
+  <defs>
+    <style>
+      text { font-family: 'PingFang SC', 'Microsoft YaHei', 'Noto Sans CJK SC', system-ui, sans-serif; }
+    </style>
+    <marker id="arrow" markerWidth="8" markerHeight="8" refX="2" refY="4"
+            orient="auto" markerUnits="userSpaceOnUse">
+      <path d="M0,0 L8,4 L0,8 L2,4 z" fill="#64748b"/>
+    </marker>
+  </defs>
+
+  <rect x="2" y="13.0" width="776" height="312.0" fill="#ffffff"/>
+
+  <text x="390.0" y="48" font-size="16" font-weight="600" fill="#1f2937" text-anchor="middle">长指令里装的是什么</text>
+  <rect x="25" y="70" width="712" height="42" fill="#d1fae5" stroke="#22c55e"/>
+  <text x="381.0" y="95.9" font-size="14" fill="#166534" text-anchor="middle">打包进来的是彼此独立的操作，可以互不相关</text>
+  <rect x="25" y="138" width="340" height="68" fill="#d1fae5" stroke="#22c55e"/>
+  <text x="195.0" y="167.7" font-size="15" fill="#166534" text-anchor="middle">VLIW 包的</text>
+  <text x="195.0" y="185.7" font-size="12" fill="#166534" text-anchor="middle">不同操作，作用于不同数据</text>
+  <rect x="393" y="138" width="340" height="68" fill="#fef3c7" stroke="#f59e0b"/>
+  <text x="563.0" y="167.7" font-size="15" fill="#b45309" text-anchor="middle">单指令多数据那种</text>
+  <text x="563.0" y="185.7" font-size="12" fill="#b45309" text-anchor="middle">同一个操作，作用于多份数据</text>
+  <rect x="25" y="234" width="730" height="68" fill="#f3e8ff" stroke="#a855f7"/>
+  <text x="390.0" y="263.7" font-size="15" fill="#6b21a8" text-anchor="middle">讲义特意点出这个对照，因为两者都「一条指令做很多事」</text>
+  <text x="390.0" y="281.7" font-size="12" fill="#6b21a8" text-anchor="middle">但一条是横向展开不同的活，另一条是把同一件活铺开</text>
+</svg>

@@ -1,0 +1,30 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="2 13.0 876 312.0" width="876" height="312.0"
+     role="img" aria-labelledby="fig-vliw-systolic-14-title fig-vliw-systolic-14-desc">
+  <title id="fig-vliw-systolic-14-title">从一台实验机器到一个时代的硬件</title>
+  <desc id="fig-vliw-systolic-14-desc">讲义给了一老一新两组例子。老的是八十年代那台线性阵列的计算机，十个单元、每个单元是一颗可编程处理器，接在通用主机上，用来加速视觉与机器人任务。新的是这些年把矩阵运算做成阵列硬件的那些加速器。</desc>
+
+  <defs>
+    <style>
+      text { font-family: 'PingFang SC', 'Microsoft YaHei', 'Noto Sans CJK SC', system-ui, sans-serif; }
+    </style>
+    <marker id="arrow" markerWidth="8" markerHeight="8" refX="2" refY="4"
+            orient="auto" markerUnits="userSpaceOnUse">
+      <path d="M0,0 L8,4 L0,8 L2,4 z" fill="#64748b"/>
+    </marker>
+  </defs>
+
+  <rect x="2" y="13.0" width="876" height="312.0" fill="#ffffff"/>
+
+  <text x="440.0" y="48" font-size="16" font-weight="600" fill="#1f2937" text-anchor="middle">从一台实验机器到一个时代的硬件</text>
+  <rect x="25" y="70" width="712" height="42" fill="#d1fae5" stroke="#22c55e"/>
+  <text x="381.0" y="95.9" font-size="14" fill="#166534" text-anchor="middle">老例子与新例子，同一个想法</text>
+  <rect x="25" y="138" width="340" height="68" fill="#fef3c7" stroke="#f59e0b"/>
+  <text x="195.0" y="167.7" font-size="15" fill="#b45309" text-anchor="middle">八十年代那台</text>
+  <text x="195.0" y="185.7" font-size="12" fill="#b45309" text-anchor="middle">线性十单元，每单元一颗可编程处理器</text>
+  <rect x="393" y="138" width="340" height="68" fill="#d1fae5" stroke="#22c55e"/>
+  <text x="563.0" y="167.7" font-size="15" fill="#166534" text-anchor="middle">后来那些</text>
+  <text x="563.0" y="185.7" font-size="12" fill="#166534" text-anchor="middle">把矩阵运算做成硬件的加速器</text>
+  <rect x="25" y="234" width="830" height="68" fill="#f3e8ff" stroke="#a855f7"/>
+  <text x="440.0" y="263.7" font-size="15" fill="#6b21a8" text-anchor="middle">讲义还把阵列的思路推到了整片晶圆那么大的规模</text>
+  <text x="440.0" y="281.7" font-size="12" fill="#6b21a8" text-anchor="middle">同一个设计想法，隔了三十多年重新成为主流</text>
+</svg>

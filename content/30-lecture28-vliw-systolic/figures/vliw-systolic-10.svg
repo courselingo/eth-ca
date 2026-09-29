@@ -1,0 +1,30 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="2 13.0 836 312.0" width="836" height="312.0"
+     role="img" aria-labelledby="fig-vliw-systolic-10-title fig-vliw-systolic-10-desc">
+  <title id="fig-vliw-systolic-10-title">脉动阵列：心脏、血液与细胞</title>
+  <desc id="fig-vliw-systolic-10-desc">讲义用了那位提出者自己的比喻：内存是心脏，数据是血，处理单元是细胞。数据从内存里以有节奏的方式流出，穿过许多处理单元之后再回到内存。</desc>
+
+  <defs>
+    <style>
+      text { font-family: 'PingFang SC', 'Microsoft YaHei', 'Noto Sans CJK SC', system-ui, sans-serif; }
+    </style>
+    <marker id="arrow" markerWidth="8" markerHeight="8" refX="2" refY="4"
+            orient="auto" markerUnits="userSpaceOnUse">
+      <path d="M0,0 L8,4 L0,8 L2,4 z" fill="#64748b"/>
+    </marker>
+  </defs>
+
+  <rect x="2" y="13.0" width="836" height="312.0" fill="#ffffff"/>
+
+  <text x="420.0" y="48" font-size="16" font-weight="600" fill="#1f2937" text-anchor="middle">脉动阵列：心脏、血液与细胞</text>
+  <rect x="25" y="70" width="712" height="42" fill="#d1fae5" stroke="#22c55e"/>
+  <text x="381.0" y="95.9" font-size="14" fill="#166534" text-anchor="middle">内存像心脏，把数据有节奏地泵过阵列</text>
+  <rect x="25" y="138" width="340" height="68" fill="#dbeafe" stroke="#3b82f6"/>
+  <text x="195.0" y="167.7" font-size="15" fill="#1e40af" text-anchor="middle">比喻里的三样</text>
+  <text x="195.0" y="185.7" font-size="12" fill="#1e40af" text-anchor="middle">内存是心脏，数据是血，单元是细胞</text>
+  <rect x="393" y="138" width="340" height="68" fill="#d1fae5" stroke="#22c55e"/>
+  <text x="563.0" y="167.7" font-size="15" fill="#166534" text-anchor="middle">为什么这样设计</text>
+  <text x="563.0" y="185.7" font-size="12" fill="#166534" text-anchor="middle">设计要简单规则、并发要高、访存与计算要平衡</text>
+  <rect x="25" y="234" width="790" height="68" fill="#f3e8ff" stroke="#a855f7"/>
+  <text x="420.0" y="263.7" font-size="15" fill="#6b21a8" text-anchor="middle">「脉动」这个词本身就来自那个心跳的意象</text>
+  <text x="420.0" y="281.7" font-size="12" fill="#6b21a8" text-anchor="middle">而它同时也说明了一件事：数据的节奏是被精心编排的，不是随机的</text>
+</svg>
