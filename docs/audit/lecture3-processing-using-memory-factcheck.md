@@ -198,6 +198,28 @@
 
 ---
 
+## 两讲分工交叉核对（与第 5 讲 `lecture4-processing-near-memory`）
+
+> 完整的交叉核对表在 `docs/audit/lecture4-processing-near-memory-factcheck.md` 的「两讲分工交叉核对」一节（我一并核了第 5 讲页面与第 5 讲讲义）。
+> 与本讲有关的结论摘录如下（**只读，未改动第 5 讲的任何文件**）：
+
+1. **冲突（两页对同一件事给了相反的形容词）**：本页 L68「第一条是 processing using memory……**它不需要在内存里额外放计算单元**」（同见 **P2-1**）
+   与第 5 讲页面 L22「上一讲的做法是「用内存自己来算」：**不改结构**，只利用 DRAM 内部已有的能力。」
+   而**本页自己**在 L116 就写着「按位非（NOT）不能用多数函数直接得到，源讲义给的办法是**改单元结构**：用一个「双接触」单元……」（源：`PAGE 122 In-DRAM NOT: Dual Contact Cell`）。
+   ⇒ 源讲义的说法是 `with small changes` / `requires minimal changes to DRAM architecture`（p116 / p135），**不是「不改结构」**。**建议两页统一改成「改动很小」。**（在第 5 讲记录里记为 P1-3。）
+2. **产业版图的位置（不是错误，是衔接建议）**：本页 L58 把 UPMEM / 三星 FIMDRAM+HBM-PIM / AxDIMM / SK 海力士 AiM / 阿里 HB-PNM 五家的产品当作「今天的产业版图」讲。
+   这五张幻灯片**在第 5 讲讲义里也出现**（`eth-ca2022-lecture4-processing-near-memory.pdf.embedded.txt` 的 `PAGE 198–205`，逐字同名同厂商同产品），
+   而**第 5 讲页面完全没提它们** ⇒ 两页**没有重复**（作者把这一段留在了本讲）。
+   **但**按本课自己的分类（两份讲义都有 `Two Approaches — 1. Processing using Memory / 2. Processing near Memory`），这五家都是**近内存**那一类（在 DRAM/HBM 里放计算单元），
+   却只写在「用内存」这一讲的页面里。源讲义之所以把它放在本讲，是因为在源里它挂在 `PAGE 37/39/62 Why In-Memory Computation Today?`（讲**整个 PIM 为什么今天可行**），不是在讲「用内存」的机制。
+   **建议**：本页或第 5 讲页面加一句衔接（「它们属于**近内存**那一路，下一讲展开」/「产业版图见上一讲」），避免读者把「PIM 产品」误当成「用内存」的技术证据。
+3. **重复但不判错**：`62.7%` 在两页各出现一次（本页 L38、第 5 讲页面 L52）。源讲义本身就重复了这张幻灯片（本讲义 `PAGE 27` 与第 5 讲讲义 `PAGE 42/60` 是同一组数据），
+   且第 5 讲页面写了「我们前面见过」⇒ 属**有意的回指**，不算错。
+4. **机制分工清晰、无机制被讲两遍**：RowClone / Ambit / SIMDRAM / ComputeDRAM / PiDRAM / Pinatubo 只在**本讲页面**出现；
+   Tesseract / 手机简单函数卸载 / PEI / TOM / CoNDA / SynCron / IMPICA / VBI / DAMOV / Ramulator+PrIM / NAPEL / SoftMC / MQSim / GRIM-Filter / GenASM / NERO / NATSA 只在**第 5 讲页面**出现（我核过本页全文，无一条提到这些名字）。
+
+---
+
 ## 我核不到的（诚实记录）
 
 > 「我没搜到」≠「源材料没有」。下面几条我**没有**找到源材料依据 ⇒ 我**不能**说它对或错。
