@@ -19,7 +19,7 @@
 
   <rect x="23" y="146" width="520" height="54" rx="8" fill="#fef3c7" stroke="#f59e0b" stroke-width="1.5"/>
   <text x="283" y="168.2" font-size="12" fill="#b45309" text-anchor="middle">字线电压</text>
-  <text x="283" y="186.2" font-size="12" fill="#b45309" text-anchor="middle">降压能省电，但芯片更脆弱</text>
+  <text x="283" y="186.2" font-size="12" fill="#b45309" text-anchor="middle">降压反而降低脆弱性，代价是延迟与保持时间</text>
 
   <rect x="23" y="228" width="520" height="54" rx="8" fill="#dbeafe" stroke="#3b82f6" stroke-width="1.5"/>
   <text x="283" y="250.2" font-size="12" fill="#1e40af" text-anchor="middle">空间差异</text>
