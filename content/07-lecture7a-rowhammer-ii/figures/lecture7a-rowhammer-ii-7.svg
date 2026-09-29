@@ -1,0 +1,36 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 574 280" width="574" height="280"
+     role="img" aria-labelledby="fig-l7a-7-title fig-l7a-7-desc">
+  <title id="fig-l7a-7-title">让芯片能拒绝激活，维护就搬进芯片里</title>
+  <desc id="fig-l7a-7-desc">DRAM 芯片通过一条可拒绝激活的引脚告诉控制器「现在别来」，于是刷新、行锤防护与内存扫描都能在芯片内部完成，收益是 9.2% 加速与 6.2% 的 DRAM 能耗下降。</desc>
+
+  <defs>
+    <style>
+      text { font-family: 'PingFang SC', 'Microsoft YaHei', 'Noto Sans CJK SC', system-ui, sans-serif; }
+    </style>
+    <marker id="arrow" markerWidth="8" markerHeight="8" refX="2" refY="4"
+            orient="auto" markerUnits="userSpaceOnUse">
+      <path d="M0,0 L8,4 L0,8 L2,4 z" fill="#64748b"/>
+    </marker>
+  </defs>
+
+  <rect x="0" y="0" width="574" height="280" fill="#ffffff"/>
+
+  <text x="287" y="34" font-size="16" font-weight="600" fill="#1f2937" text-anchor="middle">让芯片能拒绝激活，维护就搬进芯片里</text>
+
+  <rect x="23" y="64" width="250" height="54" rx="8" fill="#dbeafe" stroke="#3b82f6" stroke-width="1.5"/>
+  <text x="148" y="86.2" font-size="12" fill="#1e40af" text-anchor="middle">内存控制器</text>
+  <text x="148" y="104.2" font-size="12" fill="#1e40af" text-anchor="middle">发出激活命令</text>
+
+  <rect x="301" y="64" width="250" height="54" rx="8" fill="#fef3c7" stroke="#f59e0b" stroke-width="1.5"/>
+  <text x="426" y="86.2" font-size="12" fill="#b45309" text-anchor="middle">DRAM 芯片</text>
+  <text x="426" y="104.2" font-size="12" fill="#b45309" text-anchor="middle">需要维护时拒绝激活</text>
+
+  <path d="M278,83 L290,83" fill="none" stroke="#64748b" stroke-width="1.5" marker-end="url(#arrow)"/>
+  <path d="M296,99 L284,99" fill="none" stroke="#64748b" stroke-width="1.5" marker-end="url(#arrow)"/>
+
+  <rect x="23" y="146" width="528" height="42" rx="8" fill="#f3e8ff" stroke="#a855f7" stroke-width="1.5"/>
+  <text x="287" y="171.2" font-size="12" fill="#6b21a8" text-anchor="middle">刷新 · 行锤防护 · 内存扫描，全都做在芯片内部</text>
+
+  <rect x="23" y="216" width="528" height="42" rx="8" fill="#d1fae5" stroke="#22c55e" stroke-width="1.5"/>
+  <text x="287" y="241.2" font-size="12" fill="#166534" text-anchor="middle">收益：9.2% 加速、6.2% 的 DRAM 能耗下降</text>
+</svg>

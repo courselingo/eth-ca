@@ -1,0 +1,31 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 650 144" width="650" height="144"
+     role="img" aria-labelledby="fig-l7a-1-title fig-l7a-1-desc">
+  <title id="fig-l7a-1-title">衡量一个防御方案的四条理想性质</title>
+  <desc id="fig-l7a-1-desc">防护是否全面、是否兼容商用 DRAM 芯片、能否随脆弱性恶化而扩展、是否是确定性防护。</desc>
+
+  <defs>
+    <style>
+      text { font-family: 'PingFang SC', 'Microsoft YaHei', 'Noto Sans CJK SC', system-ui, sans-serif; }
+    </style>
+  </defs>
+
+  <rect x="0" y="0" width="650" height="144" fill="#ffffff"/>
+
+  <text x="325" y="34" font-size="16" font-weight="600" fill="#1f2937" text-anchor="middle">衡量的四条理想性质</text>
+
+  <rect x="23" y="64" width="130" height="58" rx="8" fill="#dbeafe" stroke="#3b82f6" stroke-width="1.5"/>
+  <text x="88" y="88.2" font-size="12" fill="#1e40af" text-anchor="middle">防护全面</text>
+  <text x="88" y="106.2" font-size="12" fill="#1e40af" text-anchor="middle">各种攻击都挡</text>
+
+  <rect x="181" y="64" width="130" height="58" rx="8" fill="#dbeafe" stroke="#3b82f6" stroke-width="1.5"/>
+  <text x="246" y="88.2" font-size="12" fill="#1e40af" text-anchor="middle">兼容商用芯片</text>
+  <text x="246" y="106.2" font-size="12" fill="#1e40af" text-anchor="middle">不改芯片看内部</text>
+
+  <rect x="339" y="64" width="130" height="58" rx="8" fill="#fef3c7" stroke="#f59e0b" stroke-width="1.5"/>
+  <text x="404" y="88.2" font-size="12" fill="#b45309" text-anchor="middle">可扩展</text>
+  <text x="404" y="106.2" font-size="12" fill="#b45309" text-anchor="middle">跟着恶化走</text>
+
+  <rect x="497" y="64" width="130" height="58" rx="8" fill="#fef3c7" stroke="#f59e0b" stroke-width="1.5"/>
+  <text x="562" y="88.2" font-size="12" fill="#b45309" text-anchor="middle">确定性防护</text>
+  <text x="562" y="106.2" font-size="12" fill="#b45309" text-anchor="middle">不靠概率侥幸</text>
+</svg>

@@ -1,0 +1,37 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 626 280" width="626" height="280"
+     role="img" aria-labelledby="fig-l7a-4-title fig-l7a-4-desc">
+  <title id="fig-l7a-4-title">14 个机制里只有它四条全满足</title>
+  <desc id="fig-l7a-4-desc">源讲义评测了 14 个机制在四条理想性质上的表现，只有 BlockHammer 四条全部满足。</desc>
+
+  <defs>
+    <style>
+      text { font-family: 'PingFang SC', 'Microsoft YaHei', 'Noto Sans CJK SC', system-ui, sans-serif; }
+    </style>
+  </defs>
+
+  <rect x="0" y="0" width="626" height="280" fill="#ffffff"/>
+
+  <text x="313" y="34" font-size="16" font-weight="600" fill="#1f2937" text-anchor="middle">14 个机制里只有它四条全满足</text>
+
+  <rect x="23" y="64" width="520" height="42" rx="8" fill="#dbeafe" stroke="#3b82f6" stroke-width="1.5"/>
+  <text x="283" y="89.2" font-size="12" fill="#1e40af" text-anchor="middle">受评测的 14 个机制</text>
+
+  <rect x="23" y="134" width="124" height="54" rx="8" fill="#d1fae5" stroke="#22c55e" stroke-width="1.5"/>
+  <text x="85" y="156.2" font-size="12" fill="#166534" text-anchor="middle">防护全面</text>
+  <text x="85" y="174.2" font-size="12" fill="#166534" text-anchor="middle">满足</text>
+
+  <rect x="175" y="134" width="124" height="54" rx="8" fill="#d1fae5" stroke="#22c55e" stroke-width="1.5"/>
+  <text x="237" y="156.2" font-size="12" fill="#166534" text-anchor="middle">兼容商用芯片</text>
+  <text x="237" y="174.2" font-size="12" fill="#166534" text-anchor="middle">满足</text>
+
+  <rect x="327" y="134" width="124" height="54" rx="8" fill="#d1fae5" stroke="#22c55e" stroke-width="1.5"/>
+  <text x="389" y="156.2" font-size="12" fill="#166534" text-anchor="middle">可扩展</text>
+  <text x="389" y="174.2" font-size="12" fill="#166534" text-anchor="middle">满足</text>
+
+  <rect x="479" y="134" width="124" height="54" rx="8" fill="#d1fae5" stroke="#22c55e" stroke-width="1.5"/>
+  <text x="541" y="156.2" font-size="12" fill="#166534" text-anchor="middle">确定性防护</text>
+  <text x="541" y="174.2" font-size="12" fill="#166534" text-anchor="middle">满足</text>
+
+  <rect x="23" y="216" width="520" height="42" rx="8" fill="#fef3c7" stroke="#f59e0b" stroke-width="1.5"/>
+  <text x="283" y="241.2" font-size="12" fill="#b45309" text-anchor="middle">无攻击时开销 &lt;0.5%；有攻击时良性应用平均快 45%</text>
+</svg>
