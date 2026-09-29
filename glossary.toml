@@ -128,6 +128,12 @@ en = "refresh"
 note = "DRAM 电容会漏电，必须周期性地读出来再写回去，否则数据丢失"
 
 [[term]]
+key = "CPU"
+zh = "中央处理器"
+en = "CPU"
+note = "执行通用指令流的处理器；与 GPU、FPGA 这类加速器相对"
+
+[[term]]
 key = "memory controller"
 zh = "内存控制器"
 en = "memory controller"

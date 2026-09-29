@@ -1,0 +1,33 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 494 249" width="494" height="249"
+     role="img" aria-labelledby="fig-l2b-4-title fig-l2b-4-desc">
+  <title id="fig-l2b-4-title">讲师期望的四条</title>
+  <desc id="fig-l2b-4-desc">先修背景、把材料学透、早开始、提问与参与四条并列；讲义另引巴斯德一句话作结。</desc>
+
+  <defs>
+    <style>
+      text { font-family: 'PingFang SC', 'Microsoft YaHei', 'Noto Sans CJK SC', system-ui, sans-serif; }
+    </style>
+  </defs>
+
+  <rect x="0" y="0" width="494" height="249" fill="#ffffff"/>
+
+  <text x="247" y="34" font-size="16" font-weight="600" fill="#1f2937" text-anchor="middle">讲师对选课者的四条期望</text>
+
+  <rect x="23" y="64" width="210" height="54" rx="8" fill="#dbeafe" stroke="#3b82f6" stroke-width="1.5"/>
+  <text x="128" y="86.2" font-size="12" fill="#1e40af" text-anchor="middle">先修背景</text>
+  <text x="128" y="104.2" font-size="12" fill="#1e40af" text-anchor="middle">数字电路、会编程</text>
+
+  <rect x="261" y="64" width="210" height="54" rx="8" fill="#dbeafe" stroke="#3b82f6" stroke-width="1.5"/>
+  <text x="366" y="86.2" font-size="12" fill="#1e40af" text-anchor="middle">把材料学透</text>
+  <text x="366" y="104.2" font-size="12" fill="#1e40af" text-anchor="middle">听课、读、做练习</text>
+
+  <rect x="23" y="146" width="210" height="54" rx="8" fill="#fce7f3" stroke="#ec4899" stroke-width="1.5"/>
+  <text x="128" y="168.2" font-size="12" fill="#9d174d" text-anchor="middle">早开始</text>
+  <text x="128" y="186.2" font-size="12" fill="#9d174d" text-anchor="middle">作业与 Lab 都吃时间</text>
+
+  <rect x="261" y="146" width="210" height="54" rx="8" fill="#d1fae5" stroke="#22c55e" stroke-width="1.5"/>
+  <text x="366" y="168.2" font-size="12" fill="#166534" text-anchor="middle">提问与参与</text>
+  <text x="366" y="186.2" font-size="12" fill="#166534" text-anchor="middle">线上与答疑时间</text>
+
+  <text x="247" y="224" font-size="12" fill="#64748b" text-anchor="middle">源讲义引巴斯德：机遇偏爱有准备的头脑</text>
+</svg>
