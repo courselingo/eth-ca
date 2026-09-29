@@ -1,0 +1,31 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 760 338" width="760" height="338"
+     role="img" aria-labelledby="fig-lecture27-flash-memory-5-title fig-lecture27-flash-memory-5-desc">
+  <title id="fig-lecture27-flash-memory-5-title">FCR：怎么刷、什么时候刷，以及寿命与能量两笔账</title>
+  <desc id="fig-lecture27-flash-memory-5-desc">上面一条是 FCR 的想法：定期读每个页、用较弱的纠错码纠错、再重映射或原地重编程，而且必须在错误超过纠错能力之前完成。中间两格是两个关键问题：怎么刷（重映射、原地重编程或两者混合）与什么时候刷（固定周期或跟着保持错误严重程度走）。再下面一条是原地重编程的两面：不产生额外擦除，但会增加编程错误。最下面两格是寿命（自适应速率最高，图上标 46 倍，而更强的纠错码只给 4 倍）与能量（自适应速率刷新低于 1.8%）。</desc>
+
+  <defs>
+    <style>
+      text { font-family: 'PingFang SC', 'Microsoft YaHei', 'Noto Sans CJK SC', system-ui, sans-serif; }
+    </style>
+  </defs>
+
+  <rect x="0" y="0" width="760" height="338" fill="#ffffff"/>
+
+  <text x="380" y="34" font-size="16" font-weight="600" fill="#1f2937" text-anchor="middle">FCR：怎么刷、什么时候刷，以及寿命与能量两笔账</text>
+  <rect x="25" y="64" width="710" height="33" rx="6" fill="#eff6ff" stroke="#3b82f6"/>
+  <text x="380" y="84.35" font-size="11" fill="#1e40af" text-anchor="middle">FCR 的想法：定期读每个页，用较弱的纠错码纠错，再重映射或原地重编程，且必须在错误超过纠错能力之前完成（p54）</text>
+  <rect x="25" y="125" width="342.5" height="49.5" rx="6" fill="#dbeafe" stroke="#3b82f6"/>
+  <text x="196.25" y="145.35" font-size="11" fill="#1e40af" text-anchor="middle">怎么刷</text>
+  <text x="196.25" y="161.85" font-size="11" fill="#1e40af" text-anchor="middle">重映射、原地重编程，或两者混合</text>
+  <rect x="392.5" y="125" width="342.5" height="49.5" rx="6" fill="#dbeafe" stroke="#3b82f6"/>
+  <text x="563.75" y="145.35" font-size="11" fill="#1e40af" text-anchor="middle">什么时候刷</text>
+  <text x="563.75" y="161.85" font-size="11" fill="#1e40af" text-anchor="middle">固定周期，或让周期跟着保持错误严重程度走</text>
+  <rect x="25" y="202.5" width="710" height="33" rx="6" fill="#fef3c7" stroke="#f59e0b"/>
+  <text x="380" y="222.85" font-size="11" fill="#b45309" text-anchor="middle">原地重编程的两面：好处是不需要重映射因而不产生额外擦除；坏处是它会增加编程错误（p56）</text>
+  <rect x="25" y="263.5" width="342.5" height="49.5" rx="6" fill="#d1fae5" stroke="#22c55e"/>
+  <text x="196.25" y="283.85" font-size="11" fill="#166534" text-anchor="middle">寿命</text>
+  <text x="196.25" y="300.35" font-size="11" fill="#166534" text-anchor="middle">自适应速率最高，图上标 46 倍；更强的纠错码只给 4 倍</text>
+  <rect x="392.5" y="263.5" width="342.5" height="49.5" rx="6" fill="#d1fae5" stroke="#22c55e"/>
+  <text x="563.75" y="283.85" font-size="11" fill="#166534" text-anchor="middle">能量</text>
+  <text x="563.75" y="300.35" font-size="11" fill="#166534" text-anchor="middle">自适应速率刷新低于 1.8%（直到每天刷一次）</text>
+</svg>

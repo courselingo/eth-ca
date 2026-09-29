@@ -1,0 +1,37 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 760 326.5" width="760" height="326.5"
+     role="img" aria-labelledby="fig-lecture27-flash-memory-9-title fig-lecture27-flash-memory-9-desc">
+  <title id="fig-lecture27-flash-memory-9-title">数据保持：从老数据读得慢，到保持优化读与保持失败恢复</title>
+  <desc id="fig-lecture27-flash-memory-9-desc">上排三格是因果链：老数据读起来更慢；原因是保持损失让分布左移、最优电压也跟着移动；后果是第一次读失败并触发读重试。下面两格是两个机制：保持优化读用每天在后台跑一次的在线的预优化算法记录最优电压，过时时用更低电压读重试；保持失败恢复从单元的漏电速度猜原始状态，先找风险单元、再分快慢、最后猜状态。最下面一条是两个数字：读延迟缩短 71%，纠错之前的错误减少 50%。</desc>
+
+  <defs>
+    <style>
+      text { font-family: 'PingFang SC', 'Microsoft YaHei', 'Noto Sans CJK SC', system-ui, sans-serif; }
+    </style>
+  </defs>
+
+  <rect x="0" y="0" width="760" height="326.5" fill="#ffffff"/>
+
+  <text x="380" y="34" font-size="16" font-weight="600" fill="#1f2937" text-anchor="middle">数据保持：从老数据读得慢，到保持优化读与保持失败恢复</text>
+  <rect x="25" y="64" width="220" height="66" rx="6" fill="#f8fafc" stroke="#94a3b8"/>
+  <text x="135" y="92.6" font-size="11" fill="#1e293b" text-anchor="middle">现象</text>
+  <text x="135" y="109.1" font-size="11" fill="#1e293b" text-anchor="middle">老数据读起来更慢</text>
+  <rect x="270" y="64" width="220" height="66" rx="6" fill="#f8fafc" stroke="#94a3b8"/>
+  <text x="380" y="84.35" font-size="11" fill="#1e293b" text-anchor="middle">原因</text>
+  <text x="380" y="100.85" font-size="11" fill="#1e293b" text-anchor="middle">保持损失让分布左移</text>
+  <text x="380" y="117.35" font-size="11" fill="#1e293b" text-anchor="middle">最优电压也跟着移动</text>
+  <rect x="515" y="64" width="220" height="66" rx="6" fill="#f8fafc" stroke="#94a3b8"/>
+  <text x="625" y="92.6" font-size="11" fill="#1e293b" text-anchor="middle">后果</text>
+  <text x="625" y="109.1" font-size="11" fill="#1e293b" text-anchor="middle">第一次读失败，触发读重试</text>
+  <rect x="25" y="158" width="342.5" height="82.5" rx="6" fill="#dbeafe" stroke="#3b82f6"/>
+  <text x="196.25" y="178.35" font-size="11" fill="#1e40af" text-anchor="middle">保持优化读</text>
+  <text x="196.25" y="194.85" font-size="11" fill="#1e40af" text-anchor="middle">在线预优化算法每天后台跑一次</text>
+  <text x="196.25" y="211.35" font-size="11" fill="#1e40af" text-anchor="middle">学并记录最优电压</text>
+  <text x="196.25" y="227.85" font-size="11" fill="#1e40af" text-anchor="middle">过时时用更低电压读重试</text>
+  <rect x="392.5" y="158" width="342.5" height="82.5" rx="6" fill="#dbeafe" stroke="#3b82f6"/>
+  <text x="563.75" y="178.35" font-size="11" fill="#1e40af" text-anchor="middle">保持失败恢复</text>
+  <text x="563.75" y="194.85" font-size="11" fill="#1e40af" text-anchor="middle">从单元的漏电速度猜原始状态</text>
+  <text x="563.75" y="211.35" font-size="11" fill="#1e40af" text-anchor="middle">先找风险单元、再分快慢</text>
+  <text x="563.75" y="227.85" font-size="11" fill="#1e40af" text-anchor="middle">最后猜出原始状态</text>
+  <rect x="25" y="268.5" width="710" height="33" rx="6" fill="#f3e8ff" stroke="#a855f7"/>
+  <text x="380" y="288.85" font-size="11" fill="#6b21a8" text-anchor="middle">结论：保持优化读让读延迟缩短 71%；保持失败恢复在纠错之前把错误减少 50%</text>
+</svg>

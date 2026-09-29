@@ -1,0 +1,44 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 760 345.5" width="760" height="345.5"
+     role="img" aria-labelledby="fig-lecture27-flash-memory-2-title fig-lecture27-flash-memory-2-desc">
+  <title id="fig-lecture27-flash-memory-2-title">闪存单元、阈值电压、读出与通过电压</title>
+  <desc id="fig-lecture27-flash-memory-2-desc">上排三格是物理基础：单元是浮栅晶体管，电荷存在浮栅这一层里；电荷多少决定阈值电压；读出靠比较，读电压 2.5 伏。中间一条是通过电压 5 伏的作用：让未被读的单元无论哪个状态都导通，电流才能走完整串。下面两排四格是读出与组织：被读字线 2.5 伏、其余 5 伏、感放大器读出；块与页与行列的组织；NAND 与 NOR 两种排布；多值单元的四个状态与三条读参考电压；两个比特分两步写入；平面靠缩小单元而 3D 靠堆叠层数。</desc>
+
+  <defs>
+    <style>
+      text { font-family: 'PingFang SC', 'Microsoft YaHei', 'Noto Sans CJK SC', system-ui, sans-serif; }
+    </style>
+  </defs>
+
+  <rect x="0" y="0" width="760" height="345.5" fill="#ffffff"/>
+
+  <text x="380" y="34" font-size="16" font-weight="600" fill="#1f2937" text-anchor="middle">闪存单元、阈值电压、读出与通过电压</text>
+  <rect x="25" y="64" width="220" height="49.5" rx="6" fill="#dbeafe" stroke="#3b82f6"/>
+  <text x="135" y="84.35" font-size="11" fill="#1e40af" text-anchor="middle">单元是浮栅晶体管</text>
+  <text x="135" y="100.85" font-size="11" fill="#1e40af" text-anchor="middle">电荷存在浮栅这一层里</text>
+  <rect x="270" y="64" width="220" height="49.5" rx="6" fill="#dbeafe" stroke="#3b82f6"/>
+  <text x="380" y="84.35" font-size="11" fill="#1e40af" text-anchor="middle">电荷多少决定阈值电压</text>
+  <text x="380" y="100.85" font-size="11" fill="#1e40af" text-anchor="middle">也就是打开它所需的电压</text>
+  <rect x="515" y="64" width="220" height="49.5" rx="6" fill="#dbeafe" stroke="#3b82f6"/>
+  <text x="625" y="84.35" font-size="11" fill="#1e40af" text-anchor="middle">读出靠比较</text>
+  <text x="625" y="100.85" font-size="11" fill="#1e40af" text-anchor="middle">读电压 Vread 等于 2.5 伏</text>
+  <rect x="25" y="141.5" width="710" height="33" rx="6" fill="#eff6ff" stroke="#3b82f6"/>
+  <text x="380" y="161.85" font-size="11" fill="#1e40af" text-anchor="middle">通过电压 Vpass 等于 5 伏：让未被读的单元无论哪个状态都导通，电流才能走完整串（p8）</text>
+  <rect x="25" y="202.5" width="220" height="45" rx="6" fill="#d1fae5" stroke="#22c55e"/>
+  <text x="135" y="221" font-size="10" fill="#166534" text-anchor="middle">整页读出</text>
+  <text x="135" y="236" font-size="10" fill="#166534" text-anchor="middle">被读字线 2.5 伏，其余 5 伏，感放大器读出</text>
+  <rect x="270" y="202.5" width="220" height="45" rx="6" fill="#d1fae5" stroke="#22c55e"/>
+  <text x="380" y="221" font-size="10" fill="#166534" text-anchor="middle">组织方式</text>
+  <text x="380" y="236" font-size="10" fill="#166534" text-anchor="middle">块、页、行列与感放大器</text>
+  <rect x="515" y="202.5" width="220" height="45" rx="6" fill="#d1fae5" stroke="#22c55e"/>
+  <text x="625" y="221" font-size="10" fill="#166534" text-anchor="middle">NAND 与 NOR</text>
+  <text x="625" y="236" font-size="10" fill="#166534" text-anchor="middle">两种排布</text>
+  <rect x="25" y="275.5" width="220" height="45" rx="6" fill="#fef3c7" stroke="#f59e0b"/>
+  <text x="135" y="294" font-size="10" fill="#b45309" text-anchor="middle">多值单元四个状态</text>
+  <text x="135" y="309" font-size="10" fill="#b45309" text-anchor="middle">11、10、00、01，三条读参考电压</text>
+  <rect x="270" y="275.5" width="220" height="45" rx="6" fill="#fef3c7" stroke="#f59e0b"/>
+  <text x="380" y="294" font-size="10" fill="#b45309" text-anchor="middle">两个比特分两步写入</text>
+  <text x="380" y="309" font-size="10" fill="#b45309" text-anchor="middle">先低位页，再高位页</text>
+  <rect x="515" y="275.5" width="220" height="45" rx="6" fill="#fef3c7" stroke="#f59e0b"/>
+  <text x="625" y="294" font-size="10" fill="#b45309" text-anchor="middle">平面与 3D</text>
+  <text x="625" y="309" font-size="10" fill="#b45309" text-anchor="middle">平面靠缩小单元，3D 靠堆叠层数</text>
+</svg>

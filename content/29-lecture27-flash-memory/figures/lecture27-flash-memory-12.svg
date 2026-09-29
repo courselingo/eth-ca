@@ -1,0 +1,43 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 760 332" width="760" height="332"
+     role="img" aria-labelledby="fig-lecture27-flash-memory-12-title fig-lecture27-flash-memory-12-desc">
+  <title id="fig-lecture27-flash-memory-12-title">温度与自恢复：三条刻画结果、统一模型与 HeatWatch</title>
+  <desc id="fig-lecture27-flash-memory-12-desc">上排三格是三条刻画结果：把擦写间的空闲从 1 分钟拉长到 2.3 小时，保持损失速度放慢 40%；把编程温度从 0 升到 70 摄氏度，编程差异改善 21%；把存储温度从 70 降到 0 摄氏度，保持损失速度放慢 58%。中间一条是统一模型：电压等于初始电压加漂移，漂移由编程差异、自恢复与保持、温度缩放三个部件构成，预测误差 4.9%。下面四格是 HeatWatch 追踪的四样东西：盘温、空闲时间、擦写计数与保持时间、以及在线微调。最下面一条是它的开销与效果：存储开销 0.16%、延迟开销低于 1%、比当时最好再多 24%、相对固定电压 3.85 倍。</desc>
+
+  <defs>
+    <style>
+      text { font-family: 'PingFang SC', 'Microsoft YaHei', 'Noto Sans CJK SC', system-ui, sans-serif; }
+    </style>
+  </defs>
+
+  <rect x="0" y="0" width="760" height="332" fill="#ffffff"/>
+
+  <text x="380" y="34" font-size="16" font-weight="600" fill="#1f2937" text-anchor="middle">温度与自恢复：三条刻画结果、统一模型与 HeatWatch</text>
+  <rect x="25" y="64" width="220" height="54" rx="6" fill="#dbeafe" stroke="#3b82f6"/>
+  <text x="135" y="80.65" font-size="9" fill="#1e40af" text-anchor="middle">自恢复</text>
+  <text x="135" y="94.15" font-size="9" fill="#1e40af" text-anchor="middle">擦写间空闲从 1 分钟到 2.3 小时</text>
+  <text x="135" y="107.65" font-size="9" fill="#1e40af" text-anchor="middle">保持损失速度放慢 40%</text>
+  <rect x="270" y="64" width="220" height="54" rx="6" fill="#dbeafe" stroke="#3b82f6"/>
+  <text x="380" y="80.65" font-size="9" fill="#1e40af" text-anchor="middle">编程温度</text>
+  <text x="380" y="94.15" font-size="9" fill="#1e40af" text-anchor="middle">从 0 到 70 摄氏度</text>
+  <text x="380" y="107.65" font-size="9" fill="#1e40af" text-anchor="middle">编程差异改善 21%</text>
+  <rect x="515" y="64" width="220" height="54" rx="6" fill="#dbeafe" stroke="#3b82f6"/>
+  <text x="625" y="80.65" font-size="9" fill="#1e40af" text-anchor="middle">存储温度</text>
+  <text x="625" y="94.15" font-size="9" fill="#1e40af" text-anchor="middle">从 70 到 0 摄氏度</text>
+  <text x="625" y="107.65" font-size="9" fill="#1e40af" text-anchor="middle">保持损失速度放慢 58%</text>
+  <rect x="25" y="146" width="710" height="30" rx="6" fill="#eff6ff" stroke="#3b82f6"/>
+  <text x="380" y="164.5" font-size="10" fill="#1e40af" text-anchor="middle">统一模型：电压等于初始电压加漂移；漂移由编程差异、自恢复与保持、温度缩放三个部件构成；预测误差 4.9%</text>
+  <rect x="25" y="204" width="158.75" height="45" rx="6" fill="#d1fae5" stroke="#22c55e"/>
+  <text x="104.375" y="222.5" font-size="10" fill="#166534" text-anchor="middle">盘温</text>
+  <text x="104.375" y="237.5" font-size="10" fill="#166534" text-anchor="middle">用盘内已有的温度传感器</text>
+  <rect x="208.75" y="204" width="158.75" height="45" rx="6" fill="#d1fae5" stroke="#22c55e"/>
+  <text x="288.125" y="222.5" font-size="10" fill="#166534" text-anchor="middle">空闲时间</text>
+  <text x="288.125" y="237.5" font-size="10" fill="#166534" text-anchor="middle">记录最近 20 次整盘写入</text>
+  <rect x="392.5" y="204" width="158.75" height="45" rx="6" fill="#d1fae5" stroke="#22c55e"/>
+  <text x="471.875" y="222.5" font-size="10" fill="#166534" text-anchor="middle">擦写计数与保持时间</text>
+  <text x="471.875" y="237.5" font-size="10" fill="#166534" text-anchor="middle">用已有计数与写入时间戳</text>
+  <rect x="576.25" y="204" width="158.75" height="45" rx="6" fill="#d1fae5" stroke="#22c55e"/>
+  <text x="655.625" y="222.5" font-size="10" fill="#166534" text-anchor="middle">在线微调</text>
+  <text x="655.625" y="237.5" font-size="10" fill="#166534" text-anchor="middle">周期采样吸收芯片差异</text>
+  <rect x="25" y="277" width="710" height="30" rx="6" fill="#f3e8ff" stroke="#a855f7"/>
+  <text x="380" y="295.5" font-size="10" fill="#6b21a8" text-anchor="middle">HeatWatch：存储开销是 1 TB 盘里 DRAM 的 0.16%，延迟开销低于读延迟的 1%；比当时最好再多 24%，相对固定电压 3.85 倍</text>
+</svg>

@@ -1,0 +1,37 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 760 293.5" width="760" height="293.5"
+     role="img" aria-labelledby="fig-lecture27-flash-memory-13-title fig-lecture27-flash-memory-13-desc">
+  <title id="fig-lecture27-flash-memory-13-title">这一讲在整门课里的位置</title>
+  <desc id="fig-lecture27-flash-memory-13-desc">上排三格是讲义里真正出现的池内名字：DRAM（p28 与 p125 点名）、SRAM（p125 点名）与 FPGA（实验平台用的两块板）。下面三格是我方为了让读者看清位置而补的：RowHammer 是 DRAM 侧的可靠性问题，与闪存的错误同属一类；Optane 这类存储级内存位于闪存与内存之间；CPU 是上层发出请求的一方，读重试与刷新对它表现为延迟与寿命。最下面一条说明这一节与这张图是 CourseLingo 添加的连接。</desc>
+
+  <defs>
+    <style>
+      text { font-family: 'PingFang SC', 'Microsoft YaHei', 'Noto Sans CJK SC', system-ui, sans-serif; }
+    </style>
+  </defs>
+
+  <rect x="0" y="0" width="760" height="293.5" fill="#ffffff"/>
+
+  <text x="380" y="34" font-size="16" font-weight="600" fill="#1f2937" text-anchor="middle">这一讲在整门课里的位置</text>
+  <rect x="25" y="64" width="220" height="49.5" rx="6" fill="#dbeafe" stroke="#3b82f6"/>
+  <text x="135" y="84.35" font-size="11" fill="#1e40af" text-anchor="middle">DRAM</text>
+  <text x="135" y="100.85" font-size="11" fill="#1e40af" text-anchor="middle">讲义 p28 与 p125 点名</text>
+  <rect x="270" y="64" width="220" height="49.5" rx="6" fill="#dbeafe" stroke="#3b82f6"/>
+  <text x="380" y="84.35" font-size="11" fill="#1e40af" text-anchor="middle">SRAM</text>
+  <text x="380" y="100.85" font-size="11" fill="#1e40af" text-anchor="middle">讲义 p125 点名</text>
+  <rect x="515" y="64" width="220" height="49.5" rx="6" fill="#dbeafe" stroke="#3b82f6"/>
+  <text x="625" y="84.35" font-size="11" fill="#1e40af" text-anchor="middle">FPGA</text>
+  <text x="625" y="100.85" font-size="11" fill="#1e40af" text-anchor="middle">实验平台用的两块板</text>
+  <rect x="25" y="141.5" width="220" height="66" rx="6" fill="#fef3c7" stroke="#f59e0b"/>
+  <text x="135" y="161.85" font-size="11" fill="#b45309" text-anchor="middle">RowHammer</text>
+  <text x="135" y="178.35" font-size="11" fill="#b45309" text-anchor="middle">DRAM 侧的可靠性问题</text>
+  <text x="135" y="194.85" font-size="11" fill="#b45309" text-anchor="middle">与闪存的错误同属一类</text>
+  <rect x="270" y="141.5" width="220" height="66" rx="6" fill="#fef3c7" stroke="#f59e0b"/>
+  <text x="380" y="170.1" font-size="11" fill="#b45309" text-anchor="middle">Optane</text>
+  <text x="380" y="186.6" font-size="11" fill="#b45309" text-anchor="middle">存储级内存，位于闪存与内存之间</text>
+  <rect x="515" y="141.5" width="220" height="66" rx="6" fill="#fef3c7" stroke="#f59e0b"/>
+  <text x="625" y="161.85" font-size="11" fill="#b45309" text-anchor="middle">CPU</text>
+  <text x="625" y="178.35" font-size="11" fill="#b45309" text-anchor="middle">上层发出请求的一方</text>
+  <text x="625" y="194.85" font-size="11" fill="#b45309" text-anchor="middle">读重试与刷新表现为延迟与寿命</text>
+  <rect x="25" y="235.5" width="710" height="33" rx="6" fill="#f8fafc" stroke="#94a3b8"/>
+  <text x="380" y="255.85" font-size="11" fill="#1e293b" text-anchor="middle">这一节与这张图是 CourseLingo 添加的连接；讲义里出现的池内名字只有 DRAM、SRAM 与 FPGA</text>
+</svg>

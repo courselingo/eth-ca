@@ -1,0 +1,31 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 760 254.5" width="760" height="254.5"
+     role="img" aria-labelledby="fig-lecture27-flash-memory-7-title fig-lecture27-flash-memory-7-desc">
+  <title id="fig-lecture27-flash-memory-7-title">邻居辅助纠错：从总体分布到条件分布</title>
+  <desc id="fig-lecture27-flash-memory-7-desc">上排两格是已有观察（正上方邻居影响最大；判断一个单元只用一套按总体分布定的电压）与新观察（紧邻取值不同的单元，其阈值电压分布明显不同）。中间一条是推论：知道紧邻单元的值就能按条件分布找出更准的读参考电压，因为两个状态的条件分布彼此离得更远。下面四格是 NAC 的四步流程：先用总体分布电压读页并缓存；只在纠错失败时触发；读紧邻页并按条件电压重读；替换缓存里的值后再跑一次纠错。</desc>
+
+  <defs>
+    <style>
+      text { font-family: 'PingFang SC', 'Microsoft YaHei', 'Noto Sans CJK SC', system-ui, sans-serif; }
+    </style>
+  </defs>
+
+  <rect x="0" y="0" width="760" height="254.5" fill="#ffffff"/>
+
+  <text x="380" y="34" font-size="16" font-weight="600" fill="#1f2937" text-anchor="middle">邻居辅助纠错：从总体分布到条件分布</text>
+  <rect x="25" y="64" width="342.5" height="49.5" rx="6" fill="#f8fafc" stroke="#94a3b8"/>
+  <text x="196.25" y="84.35" font-size="11" fill="#1e293b" text-anchor="middle">已有观察</text>
+  <text x="196.25" y="100.85" font-size="11" fill="#1e293b" text-anchor="middle">正上方邻居影响最大；判断一个单元只用一套按总体分布定的电压</text>
+  <rect x="392.5" y="64" width="342.5" height="49.5" rx="6" fill="#dbeafe" stroke="#3b82f6"/>
+  <text x="563.75" y="84.35" font-size="11" fill="#1e40af" text-anchor="middle">新观察</text>
+  <text x="563.75" y="100.85" font-size="11" fill="#1e40af" text-anchor="middle">紧邻取值不同的单元，其阈值电压分布明显不同</text>
+  <rect x="25" y="141.5" width="710" height="30" rx="6" fill="#eff6ff" stroke="#3b82f6"/>
+  <text x="380" y="160" font-size="10" fill="#1e40af" text-anchor="middle">推论：知道紧邻单元的值，就能按条件分布找出更准的读参考电压；两个状态的条件分布彼此离得更远（p113、p116）</text>
+  <rect x="25" y="199.5" width="158.75" height="30" rx="6" fill="#d1fae5" stroke="#22c55e"/>
+  <text x="104.375" y="218" font-size="10" fill="#166534" text-anchor="middle">① 用总体分布电压读页并缓存</text>
+  <rect x="208.75" y="199.5" width="158.75" height="30" rx="6" fill="#d1fae5" stroke="#22c55e"/>
+  <text x="288.125" y="218" font-size="10" fill="#166534" text-anchor="middle">② 纠错失败才触发</text>
+  <rect x="392.5" y="199.5" width="158.75" height="30" rx="6" fill="#d1fae5" stroke="#22c55e"/>
+  <text x="471.875" y="218" font-size="10" fill="#166534" text-anchor="middle">③ 读紧邻页并按条件电压重读</text>
+  <rect x="576.25" y="199.5" width="158.75" height="30" rx="6" fill="#d1fae5" stroke="#22c55e"/>
+  <text x="655.625" y="218" font-size="10" fill="#166534" text-anchor="middle">④ 替换缓存值后再纠错</text>
+</svg>

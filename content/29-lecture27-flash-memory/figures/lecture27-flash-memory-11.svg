@@ -1,0 +1,31 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 760 338" width="760" height="338"
+     role="img" aria-labelledby="fig-lecture27-flash-memory-11-title fig-lecture27-flash-memory-11-desc">
+  <title id="fig-lecture27-flash-memory-11-title">用写入热度换寿命</title>
+  <desc id="fig-lecture27-flash-memory-11-desc">上排两格是前提（用刷新放宽保持时间可以让耐久度提升 50 倍，但频繁刷新会吃掉大部分）与关键观察（写入频繁的数据不需要刷新，因为很快会被重写）。中间一条是做法：把写热的页与写冷的页在物理上分区，对两组用不同的垃圾回收、磨损均衡与刷新策略。下面两格是两种做法的差别：传统做法把热页与冷页混在同一个块里，这个块就无法放宽保持时间；分区之后只有热页的块可以放宽。最下面一条是三个倍率：不刷新 3.24 倍、加自适应刷新 12.9 倍、比只用刷新高 1.21 倍。</desc>
+
+  <defs>
+    <style>
+      text { font-family: 'PingFang SC', 'Microsoft YaHei', 'Noto Sans CJK SC', system-ui, sans-serif; }
+    </style>
+  </defs>
+
+  <rect x="0" y="0" width="760" height="338" fill="#ffffff"/>
+
+  <text x="380" y="34" font-size="16" font-weight="600" fill="#1f2937" text-anchor="middle">用写入热度换寿命</text>
+  <rect x="25" y="64" width="342.5" height="49.5" rx="6" fill="#f8fafc" stroke="#94a3b8"/>
+  <text x="196.25" y="84.35" font-size="11" fill="#1e293b" text-anchor="middle">前提</text>
+  <text x="196.25" y="100.85" font-size="11" fill="#1e293b" text-anchor="middle">用刷新放宽保持时间可提升耐久度 50 倍，但频繁刷新吃掉大部分</text>
+  <rect x="392.5" y="64" width="342.5" height="49.5" rx="6" fill="#dbeafe" stroke="#3b82f6"/>
+  <text x="563.75" y="84.35" font-size="11" fill="#1e40af" text-anchor="middle">关键观察</text>
+  <text x="563.75" y="100.85" font-size="11" fill="#1e40af" text-anchor="middle">写入频繁的数据不需要刷新，因为很快会被重写</text>
+  <rect x="25" y="141.5" width="710" height="33" rx="6" fill="#eff6ff" stroke="#3b82f6"/>
+  <text x="380" y="161.85" font-size="11" fill="#1e40af" text-anchor="middle">做法：把写热的页与写冷的页在物理上分区，对两组用不同的垃圾回收、磨损均衡与刷新策略</text>
+  <rect x="25" y="202.5" width="342.5" height="49.5" rx="6" fill="#fef3c7" stroke="#f59e0b"/>
+  <text x="196.25" y="222.85" font-size="11" fill="#b45309" text-anchor="middle">传统做法</text>
+  <text x="196.25" y="239.35" font-size="11" fill="#b45309" text-anchor="middle">热页与冷页混在同一个块里，这个块就无法放宽保持时间</text>
+  <rect x="392.5" y="202.5" width="342.5" height="49.5" rx="6" fill="#d1fae5" stroke="#22c55e"/>
+  <text x="563.75" y="222.85" font-size="11" fill="#166534" text-anchor="middle">分区之后</text>
+  <text x="563.75" y="239.35" font-size="11" fill="#166534" text-anchor="middle">只有热页的块可以放宽保持时间</text>
+  <rect x="25" y="280" width="710" height="33" rx="6" fill="#f3e8ff" stroke="#a855f7"/>
+  <text x="380" y="300.35" font-size="11" fill="#6b21a8" text-anchor="middle">结果：不刷新 3.24 倍；加自适应刷新 12.9 倍（比只用刷新高 1.21 倍）</text>
+</svg>

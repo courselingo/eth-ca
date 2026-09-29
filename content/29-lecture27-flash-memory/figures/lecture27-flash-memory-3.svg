@@ -1,0 +1,27 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 760 324.5" width="760" height="324.5"
+     role="img" aria-labelledby="fig-lecture27-flash-memory-3-title fig-lecture27-flash-memory-3-desc">
+  <title id="fig-lecture27-flash-memory-3-title">保持损失让分布左移，固定的读参考电压因此不再是好选择</title>
+  <desc id="fig-lecture27-flash-memory-3-desc">上面一条是物理事实：阈值电压随时间下降，保持损失让编程态的分布整体向左移动。中间两格是后果与解法：读参考电压固定不动时分布左移会产生原始比特错误；而存在一个让原始比特错误最少的最优读参考电压。下面两条是做法与效果：每约一千次擦写做一次漂移学习并把预测漂移加到默认电压上；原始比特错误率降低 64%、寿命提升 30%。</desc>
+
+  <defs>
+    <style>
+      text { font-family: 'PingFang SC', 'Microsoft YaHei', 'Noto Sans CJK SC', system-ui, sans-serif; }
+    </style>
+  </defs>
+
+  <rect x="0" y="0" width="760" height="324.5" fill="#ffffff"/>
+
+  <text x="380" y="34" font-size="16" font-weight="600" fill="#1f2937" text-anchor="middle">保持损失让分布左移，固定的读参考电压因此不再是好选择</text>
+  <rect x="25" y="64" width="710" height="36" rx="6" fill="#eff6ff" stroke="#3b82f6"/>
+  <text x="380" y="86.2" font-size="12" fill="#1e40af" text-anchor="middle">阈值电压会随时间下降：保持损失让编程态的分布整体向左移动（p15）</text>
+  <rect x="25" y="128" width="342.5" height="49.5" rx="6" fill="#fef3c7" stroke="#f59e0b"/>
+  <text x="196.25" y="148.35" font-size="11" fill="#b45309" text-anchor="middle">读参考电压固定不动</text>
+  <text x="196.25" y="164.85" font-size="11" fill="#b45309" text-anchor="middle">分布左移之后就产生原始比特错误</text>
+  <rect x="392.5" y="128" width="342.5" height="49.5" rx="6" fill="#d1fae5" stroke="#22c55e"/>
+  <text x="563.75" y="148.35" font-size="11" fill="#166534" text-anchor="middle">存在最优读参考电压</text>
+  <text x="563.75" y="164.85" font-size="11" fill="#166534" text-anchor="middle">它让原始比特错误最少（p17）</text>
+  <rect x="25" y="205.5" width="710" height="33" rx="6" fill="#f8fafc" stroke="#94a3b8"/>
+  <text x="380" y="225.85" font-size="11" fill="#1e293b" text-anchor="middle">做法：每约 1000 次擦写做一次漂移学习，用样本单元与相邻单元测出平均漂移，再把默认电压加上预测漂移（p88）</text>
+  <rect x="25" y="266.5" width="710" height="33" rx="6" fill="#f3e8ff" stroke="#a855f7"/>
+  <text x="380" y="286.85" font-size="11" fill="#6b21a8" text-anchor="middle">效果：原始比特错误率降低 64%，擦写寿命提升 30%（32k 位 BCH，可接受误码率 2 乘 10 的负 3 次方）</text>
+</svg>

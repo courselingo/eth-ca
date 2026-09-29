@@ -1,0 +1,37 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 760 409.5" width="760" height="409.5"
+     role="img" aria-labelledby="fig-lecture27-flash-memory-4-title fig-lecture27-flash-memory-4-desc">
+  <title id="fig-lecture27-flash-memory-4-title">四类错误、它们的测法，以及三条刻画结论</title>
+  <desc id="fig-lecture27-flash-memory-4-desc">上排两格把错误分成由操作造成的（读、擦除、编程干扰）与由时间造成的（保持错误，是否发生取决于要求的保持时间）。中间两排四格是各自的测法：擦除错误数没被擦回 11 状态的单元；编程干扰比较整块编程后的数据；读错误比较相邻两次读；保持错误在室温测短期、在 125 摄氏度烤箱里测长期。下面两条是三条结论（原始比特错误率随擦写次数指数增长、保持错误在一年保持时间下超过 99%、它随保持时间变长而增加）与机制（电子从浮栅漏出，编程越满漏得越多）。</desc>
+
+  <defs>
+    <style>
+      text { font-family: 'PingFang SC', 'Microsoft YaHei', 'Noto Sans CJK SC', system-ui, sans-serif; }
+    </style>
+  </defs>
+
+  <rect x="0" y="0" width="760" height="409.5" fill="#ffffff"/>
+
+  <text x="380" y="34" font-size="16" font-weight="600" fill="#1f2937" text-anchor="middle">四类错误、它们的测法，以及三条刻画结论</text>
+  <rect x="25" y="64" width="342.5" height="49.5" rx="6" fill="#fef3c7" stroke="#f59e0b"/>
+  <text x="196.25" y="84.35" font-size="11" fill="#b45309" text-anchor="middle">由操作造成</text>
+  <text x="196.25" y="100.85" font-size="11" fill="#b45309" text-anchor="middle">读错误、擦除错误、编程干扰错误</text>
+  <rect x="392.5" y="64" width="342.5" height="49.5" rx="6" fill="#fef3c7" stroke="#f59e0b"/>
+  <text x="563.75" y="84.35" font-size="11" fill="#b45309" text-anchor="middle">由时间造成</text>
+  <text x="563.75" y="100.85" font-size="11" fill="#b45309" text-anchor="middle">保持错误；是否发生取决于要求的保持时间</text>
+  <rect x="25" y="141.5" width="342.5" height="49.5" rx="6" fill="#dbeafe" stroke="#3b82f6"/>
+  <text x="196.25" y="161.85" font-size="11" fill="#1e40af" text-anchor="middle">擦除错误怎么测</text>
+  <text x="196.25" y="178.35" font-size="11" fill="#1e40af" text-anchor="middle">数没能被擦回 11 状态的单元</text>
+  <rect x="392.5" y="141.5" width="342.5" height="49.5" rx="6" fill="#dbeafe" stroke="#3b82f6"/>
+  <text x="563.75" y="161.85" font-size="11" fill="#1e40af" text-anchor="middle">编程干扰怎么测</text>
+  <text x="563.75" y="178.35" font-size="11" fill="#1e40af" text-anchor="middle">比较整块编程后与刚写完的数据</text>
+  <rect x="25" y="219" width="342.5" height="49.5" rx="6" fill="#dbeafe" stroke="#3b82f6"/>
+  <text x="196.25" y="239.35" font-size="11" fill="#1e40af" text-anchor="middle">读错误怎么测</text>
+  <text x="196.25" y="255.85" font-size="11" fill="#1e40af" text-anchor="middle">连续读同一个块，比较相邻两次</text>
+  <rect x="392.5" y="219" width="342.5" height="49.5" rx="6" fill="#dbeafe" stroke="#3b82f6"/>
+  <text x="563.75" y="239.35" font-size="11" fill="#1e40af" text-anchor="middle">保持错误怎么测</text>
+  <text x="563.75" y="255.85" font-size="11" fill="#1e40af" text-anchor="middle">室温测短期，125 摄氏度烤箱测长期</text>
+  <rect x="25" y="296.5" width="710" height="30" rx="6" fill="#d1fae5" stroke="#22c55e"/>
+  <text x="380" y="315" font-size="10" fill="#166534" text-anchor="middle">三条结论：原始比特错误率随擦写次数指数增长；保持错误在一年保持时间下超过 99%；它随保持时间变长而增加（p48）</text>
+  <rect x="25" y="354.5" width="710" height="30" rx="6" fill="#f8fafc" stroke="#94a3b8"/>
+  <text x="380" y="373" font-size="10" fill="#1e293b" text-anchor="middle">机制：电子从浮栅漏出，编程越满漏得越多；更可能只移动一个窗口；00 与 01 最易受影响（p49、p50）</text>
+</svg>

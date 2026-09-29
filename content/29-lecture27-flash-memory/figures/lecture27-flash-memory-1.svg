@@ -1,0 +1,29 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 760 308" width="760" height="308"
+     role="img" aria-labelledby="fig-lecture27-flash-memory-1-title fig-lecture27-flash-memory-1-desc">
+  <title id="fig-lecture27-flash-memory-1-title">这一讲与前面那条 DRAM 线的关系</title>
+  <desc id="fig-lecture27-flash-memory-1-desc">上面两条是讲义自己给出的对比：p28 把闪存（浮栅里的电荷）与 DRAM（电容里的电荷加晶体管的漏电）并排；共同的难题是存储单元越做越小、可靠地把电荷读出来就越难，而 p125 说读干扰是所有被缩小的存储器的共同问题。中间四格是这一讲的推进顺序：闪存怎么工作、四类错误、一串补救、3D 闪存与温度。最下面一条是与 DRAM 那几讲的区别：那边问怎么算得快与怎么分得公平，这边问错误与寿命。</desc>
+
+  <defs>
+    <style>
+      text { font-family: 'PingFang SC', 'Microsoft YaHei', 'Noto Sans CJK SC', system-ui, sans-serif; }
+    </style>
+  </defs>
+
+  <rect x="0" y="0" width="760" height="308" fill="#ffffff"/>
+
+  <text x="380" y="34" font-size="16" font-weight="600" fill="#1f2937" text-anchor="middle">这一讲与前面那条 DRAM 线的关系</text>
+  <rect x="25" y="64" width="710" height="36" rx="6" fill="#eff6ff" stroke="#3b82f6"/>
+  <text x="380" y="86.2" font-size="12" fill="#1e40af" text-anchor="middle">讲义 p28 把两者并排：闪存用浮栅里的电荷；DRAM 用电容里的电荷加晶体管的漏电</text>
+  <rect x="25" y="128" width="710" height="33" rx="6" fill="#f8fafc" stroke="#94a3b8"/>
+  <text x="380" y="148.35" font-size="11" fill="#1e293b" text-anchor="middle">共同的难题：存储单元越做越小，可靠地把电荷读出来就越难；p125 说读干扰是所有被缩小的存储器的共同问题</text>
+  <rect x="25" y="189" width="158.75" height="33" rx="6" fill="#dbeafe" stroke="#3b82f6"/>
+  <text x="104.375" y="209.35" font-size="11" fill="#1e40af" text-anchor="middle">一、闪存怎么工作</text>
+  <rect x="208.75" y="189" width="158.75" height="33" rx="6" fill="#dbeafe" stroke="#3b82f6"/>
+  <text x="288.125" y="209.35" font-size="11" fill="#1e40af" text-anchor="middle">二、四类错误</text>
+  <rect x="392.5" y="189" width="158.75" height="33" rx="6" fill="#dbeafe" stroke="#3b82f6"/>
+  <text x="471.875" y="209.35" font-size="11" fill="#1e40af" text-anchor="middle">三、一串补救</text>
+  <rect x="576.25" y="189" width="158.75" height="33" rx="6" fill="#dbeafe" stroke="#3b82f6"/>
+  <text x="655.625" y="209.35" font-size="11" fill="#1e40af" text-anchor="middle">四、3D 闪存与温度</text>
+  <rect x="25" y="250" width="710" height="33" rx="6" fill="#f3e8ff" stroke="#a855f7"/>
+  <text x="380" y="270.35" font-size="11" fill="#6b21a8" text-anchor="middle">与 DRAM 那几讲的区别：那边问怎么算得快、怎么分得公平，这边问错误与寿命</text>
+</svg>
