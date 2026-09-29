@@ -1,0 +1,30 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="2 13.0 866 312.0" width="866" height="312.0"
+     role="img" aria-labelledby="fig-memory-ordering-13-title fig-memory-ordering-13-desc">
+  <title id="fig-memory-ordering-13-title">宽松模型：把顺序只留在需要的地方</title>
+  <desc id="fig-memory-ordering-13-desc">讲义介绍宽松一致性：由程序员用栅栏指令划出不需要保序的区域，栅栏之前的所有访存必须在栅栏之前完成，栅栏之后的必须等栅栏完成，而栅栏之间按程序顺序完成。</desc>
+
+  <defs>
+    <style>
+      text { font-family: 'PingFang SC', 'Microsoft YaHei', 'Noto Sans CJK SC', system-ui, sans-serif; }
+    </style>
+    <marker id="arrow" markerWidth="8" markerHeight="8" refX="2" refY="4"
+            orient="auto" markerUnits="userSpaceOnUse">
+      <path d="M0,0 L8,4 L0,8 L2,4 z" fill="#64748b"/>
+    </marker>
+  </defs>
+
+  <rect x="2" y="13.0" width="866" height="312.0" fill="#ffffff"/>
+
+  <text x="435.0" y="48" font-size="16" font-weight="600" fill="#1f2937" text-anchor="middle">宽松模型：把顺序只留在需要的地方</text>
+  <rect x="25" y="70" width="712" height="42" fill="#d1fae5" stroke="#22c55e"/>
+  <text x="381.0" y="95.9" font-size="14" fill="#166534" text-anchor="middle">用栅栏划出不需要保序的区域</text>
+  <rect x="25" y="138" width="340" height="68" fill="#d1fae5" stroke="#22c55e"/>
+  <text x="195.0" y="167.7" font-size="15" fill="#166534" text-anchor="middle">拿到什么</text>
+  <text x="195.0" y="185.7" font-size="12" fill="#166534" text-anchor="middle">硬件实现更简单，性能可以更高</text>
+  <rect x="393" y="138" width="340" height="68" fill="#fce7f3" stroke="#ec4899"/>
+  <text x="563.0" y="167.7" font-size="15" fill="#9d174d" text-anchor="middle">付出什么</text>
+  <text x="563.0" y="185.7" font-size="12" fill="#9d174d" text-anchor="middle">程序员要摆对栅栏，调试更难</text>
+  <rect x="25" y="234" width="820" height="68" fill="#f3e8ff" stroke="#a855f7"/>
+  <text x="435.0" y="263.7" font-size="15" fill="#6b21a8" text-anchor="middle">讲义把它总结成程序员与微架构之间的又一笔取舍</text>
+  <text x="435.0" y="281.7" font-size="12" fill="#6b21a8" text-anchor="middle">这一笔取舍的形状与前面几讲反复出现过的那种一模一样：一边省事，就有一边多事</text>
+</svg>

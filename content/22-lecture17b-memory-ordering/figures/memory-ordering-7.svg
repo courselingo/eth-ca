@@ -1,0 +1,30 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="2 13.0 806 312.0" width="806" height="312.0"
+     role="img" aria-labelledby="fig-memory-ordering-7-title fig-memory-ordering-7-desc">
+  <title id="fig-memory-ordering-7-title">而答案是可以同时进去</title>
+  <desc id="fig-memory-ordering-7-desc">讲义在这一页给出答案：可以。两个处理器可以同时进入临界区，尽管它们各自都遵守冯诺依曼模型。问题不在某一个处理器错了，而在于它们看到的顺序不一样。</desc>
+
+  <defs>
+    <style>
+      text { font-family: 'PingFang SC', 'Microsoft YaHei', 'Noto Sans CJK SC', system-ui, sans-serif; }
+    </style>
+    <marker id="arrow" markerWidth="8" markerHeight="8" refX="2" refY="4"
+            orient="auto" markerUnits="userSpaceOnUse">
+      <path d="M0,0 L8,4 L0,8 L2,4 z" fill="#64748b"/>
+    </marker>
+  </defs>
+
+  <rect x="2" y="13.0" width="806" height="312.0" fill="#ffffff"/>
+
+  <text x="405.0" y="48" font-size="16" font-weight="600" fill="#1f2937" text-anchor="middle">而答案是可以同时进去</text>
+  <rect x="25" y="70" width="712" height="42" fill="#fce7f3" stroke="#ec4899"/>
+  <text x="381.0" y="95.9" font-size="14" fill="#9d174d" text-anchor="middle">两个处理器可以同时进入临界区</text>
+  <rect x="25" y="138" width="340" height="68" fill="#dbeafe" stroke="#3b82f6"/>
+  <text x="195.0" y="167.7" font-size="15" fill="#1e40af" text-anchor="middle">两个处理器各自都</text>
+  <text x="195.0" y="185.7" font-size="12" fill="#1e40af" text-anchor="middle">遵守了冯诺依曼模型</text>
+  <rect x="393" y="138" width="340" height="68" fill="#fce7f3" stroke="#ec4899"/>
+  <text x="563.0" y="167.7" font-size="15" fill="#9d174d" text-anchor="middle">而结果仍然是错的</text>
+  <text x="563.0" y="185.7" font-size="12" fill="#9d174d" text-anchor="middle">因为它们看到的内存顺序不同</text>
+  <rect x="25" y="234" width="760" height="68" fill="#f3e8ff" stroke="#a855f7"/>
+  <text x="405.0" y="263.7" font-size="15" fill="#6b21a8" text-anchor="middle">「每个处理器都对，合起来却错」是这一讲最关键的一句</text>
+  <text x="405.0" y="281.7" font-size="12" fill="#6b21a8" text-anchor="middle">它说明正确性不能逐个处理器地检查</text>
+</svg>

@@ -1,0 +1,30 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="2 13.0 846 312.0" width="846" height="312.0"
+     role="img" aria-labelledby="fig-memory-ordering-11-title fig-memory-ordering-11-desc">
+  <title id="fig-memory-ordering-11-title">顺序一致性的两个推论</title>
+  <desc id="fig-memory-ordering-11-desc">讲义给了两条推论。在同一次执行里，所有处理器看到同一个全局顺序，所以不会有正确性问题；而在不同次执行之间，观察到的全局顺序可以不同，所以调试依然困难。</desc>
+
+  <defs>
+    <style>
+      text { font-family: 'PingFang SC', 'Microsoft YaHei', 'Noto Sans CJK SC', system-ui, sans-serif; }
+    </style>
+    <marker id="arrow" markerWidth="8" markerHeight="8" refX="2" refY="4"
+            orient="auto" markerUnits="userSpaceOnUse">
+      <path d="M0,0 L8,4 L0,8 L2,4 z" fill="#64748b"/>
+    </marker>
+  </defs>
+
+  <rect x="2" y="13.0" width="846" height="312.0" fill="#ffffff"/>
+
+  <text x="425.0" y="48" font-size="16" font-weight="600" fill="#1f2937" text-anchor="middle">顺序一致性的两个推论</text>
+  <rect x="25" y="70" width="712" height="42" fill="#eff6ff" stroke="#3b82f6"/>
+  <text x="381.0" y="95.9" font-size="14" fill="#1e40af" text-anchor="middle">一次执行内一致，多次执行之间可以不同</text>
+  <rect x="25" y="138" width="340" height="68" fill="#d1fae5" stroke="#22c55e"/>
+  <text x="195.0" y="167.7" font-size="15" fill="#166534" text-anchor="middle">推论一</text>
+  <text x="195.0" y="185.7" font-size="12" fill="#166534" text-anchor="middle">同一次执行内没有正确性问题</text>
+  <rect x="393" y="138" width="340" height="68" fill="#fce7f3" stroke="#ec4899"/>
+  <text x="563.0" y="167.7" font-size="15" fill="#9d174d" text-anchor="middle">推论二</text>
+  <text x="563.0" y="185.7" font-size="12" fill="#9d174d" text-anchor="middle">不同次执行的顺序可以不一样，调试仍难</text>
+  <rect x="25" y="234" width="800" height="68" fill="#f3e8ff" stroke="#a855f7"/>
+  <text x="425.0" y="263.7" font-size="15" fill="#6b21a8" text-anchor="middle">第二条推理解释了一件实践中的事：并发程序的 bug 往往难以复现</text>
+  <text x="425.0" y="281.7" font-size="12" fill="#6b21a8" text-anchor="middle">顺序一致保证了「这次跑是对的」，但没有保证「每次跑都一样」</text>
+</svg>

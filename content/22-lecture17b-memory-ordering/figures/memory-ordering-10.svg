@@ -1,0 +1,30 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="2 13.0 836 312.0" width="836" height="312.0"
+     role="img" aria-labelledby="fig-memory-ordering-10-title fig-memory-ordering-10-desc">
+  <title id="fig-memory-ordering-10-title">程序员看到的那幅图</title>
+  <desc id="fig-memory-ordering-10-desc">讲义给了一个很好用的比喻：内存像一个开关，一次只服务一个处理器的一次读或写；所有处理器同时看到正在被服务的那一次操作；而每个处理器自己的操作按程序顺序被服务。</desc>
+
+  <defs>
+    <style>
+      text { font-family: 'PingFang SC', 'Microsoft YaHei', 'Noto Sans CJK SC', system-ui, sans-serif; }
+    </style>
+    <marker id="arrow" markerWidth="8" markerHeight="8" refX="2" refY="4"
+            orient="auto" markerUnits="userSpaceOnUse">
+      <path d="M0,0 L8,4 L0,8 L2,4 z" fill="#64748b"/>
+    </marker>
+  </defs>
+
+  <rect x="2" y="13.0" width="836" height="312.0" fill="#ffffff"/>
+
+  <text x="420.0" y="48" font-size="16" font-weight="600" fill="#1f2937" text-anchor="middle">程序员看到的那幅图</text>
+  <rect x="25" y="70" width="712" height="42" fill="#d1fae5" stroke="#22c55e"/>
+  <text x="381.0" y="95.9" font-size="14" fill="#166534" text-anchor="middle">内存像一个一次只服务一个请求的开关</text>
+  <rect x="25" y="138" width="340" height="68" fill="#fef3c7" stroke="#f59e0b"/>
+  <text x="195.0" y="167.7" font-size="15" fill="#b45309" text-anchor="middle">同时看到</text>
+  <text x="195.0" y="185.7" font-size="12" fill="#b45309" text-anchor="middle">所有处理器看到同一个正在服务的操作</text>
+  <rect x="393" y="138" width="340" height="68" fill="#fef3c7" stroke="#f59e0b"/>
+  <text x="563.0" y="167.7" font-size="15" fill="#b45309" text-anchor="middle">按序服务</text>
+  <text x="563.0" y="185.7" font-size="12" fill="#b45309" text-anchor="middle">每个处理器自己的操作按程序顺序</text>
+  <rect x="25" y="234" width="790" height="68" fill="#f3e8ff" stroke="#a855f7"/>
+  <text x="420.0" y="263.7" font-size="15" fill="#6b21a8" text-anchor="middle">这个比喻的价值在于它把「全局顺序」变成了一个可以想象的画面</text>
+  <text x="420.0" y="281.7" font-size="12" fill="#6b21a8" text-anchor="middle">而它的代价也藏在这个画面里：一个开关意味着不能并行</text>
+</svg>
