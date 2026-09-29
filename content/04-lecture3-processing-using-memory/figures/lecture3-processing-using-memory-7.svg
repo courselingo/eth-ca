@@ -24,7 +24,7 @@
   <text x="261" y="89.2" font-size="12" fill="#1e40af" text-anchor="middle">行 B</text>
 
   <rect x="359" y="64" width="140" height="42" rx="8" fill="#f3e8ff" stroke="#a855f7" stroke-width="1.5"/>
-  <text x="429" y="89.2" font-size="12" fill="#6b21a8" text-anchor="middle">行 C（全零行）</text>
+  <text x="429" y="89.2" font-size="12" fill="#6b21a8" text-anchor="middle">行 C</text>
 
   <path d="M93,111 L93,123" fill="none" stroke="#64748b" stroke-width="1.5" marker-end="url(#arrow)"/>
   <path d="M261,111 L261,123" fill="none" stroke="#64748b" stroke-width="1.5" marker-end="url(#arrow)"/>

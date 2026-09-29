@@ -26,10 +26,8 @@
   <rect x="23" y="204" width="380" height="42" rx="8" fill="#f3e8ff" stroke="#a855f7" stroke-width="1.5"/>
   <text x="213" y="229.2" font-size="12" fill="#6b21a8" text-anchor="middle">相邻行（victim）</text>
 
-  <path d="M350,111 L350,123" fill="none" stroke="#ec4899" stroke-width="1.5" marker-end="url(#arrow)"/>
-  <path d="M378,129 L378,117" fill="none" stroke="#ec4899" stroke-width="1.5" marker-end="url(#arrow)"/>
-  <path d="M350,181 L350,193" fill="none" stroke="#ec4899" stroke-width="1.5" marker-end="url(#arrow)"/>
-  <path d="M378,199 L378,187" fill="none" stroke="#ec4899" stroke-width="1.5" marker-end="url(#arrow)"/>
+  <path d="M365,129 L365,117" fill="none" stroke="#ec4899" stroke-width="1.5" marker-end="url(#arrow)"/>
+  <path d="M365,181 L365,193" fill="none" stroke="#ec4899" stroke-width="1.5" marker-end="url(#arrow)"/>
 
   <text x="480" y="150" font-size="12" fill="#9d174d" text-anchor="start">反复激活这一行</text>
   <text x="480" y="168" font-size="12" fill="#9d174d" text-anchor="start">相邻行被扰动</text>

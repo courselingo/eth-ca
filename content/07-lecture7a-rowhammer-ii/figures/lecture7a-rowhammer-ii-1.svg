@@ -23,7 +23,7 @@
 
   <rect x="339" y="64" width="130" height="58" rx="8" fill="#fef3c7" stroke="#f59e0b" stroke-width="1.5"/>
   <text x="404" y="88.2" font-size="12" fill="#b45309" text-anchor="middle">可扩展</text>
-  <text x="404" y="106.2" font-size="12" fill="#b45309" text-anchor="middle">跟着恶化走</text>
+  <text x="404" y="106.2" font-size="12" fill="#b45309" text-anchor="middle">跟着脆弱性变强</text>
 
   <rect x="497" y="64" width="130" height="58" rx="8" fill="#fef3c7" stroke="#f59e0b" stroke-width="1.5"/>
   <text x="562" y="88.2" font-size="12" fill="#b45309" text-anchor="middle">确定性防护</text>

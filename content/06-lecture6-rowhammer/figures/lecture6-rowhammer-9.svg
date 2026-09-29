@@ -1,7 +1,7 @@
 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 566 304" width="566" height="304"
      role="img" aria-labelledby="fig-l6-9-title fig-l6-9-desc">
-  <title id="fig-l6-9-title">三个新维度都能削弱现有防御</title>
-  <desc id="fig-l6-9-desc">让攻击行的激活时间更长可把最小激活次数降低 36%；降低字线电压更脆弱；行列之间脆弱程度差别很大。</desc>
+  <title id="fig-l6-9-title">三个新维度，每一个都推翻现有防御的一条假设</title>
+  <desc id="fig-l6-9-desc">让攻击行的激活时间更长可把最小激活次数降低 36%；降低字线电压反而不那么脆弱，代价是行激活延迟与保持时间；行列之间的脆弱程度差别很大，平均值不能用来判断安全。</desc>
 
   <defs>
     <style>
@@ -11,7 +11,7 @@
 
   <rect x="0" y="0" width="566" height="304" fill="#ffffff"/>
 
-  <text x="283" y="34" font-size="16" font-weight="600" fill="#1f2937" text-anchor="middle">三个新维度，每一个都能削弱防御</text>
+  <text x="283" y="34" font-size="16" font-weight="600" fill="#1f2937" text-anchor="middle">三个新维度，每一个都推翻现有防御的一条假设</text>
 
   <rect x="23" y="64" width="520" height="54" rx="8" fill="#fce7f3" stroke="#ec4899" stroke-width="1.5"/>
   <text x="283" y="86.2" font-size="12" fill="#9d174d" text-anchor="middle">攻击行的激活时长</text>
