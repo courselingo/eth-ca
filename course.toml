@@ -1,0 +1,62 @@
+# CourseLingo 课程元数据
+
+[course]
+id = "eth-ca"
+title = "Computer Architecture (from Digital Design and Computer Architecture)"
+title_zh = "计算机体系结构"
+institution = "ETH Zurich"
+course_number = "DDCA / CA (safari.ethz.ch)"
+homepage = "https://safari.ethz.ch/digitaltechnik/spring2023/doku.php?id=start"
+source_language = "en"
+target_language = "zh"
+
+# ★ 授权闸门。逐页核实见平台仓库 docs/full-translation-scope.md，
+#   第二人独立复核（Lead 签字）见下方 evidence_url 与 notes。
+[license]
+verified = true
+terms = "CC BY-NC-SA 4.0（safari.ethz.ch wiki 站点级页脚许可，逐页出现；DokuWiki）"
+evidence_url = "https://safari.ethz.ch/digitaltechnik/spring2023/doku.php?id=start"
+checked_at = "2026-09-29"
+allows_commercial = false
+allows_derivatives = true
+allows_translation = true
+share_alike = true
+redistribution = "allowed"
+notes = '''
+ETH Zurich 的两门课（DDCA Spring 2023 / CA Fall 2022）**每一个 wiki 页面**的页脚都带同一份
+站点级许可块（DokuWiki footer）：
+
+    Except where otherwise noted, content on this wiki is licensed under the following license:
+    <a href="https://creativecommons.org/licenses/by-nc-sa/4.0/deed.en" rel="license"> CC BY-NC-SA 4.0
+
+★ 与 6.824 的关键对照：6.824 的徽章**全站只在主页**（子页面 0 命中 ⇒ 覆盖范围无法确立）；
+ETH 的许可块**逐页出现** ⇒ 覆盖范围是「this wiki」，这是**站点级**声明。
+这正是本项目把 ETH 判 A、把 6.824 判未确认的那条分界线。
+
+第二人独立复核（Lead 签字，2026-09-29）：`docs/audit/licence-eth-ddca-ca-second-review.md`
+实测 3/3 页（DDCA sp2023 start+lectures、CA fa2022 start）均为 rel=license=2 / by-nc-sa=3，
+逐字页脚原文一致 ⇒ 复核通过。
+
+⚠️ 例外条款 `Except where otherwise noted` 真实存在 ⇒ 第三方材料必须逐件排除：
+客座报告、会议论文（*_micro2021/2022、hermes-*、pluto_*、segram_* 等）、(Paper) 项、
+YouTube 视频、作业材料；助教材料（ataberk-* / kanellok-*）须逐件确认后才可考虑。
+
+写清版本前缀：/digitaltechnik/spring2023/… 或 /architecture/fall2022/…；
+不要用不带版本的 /digitaltechnik/…（现指向 Spring 2026）。
+'''
+
+# 按材料类型逐项核实 —— 闸门只认这里（validate.py 的 license_allows()）。
+[license.materials]
+notes = true       # wiki 文本 + 课程自制 onur-* 讲义
+slides = false      # 幻灯片本体未逐件打开核实（本次第二人复核也不涉及文件内部）
+video = false      # YouTube 外链，平台条款另计
+textbook = false    # 无指定开放教材
+other = false      # 助教材料须逐件确认无 otherwise noted
+
+[output]
+default_mode = "explanation"   # explanation | transcript（transcript 需该 source_kind 已授权）
+
+# 站点（GitHub Pages）—— build_site.py 用这两项生成 MkDocs 的 repo_url / site_url。
+[site]
+repo = "courselingo/eth-ca"
+url = "https://courselingo.github.io/eth-ca/"

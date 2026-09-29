@@ -1,0 +1,38 @@
+# CourseLingo 术语表 · ETH Computer Architecture
+# 格式见平台仓库 docs/pipeline-spec.md。术语一致率由 validate.py 校验。
+
+[[term]]
+key = "ISA"
+zh = "指令集架构"
+en = "Instruction Set Architecture"
+note = "软件与硬件的契约：规定有哪些指令、寄存器与寻址方式，不规定怎么实现"
+
+[[term]]
+key = "microarchitecture"
+zh = "微架构"
+en = "microarchitecture"
+note = "ISA 的具体实现方式：流水线、乱序、缓存层次都属于这一层"
+
+[[term]]
+key = "pipeline"
+zh = "流水线"
+en = "pipeline"
+note = "把一条指令的执行切成若干级、各级并行处理不同指令"
+
+[[term]]
+key = "hazard"
+zh = "冒险"
+en = "hazard"
+note = "流水线里后一条指令需要前一条还没写回的结果时产生的冲突"
+
+[[term]]
+key = "cache"
+zh = "缓存"
+en = "cache"
+note = "利用局部性把常用数据放在离处理器更近的地方"
+
+[[term]]
+key = "combinational logic"
+zh = "组合逻辑"
+en = "combinational logic"
+note = "输出只由当前输入决定，与历史无关"
