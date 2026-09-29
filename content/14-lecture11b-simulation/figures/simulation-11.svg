@@ -1,0 +1,30 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="2 13.0 846 312.0" width="846" height="312.0"
+     role="img" aria-labelledby="fig-simulation-11-title fig-simulation-11-desc">
+  <title id="fig-simulation-11-title">一个逃不掉的老问题：功能与时序要分开</title>
+  <desc id="fig-simulation-11-desc">讲义列的通用问题里，第一条是功能仿真与时序仿真的分工与集成。功能负责算对结果，时序负责算对花多少时间，两者要能对上。</desc>
+
+  <defs>
+    <style>
+      text { font-family: 'PingFang SC', 'Microsoft YaHei', 'Noto Sans CJK SC', system-ui, sans-serif; }
+    </style>
+    <marker id="arrow" markerWidth="8" markerHeight="8" refX="2" refY="4"
+            orient="auto" markerUnits="userSpaceOnUse">
+      <path d="M0,0 L8,4 L0,8 L2,4 z" fill="#64748b"/>
+    </marker>
+  </defs>
+
+  <rect x="2" y="13.0" width="846" height="312.0" fill="#ffffff"/>
+
+  <text x="425.0" y="48" font-size="16" font-weight="600" fill="#1f2937" text-anchor="middle">一个逃不掉的老问题：功能与时序要分开</text>
+  <rect x="25" y="70" width="712" height="42" fill="#eff6ff" stroke="#3b82f6"/>
+  <text x="381.0" y="95.9" font-size="14" fill="#1e40af" text-anchor="middle">功能管算对结果，时序管算对时间</text>
+  <rect x="25" y="138" width="340" height="68" fill="#dbeafe" stroke="#3b82f6"/>
+  <text x="195.0" y="167.7" font-size="15" fill="#1e40af" text-anchor="middle">功能仿真</text>
+  <text x="195.0" y="185.7" font-size="12" fill="#1e40af" text-anchor="middle">程序跑出正确的结果</text>
+  <rect x="393" y="138" width="340" height="68" fill="#dbeafe" stroke="#3b82f6"/>
+  <text x="563.0" y="167.7" font-size="15" fill="#1e40af" text-anchor="middle">时序仿真</text>
+  <text x="563.0" y="185.7" font-size="12" fill="#1e40af" text-anchor="middle">每个程序花多少时间、吞吐多少</text>
+  <rect x="25" y="234" width="800" height="68" fill="#f3e8ff" stroke="#a855f7"/>
+  <text x="425.0" y="263.7" font-size="15" fill="#6b21a8" text-anchor="middle">讲义列的相关问题还有：全系统还是单部件、完整负载还是采样、</text>
+  <text x="425.0" y="281.7" font-size="12" fill="#6b21a8" text-anchor="middle">以及冷启动与稳态的区别、状态维护与恢复、事件驱动还是逐周期轮询</text>
+</svg>

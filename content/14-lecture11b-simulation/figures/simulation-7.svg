@@ -1,0 +1,33 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="2 13.0 806 312.0" width="806" height="312.0"
+     role="img" aria-labelledby="fig-simulation-7-title fig-simulation-7-desc">
+  <title id="fig-simulation-7-title">评估一台仿真器的三个指标</title>
+  <desc id="fig-simulation-7-desc">讲义给了三个指标：速度（跑得多快）、灵活性（改起来多容易）、以及准确性（给出的数与真实设计的差距）。而三者的相对重要性取决于你处在设计过程的哪一步。</desc>
+
+  <defs>
+    <style>
+      text { font-family: 'PingFang SC', 'Microsoft YaHei', 'Noto Sans CJK SC', system-ui, sans-serif; }
+    </style>
+    <marker id="arrow" markerWidth="8" markerHeight="8" refX="2" refY="4"
+            orient="auto" markerUnits="userSpaceOnUse">
+      <path d="M0,0 L8,4 L0,8 L2,4 z" fill="#64748b"/>
+    </marker>
+  </defs>
+
+  <rect x="2" y="13.0" width="806" height="312.0" fill="#ffffff"/>
+
+  <text x="405.0" y="48" font-size="16" font-weight="600" fill="#1f2937" text-anchor="middle">评估一台仿真器的三个指标</text>
+  <rect x="25" y="70" width="712" height="42" fill="#eff6ff" stroke="#3b82f6"/>
+  <text x="381.0" y="95.9" font-size="14" fill="#1e40af" text-anchor="middle">速度、灵活性、准确性</text>
+  <rect x="25" y="138" width="225" height="68" fill="#fef3c7" stroke="#f59e0b"/>
+  <text x="137.5" y="167.7" font-size="15" fill="#b45309" text-anchor="middle">速度</text>
+  <text x="137.5" y="185.7" font-size="12" fill="#b45309" text-anchor="middle">跑得多快</text>
+  <rect x="278" y="138" width="225" height="68" fill="#fef3c7" stroke="#f59e0b"/>
+  <text x="390.5" y="167.7" font-size="15" fill="#b45309" text-anchor="middle">灵活性</text>
+  <text x="390.5" y="185.7" font-size="12" fill="#b45309" text-anchor="middle">改起来多容易</text>
+  <rect x="531" y="138" width="225" height="68" fill="#d1fae5" stroke="#22c55e"/>
+  <text x="643.5" y="167.7" font-size="15" fill="#166534" text-anchor="middle">准确性</text>
+  <text x="643.5" y="185.7" font-size="12" fill="#166534" text-anchor="middle">与真实差多少</text>
+  <rect x="25" y="234" width="760" height="68" fill="#f3e8ff" stroke="#a855f7"/>
+  <text x="405.0" y="263.7" font-size="15" fill="#6b21a8" text-anchor="middle">最后那句是关键：三个指标的权重不是固定的，而是随目标变的</text>
+  <text x="405.0" y="281.7" font-size="12" fill="#6b21a8" text-anchor="middle">同一台仿真器在探索期与验证期的可用程度可以完全不同</text>
+</svg>

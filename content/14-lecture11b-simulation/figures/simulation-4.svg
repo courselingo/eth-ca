@@ -1,0 +1,30 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="2 13.0 776 312.0" width="776" height="312.0"
+     role="img" aria-labelledby="fig-simulation-4-title fig-simulation-4-desc">
+  <title id="fig-simulation-4-title">评估为什么难：答案通常取决于负载</title>
+  <desc id="fig-simulation-4-desc">讲义给的理由有三条：同一个想法在不同负载上效果不同；系统里有很多设计选择与参数，组合太多没法都评一遍；而这些参数自己还会变。</desc>
+
+  <defs>
+    <style>
+      text { font-family: 'PingFang SC', 'Microsoft YaHei', 'Noto Sans CJK SC', system-ui, sans-serif; }
+    </style>
+    <marker id="arrow" markerWidth="8" markerHeight="8" refX="2" refY="4"
+            orient="auto" markerUnits="userSpaceOnUse">
+      <path d="M0,0 L8,4 L0,8 L2,4 z" fill="#64748b"/>
+    </marker>
+  </defs>
+
+  <rect x="2" y="13.0" width="776" height="312.0" fill="#ffffff"/>
+
+  <text x="390.0" y="48" font-size="16" font-weight="600" fill="#1f2937" text-anchor="middle">评估为什么难：答案通常取决于负载</text>
+  <rect x="25" y="70" width="712" height="42" fill="#fce7f3" stroke="#ec4899"/>
+  <text x="381.0" y="95.9" font-size="14" fill="#9d174d" text-anchor="middle">评估难的三条理由</text>
+  <rect x="25" y="138" width="340" height="68" fill="#fce7f3" stroke="#ec4899"/>
+  <text x="195.0" y="167.7" font-size="15" fill="#9d174d" text-anchor="middle">结论不唯一</text>
+  <text x="195.0" y="185.7" font-size="12" fill="#9d174d" text-anchor="middle">效果随负载变化</text>
+  <rect x="393" y="138" width="340" height="68" fill="#fce7f3" stroke="#ec4899"/>
+  <text x="563.0" y="167.7" font-size="15" fill="#9d174d" text-anchor="middle">组合太多</text>
+  <text x="563.0" y="185.7" font-size="12" fill="#9d174d" text-anchor="middle">参数与选择多到评不完，且还在变</text>
+  <rect x="25" y="234" width="730" height="68" fill="#f3e8ff" stroke="#a855f7"/>
+  <text x="390.0" y="263.7" font-size="15" fill="#6b21a8" text-anchor="middle">讲义举的例子是缓存、流水线，以及前面几讲讲过的那些方案</text>
+  <text x="390.0" y="281.7" font-size="12" fill="#6b21a8" text-anchor="middle">三条合起来说明：不能只用一个数给一个方案下结论</text>
+</svg>

@@ -1,0 +1,30 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="2 13.0 856 312.0" width="856" height="312.0"
+     role="img" aria-labelledby="fig-simulation-12-title fig-simulation-12-desc">
+  <title id="fig-simulation-12-title">讲义给的一个具体例子：一个快速可扩展的访存仿真器</title>
+  <desc id="fig-simulation-12-desc">讲义用一个访存仿真器做例子。它的动机是 DRAM 与内存控制器的版图一直在变，所以需要一个又快又容易扩展的工具；它开箱支持多种标准，并比当时最快的开源仿真器快约 2.5 倍。</desc>
+
+  <defs>
+    <style>
+      text { font-family: 'PingFang SC', 'Microsoft YaHei', 'Noto Sans CJK SC', system-ui, sans-serif; }
+    </style>
+    <marker id="arrow" markerWidth="8" markerHeight="8" refX="2" refY="4"
+            orient="auto" markerUnits="userSpaceOnUse">
+      <path d="M0,0 L8,4 L0,8 L2,4 z" fill="#64748b"/>
+    </marker>
+  </defs>
+
+  <rect x="2" y="13.0" width="856" height="312.0" fill="#ffffff"/>
+
+  <text x="430.0" y="48" font-size="16" font-weight="600" fill="#1f2937" text-anchor="middle">讲义给的一个具体例子：一个快速可扩展的访存仿真器</text>
+  <rect x="25" y="70" width="712" height="42" fill="#d1fae5" stroke="#22c55e"/>
+  <text x="381.0" y="95.9" font-size="14" fill="#166534" text-anchor="middle">一个快而好扩展的访存仿真器</text>
+  <rect x="25" y="138" width="340" height="68" fill="#dbeafe" stroke="#3b82f6"/>
+  <text x="195.0" y="167.7" font-size="15" fill="#1e40af" text-anchor="middle">它为什么存在</text>
+  <text x="195.0" y="185.7" font-size="12" fill="#1e40af" text-anchor="middle">标准与控制器的版图一直在变</text>
+  <rect x="393" y="138" width="340" height="68" fill="#d1fae5" stroke="#22c55e"/>
+  <text x="563.0" y="167.7" font-size="15" fill="#166534" text-anchor="middle">它做到什么</text>
+  <text x="563.0" y="185.7" font-size="12" fill="#166534" text-anchor="middle">开箱支持多标准，比最快开源快约 2.5 倍</text>
+  <rect x="25" y="234" width="810" height="68" fill="#f3e8ff" stroke="#a855f7"/>
+  <text x="430.0" y="263.7" font-size="15" fill="#6b21a8" text-anchor="middle">它同时支持多种标准，也支持前面几讲里那些提案（含 SALP、AL-DRAM 等）</text>
+  <text x="430.0" y="281.7" font-size="12" fill="#6b21a8" text-anchor="middle">所以它把「一个工具要活多久」这件事答在了扩展性上</text>
+</svg>

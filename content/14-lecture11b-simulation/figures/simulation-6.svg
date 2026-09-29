@@ -1,0 +1,30 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="2 13.0 796 312.0" width="796" height="312.0"
+     role="img" aria-labelledby="fig-simulation-6-title fig-simulation-6-desc">
+  <title id="fig-simulation-6-title">为什么要在高层做仿真</title>
+  <desc id="fig-simulation-6-desc">讲义给的理由很直接：在寄存器传输级做仿真，对探索设计空间来说是不可行的，太费时间。它列了三种「尤其」：负载多、要预测的片段长、要试的设计选择多。</desc>
+
+  <defs>
+    <style>
+      text { font-family: 'PingFang SC', 'Microsoft YaHei', 'Noto Sans CJK SC', system-ui, sans-serif; }
+    </style>
+    <marker id="arrow" markerWidth="8" markerHeight="8" refX="2" refY="4"
+            orient="auto" markerUnits="userSpaceOnUse">
+      <path d="M0,0 L8,4 L0,8 L2,4 z" fill="#64748b"/>
+    </marker>
+  </defs>
+
+  <rect x="2" y="13.0" width="796" height="312.0" fill="#ffffff"/>
+
+  <text x="400.0" y="48" font-size="16" font-weight="600" fill="#1f2937" text-anchor="middle">为什么要在高层做仿真</text>
+  <rect x="25" y="70" width="712" height="42" fill="#fce7f3" stroke="#ec4899"/>
+  <text x="381.0" y="95.9" font-size="14" fill="#9d174d" text-anchor="middle">寄存器传输级太慢，撑不起设计空间探索</text>
+  <rect x="25" y="138" width="340" height="68" fill="#fce7f3" stroke="#ec4899"/>
+  <text x="195.0" y="167.7" font-size="15" fill="#9d174d" text-anchor="middle">尤其在哪三种情况</text>
+  <text x="195.0" y="185.7" font-size="12" fill="#9d174d" text-anchor="middle">负载多、片段长、选择多</text>
+  <rect x="393" y="138" width="340" height="68" fill="#dbeafe" stroke="#3b82f6"/>
+  <text x="563.0" y="167.7" font-size="15" fill="#1e40af" text-anchor="middle">它列的选择有哪些</text>
+  <text x="563.0" y="185.7" font-size="12" fill="#1e40af" text-anchor="middle">缓存、访存调度、乱序、各队列大小</text>
+  <rect x="25" y="234" width="750" height="68" fill="#f3e8ff" stroke="#a855f7"/>
+  <text x="400.0" y="263.7" font-size="15" fill="#6b21a8" text-anchor="middle">目标是快速探索，看哪些选择值得进入下一代平台</text>
+  <text x="400.0" y="281.7" font-size="12" fill="#6b21a8" text-anchor="middle">所以它要的是相对趋势，而不是绝对数字</text>
+</svg>

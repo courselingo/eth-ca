@@ -1,0 +1,30 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="2 13.0 836 312.0" width="836" height="312.0"
+     role="img" aria-labelledby="fig-simulation-10-title fig-simulation-10-desc">
+  <title id="fig-simulation-10-title">仿真是一个逐步细化的过程</title>
+  <desc id="fig-simulation-10-desc">讲义把仿真的层级排成一串：抽象的高层模型、较不抽象的中层模型、什么都建的低层模型，最后是真实设计。往下走时抽象度降低、准确性（希望）提高，而灵活性与速度降低。</desc>
+
+  <defs>
+    <style>
+      text { font-family: 'PingFang SC', 'Microsoft YaHei', 'Noto Sans CJK SC', system-ui, sans-serif; }
+    </style>
+    <marker id="arrow" markerWidth="8" markerHeight="8" refX="2" refY="4"
+            orient="auto" markerUnits="userSpaceOnUse">
+      <path d="M0,0 L8,4 L0,8 L2,4 z" fill="#64748b"/>
+    </marker>
+  </defs>
+
+  <rect x="2" y="13.0" width="836" height="312.0" fill="#ffffff"/>
+
+  <text x="420.0" y="48" font-size="16" font-weight="600" fill="#1f2937" text-anchor="middle">仿真是一个逐步细化的过程</text>
+  <rect x="25" y="70" width="712" height="42" fill="#eff6ff" stroke="#3b82f6"/>
+  <text x="381.0" y="95.9" font-size="14" fill="#1e40af" text-anchor="middle">从高层模型一路细化到真实设计</text>
+  <rect x="25" y="138" width="340" height="68" fill="#fef3c7" stroke="#f59e0b"/>
+  <text x="195.0" y="167.7" font-size="15" fill="#b45309" text-anchor="middle">往下走</text>
+  <text x="195.0" y="185.7" font-size="12" fill="#b45309" text-anchor="middle">抽象度降、准确性升、灵活性降</text>
+  <rect x="393" y="138" width="340" height="68" fill="#d1fae5" stroke="#22c55e"/>
+  <text x="563.0" y="167.7" font-size="15" fill="#166534" text-anchor="middle">但它可以回头</text>
+  <text x="563.0" y="185.7" font-size="12" fill="#166534" text-anchor="middle">发现高层模型错了就回去改</text>
+  <rect x="25" y="234" width="790" height="68" fill="#f3e8ff" stroke="#a855f7"/>
+  <text x="420.0" y="263.7" font-size="15" fill="#6b21a8" text-anchor="middle">最后那一句让这个模型不像流水线：细化是可以来回的</text>
+  <text x="420.0" y="281.7" font-size="12" fill="#6b21a8" text-anchor="middle">而「准确性希望提高」这个措辞也留了余地：不细心的话它不一定提高</text>
+</svg>
