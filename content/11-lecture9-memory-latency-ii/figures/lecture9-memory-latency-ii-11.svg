@@ -1,0 +1,40 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 720 224" width="720" height="224"
+     role="img" aria-labelledby="fig-l9-11-title fig-l9-11-desc">
+  <title id="fig-l9-11-title">把「低于可靠值运行」换成三种东西</title>
+  <desc id="fig-l9-11-desc">时间轴上三件工作都从「低于可靠值运行」取材：2018 年的 DRAM 延迟 PUF 用延迟失败图案当器件指纹，一次响应 88.2 ms；2019 年的 D-RaNGe 用单元失败概率当熵源，717.4 Mb/s 与 100 ns；2021 年的 QUAC-TRNG 一次激活四行取熵，5.4 Gb/s 与 274 ns。</desc>
+
+  <defs>
+    <style>
+      text { font-family: 'PingFang SC', 'Microsoft YaHei', 'Noto Sans CJK SC', system-ui, sans-serif; }
+    </style>
+  </defs>
+
+  <rect x="0" y="0" width="720" height="224" fill="#ffffff"/>
+
+  <text x="360" y="34" font-size="16" font-weight="600" fill="#1f2937" text-anchor="middle">把「低于可靠值运行」换成三种东西</text>
+
+  <rect x="22" y="64" width="208" height="54" rx="8" fill="#dbeafe" stroke="#3b82f6" stroke-width="1.5"/>
+  <text x="126" y="86.2" font-size="12" fill="#1e40af" text-anchor="middle">DRAM 延迟 PUF</text>
+  <text x="126" y="104.2" font-size="12" fill="#1e40af" text-anchor="middle">用延迟失败图案当指纹</text>
+
+  <rect x="256" y="64" width="208" height="54" rx="8" fill="#dbeafe" stroke="#3b82f6" stroke-width="1.5"/>
+  <text x="360" y="86.2" font-size="12" fill="#1e40af" text-anchor="middle">D-RaNGe</text>
+  <text x="360" y="104.2" font-size="12" fill="#1e40af" text-anchor="middle">用单元失败概率当熵源</text>
+
+  <rect x="490" y="64" width="208" height="54" rx="8" fill="#dbeafe" stroke="#3b82f6" stroke-width="1.5"/>
+  <text x="594" y="86.2" font-size="12" fill="#1e40af" text-anchor="middle">QUAC-TRNG</text>
+  <text x="594" y="104.2" font-size="12" fill="#1e40af" text-anchor="middle">一次激活四行取熵</text>
+
+  <path d="M22,146 L698,146" fill="none" stroke="#94a3b8" stroke-width="1.5"/>
+  <path d="M126,139 L126,153" fill="none" stroke="#94a3b8" stroke-width="1.5"/>
+  <path d="M360,139 L360,153" fill="none" stroke="#94a3b8" stroke-width="1.5"/>
+  <path d="M594,139 L594,153" fill="none" stroke="#94a3b8" stroke-width="1.5"/>
+
+  <text x="126" y="172" font-size="12" fill="#64748b" text-anchor="middle">2018 · HPCA</text>
+  <text x="360" y="172" font-size="12" fill="#64748b" text-anchor="middle">2019 · HPCA</text>
+  <text x="594" y="172" font-size="12" fill="#64748b" text-anchor="middle">2021 · ISCA</text>
+
+  <text x="126" y="196" font-size="12" fill="#166534" text-anchor="middle">88.2 ms 出一次响应</text>
+  <text x="360" y="196" font-size="12" fill="#166534" text-anchor="middle">717.4 Mb/s，100 ns</text>
+  <text x="594" y="196" font-size="12" fill="#166534" text-anchor="middle">5.4 Gb/s，274 ns</text>
+</svg>

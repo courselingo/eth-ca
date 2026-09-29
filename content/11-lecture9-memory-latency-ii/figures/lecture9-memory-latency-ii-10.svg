@@ -1,0 +1,50 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 720 364" width="720" height="364"
+     role="img" aria-labelledby="fig-l9-10-title fig-l9-10-desc">
+  <title id="fig-l9-10-title">把更宽容的数据放进更便宜的分区</title>
+  <desc id="fig-l9-10-desc">左边按容错度分成三层：对误差很宽容、中等容错、对误差敏感；右边是 4 个误码率不同的 DRAM 分区，误码率分别在 2%、5%、6%、8% 以下；中间一条曲线说明映射的方向，越宽容的数据越往下放。</desc>
+
+  <defs>
+    <style>
+      text { font-family: 'PingFang SC', 'Microsoft YaHei', 'Noto Sans CJK SC', system-ui, sans-serif; }
+    </style>
+    <marker id="arrow" markerWidth="8" markerHeight="8" refX="2" refY="4"
+            orient="auto" markerUnits="userSpaceOnUse">
+      <path d="M0,0 L8,4 L0,8 L2,4 z" fill="#64748b"/>
+    </marker>
+  </defs>
+
+  <rect x="0" y="0" width="720" height="364" fill="#ffffff"/>
+
+  <text x="360" y="34" font-size="16" font-weight="600" fill="#1f2937" text-anchor="middle">把更宽容的数据放进更便宜的分区</text>
+
+  <rect x="22" y="70" width="280" height="208" rx="10" fill="#f8fafc" stroke="#94a3b8" stroke-width="1.5" stroke-dasharray="6,4"/>
+  <text x="32" y="84" font-size="11" fill="#64748b" text-anchor="start">按容错度分</text>
+
+  <rect x="420" y="70" width="278" height="269" rx="10" fill="#f8fafc" stroke="#94a3b8" stroke-width="1.5" stroke-dasharray="6,4"/>
+  <text x="430" y="84" font-size="11" fill="#64748b" text-anchor="start">4 个分区，误码率不同</text>
+
+  <rect x="40" y="100" width="244" height="36" rx="8" fill="#d1fae5" stroke="#22c55e" stroke-width="1.5"/>
+  <text x="162" y="122.2" font-size="12" fill="#166534" text-anchor="middle">对误差很宽容的层</text>
+
+  <rect x="40" y="161" width="244" height="36" rx="8" fill="#fef3c7" stroke="#f59e0b" stroke-width="1.5"/>
+  <text x="162" y="183.2" font-size="12" fill="#b45309" text-anchor="middle">中等容错的层</text>
+
+  <rect x="40" y="222" width="244" height="36" rx="8" fill="#fce7f3" stroke="#ec4899" stroke-width="1.5"/>
+  <text x="162" y="244.2" font-size="12" fill="#9d174d" text-anchor="middle">对误差敏感的层</text>
+
+  <rect x="438" y="100" width="242" height="36" rx="8" fill="#f3e8ff" stroke="#a855f7" stroke-width="1.5"/>
+  <text x="559" y="122.2" font-size="12" fill="#6b21a8" text-anchor="middle">分区 1：误码率 &lt;2%</text>
+
+  <rect x="438" y="161" width="242" height="36" rx="8" fill="#f3e8ff" stroke="#a855f7" stroke-width="1.5"/>
+  <text x="559" y="183.2" font-size="12" fill="#6b21a8" text-anchor="middle">分区 2：误码率 &lt;5%</text>
+
+  <rect x="438" y="222" width="242" height="36" rx="8" fill="#f3e8ff" stroke="#a855f7" stroke-width="1.5"/>
+  <text x="559" y="244.2" font-size="12" fill="#6b21a8" text-anchor="middle">分区 3：误码率 &lt;6%</text>
+
+  <rect x="438" y="283" width="242" height="36" rx="8" fill="#f3e8ff" stroke="#a855f7" stroke-width="1.5"/>
+  <text x="559" y="305.2" font-size="12" fill="#6b21a8" text-anchor="middle">分区 4：误码率 &lt;8%</text>
+
+  <path d="M289,240 C 350,240 366,301 427,301" fill="none" stroke="#64748b" stroke-width="1.5" marker-end="url(#arrow)"/>
+
+  <text x="358" y="224" font-size="11" fill="#1e293b" text-anchor="middle">越宽容越往下</text>
+</svg>

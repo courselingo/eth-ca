@@ -1,0 +1,47 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 720 376" width="720" height="376"
+     role="img" aria-labelledby="fig-l9-4-title fig-l9-4-desc">
+  <title id="fig-l9-4-title">LISA 的三个用途，各降了多少、整机拿到多少</title>
+  <desc id="fig-l9-4-desc">三行分别是批量拷贝、内存内缓存与快速预充电：拷贝延迟 1.363 ms 降到 0.148 ms 并降 9.2 倍，整机加速 66% 且 DRAM 能量降 55%；缓存把 48.7 ns 降到 21.5 ns 并降 2.2 倍，整机加速 5%；预充电把 13.1 ns 降到 5.0 ns 并降 2.6 倍，整机加速 8%；末行是同一批工作里的 VILLA 与 LIP。</desc>
+
+  <defs>
+    <style>
+      text { font-family: 'PingFang SC', 'Microsoft YaHei', 'Noto Sans CJK SC', system-ui, sans-serif; }
+    </style>
+  </defs>
+
+  <rect x="0" y="0" width="720" height="376" fill="#ffffff"/>
+
+  <text x="360" y="34" font-size="16" font-weight="600" fill="#1f2937" text-anchor="middle">LISA 的三个用途，各降了多少、整机拿到多少</text>
+
+  <rect x="22" y="60" width="355" height="54" rx="8" fill="#dbeafe" stroke="#3b82f6" stroke-width="1.5"/>
+  <text x="199.5" y="82.2" font-size="12" fill="#1e40af" text-anchor="middle">批量拷贝</text>
+  <text x="199.5" y="100.2" font-size="12" fill="#1e40af" text-anchor="middle">1.363 ms 降到 0.148 ms，降 9.2 倍</text>
+
+  <rect x="402" y="60" width="296" height="54" rx="8" fill="#d1fae5" stroke="#22c55e" stroke-width="1.5"/>
+  <text x="550" y="82.2" font-size="12" fill="#166534" text-anchor="middle">整机加速 66%</text>
+  <text x="550" y="100.2" font-size="12" fill="#166534" text-anchor="middle">DRAM 能量 -55%</text>
+
+  <rect x="22" y="139" width="355" height="54" rx="8" fill="#dbeafe" stroke="#3b82f6" stroke-width="1.5"/>
+  <text x="199.5" y="161.2" font-size="12" fill="#1e40af" text-anchor="middle">内存内缓存</text>
+  <text x="199.5" y="179.2" font-size="12" fill="#1e40af" text-anchor="middle">48.7 ns 降到 21.5 ns，降 2.2 倍</text>
+
+  <rect x="402" y="139" width="296" height="54" rx="8" fill="#d1fae5" stroke="#22c55e" stroke-width="1.5"/>
+  <text x="550" y="161.2" font-size="12" fill="#166534" text-anchor="middle">整机加速 5%</text>
+  <text x="550" y="179.2" font-size="12" fill="#166534" text-anchor="middle">热点数据访问</text>
+
+  <rect x="22" y="218" width="355" height="54" rx="8" fill="#dbeafe" stroke="#3b82f6" stroke-width="1.5"/>
+  <text x="199.5" y="240.2" font-size="12" fill="#1e40af" text-anchor="middle">快速预充电</text>
+  <text x="199.5" y="258.2" font-size="12" fill="#1e40af" text-anchor="middle">13.1 ns 降到 5.0 ns，降 2.6 倍</text>
+
+  <rect x="402" y="218" width="296" height="54" rx="8" fill="#d1fae5" stroke="#22c55e" stroke-width="1.5"/>
+  <text x="550" y="240.2" font-size="12" fill="#166534" text-anchor="middle">整机加速 8%</text>
+  <text x="550" y="258.2" font-size="12" fill="#166534" text-anchor="middle">预充电那一段</text>
+
+  <rect x="22" y="297" width="326" height="54" rx="8" fill="#f3e8ff" stroke="#a855f7" stroke-width="1.5"/>
+  <text x="185" y="319.2" font-size="12" fill="#6b21a8" text-anchor="middle">VILLA：热点延迟降 2.2 倍</text>
+  <text x="185" y="337.2" font-size="12" fill="#6b21a8" text-anchor="middle">代价是面积 1.6% 与频繁搬行</text>
+
+  <rect x="373" y="297" width="325" height="54" rx="8" fill="#f3e8ff" stroke="#a855f7" stroke-width="1.5"/>
+  <text x="535.5" y="319.2" font-size="12" fill="#6b21a8" text-anchor="middle">LIP：预充电降 2.6 倍</text>
+  <text x="535.5" y="337.2" font-size="12" fill="#6b21a8" text-anchor="middle">留了 43% 的裕量</text>
+</svg>

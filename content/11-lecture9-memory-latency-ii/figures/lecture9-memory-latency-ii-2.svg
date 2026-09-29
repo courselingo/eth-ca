@@ -1,0 +1,39 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 720 284" width="720" height="284"
+     role="img" aria-labelledby="fig-l9-2-title fig-l9-2-desc">
+  <title id="fig-l9-2-title">标准里的那一个数是怎么定出来的</title>
+  <desc id="fig-l9-2-desc">左边两个最坏情况是所有产品里电荷最少的单元与 85 摄氏度；中间把它们取成最大值，标准里只剩一个数；下面一行说常见情况下单元电荷多得多，这一段就是可以拆掉的裕量。</desc>
+
+  <defs>
+    <style>
+      text { font-family: 'PingFang SC', 'Microsoft YaHei', 'Noto Sans CJK SC', system-ui, sans-serif; }
+    </style>
+    <marker id="arrow" markerWidth="8" markerHeight="8" refX="2" refY="4"
+            orient="auto" markerUnits="userSpaceOnUse">
+      <path d="M0,0 L8,4 L0,8 L2,4 z" fill="#64748b"/>
+    </marker>
+  </defs>
+
+  <rect x="0" y="0" width="720" height="284" fill="#ffffff"/>
+
+  <text x="360" y="34" font-size="16" font-weight="600" fill="#1f2937" text-anchor="middle">标准里的那一个数是怎么定出来的</text>
+
+  <rect x="22" y="60" width="326" height="54" rx="8" fill="#fce7f3" stroke="#ec4899" stroke-width="1.5"/>
+  <text x="185" y="82.2" font-size="12" fill="#9d174d" text-anchor="middle">最坏的器件</text>
+  <text x="185" y="100.2" font-size="12" fill="#9d174d" text-anchor="middle">所有产品里电荷最少的单元</text>
+
+  <rect x="373" y="60" width="325" height="54" rx="8" fill="#fce7f3" stroke="#ec4899" stroke-width="1.5"/>
+  <text x="535.5" y="82.2" font-size="12" fill="#9d174d" text-anchor="middle">最坏的温度</text>
+  <text x="535.5" y="100.2" font-size="12" fill="#9d174d" text-anchor="middle">85 摄氏度</text>
+
+  <path d="M185,119 L185,131" fill="none" stroke="#64748b" stroke-width="1.5" marker-end="url(#arrow)"/>
+  <path d="M536,119 L536,131" fill="none" stroke="#64748b" stroke-width="1.5" marker-end="url(#arrow)"/>
+
+  <rect x="22" y="142" width="676" height="36" rx="8" fill="#fef3c7" stroke="#f59e0b" stroke-width="1.5"/>
+  <text x="360" y="164.2" font-size="12" fill="#b45309" text-anchor="middle">参数按最坏情况取，标准里只剩一个数</text>
+
+  <path d="M360,183 L360,195" fill="none" stroke="#64748b" stroke-width="1.5" marker-end="url(#arrow)"/>
+
+  <rect x="22" y="206" width="676" height="54" rx="8" fill="#d1fae5" stroke="#22c55e" stroke-width="1.5"/>
+  <text x="360" y="228.2" font-size="12" fill="#166534" text-anchor="middle">常见情况下单元电荷多得多</text>
+  <text x="360" y="246.2" font-size="12" fill="#166534" text-anchor="middle">于是这一段就是可以拆掉的裕量</text>
+</svg>

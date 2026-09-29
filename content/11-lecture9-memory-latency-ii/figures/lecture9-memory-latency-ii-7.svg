@@ -1,0 +1,27 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 720 240" width="720" height="240"
+     role="img" aria-labelledby="fig-l9-7-title fig-l9-7-desc">
+  <title id="fig-l9-7-title">真机上的三个数</title>
+  <desc id="fig-l9-7-desc">一条刻度轴上标出单核 5.0% 与多核 10.4% 两个性能提升，轴下面注明这是 35 个负载的平均值（0 到 12%）；下面一行是同一个配置上 5.8% 的 DRAM 功耗下降。</desc>
+
+  <defs>
+    <style>
+      text { font-family: 'PingFang SC', 'Microsoft YaHei', 'Noto Sans CJK SC', system-ui, sans-serif; }
+    </style>
+  </defs>
+
+  <rect x="0" y="0" width="720" height="240" fill="#ffffff"/>
+
+  <text x="360" y="34" font-size="16" font-weight="600" fill="#1f2937" text-anchor="middle">真机上的三个数</text>
+
+  <text x="304" y="104" font-size="12" fill="#1e40af" text-anchor="middle">单核 +5.0%</text>
+  <text x="608" y="104" font-size="12" fill="#1e40af" text-anchor="middle">多核 +10.4%</text>
+
+  <path d="M22,124 L698,124" fill="none" stroke="#94a3b8" stroke-width="1.5"/>
+  <path d="M304,117 L304,131" fill="none" stroke="#94a3b8" stroke-width="1.5"/>
+  <path d="M608,117 L608,131" fill="none" stroke="#94a3b8" stroke-width="1.5"/>
+
+  <text x="360" y="152" font-size="12" fill="#64748b" text-anchor="middle">横轴：35 个负载的平均性能提升（0 到 12%）</text>
+
+  <rect x="22" y="182" width="676" height="36" rx="8" fill="#d1fae5" stroke="#22c55e" stroke-width="1.5"/>
+  <text x="360" y="204.2" font-size="12" fill="#166534" text-anchor="middle">同一个配置上，DRAM 功耗下降 5.8%</text>
+</svg>

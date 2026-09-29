@@ -1,0 +1,46 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 720 232" width="720" height="232"
+     role="img" aria-labelledby="fig-l9-12-title fig-l9-12-desc">
+  <title id="fig-l9-12-title">最近访问过的行，很可能再来一次</title>
+  <desc id="fig-l9-12-desc">一条访问序列 A、B、A、C、A、D、A 里，第 3、5、7 次命中了表里的同一行并改用更低的时序参数：tRCD 降 44%、tRAS 降 37%；在 8 ms 窗口内的命中率，单核是 86%、八核是 97%。</desc>
+
+  <defs>
+    <style>
+      text { font-family: 'PingFang SC', 'Microsoft YaHei', 'Noto Sans CJK SC', system-ui, sans-serif; }
+    </style>
+  </defs>
+
+  <rect x="0" y="0" width="720" height="232" fill="#ffffff"/>
+
+  <text x="360" y="34" font-size="16" font-weight="600" fill="#1f2937" text-anchor="middle">最近访问过的行，很可能再来一次</text>
+
+  <rect x="22" y="64" width="75" height="36" rx="8" fill="#dbeafe" stroke="#3b82f6" stroke-width="1.5"/>
+  <text x="59.5" y="86.2" font-size="12" fill="#1e40af" text-anchor="middle">A</text>
+
+  <rect x="122" y="64" width="75" height="36" rx="8" fill="#dbeafe" stroke="#3b82f6" stroke-width="1.5"/>
+  <text x="159.5" y="86.2" font-size="12" fill="#1e40af" text-anchor="middle">B</text>
+
+  <rect x="222" y="64" width="75" height="36" rx="8" fill="#f3e8ff" stroke="#a855f7" stroke-width="1.5"/>
+  <text x="259.5" y="86.2" font-size="12" fill="#6b21a8" text-anchor="middle">A</text>
+
+  <rect x="322" y="64" width="75" height="36" rx="8" fill="#dbeafe" stroke="#3b82f6" stroke-width="1.5"/>
+  <text x="359.5" y="86.2" font-size="12" fill="#1e40af" text-anchor="middle">C</text>
+
+  <rect x="422" y="64" width="75" height="36" rx="8" fill="#f3e8ff" stroke="#a855f7" stroke-width="1.5"/>
+  <text x="459.5" y="86.2" font-size="12" fill="#6b21a8" text-anchor="middle">A</text>
+
+  <rect x="522" y="64" width="75" height="36" rx="8" fill="#dbeafe" stroke="#3b82f6" stroke-width="1.5"/>
+  <text x="559.5" y="86.2" font-size="12" fill="#1e40af" text-anchor="middle">D</text>
+
+  <rect x="622" y="64" width="75" height="36" rx="8" fill="#f3e8ff" stroke="#a855f7" stroke-width="1.5"/>
+  <text x="659.5" y="86.2" font-size="12" fill="#6b21a8" text-anchor="middle">A</text>
+
+  <rect x="22" y="128" width="326" height="54" rx="8" fill="#d1fae5" stroke="#22c55e" stroke-width="1.5"/>
+  <text x="185" y="150.2" font-size="12" fill="#166534" text-anchor="middle">命中就用更低的时序</text>
+  <text x="185" y="168.2" font-size="12" fill="#166534" text-anchor="middle">tRCD -44%，tRAS -37%</text>
+
+  <rect x="373" y="128" width="325" height="54" rx="8" fill="#d1fae5" stroke="#22c55e" stroke-width="1.5"/>
+  <text x="535.5" y="150.2" font-size="12" fill="#166534" text-anchor="middle">8 ms 窗口内的命中率</text>
+  <text x="535.5" y="168.2" font-size="12" fill="#166534" text-anchor="middle">单核 86%，八核 97%</text>
+
+  <text x="360" y="206" font-size="12" fill="#1e293b" text-anchor="middle">第 3、5、7 次命中了表里的同一行，改用更低的时序参数</text>
+</svg>
