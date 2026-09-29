@@ -36,3 +36,99 @@ key = "combinational logic"
 zh = "组合逻辑"
 en = "combinational logic"
 note = "输出只由当前输入决定，与历史无关"
+
+[[term]]
+key = "transformation hierarchy"
+zh = "转换层次"
+en = "transformation hierarchy"
+note = "从一个问题到电子流动之间的各层：算法、程序/语言、ISA、微架构、逻辑、器件"
+
+[[term]]
+key = "abstraction"
+zh = "抽象"
+en = "abstraction"
+note = "上一层只需要知道下一层的接口，不需要知道它怎么实现"
+
+[[term]]
+key = "cross-layer"
+zh = "跨层优化"
+en = "cross-layer optimization"
+note = "把不同层的决定放在一起考虑，而不是各层各优化各的"
+
+[[term]]
+key = "DRAM"
+zh = "动态随机存储器"
+en = "DRAM"
+note = "主内存用的存储器件：一个电容存一位，需要定期刷新"
+
+[[term]]
+key = "latency"
+zh = "延迟"
+en = "latency"
+note = "一次操作从发起到完成要等多久"
+
+[[term]]
+key = "bandwidth"
+zh = "带宽"
+en = "bandwidth"
+note = "单位时间内能搬多少数据"
+
+[[term]]
+key = "memory wall"
+zh = "内存墙"
+en = "memory wall"
+note = "处理器算得越来越快，访存延迟与带宽却没跟上，性能被卡在内存这一侧"
+
+[[term]]
+key = "data movement"
+zh = "数据搬运"
+en = "data movement"
+note = "把数据从存储搬到计算单元（或反向）的动作，本身也要花时间和能量"
+
+[[term]]
+key = "processing in memory"
+zh = "内存内计算"
+en = "processing in memory"
+note = "把一部分计算放进内存芯片或内存附近，省掉来回搬运"
+
+[[term]]
+key = "accelerator"
+zh = "加速器"
+en = "accelerator"
+note = "为某一类计算专门做的硬件，用特化换能效"
+
+[[term]]
+key = "energy efficiency"
+zh = "能效"
+en = "energy efficiency"
+note = "完成同样一份工作消耗多少能量，通常按每次操作的能量算"
+
+[[term]]
+key = "Moore's Law"
+zh = "摩尔定律"
+en = "Moore's Law"
+note = "单位面积晶体管数约每两年翻一番；它描述的是集成度趋势，不是性能保证"
+
+[[term]]
+key = "RowHammer"
+zh = "行锤"
+en = "RowHammer"
+note = "反复激活同一行 DRAM 会让相邻行漏电，导致相邻行的位翻转"
+
+[[term]]
+key = "TPU"
+zh = "张量处理单元"
+en = "TPU"
+note = "Google 为神经网络推理与训练做的专用加速器，核心是脉动阵列"
+
+[[term]]
+key = "refresh"
+zh = "刷新"
+en = "refresh"
+note = "DRAM 电容会漏电，必须周期性地读出来再写回去，否则数据丢失"
+
+[[term]]
+key = "speculation"
+zh = "推测执行"
+en = "speculation"
+note = "处理器在还没确认该不该执行时先执行，事后回滚；Meltdown/Spectre 就出在这里"

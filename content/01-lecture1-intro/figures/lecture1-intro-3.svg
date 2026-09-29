@@ -1,0 +1,43 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 707 396" width="707" height="396"
+     role="img" aria-labelledby="fig-l1-3-title fig-l1-3-desc">
+  <title id="fig-l1-3-title">同一份算法在不同层上落地的收益</title>
+  <desc id="fig-l1-3-desc">横条按对数刻度表示相对 Python 的加速比，从解释执行到 AVX 向量指令共 62806 倍。</desc>
+
+  <defs>
+    <style>
+      text { font-family: 'PingFang SC', 'Microsoft YaHei', 'Noto Sans CJK SC', system-ui, sans-serif; }
+    </style>
+  </defs>
+
+  <rect x="0" y="0" width="707" height="396" fill="#ffffff"/>
+
+  <text x="390" y="34" font-size="16" font-weight="600" fill="#1f2937" text-anchor="middle">越往下走，收益越大：同一份算法差 62806 倍</text>
+
+  <text x="23" y="79.2" font-size="12" fill="#1e293b" text-anchor="start">Python 解释执行</text>
+  <rect x="150" y="64" width="40" height="22" rx="4" fill="#dbeafe" stroke="#3b82f6" stroke-width="1.5"/>
+  <text x="202" y="79.2" font-size="12" fill="#64748b" text-anchor="start">1×</text>
+
+  <text x="23" y="127.2" font-size="12" fill="#1e293b" text-anchor="start">Java 解释加 JIT</text>
+  <rect x="150" y="112" width="135" height="22" rx="4" fill="#dbeafe" stroke="#3b82f6" stroke-width="1.5"/>
+  <text x="297" y="127.2" font-size="12" fill="#64748b" text-anchor="start">11×</text>
+
+  <text x="23" y="175.2" font-size="12" fill="#1e293b" text-anchor="start">C 编译成机器码</text>
+  <rect x="150" y="160" width="193" height="22" rx="4" fill="#dbeafe" stroke="#3b82f6" stroke-width="1.5"/>
+  <text x="355" y="175.2" font-size="12" fill="#64748b" text-anchor="start">47×</text>
+
+  <text x="23" y="223.2" font-size="12" fill="#1e293b" text-anchor="start">循环改成并行</text>
+  <rect x="150" y="208" width="275" height="22" rx="4" fill="#fef3c7" stroke="#f59e0b" stroke-width="1.5"/>
+  <text x="437" y="223.2" font-size="12" fill="#64748b" text-anchor="start">366×</text>
+
+  <text x="23" y="271.2" font-size="12" fill="#1e293b" text-anchor="start">并行加数据分块</text>
+  <rect x="150" y="256" width="391" height="22" rx="4" fill="#fef3c7" stroke="#f59e0b" stroke-width="1.5"/>
+  <text x="553" y="271.2" font-size="12" fill="#64748b" text-anchor="start">6727×</text>
+
+  <text x="23" y="319.2" font-size="12" fill="#1e293b" text-anchor="start">编译器自动向量化</text>
+  <rect x="150" y="304" width="440" height="22" rx="4" fill="#f3e8ff" stroke="#a855f7" stroke-width="1.5"/>
+  <text x="602" y="319.2" font-size="12" fill="#64748b" text-anchor="start">23224×</text>
+
+  <text x="23" y="367.2" font-size="12" fill="#1e293b" text-anchor="start">手写 AVX 向量指令</text>
+  <rect x="150" y="352" width="480" height="22" rx="4" fill="#f3e8ff" stroke="#a855f7" stroke-width="1.5"/>
+  <text x="642" y="367.2" font-size="12" fill="#64748b" text-anchor="start">62806×</text>
+</svg>

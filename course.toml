@@ -56,6 +56,18 @@ other = false      # 助教材料须逐件确认无 otherwise noted
 [output]
 default_mode = "explanation"   # explanation | transcript（transcript 需该 source_kind 已授权）
 
+# 内容审计的「具体对象」名单。audit_content.py 的默认名单偏分布式系统，
+# 体系结构课点名的是一堆硬件/系统名词，写死在里面会误判「点名不足」。
+[audit]
+named_systems = [
+  "DRAM", "SRAM", "HBM", "DDR4", "DDR5", "GDDR6", "LPDDR", "DIMM",
+  "RowHammer", "Meltdown", "Spectre", "Optane", "UPMEM", "Cerebras",
+  "TPU", "GPU", "CPU", "FPGA", "ASIC", "SIMD", "AVX", "VLIW", "ISA",
+  "RISC-V", "x86", "ARM", "MIPS", "Verilog", "Chrome", "Android",
+  "TensorFlow", "Gemmini", "Ramulator", "PrIM", "LLVM", "GCC",
+]
+named_systems_min = 5
+
 # 站点（GitHub Pages）—— build_site.py 用这两项生成 MkDocs 的 repo_url / site_url。
 [site]
 repo = "courselingo/eth-ca"

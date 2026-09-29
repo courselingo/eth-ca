@@ -1,0 +1,23 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 575 171" width="575" height="171"
+     role="img" aria-labelledby="fig-l1-7-title fig-l1-7-desc">
+  <title id="fig-l1-7-title">一次内存访问的能量远高于一次加法</title>
+  <desc id="fig-l1-7-desc">横条按对数刻度表示能量，一次内存访问约等于一百到一千次复杂加法。</desc>
+
+  <defs>
+    <style>
+      text { font-family: 'PingFang SC', 'Microsoft YaHei', 'Noto Sans CJK SC', system-ui, sans-serif; }
+    </style>
+  </defs>
+
+  <rect x="0" y="0" width="575" height="171" fill="#ffffff"/>
+
+  <text x="225" y="34" font-size="16" font-weight="600" fill="#1f2937" text-anchor="middle">内存访问比加法贵得多</text>
+
+  <text x="23" y="60" font-size="12" fill="#1e293b" text-anchor="start">一次复杂加法</text>
+  <rect x="23" y="72" width="14" height="22" rx="4" fill="#dbeafe" stroke="#3b82f6" stroke-width="1.5"/>
+
+  <text x="23" y="110" font-size="12" fill="#1e293b" text-anchor="start">一次内存访问</text>
+  <rect x="23" y="122" width="404" height="22" rx="4" fill="#fce7f3" stroke="#ec4899" stroke-width="1.5"/>
+  <text x="439" y="128.2" font-size="12" fill="#64748b" text-anchor="start">约 100 到 1000 倍</text>
+  <text x="439" y="146.2" font-size="12" fill="#64748b" text-anchor="start">（对数刻度）</text>
+</svg>
