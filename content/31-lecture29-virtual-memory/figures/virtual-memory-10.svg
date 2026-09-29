@@ -1,0 +1,30 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="2 13.0 836 312.0" width="836" height="312.0"
+     role="img" aria-labelledby="fig-virtual-memory-10-title fig-virtual-memory-10-desc">
+  <title id="fig-virtual-memory-10-title">每条映射里装什么，以及「缺页」是什么</title>
+  <desc id="fig-virtual-memory-10-desc">一条页表项要带有效位（表示这个页在不在物理内存里）、帧号、以及支持替换用的位与脏位。而访问一个不在内存里的页会触发缺页异常，由系统软件把它从磁盘搬进来。</desc>
+
+  <defs>
+    <style>
+      text { font-family: 'PingFang SC', 'Microsoft YaHei', 'Noto Sans CJK SC', system-ui, sans-serif; }
+    </style>
+    <marker id="arrow" markerWidth="8" markerHeight="8" refX="2" refY="4"
+            orient="auto" markerUnits="userSpaceOnUse">
+      <path d="M0,0 L8,4 L0,8 L2,4 z" fill="#64748b"/>
+    </marker>
+  </defs>
+
+  <rect x="2" y="13.0" width="836" height="312.0" fill="#ffffff"/>
+
+  <text x="420.0" y="48" font-size="16" font-weight="600" fill="#1f2937" text-anchor="middle">每条映射里装什么，以及「缺页」是什么</text>
+  <rect x="25" y="70" width="712" height="42" fill="#eff6ff" stroke="#3b82f6"/>
+  <text x="381.0" y="95.9" font-size="14" fill="#1e40af" text-anchor="middle">页表项的内容，与缺页的处理</text>
+  <rect x="25" y="138" width="340" height="68" fill="#dbeafe" stroke="#3b82f6"/>
+  <text x="195.0" y="167.7" font-size="15" fill="#1e40af" text-anchor="middle">页表项里的位</text>
+  <text x="195.0" y="185.7" font-size="12" fill="#1e40af" text-anchor="middle">有效位、帧号、替换用的位、脏位</text>
+  <rect x="393" y="138" width="340" height="68" fill="#fef3c7" stroke="#f59e0b"/>
+  <text x="563.0" y="167.7" font-size="15" fill="#b45309" text-anchor="middle">缺页时</text>
+  <text x="563.0" y="185.7" font-size="12" fill="#b45309" text-anchor="middle">系统软件把页搬进来，别的进程可以继续跑</text>
+  <rect x="25" y="234" width="790" height="68" fill="#f3e8ff" stroke="#a855f7"/>
+  <text x="420.0" y="263.7" font-size="15" fill="#6b21a8" text-anchor="middle">讲义指出页表就是物理内存这份数据存储的「标记存储」</text>
+  <text x="420.0" y="281.7" font-size="12" fill="#6b21a8" text-anchor="middle">这个说法与上一页那张对照表是一致的</text>
+</svg>

@@ -1,0 +1,30 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="2 13.0 758 312.0" width="758" height="312.0"
+     role="img" aria-labelledby="fig-virtual-memory-1-title fig-virtual-memory-1-desc">
+  <title id="fig-virtual-memory-1-title">程序员假设的内存，与真实的内存</title>
+  <desc id="fig-virtual-memory-1-desc">讲义先摆了理想内存的四条假设：访问时间为零、容量无限、成本为零、带宽无限。而现实里物理内存的容量远小于程序员所假设的。</desc>
+
+  <defs>
+    <style>
+      text { font-family: 'PingFang SC', 'Microsoft YaHei', 'Noto Sans CJK SC', system-ui, sans-serif; }
+    </style>
+    <marker id="arrow" markerWidth="8" markerHeight="8" refX="2" refY="4"
+            orient="auto" markerUnits="userSpaceOnUse">
+      <path d="M0,0 L8,4 L0,8 L2,4 z" fill="#64748b"/>
+    </marker>
+  </defs>
+
+  <rect x="2" y="13.0" width="758" height="312.0" fill="#ffffff"/>
+
+  <text x="381.0" y="48" font-size="16" font-weight="600" fill="#1f2937" text-anchor="middle">程序员假设的内存，与真实的内存</text>
+  <rect x="25" y="70" width="712" height="42" fill="#eff6ff" stroke="#3b82f6"/>
+  <text x="381.0" y="95.9" font-size="14" fill="#1e40af" text-anchor="middle">理想内存的四条假设</text>
+  <rect x="25" y="138" width="340" height="68" fill="#dbeafe" stroke="#3b82f6"/>
+  <text x="195.0" y="167.7" font-size="15" fill="#1e40af" text-anchor="middle">程序员假设的</text>
+  <text x="195.0" y="185.7" font-size="12" fill="#1e40af" text-anchor="middle">访问零延迟、容量无限、零成本</text>
+  <rect x="393" y="138" width="340" height="68" fill="#fce7f3" stroke="#ec4899"/>
+  <text x="563.0" y="167.7" font-size="15" fill="#9d174d" text-anchor="middle">真实的情况</text>
+  <text x="563.0" y="185.7" font-size="12" fill="#9d174d" text-anchor="middle">物理内存的容量小得多</text>
+  <rect x="25" y="234" width="700" height="68" fill="#f3e8ff" stroke="#a855f7"/>
+  <text x="375.0" y="263.7" font-size="15" fill="#6b21a8" text-anchor="middle">这四条假设里，这一讲主要处理第二条，也就是容量</text>
+  <text x="375.0" y="281.7" font-size="12" fill="#6b21a8" text-anchor="middle">而处理它的办法不是把内存做大，而是造一个「看起来很大」的错觉</text>
+</svg>

@@ -1,0 +1,30 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="2 13.0 846 312.0" width="846" height="312.0"
+     role="img" aria-labelledby="fig-virtual-memory-11-title fig-virtual-memory-11-desc">
+  <title id="fig-virtual-memory-11-title">装不下的时候换谁出去</title>
+  <desc id="fig-virtual-memory-11-desc">讲义先问了一个问题：真正的最近最少用可行吗。它用四吉字节内存配四千字节页算了一下可能的排列数，答案显然是不可行。于是现代系统用近似办法，例如那个钟表算法。</desc>
+
+  <defs>
+    <style>
+      text { font-family: 'PingFang SC', 'Microsoft YaHei', 'Noto Sans CJK SC', system-ui, sans-serif; }
+    </style>
+    <marker id="arrow" markerWidth="8" markerHeight="8" refX="2" refY="4"
+            orient="auto" markerUnits="userSpaceOnUse">
+      <path d="M0,0 L8,4 L0,8 L2,4 z" fill="#64748b"/>
+    </marker>
+  </defs>
+
+  <rect x="2" y="13.0" width="846" height="312.0" fill="#ffffff"/>
+
+  <text x="425.0" y="48" font-size="16" font-weight="600" fill="#1f2937" text-anchor="middle">装不下的时候换谁出去</text>
+  <rect x="25" y="70" width="712" height="42" fill="#fce7f3" stroke="#ec4899"/>
+  <text x="381.0" y="95.9" font-size="14" fill="#9d174d" text-anchor="middle">真正的最近最少用不可行，所以用近似</text>
+  <rect x="25" y="138" width="340" height="68" fill="#fce7f3" stroke="#ec4899"/>
+  <text x="195.0" y="167.7" font-size="15" fill="#9d174d" text-anchor="middle">为什么不可行</text>
+  <text x="195.0" y="185.7" font-size="12" fill="#9d174d" text-anchor="middle">要精确记录所有页的访问顺序，代价太大</text>
+  <rect x="393" y="138" width="340" height="68" fill="#d1fae5" stroke="#22c55e"/>
+  <text x="563.0" y="167.7" font-size="15" fill="#166534" text-anchor="middle">近似怎么做</text>
+  <text x="563.0" y="185.7" font-size="12" fill="#166534" text-anchor="middle">用访问位加一个指针，转一圈淘汰没被访问的</text>
+  <rect x="25" y="234" width="800" height="68" fill="#f3e8ff" stroke="#a855f7"/>
+  <text x="425.0" y="263.7" font-size="15" fill="#6b21a8" text-anchor="middle">这一条与前面讲缓存替换时的结论同形：精确的全局最优换不来可接受的代价</text>
+  <text x="425.0" y="281.7" font-size="12" fill="#6b21a8" text-anchor="middle">而这里还多一层：做这个决定的是系统软件，不是硬件</text>
+</svg>

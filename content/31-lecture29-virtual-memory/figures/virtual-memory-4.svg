@@ -1,0 +1,36 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="2 13.0 810 312.0" width="810" height="312.0"
+     role="img" aria-labelledby="fig-virtual-memory-4-title fig-virtual-memory-4-desc">
+  <title id="fig-virtual-memory-4-title">基本机制是间接：一次映射，四个问题</title>
+  <desc id="fig-virtual-memory-4-desc">机制叫间接与映射：程序里每条指令产生的地址是虚拟地址，另有一个地址翻译机制把它映射成物理地址。而讲义把这件事拆成了四个必须回答的问题。</desc>
+
+  <defs>
+    <style>
+      text { font-family: 'PingFang SC', 'Microsoft YaHei', 'Noto Sans CJK SC', system-ui, sans-serif; }
+    </style>
+    <marker id="arrow" markerWidth="8" markerHeight="8" refX="2" refY="4"
+            orient="auto" markerUnits="userSpaceOnUse">
+      <path d="M0,0 L8,4 L0,8 L2,4 z" fill="#64748b"/>
+    </marker>
+  </defs>
+
+  <rect x="2" y="13.0" width="810" height="312.0" fill="#ffffff"/>
+
+  <text x="407.0" y="48" font-size="16" font-weight="600" fill="#1f2937" text-anchor="middle">基本机制是间接：一次映射，四个问题</text>
+  <rect x="25" y="70" width="712" height="42" fill="#eff6ff" stroke="#3b82f6"/>
+  <text x="381.0" y="95.9" font-size="14" fill="#1e40af" text-anchor="middle">间接与映射，以及四个问题</text>
+  <rect x="25" y="138" width="170" height="68" fill="#fef3c7" stroke="#f59e0b"/>
+  <text x="110.0" y="167.7" font-size="15" fill="#b45309" text-anchor="middle">何时映射</text>
+  <text x="110.0" y="185.7" font-size="12" fill="#b45309" text-anchor="middle">第一次被引用时</text>
+  <rect x="223" y="138" width="170" height="68" fill="#fef3c7" stroke="#f59e0b"/>
+  <text x="308.0" y="167.7" font-size="15" fill="#b45309" text-anchor="middle">映射粒度</text>
+  <text x="308.0" y="185.7" font-size="12" fill="#b45309" text-anchor="middle">字节、千字节，还是更大</text>
+  <rect x="421" y="138" width="170" height="68" fill="#fef3c7" stroke="#f59e0b"/>
+  <text x="506.0" y="167.7" font-size="15" fill="#b45309" text-anchor="middle">存在哪里</text>
+  <text x="506.0" y="185.7" font-size="12" fill="#b45309" text-anchor="middle">系统软件还是硬件里</text>
+  <rect x="619" y="138" width="170" height="68" fill="#fef3c7" stroke="#f59e0b"/>
+  <text x="704.0" y="167.7" font-size="15" fill="#b45309" text-anchor="middle">装不下时</text>
+  <text x="704.0" y="185.7" font-size="12" fill="#b45309" text-anchor="middle">把哪一页换出去</text>
+  <rect x="25" y="234" width="730" height="68" fill="#f3e8ff" stroke="#a855f7"/>
+  <text x="390.0" y="263.7" font-size="15" fill="#6b21a8" text-anchor="middle">这四个问题的答案就构成了后面全部的内容</text>
+  <text x="390.0" y="281.7" font-size="12" fill="#6b21a8" text-anchor="middle">粒度那个问题最后选了「页」，因为太小会让管理表爆炸、太大又浪费</text>
+</svg>

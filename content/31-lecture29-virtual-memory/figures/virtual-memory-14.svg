@@ -1,0 +1,30 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="2 13.0 876 312.0" width="876" height="312.0"
+     role="img" aria-labelledby="fig-virtual-memory-14-title fig-virtual-memory-14-desc">
+  <title id="fig-virtual-memory-14-title">最后一层引申：如果硬件本身不可靠呢</title>
+  <desc id="fig-virtual-memory-14-desc">讲义在讲完机制之后插了一大段引申：假如硬件不可靠、有人能翻转内存里的位，那么上面这些靠页表建立起来的保护还剩多少。它用行锤作为那条线的代表。</desc>
+
+  <defs>
+    <style>
+      text { font-family: 'PingFang SC', 'Microsoft YaHei', 'Noto Sans CJK SC', system-ui, sans-serif; }
+    </style>
+    <marker id="arrow" markerWidth="8" markerHeight="8" refX="2" refY="4"
+            orient="auto" markerUnits="userSpaceOnUse">
+      <path d="M0,0 L8,4 L0,8 L2,4 z" fill="#64748b"/>
+    </marker>
+  </defs>
+
+  <rect x="2" y="13.0" width="876" height="312.0" fill="#ffffff"/>
+
+  <text x="440.0" y="48" font-size="16" font-weight="600" fill="#1f2937" text-anchor="middle">最后一层引申：如果硬件本身不可靠呢</text>
+  <rect x="25" y="70" width="712" height="42" fill="#fce7f3" stroke="#ec4899"/>
+  <text x="381.0" y="95.9" font-size="14" fill="#9d174d" text-anchor="middle">引申：硬件不可靠时，上面的保护还成立吗</text>
+  <rect x="25" y="138" width="340" height="68" fill="#fce7f3" stroke="#ec4899"/>
+  <text x="195.0" y="167.7" font-size="15" fill="#9d174d" text-anchor="middle">讲义举的例子</text>
+  <text x="195.0" y="185.7" font-size="12" fill="#9d174d" text-anchor="middle">行锤：可以**可复现地**诱发位翻转</text>
+  <rect x="393" y="138" width="340" height="68" fill="#fce7f3" stroke="#ec4899"/>
+  <text x="563.0" y="167.7" font-size="15" fill="#9d174d" text-anchor="middle">它的结论</text>
+  <text x="563.0" y="185.7" font-size="12" fill="#9d174d" text-anchor="middle">硬件不可靠，上层那些安全与保护机制就被架空了</text>
+  <rect x="25" y="234" width="830" height="68" fill="#f3e8ff" stroke="#a855f7"/>
+  <text x="440.0" y="263.7" font-size="15" fill="#6b21a8" text-anchor="middle">这一段的位置值得留意：它接在虚拟内存之后，而不是接在讲内存可靠性那几讲之后</text>
+  <text x="440.0" y="281.7" font-size="12" fill="#6b21a8" text-anchor="middle">而它要说的是一件更一般的事：**一层抽象的可信度，取决于它底下那一层的可信度**</text>
+</svg>
