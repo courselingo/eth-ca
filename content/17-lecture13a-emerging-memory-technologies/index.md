@@ -1,6 +1,6 @@
 +++
 title = "把内存和存储合成一层，然后呢"
-lecture = 13
+lecture = 17
 slug = "lecture13a-emerging-memory-technologies"
 status = "draft"
 source_kind = "notes"

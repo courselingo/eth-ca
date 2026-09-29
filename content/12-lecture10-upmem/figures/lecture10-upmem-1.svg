@@ -1,7 +1,7 @@
 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 700 293" width="700" height="293"
      role="img" aria-labelledby="fig-upmem-1-title fig-upmem-1-desc">
   <title id="fig-upmem-1-title">这一讲拿一个真产品来量</title>
-  <desc id="fig-upmem-1-desc">三行从上到下：前几讲把两条路讲完了；第 4 讲列的五件上市产品里 UPMEM 的内存条只用一句话带过；这一讲把它拆开，先看怎么编程，再用微基准量边界。</desc>
+  <desc id="fig-upmem-1-desc">三行从上到下：前几讲把两条路讲完了；第 5 讲列的五件上市产品里 UPMEM 的内存条只用一句话带过；这一讲把它拆开，先看怎么编程，再用微基准量边界。</desc>
 
   <defs>
     <style>
@@ -18,7 +18,7 @@
   <text x="350.0" y="96.2" font-size="12" fill="#1e40af" text-anchor="middle">一条用内存自身的原理，一条把计算放到内存旁边</text>
 
   <rect x="23" y="136" width="654" height="54.0" rx="8" fill="#fef3c7" stroke="#f59e0b" stroke-width="1.5"/>
-  <text x="350.0" y="158.2" font-size="12" fill="#b45309" text-anchor="middle">第 4 讲结尾列了五件已经上市的产品</text>
+  <text x="350.0" y="158.2" font-size="12" fill="#b45309" text-anchor="middle">第 5 讲结尾列了五件已经上市的产品</text>
   <text x="350.0" y="176.2" font-size="12" fill="#b45309" text-anchor="middle">UPMEM 的 PIM 内存条排在第一条，当时只用一句话带过</text>
 
   <rect x="23" y="216" width="654" height="54.0" rx="8" fill="#d1fae5" stroke="#22c55e" stroke-width="1.5"/>

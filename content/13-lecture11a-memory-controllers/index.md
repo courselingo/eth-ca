@@ -1,6 +1,6 @@
 +++
 title = "内存控制器：一堆约束里选谁先上"
-lecture = 12
+lecture = 13
 slug = "lecture11a-memory-controllers"
 status = "draft"
 source_kind = "notes"
