@@ -1,0 +1,25 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 566 249" width="566" height="249"
+     role="img" aria-labelledby="fig-l3-4-title fig-l3-4-desc">
+  <title id="fig-l3-4-title">processing using memory 与 processing near memory</title>
+  <desc id="fig-l3-4-desc">路一利用内存自身的连接与模拟特性来算，路二把计算单元搬到内存芯片内或同一封装里，两条路的共同点是不必把数据搬出片外。</desc>
+
+  <defs>
+    <style>
+      text { font-family: 'PingFang SC', 'Microsoft YaHei', 'Noto Sans CJK SC', system-ui, sans-serif; }
+    </style>
+  </defs>
+
+  <rect x="0" y="0" width="566" height="249" fill="#ffffff"/>
+
+  <text x="283" y="34" font-size="16" font-weight="600" fill="#1f2937" text-anchor="middle">两条路：谁来算</text>
+
+  <rect x="23" y="64" width="520" height="54" rx="8" fill="#f3e8ff" stroke="#a855f7" stroke-width="1.5"/>
+  <text x="283" y="86.2" font-size="12" fill="#6b21a8" text-anchor="middle">路一 processing using memory</text>
+  <text x="283" y="104.2" font-size="12" fill="#6b21a8" text-anchor="middle">用内存自身的连接与模拟特性来搬与算</text>
+
+  <rect x="23" y="146" width="520" height="54" rx="8" fill="#d1fae5" stroke="#22c55e" stroke-width="1.5"/>
+  <text x="283" y="168.2" font-size="12" fill="#166534" text-anchor="middle">路二 processing near memory</text>
+  <text x="283" y="186.2" font-size="12" fill="#166534" text-anchor="middle">把计算单元放进内存芯片或同一封装里</text>
+
+  <text x="283" y="224" font-size="12" fill="#64748b" text-anchor="middle">共同点：数据不必搬出片外</text>
+</svg>

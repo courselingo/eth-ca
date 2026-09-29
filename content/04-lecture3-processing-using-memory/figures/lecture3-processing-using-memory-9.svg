@@ -1,0 +1,26 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 566 292" width="566" height="292"
+     role="img" aria-labelledby="fig-l3-9-title fig-l3-9-desc">
+  <title id="fig-l3-9-title">从论文到真机：约束才刚开始</title>
+  <desc id="fig-l3-9-desc">ComputeDRAM 用违反时序参数的办法在买得到的芯片上模仿 RowClone；PiDRAM 把它做成开源的端到端平台，复制与初始化吞吐分别提高 119 倍与 89 倍。</desc>
+
+  <defs>
+    <style>
+      text { font-family: 'PingFang SC', 'Microsoft YaHei', 'Noto Sans CJK SC', system-ui, sans-serif; }
+    </style>
+  </defs>
+
+  <rect x="0" y="0" width="566" height="292" fill="#ffffff"/>
+
+  <text x="283" y="34" font-size="16" font-weight="600" fill="#1f2937" text-anchor="middle">从论文到真机：约束才刚开始</text>
+
+  <rect x="23" y="64" width="520" height="42" rx="8" fill="#fce7f3" stroke="#ec4899" stroke-width="1.5"/>
+  <text x="283" y="89.2" font-size="12" fill="#9d174d" text-anchor="middle">模拟里改芯片不需要代价，真机不行</text>
+
+  <rect x="23" y="134" width="520" height="54" rx="8" fill="#dbeafe" stroke="#3b82f6" stroke-width="1.5"/>
+  <text x="283" y="156.2" font-size="12" fill="#1e40af" text-anchor="middle">ComputeDRAM：故意违反时序参数</text>
+  <text x="283" y="174.2" font-size="12" fill="#1e40af" text-anchor="middle">在买得到的 DRAM 芯片上模仿 RowClone</text>
+
+  <rect x="23" y="216" width="520" height="54" rx="8" fill="#d1fae5" stroke="#22c55e" stroke-width="1.5"/>
+  <text x="283" y="238.2" font-size="12" fill="#166534" text-anchor="middle">PiDRAM：开源端到端平台（系统调用到控制器）</text>
+  <text x="283" y="256.2" font-size="12" fill="#166534" text-anchor="middle">内存内复制与初始化吞吐提高 119 倍与 89 倍</text>
+</svg>

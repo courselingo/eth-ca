@@ -1,0 +1,27 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 566 304" width="566" height="304"
+     role="img" aria-labelledby="fig-l3-6-title fig-l3-6-desc">
+  <title id="fig-l3-6-title">边界在哪，后续工作就补在哪</title>
+  <desc id="fig-l3-6-desc">RowClone 最大的收益要求数据在同一个子阵列里；LISA 补跨子阵列、FIGARO 补细粒度、NoM 补跨内存组。</desc>
+
+  <defs>
+    <style>
+      text { font-family: 'PingFang SC', 'Microsoft YaHei', 'Noto Sans CJK SC', system-ui, sans-serif; }
+    </style>
+  </defs>
+
+  <rect x="0" y="0" width="566" height="304" fill="#ffffff"/>
+
+  <text x="283" y="34" font-size="16" font-weight="600" fill="#1f2937" text-anchor="middle">边界在哪，后续工作就补在哪</text>
+
+  <rect x="23" y="64" width="520" height="54" rx="8" fill="#dbeafe" stroke="#3b82f6" stroke-width="1.5"/>
+  <text x="283" y="86.2" font-size="12" fill="#1e40af" text-anchor="middle">LISA：用隔离晶体管连起相邻子阵列</text>
+  <text x="283" y="104.2" font-size="12" fill="#1e40af" text-anchor="middle">0.8% 芯片面积，跨子阵列复制延迟降 9.2 倍</text>
+
+  <rect x="23" y="146" width="520" height="54" rx="8" fill="#dbeafe" stroke="#3b82f6" stroke-width="1.5"/>
+  <text x="283" y="168.2" font-size="12" fill="#1e40af" text-anchor="middle">FIGARO：把数据搬动的粒度做细</text>
+  <text x="283" y="186.2" font-size="12" fill="#1e40af" text-anchor="middle">让内存组内部的小块数据也能就地搬</text>
+
+  <rect x="23" y="228" width="520" height="54" rx="8" fill="#d1fae5" stroke="#22c55e" stroke-width="1.5"/>
+  <text x="283" y="250.2" font-size="12" fill="#166534" text-anchor="middle">NoM：把跨内存组的搬运专门优化</text>
+  <text x="283" y="268.2" font-size="12" fill="#166534" text-anchor="middle">针对内存组很多的内存系统</text>
+</svg>

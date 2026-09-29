@@ -1,0 +1,48 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 736 162" width="736" height="162"
+     role="img" aria-labelledby="fig-l3-10-title fig-l3-10-desc">
+  <title id="fig-l3-10-title">Ambit 的投稿时间轴</title>
+  <desc id="fig-l3-10-desc">首篇在 CAL 2015 发表，随后在 ISCA 2016、MICRO 2016、HPCA 2017、ISCA 2017 连续被拒，最终在 MICRO 2017 被接收。</desc>
+
+  <defs>
+    <style>
+      text { font-family: 'PingFang SC', 'Microsoft YaHei', 'Noto Sans CJK SC', system-ui, sans-serif; }
+    </style>
+  </defs>
+
+  <rect x="0" y="0" width="736" height="162" fill="#ffffff"/>
+
+  <text x="368" y="34" font-size="16" font-weight="600" fill="#1f2937" text-anchor="middle">一项工作被拒四次，第五次被接收</text>
+
+  <rect x="23" y="64" width="90" height="50" rx="8" fill="#dbeafe" stroke="#3b82f6" stroke-width="1.5"/>
+  <text x="68" y="84.6" font-size="11" fill="#1e40af" text-anchor="middle">CAL 2015</text>
+  <text x="68" y="101.1" font-size="11" fill="#1e40af" text-anchor="middle">首篇</text>
+
+  <rect x="143" y="64" width="90" height="50" rx="8" fill="#fce7f3" stroke="#ec4899" stroke-width="1.5"/>
+  <text x="188" y="84.6" font-size="11" fill="#9d174d" text-anchor="middle">ISCA 2016</text>
+  <text x="188" y="101.1" font-size="11" fill="#9d174d" text-anchor="middle">被拒</text>
+
+  <rect x="263" y="64" width="90" height="50" rx="8" fill="#fce7f3" stroke="#ec4899" stroke-width="1.5"/>
+  <text x="308" y="84.6" font-size="11" fill="#9d174d" text-anchor="middle">MICRO 2016</text>
+  <text x="308" y="101.1" font-size="11" fill="#9d174d" text-anchor="middle">被拒</text>
+
+  <rect x="383" y="64" width="90" height="50" rx="8" fill="#fce7f3" stroke="#ec4899" stroke-width="1.5"/>
+  <text x="428" y="84.6" font-size="11" fill="#9d174d" text-anchor="middle">HPCA 2017</text>
+  <text x="428" y="101.1" font-size="11" fill="#9d174d" text-anchor="middle">被拒</text>
+
+  <rect x="503" y="64" width="90" height="50" rx="8" fill="#fce7f3" stroke="#ec4899" stroke-width="1.5"/>
+  <text x="548" y="84.6" font-size="11" fill="#9d174d" text-anchor="middle">ISCA 2017</text>
+  <text x="548" y="101.1" font-size="11" fill="#9d174d" text-anchor="middle">被拒</text>
+
+  <rect x="623" y="64" width="90" height="50" rx="8" fill="#d1fae5" stroke="#22c55e" stroke-width="1.5"/>
+  <text x="668" y="84.6" font-size="11" fill="#166534" text-anchor="middle">MICRO 2017</text>
+  <text x="668" y="101.1" font-size="11" fill="#166534" text-anchor="middle">接收</text>
+
+  <path d="M68,119 L68,140" fill="none" stroke="#94a3b8" stroke-width="1.5"/>
+  <path d="M188,119 L188,140" fill="none" stroke="#94a3b8" stroke-width="1.5"/>
+  <path d="M308,119 L308,140" fill="none" stroke="#94a3b8" stroke-width="1.5"/>
+  <path d="M428,119 L428,140" fill="none" stroke="#94a3b8" stroke-width="1.5"/>
+  <path d="M548,119 L548,140" fill="none" stroke="#94a3b8" stroke-width="1.5"/>
+  <path d="M668,119 L668,140" fill="none" stroke="#94a3b8" stroke-width="1.5"/>
+
+  <path d="M23,140 L713,140" fill="none" stroke="#94a3b8" stroke-width="1.5"/>
+</svg>
