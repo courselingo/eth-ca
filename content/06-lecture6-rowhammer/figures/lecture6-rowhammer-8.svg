@@ -1,0 +1,27 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 627 140" width="627" height="140"
+     role="img" aria-labelledby="fig-l6-8-title fig-l6-8-desc">
+  <title id="fig-l6-8-title">U-TRR：45 个模块全部脆弱</title>
+  <desc id="fig-l6-8-desc">受测 45 个模块全部可被翻转；一个内存组里 99.9% 的行至少翻一次；8 字节数据字里最多 7 个翻转，纠错码失效。</desc>
+
+  <defs>
+    <style>
+      text { font-family: 'PingFang SC', 'Microsoft YaHei', 'Noto Sans CJK SC', system-ui, sans-serif; }
+    </style>
+  </defs>
+
+  <rect x="0" y="0" width="627" height="140" fill="#ffffff"/>
+
+  <text x="313" y="34" font-size="16" font-weight="600" fill="#1f2937" text-anchor="middle">U-TRR：不公开的防御机制被挖开之后</text>
+
+  <rect x="23" y="64" width="175" height="54" rx="8" fill="#fce7f3" stroke="#ec4899" stroke-width="1.5"/>
+  <text x="110" y="86.2" font-size="12" fill="#9d174d" text-anchor="middle">45 个模块</text>
+  <text x="110" y="104.2" font-size="12" fill="#9d174d" text-anchor="middle">全部脆弱</text>
+
+  <rect x="226" y="64" width="175" height="54" rx="8" fill="#fef3c7" stroke="#f59e0b" stroke-width="1.5"/>
+  <text x="313" y="86.2" font-size="12" fill="#b45309" text-anchor="middle">99.9% 的行</text>
+  <text x="313" y="104.2" font-size="12" fill="#b45309" text-anchor="middle">至少翻一次</text>
+
+  <rect x="429" y="64" width="175" height="54" rx="8" fill="#dbeafe" stroke="#3b82f6" stroke-width="1.5"/>
+  <text x="516" y="86.2" font-size="12" fill="#1e40af" text-anchor="middle">8 字节最多 7 个</text>
+  <text x="516" y="104.2" font-size="12" fill="#1e40af" text-anchor="middle">纠错码失效</text>
+</svg>

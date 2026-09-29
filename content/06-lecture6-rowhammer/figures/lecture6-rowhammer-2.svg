@@ -1,0 +1,33 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 486 274" width="486" height="274"
+     role="img" aria-labelledby="fig-l6-2-title fig-l6-2-desc">
+  <title id="fig-l6-2-title">反复激活一行会让相邻两行被扰动</title>
+  <desc id="fig-l6-2-desc">中间是被反复激活的攻击行，上下两行是受害行，它们的脆弱单元会逐渐丢掉电荷。</desc>
+
+  <defs>
+    <style>
+      text { font-family: 'PingFang SC', 'Microsoft YaHei', 'Noto Sans CJK SC', system-ui, sans-serif; }
+    </style>
+    <marker id="arrow" markerWidth="8" markerHeight="8" refX="2" refY="4"
+            orient="auto" markerUnits="userSpaceOnUse">
+      <path d="M0,0 L8,4 L0,8 L2,4 z" fill="#ec4899"/>
+    </marker>
+  </defs>
+
+  <rect x="0" y="0" width="486" height="274" fill="#ffffff"/>
+
+  <text x="243" y="34" font-size="16" font-weight="600" fill="#1f2937" text-anchor="middle">反复激活一行，相邻两行被扰动</text>
+
+  <rect x="23" y="70" width="440" height="42" rx="8" fill="#f3e8ff" stroke="#a855f7" stroke-width="1.5"/>
+  <text x="243" y="95.2" font-size="12" fill="#6b21a8" text-anchor="middle">受害行：脆弱单元慢慢丢电荷</text>
+
+  <rect x="23" y="140" width="440" height="42" rx="8" fill="#fce7f3" stroke="#ec4899" stroke-width="1.5"/>
+  <text x="243" y="165.2" font-size="12" fill="#9d174d" text-anchor="middle">攻击行：被反复激活（高电压）</text>
+
+  <rect x="23" y="210" width="440" height="42" rx="8" fill="#f3e8ff" stroke="#a855f7" stroke-width="1.5"/>
+  <text x="243" y="235.2" font-size="12" fill="#6b21a8" text-anchor="middle">受害行：脆弱单元慢慢丢电荷</text>
+
+  <path d="M380,117 L380,129" fill="none" stroke="#ec4899" stroke-width="1.5" marker-end="url(#arrow)"/>
+  <path d="M410,135 L410,123" fill="none" stroke="#ec4899" stroke-width="1.5" marker-end="url(#arrow)"/>
+  <path d="M380,187 L380,199" fill="none" stroke="#ec4899" stroke-width="1.5" marker-end="url(#arrow)"/>
+  <path d="M410,205 L410,193" fill="none" stroke="#ec4899" stroke-width="1.5" marker-end="url(#arrow)"/>
+</svg>

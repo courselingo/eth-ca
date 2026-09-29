@@ -1,7 +1,7 @@
 <svg xmlns="http://www.w3.org/2000/svg" viewBox="17 0 376 268" width="376" height="268"
      role="img" aria-labelledby="fig-l1-10-title fig-l1-10-desc">
   <title id="fig-l1-10-title">抽象挡住下面，出问题时必须跨过界面</title>
-  <desc id="fig-l1-10-desc">代码、ISA 与晶体管三层自上而下排开，红色弧线从最底层绕回最上层：出问题时要跨过界面去找原因。</desc>
+  <desc id="fig-l1-10-desc">代码、ISA 与晶体管三层自上而下排开，红色弧线从最上层的代码层出发、向下绕到晶体管层：出问题时要跨过界面往下找原因。</desc>
 
   <defs>
     <style>
@@ -17,7 +17,7 @@
 
   <text x="210" y="34" font-size="16" font-weight="600" fill="#1f2937" text-anchor="middle">抽象让你看不见底下</text>
 
-  <text x="40" y="54" font-size="12" fill="#ef4444" text-anchor="start">跨过界面找原因</text>
+  <text x="40" y="54" font-size="12" fill="#ef4444" text-anchor="start">跨过界面往下找原因</text>
 
   <rect x="150" y="64" width="220" height="42" rx="8" fill="#dbeafe" stroke="#3b82f6" stroke-width="1.5"/>
   <text x="260" y="89.2" font-size="12" fill="#1e40af" text-anchor="middle">程序里的一行代码</text>
@@ -32,5 +32,5 @@
   <rect x="150" y="204" width="220" height="42" rx="8" fill="#fef3c7" stroke="#f59e0b" stroke-width="1.5"/>
   <text x="260" y="229.2" font-size="12" fill="#b45309" text-anchor="middle">微架构里的晶体管</text>
 
-  <path d="M145,225 C 20,210 20,95 139,82" fill="none" stroke="#ef4444" stroke-width="1.5" marker-end="url(#arrow)"/>
+  <path d="M145,85 C 20,95 20,210 139,228" fill="none" stroke="#ef4444" stroke-width="1.5" marker-end="url(#arrow)"/>
 </svg>

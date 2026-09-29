@@ -1,7 +1,7 @@
 <svg xmlns="http://www.w3.org/2000/svg" viewBox="87 0 596 350" width="596" height="350"
      role="img" aria-labelledby="fig-l1-11-title fig-l1-11-desc">
   <title id="fig-l1-11-title">刷新在器件层必需，代价由系统付</title>
-  <desc id="fig-l1-11-desc">从核到共享缓存、内存控制器再到 DRAM 颗粒，红色连线把「必须刷新」连到 RAIDR 那一页给出的两个数字；按 RAIDR 的解读，现在约 15%、容量增长后逼近 47%，讲义文本层只写了这两个数字。</desc>
+  <desc id="fig-l1-11-desc">从核到共享缓存、内存控制器再到 DRAM 颗粒；DRAM 颗粒那一行右侧紧挨着一个注释框，给出 RAIDR 那一页的两个数字与我们的解读。</desc>
 
   <defs>
     <style>
@@ -40,9 +40,9 @@
   <text x="240" y="296.2" font-size="12" fill="#b45309" text-anchor="middle">DRAM 颗粒：电容会漏电</text>
   <text x="240" y="314.2" font-size="12" fill="#b45309" text-anchor="middle">必须定期读出再写回</text>
 
-  <rect x="400" y="204" width="260" height="54" rx="8" fill="#fce7f3" stroke="#ec4899" stroke-width="1.5"/>
-  <text x="530" y="226.2" font-size="12" fill="#9d174d" text-anchor="middle">按 RAIDR 的解读</text>
-  <text x="530" y="244.2" font-size="12" fill="#9d174d" text-anchor="middle">现在约 15%，将逼近 47%</text>
+  <path d="M375,301 L389,301" fill="none" stroke="#ef4444" stroke-width="1.5" marker-end="url(#arrow)"/>
 
-  <path d="M375,301 C 378,290 380,240 389,240" fill="none" stroke="#ef4444" stroke-width="1.5" marker-end="url(#arrow)"/>
+  <rect x="400" y="274" width="260" height="54" rx="8" fill="#fce7f3" stroke="#ec4899" stroke-width="1.5"/>
+  <text x="530" y="296.2" font-size="12" fill="#9d174d" text-anchor="middle">按 RAIDR 的解读</text>
+  <text x="530" y="314.2" font-size="12" fill="#9d174d" text-anchor="middle">现在约 15%，将逼近 47%</text>
 </svg>

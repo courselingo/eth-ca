@@ -1,0 +1,39 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 672 222" width="672" height="222"
+     role="img" aria-labelledby="fig-l6-4-title fig-l6-4-desc">
+  <title id="fig-l6-4-title">2014 年的六条实测结论</title>
+  <desc id="fig-l6-4-desc">覆盖面 86%、新芯片更差、攻击与受害相邻、刷新越频繁错误越少、受害单元不等于保持时间弱的单元、错误可重复。</desc>
+
+  <defs>
+    <style>
+      text { font-family: 'PingFang SC', 'Microsoft YaHei', 'Noto Sans CJK SC', system-ui, sans-serif; }
+    </style>
+  </defs>
+
+  <rect x="0" y="0" width="672" height="222" fill="#ffffff"/>
+
+  <text x="336" y="34" font-size="16" font-weight="600" fill="#1f2937" text-anchor="middle">2014 年的六条实测结论</text>
+
+  <rect x="23" y="64" width="190" height="54" rx="8" fill="#dbeafe" stroke="#3b82f6" stroke-width="1.5"/>
+  <text x="118" y="86.2" font-size="12" fill="#1e40af" text-anchor="middle">覆盖面</text>
+  <text x="118" y="104.2" font-size="12" fill="#1e40af" text-anchor="middle">86%（37/43）</text>
+
+  <rect x="241" y="64" width="190" height="54" rx="8" fill="#dbeafe" stroke="#3b82f6" stroke-width="1.5"/>
+  <text x="336" y="86.2" font-size="12" fill="#1e40af" text-anchor="middle">工艺相关性</text>
+  <text x="336" y="104.2" font-size="12" fill="#1e40af" text-anchor="middle">新芯片更差</text>
+
+  <rect x="459" y="64" width="190" height="54" rx="8" fill="#dbeafe" stroke="#3b82f6" stroke-width="1.5"/>
+  <text x="554" y="86.2" font-size="12" fill="#1e40af" text-anchor="middle">相邻性</text>
+  <text x="554" y="104.2" font-size="12" fill="#1e40af" text-anchor="middle">攻击与受害相邻</text>
+
+  <rect x="23" y="146" width="190" height="54" rx="8" fill="#fef3c7" stroke="#f59e0b" stroke-width="1.5"/>
+  <text x="118" y="168.2" font-size="12" fill="#b45309" text-anchor="middle">刷新越频繁</text>
+  <text x="118" y="186.2" font-size="12" fill="#b45309" text-anchor="middle">错误越少</text>
+
+  <rect x="241" y="146" width="190" height="54" rx="8" fill="#fef3c7" stroke="#f59e0b" stroke-width="1.5"/>
+  <text x="336" y="168.2" font-size="12" fill="#b45309" text-anchor="middle">受害 ≠ 保持弱</text>
+  <text x="336" y="186.2" font-size="12" fill="#b45309" text-anchor="middle">不能靠筛弱单元</text>
+
+  <rect x="459" y="146" width="190" height="54" rx="8" fill="#fef3c7" stroke="#f59e0b" stroke-width="1.5"/>
+  <text x="554" y="168.2" font-size="12" fill="#b45309" text-anchor="middle">错误可重复</text>
+  <text x="554" y="186.2" font-size="12" fill="#b45309" text-anchor="middle">超 70% 每轮都错</text>
+</svg>

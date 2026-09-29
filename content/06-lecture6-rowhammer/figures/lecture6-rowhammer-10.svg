@@ -1,0 +1,33 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 574 210" width="574" height="210"
+     role="img" aria-labelledby="fig-l6-10-title fig-l6-10-desc">
+  <title id="fig-l6-10-title">两条新防御方向的共同点</title>
+  <desc id="fig-l6-10-desc">BlockHammer 把被快速反复访问的行拉黑，Self-Managing DRAM 让芯片能拒绝激活、自己完成维护；共同点是把判断权交给内存自己。</desc>
+
+  <defs>
+    <style>
+      text { font-family: 'PingFang SC', 'Microsoft YaHei', 'Noto Sans CJK SC', system-ui, sans-serif; }
+    </style>
+    <marker id="arrow" markerWidth="8" markerHeight="8" refX="2" refY="4"
+            orient="auto" markerUnits="userSpaceOnUse">
+      <path d="M0,0 L8,4 L0,8 L2,4 z" fill="#64748b"/>
+    </marker>
+  </defs>
+
+  <rect x="0" y="0" width="574" height="210" fill="#ffffff"/>
+
+  <text x="287" y="34" font-size="16" font-weight="600" fill="#1f2937" text-anchor="middle">两条新方向的共同点</text>
+
+  <rect x="23" y="64" width="250" height="54" rx="8" fill="#dbeafe" stroke="#3b82f6" stroke-width="1.5"/>
+  <text x="148" y="86.2" font-size="12" fill="#1e40af" text-anchor="middle">BlockHammer</text>
+  <text x="148" y="104.2" font-size="12" fill="#1e40af" text-anchor="middle">把快速反复访问的行拉黑</text>
+
+  <rect x="301" y="64" width="250" height="54" rx="8" fill="#f3e8ff" stroke="#a855f7" stroke-width="1.5"/>
+  <text x="426" y="86.2" font-size="12" fill="#6b21a8" text-anchor="middle">Self-Managing DRAM</text>
+  <text x="426" y="104.2" font-size="12" fill="#6b21a8" text-anchor="middle">芯片可拒绝激活，自己维护</text>
+
+  <path d="M148,123 L148,135" fill="none" stroke="#64748b" stroke-width="1.5" marker-end="url(#arrow)"/>
+  <path d="M426,123 L426,135" fill="none" stroke="#64748b" stroke-width="1.5" marker-end="url(#arrow)"/>
+
+  <rect x="23" y="146" width="528" height="42" rx="8" fill="#d1fae5" stroke="#22c55e" stroke-width="1.5"/>
+  <text x="287" y="171.2" font-size="12" fill="#166534" text-anchor="middle">共同点：把维护与防护的判断权交给内存自己</text>
+</svg>

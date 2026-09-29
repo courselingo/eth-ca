@@ -41,6 +41,6 @@
   <rect x="150" y="352" width="480" height="22" rx="4" fill="#f3e8ff" stroke="#a855f7" stroke-width="1.5"/>
   <text x="642" y="367.2" font-size="12" fill="#64748b" text-anchor="start">62806×</text>
 
-  <text x="23" y="398" font-size="11" fill="#64748b" text-anchor="start">横条长度按对数刻度，1× 处条长为零；颜色表示改动发生在哪一层</text>
+  <text x="23" y="398" font-size="11" fill="#64748b" text-anchor="start">横条长度＝固定底宽＋对数增量，只表示先后顺序，不表示倍数</text>
   <text x="23" y="416" font-size="11" fill="#64748b" text-anchor="start">蓝＝语言层，黄＝算法层，紫＝微架构层</text>
 </svg>

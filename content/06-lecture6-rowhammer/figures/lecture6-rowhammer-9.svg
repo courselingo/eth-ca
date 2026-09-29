@@ -1,0 +1,27 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 566 304" width="566" height="304"
+     role="img" aria-labelledby="fig-l6-9-title fig-l6-9-desc">
+  <title id="fig-l6-9-title">三个新维度都能削弱现有防御</title>
+  <desc id="fig-l6-9-desc">让攻击行的激活时间更长可把最小激活次数降低 36%；降低字线电压更脆弱；行列之间脆弱程度差别很大。</desc>
+
+  <defs>
+    <style>
+      text { font-family: 'PingFang SC', 'Microsoft YaHei', 'Noto Sans CJK SC', system-ui, sans-serif; }
+    </style>
+  </defs>
+
+  <rect x="0" y="0" width="566" height="304" fill="#ffffff"/>
+
+  <text x="283" y="34" font-size="16" font-weight="600" fill="#1f2937" text-anchor="middle">三个新维度，每一个都能削弱防御</text>
+
+  <rect x="23" y="64" width="520" height="54" rx="8" fill="#fce7f3" stroke="#ec4899" stroke-width="1.5"/>
+  <text x="283" y="86.2" font-size="12" fill="#9d174d" text-anchor="middle">攻击行的激活时长</text>
+  <text x="283" y="104.2" font-size="12" fill="#9d174d" text-anchor="middle">保持得更久，最小激活次数降 36%</text>
+
+  <rect x="23" y="146" width="520" height="54" rx="8" fill="#fef3c7" stroke="#f59e0b" stroke-width="1.5"/>
+  <text x="283" y="168.2" font-size="12" fill="#b45309" text-anchor="middle">字线电压</text>
+  <text x="283" y="186.2" font-size="12" fill="#b45309" text-anchor="middle">降压能省电，但芯片更脆弱</text>
+
+  <rect x="23" y="228" width="520" height="54" rx="8" fill="#dbeafe" stroke="#3b82f6" stroke-width="1.5"/>
+  <text x="283" y="250.2" font-size="12" fill="#1e40af" text-anchor="middle">空间差异</text>
+  <text x="283" y="268.2" font-size="12" fill="#1e40af" text-anchor="middle">行与列之间差别很大，平均值不能用来判断安全</text>
+</svg>

@@ -1,0 +1,31 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 650 144" width="650" height="144"
+     role="img" aria-labelledby="fig-l6-6-title fig-l6-6-desc">
+  <title id="fig-l6-6-title">1580 颗芯片给出的四条结论</title>
+  <desc id="fig-l6-6-desc">新芯片更容易翻、最弱单元只要 4800 次就翻、翻转出现在更多更远的行上、现有的缓解机制在下一代工艺上不管用。</desc>
+
+  <defs>
+    <style>
+      text { font-family: 'PingFang SC', 'Microsoft YaHei', 'Noto Sans CJK SC', system-ui, sans-serif; }
+    </style>
+  </defs>
+
+  <rect x="0" y="0" width="650" height="144" fill="#ffffff"/>
+
+  <text x="325" y="34" font-size="16" font-weight="600" fill="#1f2937" text-anchor="middle">1580 颗芯片给出的四条结论</text>
+
+  <rect x="23" y="64" width="130" height="58" rx="8" fill="#dbeafe" stroke="#3b82f6" stroke-width="1.5"/>
+  <text x="88" y="88.2" font-size="12" fill="#1e40af" text-anchor="middle">更容易翻</text>
+  <text x="88" y="106.2" font-size="12" fill="#1e40af" text-anchor="middle">新芯片更早</text>
+
+  <rect x="181" y="64" width="130" height="58" rx="8" fill="#fce7f3" stroke="#ec4899" stroke-width="1.5"/>
+  <text x="246" y="88.2" font-size="12" fill="#9d174d" text-anchor="middle">4800 次</text>
+  <text x="246" y="106.2" font-size="12" fill="#9d174d" text-anchor="middle">最弱单元</text>
+
+  <rect x="339" y="64" width="130" height="58" rx="8" fill="#fef3c7" stroke="#f59e0b" stroke-width="1.5"/>
+  <text x="404" y="88.2" font-size="12" fill="#b45309" text-anchor="middle">更多更远</text>
+  <text x="404" y="106.2" font-size="12" fill="#b45309" text-anchor="middle">翻转的行</text>
+
+  <rect x="497" y="64" width="130" height="58" rx="8" fill="#fce7f3" stroke="#ec4899" stroke-width="1.5"/>
+  <text x="562" y="88.2" font-size="12" fill="#9d174d" text-anchor="middle">现有缓解机制</text>
+  <text x="562" y="106.2" font-size="12" fill="#9d174d" text-anchor="middle">下一代不管用</text>
+</svg>
