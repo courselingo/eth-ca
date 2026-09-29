@@ -304,3 +304,53 @@ key = "true-random-number-generator"
 zh = "真随机数发生器"
 en = "true random number generator"
 note = "从物理过程里采样熵来产生随机数，而不是用算法算出一串看起来随机的数列"
+
+# ---- 第 12 讲（Lecture 10: Processing using Memory / UPMEM）新增：一条真实 PIM 内存条的构成与度量 ----
+
+[[term]]
+key = "DPU"
+zh = "DRAM 处理单元"
+en = "DRAM Processing Unit"
+note = "UPMEM 放进 DRAM 颗粒里的那个小处理器；本页行文里照源讲义简写成 DPU"
+
+[[term]]
+key = "tasklet"
+zh = "任务线程"
+en = "tasklet"
+note = "跑在一个 DPU 上的软件线程；一个 DPU 里可以同时跑多个，源的建议是至少 11 个"
+
+[[term]]
+key = "MRAM"
+zh = "主内存"
+en = "MRAM"
+note = "UPMEM 术语里指挂在 DPU 旁边的那些 DRAM bank（Main RAM）；一颗 PIM 芯片里有 8 个 64 MB 的 bank"
+
+[[term]]
+key = "WRAM"
+zh = "工作内存"
+en = "WRAM"
+note = "DPU 自己的便签内存（Working RAM）：容量很小、延迟低，访问带宽与访问模式无关"
+
+[[term]]
+key = "operational-intensity"
+zh = "算术强度"
+en = "operational intensity"
+note = "每从内存搬运一个字节做多少次算术运算，单位 OP/B；用来划出访存受限与算力受限两块区域"
+
+[[term]]
+key = "fine-grained-multithreading"
+zh = "细粒度多线程"
+en = "fine-grained multithreading"
+note = "每个周期换一个线程取指，使同一线程的两条指令不会同时在流水线里，用别的线程盖住相关延迟"
+
+[[term]]
+key = "strong-scaling"
+zh = "强扩展"
+en = "strong scaling"
+note = "问题规模固定、只增加处理器数量时，执行时间怎么变"
+
+[[term]]
+key = "weak-scaling"
+zh = "弱扩展"
+en = "weak scaling"
+note = "每个处理器分到的问题规模固定、处理器数量与数据一起增加时，执行时间怎么变"

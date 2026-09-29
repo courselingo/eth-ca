@@ -1,0 +1,39 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 700 373" width="700" height="373"
+     role="img" aria-labelledby="fig-upmem-12-title fig-upmem-12-desc">
+  <title id="fig-upmem-12-title">适合它的是什么工作负载</title>
+  <desc id="fig-upmem-12-desc">第一行说观察 19 的三条特征是这一讲最可以直接拿去用的结论；中间三张卡片分别是流式访存、跨 DPU 通信很少、几乎不用整数乘除（浮点也算）；第三行说观察 20 认为性能与能量两种收益同源，都是减少数据搬运；第四行是 Key Takeaway 2 与 3：只做简单运算且几乎不需要跨 DPU 通信的负载最合适。</desc>
+
+  <defs>
+    <style>
+      text { font-family: 'PingFang SC', 'Microsoft YaHei', 'Noto Sans CJK SC', system-ui, sans-serif; }
+    </style>
+  </defs>
+
+  <rect x="0" y="0" width="700" height="373" fill="#ffffff"/>
+
+  <text x="350" y="34" font-size="16" font-weight="600" fill="#1f2937" text-anchor="middle">适合它的是什么工作负载</text>
+
+  <rect x="23" y="56" width="654" height="54.0" rx="8" fill="#eff6ff" stroke="#3b82f6" stroke-width="1.5"/>
+  <text x="350.0" y="78.2" font-size="12" fill="#1e40af" text-anchor="middle">观察 19 给的三条特征，是这一讲最可以直接拿去用的结论</text>
+  <text x="350.0" y="96.2" font-size="12" fill="#1e40af" text-anchor="middle">三条都满足的工作负载，才可能在 UPMEM 这套架构上跑得好看</text>
+
+  <rect x="23" y="136" width="199" height="54.0" rx="8" fill="#dbeafe" stroke="#3b82f6" stroke-width="1.5"/>
+  <text x="122.5" y="158.2" font-size="12" fill="#1e40af" text-anchor="middle">流式访存</text>
+  <text x="122.5" y="176.2" font-size="12" fill="#1e40af" text-anchor="middle">顺序取数，不是随机跳</text>
+
+  <rect x="250" y="136" width="199" height="54.0" rx="8" fill="#fef3c7" stroke="#f59e0b" stroke-width="1.5"/>
+  <text x="349.5" y="158.2" font-size="12" fill="#b45309" text-anchor="middle">跨 DPU 通信很少</text>
+  <text x="349.5" y="176.2" font-size="12" fill="#b45309" text-anchor="middle">来回经 CPU 搬的次数少</text>
+
+  <rect x="477" y="136" width="199" height="54.0" rx="8" fill="#d1fae5" stroke="#22c55e" stroke-width="1.5"/>
+  <text x="576.5" y="158.2" font-size="12" fill="#166534" text-anchor="middle">几乎不用整数乘除</text>
+  <text x="576.5" y="176.2" font-size="12" fill="#166534" text-anchor="middle">浮点也算在里面</text>
+
+  <rect x="23" y="216" width="654" height="54.0" rx="8" fill="#f3e8ff" stroke="#a855f7" stroke-width="1.5"/>
+  <text x="350.0" y="238.2" font-size="12" fill="#6b21a8" text-anchor="middle">观察 20 说性能与能量两种收益同源</text>
+  <text x="350.0" y="256.2" font-size="12" fill="#6b21a8" text-anchor="middle">都是把内存与处理器核之间的数据搬运减下来，而不是靠算得更快</text>
+
+  <rect x="23" y="296" width="654" height="54.0" rx="8" fill="#fce7f3" stroke="#ec4899" stroke-width="1.5"/>
+  <text x="350.0" y="318.2" font-size="12" fill="#9d174d" text-anchor="middle">Key Takeaway 2 与 3 是同一件事的两种说法</text>
+  <text x="350.0" y="336.2" font-size="12" fill="#9d174d" text-anchor="middle">最合适的是只做简单运算（位运算、整数加减）且几乎不需要跨 DPU 通信的负载</text>
+</svg>

@@ -1,0 +1,37 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 700 391" width="700" height="391"
+     role="img" aria-labelledby="fig-upmem-10-title fig-upmem-10-desc">
+  <title id="fig-upmem-10-title">算术强度：它其实是算力受限的</title>
+  <desc id="fig-upmem-10-desc">第一行定义算术强度为每从 MRAM 取一字节做多少次运算，单位 OP/B，实验照着 Roofline 模型设计；中间两栏是访存受限区（吞吐随算术强度上升）与算力受限区（吞吐平在最大值）；第三行说饱和点低到 ¼ OP/B；第四行是观察 6：DPU 根本上是算力受限的处理器。</desc>
+
+  <defs>
+    <style>
+      text { font-family: 'PingFang SC', 'Microsoft YaHei', 'Noto Sans CJK SC', system-ui, sans-serif; }
+    </style>
+  </defs>
+
+  <rect x="0" y="0" width="700" height="391" fill="#ffffff"/>
+
+  <text x="350" y="34" font-size="16" font-weight="600" fill="#1f2937" text-anchor="middle">算术强度：它其实是算力受限的</text>
+
+  <rect x="23" y="56" width="654" height="54.0" rx="8" fill="#eff6ff" stroke="#3b82f6" stroke-width="1.5"/>
+  <text x="350.0" y="78.2" font-size="12" fill="#1e40af" text-anchor="middle">第 114 页定义一个量：算术强度 = 每从 MRAM 取一个字节做多少次运算</text>
+  <text x="350.0" y="96.2" font-size="12" fill="#1e40af" text-anchor="middle">单位是 OP/B，这一页的实验照着 Roofline 模型设计</text>
+
+  <rect x="23" y="136" width="313" height="72.0" rx="8" fill="#dbeafe" stroke="#3b82f6" stroke-width="1.5"/>
+  <text x="179.5" y="158.2" font-size="12" fill="#1e40af" text-anchor="middle">访存受限区</text>
+  <text x="179.5" y="176.2" font-size="12" fill="#1e40af" text-anchor="middle">吞吐随算术强度上升</text>
+  <text x="179.5" y="194.2" font-size="12" fill="#1e40af" text-anchor="middle">取数跟不上算的速度</text>
+
+  <rect x="364" y="136" width="313" height="72.0" rx="8" fill="#fef3c7" stroke="#f59e0b" stroke-width="1.5"/>
+  <text x="520.5" y="158.2" font-size="12" fill="#b45309" text-anchor="middle">算力受限区</text>
+  <text x="520.5" y="176.2" font-size="12" fill="#b45309" text-anchor="middle">吞吐平在最大值上</text>
+  <text x="520.5" y="194.2" font-size="12" fill="#b45309" text-anchor="middle">再高的算术强度也不涨</text>
+
+  <rect x="23" y="234" width="654" height="54.0" rx="8" fill="#d1fae5" stroke="#22c55e" stroke-width="1.5"/>
+  <text x="350.0" y="256.2" font-size="12" fill="#166534" text-anchor="middle">两段之间的那个算术强度叫饱和点，第 117 页给了 DPU 的值</text>
+  <text x="350.0" y="274.2" font-size="12" fill="#166534" text-anchor="middle">低到 ¼ OP/B，也就是每取一个 32 位元素做一次整数加法就够了</text>
+
+  <rect x="23" y="314" width="654" height="54.0" rx="8" fill="#fce7f3" stroke="#ec4899" stroke-width="1.5"/>
+  <text x="350.0" y="336.2" font-size="12" fill="#9d174d" text-anchor="middle">观察 6 把结论说死：DPU 根本上是算力受限的处理器</text>
+  <text x="350.0" y="354.2" font-size="12" fill="#9d174d" text-anchor="middle">源还预期多数真实负载在它上面也会是算力受限的</text>
+</svg>

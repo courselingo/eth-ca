@@ -17,7 +17,7 @@ output_mode = "explanation"
 > 页内配图全部由我们自绘；原讲义里只有图、没有字的页，我们只如实记下它的标题。
 > 本页为非官方材料，与 ETH Zürich 及课程教学团队无隶属关系；如与原文有出入，以原文为准。
 
-本页的事实来自 `_sources/eth-ddca-ca/evidence/eth-ca2022-lecture9-memorylatency-ii.pdf.embedded.txt`（`pypdf_alt.py` 里的 pypdfium2 通道抽取，283 页），并与同目录的 `.pypdf.txt`（pypdf 6.19.0，独立再抽一遍）逐条核对。该 PDF 入库前按三道核验过完整性：体积 21,368,248 字节、尾部有 `%%EOF`、大小不是 2 的整数次幂。同一份 PDF 用仓内自研抽取器（`pdftext.py`）抽出的正文是逐字符错位的字形码，不作为本页依据；本页引用的每一条数字都在上面两份抽取里检索命中，命中到的页码写在正文里。
+本页的事实来自 `_sources/eth-ddca-ca/evidence/eth-ca2022-lecture9-memorylatency-ii.pdf.pypdfium2.txt`（pypdfium2 抽取，283 页），并与同目录的 `.pypdf.txt`（pypdf 6.19.0，独立再抽一遍）逐条核对。仓内自研抽取器对这份 PDF 不可用：`pdftext.py` 产出的 `evidence/*.embedded.txt` 是 0 字节、`.text.txt` 是逐字符错位的字形码，`pdftext3.py` 的 `.faithful.txt` 同样是错位的字形码，而且只切出 282 个分页段（与 283 页差一段）。该 PDF 入库前按三道核验过完整性：体积 21,368,248 字节、尾部有 `%%EOF`、大小不是 2 的整数次幂。本页引用的每一条数字都在 pypdfium2 那一份里检索命中，命中到的页码写在正文里；少数短语在 pypdf 那一份里要先把制表符与断行归一化才命中，详见图末溯源。
 
 ## 这一讲要解决什么问题
 
@@ -141,9 +141,9 @@ EDEN（MICRO 2019）站在深度学习推理上：DNN 评测很吃 DRAM，而有
 
 异构可靠性内存（DSN 2014）把同一件事做成系统级：先刻画应用数据对内存错误的脆弱度，再把脆弱数据放到可靠内存（带纠错、测试充分），把能容忍的数据放到低成本内存（无纠错或只有奇偶校验、测试较少）（第 102、103 页）。在微软的网页搜索负载上，服务器硬件成本降 4.7%，单机可用性做到 99.90%（第 102 页）。
 
-![左边是不同容错度的层，右边是四个错误率不同的 DRAM 分区，中间用曲线把更宽容的层引到更便宜的分区](figures/lecture9-memory-latency-ii-10.svg)
+![左边是不同容错度的层（越往下越宽容），右边是四个错误率不同的 DRAM 分区，中间用曲线把最宽容的层引到最便宜的分区](figures/lecture9-memory-latency-ii-10.svg)
 
-图上左边是容错度不同的数据与层，右边是四个错误率不同的分区，中间几条曲线是映射的方向：越宽容的数据，越往便宜的分区放。
+图上左边是容错度不同的数据与层（越往下越宽容），右边是四个错误率不同的分区，中间那条曲线是映射的方向：越宽容的数据，越往便宜的分区放。
 
 ## 低于可靠值运行本身就是资源
 
@@ -196,9 +196,9 @@ QUAC-TRNG（ISCA 2021）换了熵源：用精心编排的命令序列一次激�
 - 对应：ETH Zürich Computer Architecture（Onur Mutlu 主讲，Fall 2022），Lecture 9 — Memory Latency II（afterlecture）。
 - 讲义链接：<https://safari.ethz.ch/architecture/fall2022/lib/exe/fetch.php?media=onur-comparch-fall2022-lecture9-memorylatency-ii-afterlecture.pdf>
 - 上游许可：站点级页脚为 CC BY-NC-SA 4.0。**SA 是传染性的**，所以本页的译文也以同协议发布、且为非商业用途。本页未转载原讲义里的任何图片，配图全部自绘；原讲义里只有图、没有字的页，本页只如实记下它的标题。
-- 证据来源：`_sources/eth-ddca-ca/evidence/eth-ca2022-lecture9-memorylatency-ii.pdf.embedded.txt`（pypdfium2，283 页）与同目录 `.pypdf.txt`（pypdf 6.19.0，283 页）。抽取脚本记在 `_sources/_audit/pdftext_alt.py`，检索脚本记在 `_sources/_audit/verify_l9.py`。
+- 证据来源：`_sources/eth-ddca-ca/evidence/eth-ca2022-lecture9-memorylatency-ii.pdf.pypdfium2.txt`（283 页）与同目录 `.pypdf.txt`（283 页）；抽取脚本 `_sources/_audit/pdftext_alt.py`，逐条检索脚本 `_sources/_audit/verify_l9.py`（103 条数字与短语）。
 
-- 一处抽取器的事实：本课程立过一条教训，`text-clean/` 与 `evidence/*.embedded.txt` 常出自同一个自研抽取器，互相核对等于自比。这份 PDF 正是如此：仓内 `pdftext.py` 产出 0 个「许可措辞」块（该路径原本是 0 字节），正文抽取是逐字符错位的字形码。所以本页换两个第三方抽取器（pypdfium2 与 pypdf）各抽一遍，逐条数字都能命中；少数短语在原输出里以制表符分隔或被词粘连，要先归一化空白，例如第 134 页的 `4.4 nJ/bit`、第 146 页的 `5.4 Gb/s` 与 `274 ns`、第 263 页的 `0.15 mW`，以及 pypdf 那一份里词粘连的 `Entropy changes with temperature`。
+- 一处抽取器的事实：本课程立过一条教训，`text-clean/` 与 `evidence/*.embedded.txt` 常出自同一个自研抽取器，互相核对等于自比。这份 PDF 更极端，仓内两个自研抽取器都不可用：`pdftext.py` 的 `embedded.txt` 是 0 字节、`.text.txt` 是逐字符错位的字形码，`pdftext3.py` 的 `.faithful.txt` 同样是错位的字形码且只切出 282 个分页段。所以本页换两个第三方抽取器（pypdfium2 与 pypdf）各抽一遍：103 条数字与短语在 pypdfium2 那一份里全部命中；pypdf 那一份有 5 处要先归一化制表符与断行才命中（第 64 页的 54%、第 97 至 98 页的 21%/8%/17%、第 112 页的 124 颗 DDR3L），另有若干短语因制表符分隔或词粘连需要同样处理（第 134 页的 `4.4 nJ/bit`、第 146 页的 `5.4 Gb/s` 与 `274 ns`、第 263 页的 `0.15 mW`，以及第 165 页 `Change of Mindset` 这类标题大小写）。
 - 取材范围：正文第 1 到 169 页；附录（第 171 到 283 页）只在两处被引用，并就地标明来源是备份页：Solar-DRAM 的 77%（第 177 页）与 VAMPIRE 的四条观察及 6.8%（第 275 到 281 页）。只给标题与出处、没有正文的页，本页只记标题：第 5 页的分层延迟 DRAM 出处、第 151 页的可变刷新延迟（DAC 2018）、第 157 至 158 页的刷新与访问并行（HPCA 2014，并注明 2022 年在 MICRO 又出现）。
 - **属于 CourseLingo 的讲解**（源里没有这些推论）：把清单在六页上的重复读成「本讲的路线图」并按拆除的维度重排全页；把每件工作对到清单的哪一条；「花面积换时间／花测试与控制器复杂度换时间／花可靠性风险换能量／花精度余量换能量／把风险变成功能」这五条概括；与本课第 6、7b、8a、8b 讲的对应关系；第 52、55 页矛盾的读法（按第 48、57 页判方向）；第 9 页 55% 与第 12 页 48.1 倍是两个口径的说明；第 80 页四个数、第 119 页两组数未配对的说明；第 146 页 8 条与第 147 页 4 条的计数差异。
 - 核不到的：本页引用的数字没有一条在两份抽取里都落空。第 52、55 页的标号重复无法从文字层判断哪一版是最终稿（页面上叠着动画的各层），只能说按第 48、57 页的正文判方向。第 90 页 DIVA 的两张柱状图标了 12 个数（25.5% 到 41.3% 之间），但图上 6 组配置与这些数对应得很含糊，本页因此没有引用 DIVA 的具体降幅。

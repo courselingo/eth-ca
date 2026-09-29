@@ -1,0 +1,35 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 700 293" width="700" height="293"
+     role="img" aria-labelledby="fig-upmem-4-title fig-upmem-4-desc">
+  <title id="fig-upmem-4-title">系统怎么摆：2560 个 DPU</title>
+  <desc id="fig-upmem-4-desc">上面一行是第 31 页的账：20 条 P21 内存条、每条 16 颗芯片、共 40 个 rank、双路 x86；中间三张卡片写 2560 个 DPU、其中 4 个坏所以最多用 2556 个、容量 160 GB；下面一行说 E19 的 DPU 跑 267 MHz，P21 的跑 350 MHz。</desc>
+
+  <defs>
+    <style>
+      text { font-family: 'PingFang SC', 'Microsoft YaHei', 'Noto Sans CJK SC', system-ui, sans-serif; }
+    </style>
+  </defs>
+
+  <rect x="0" y="0" width="700" height="293" fill="#ffffff"/>
+
+  <text x="350" y="34" font-size="16" font-weight="600" fill="#1f2937" text-anchor="middle">系统怎么摆：2560 个 DPU</text>
+
+  <rect x="23" y="56" width="654" height="54.0" rx="8" fill="#eff6ff" stroke="#3b82f6" stroke-width="1.5"/>
+  <text x="350.0" y="78.2" font-size="12" fill="#1e40af" text-anchor="middle">第 31 页的账：20 条 P21 内存条，每条 16 颗芯片</text>
+  <text x="350.0" y="96.2" font-size="12" fill="#1e40af" text-anchor="middle">合起来 40 个 rank，插在双路 x86 上</text>
+
+  <rect x="23" y="136" width="199" height="54.0" rx="8" fill="#fef3c7" stroke="#f59e0b" stroke-width="1.5"/>
+  <text x="122.5" y="158.2" font-size="12" fill="#b45309" text-anchor="middle">2560 个 DPU</text>
+  <text x="122.5" y="176.2" font-size="12" fill="#b45309" text-anchor="middle">其中 4 个是坏的</text>
+
+  <rect x="250" y="136" width="199" height="54.0" rx="8" fill="#fce7f3" stroke="#ec4899" stroke-width="1.5"/>
+  <text x="349.5" y="158.2" font-size="12" fill="#9d174d" text-anchor="middle">实验最多用 2556 个</text>
+  <text x="349.5" y="176.2" font-size="12" fill="#9d174d" text-anchor="middle">坏的那 4 个不能用</text>
+
+  <rect x="477" y="136" width="199" height="54.0" rx="8" fill="#d1fae5" stroke="#22c55e" stroke-width="1.5"/>
+  <text x="576.5" y="158.2" font-size="12" fill="#166534" text-anchor="middle">容量 160 GB</text>
+  <text x="576.5" y="176.2" font-size="12" fill="#166534" text-anchor="middle">与普通 DDR4 内存条共存</text>
+
+  <rect x="23" y="216" width="654" height="54.0" rx="8" fill="#f3e8ff" stroke="#a855f7" stroke-width="1.5"/>
+  <text x="350.0" y="238.2" font-size="12" fill="#6b21a8" text-anchor="middle">两代内存条的频率不一样，源在第 20 页分开写了</text>
+  <text x="350.0" y="256.2" font-size="12" fill="#6b21a8" text-anchor="middle">E19 每条约 8 颗芯片、DPU 跑 267 MHz；P21 是 16 颗、DPU 跑 350 MHz</text>
+</svg>

@@ -1,0 +1,43 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 700 409" width="700" height="409"
+     role="img" aria-labelledby="fig-upmem-11-title fig-upmem-11-desc">
+  <title id="fig-upmem-11-title">量出来的结果：和 CPU 与 GPU 比</title>
+  <desc id="fig-upmem-11-desc">四张卡片：2556-DPU 那台在 13 个基准上比 CPU 快 93.0 倍、640-DPU 是 27.9 倍；在 10 个基准上比 GPU 快 2.54 倍、640-DPU 落在 GPU 的 65% 以内；640-DPU 比 CPU 平均省能量 1.64 倍、12 个基准省到 5.23 倍；Key Takeaway 4 写的是 16 个基准上 23.2 倍。下面两行说基准来自 14 个负载 10 个领域、都落在访存受限区，以及对比对象与三个不占上风的负载。</desc>
+
+  <defs>
+    <style>
+      text { font-family: 'PingFang SC', 'Microsoft YaHei', 'Noto Sans CJK SC', system-ui, sans-serif; }
+    </style>
+  </defs>
+
+  <rect x="0" y="0" width="700" height="409" fill="#ffffff"/>
+
+  <text x="350" y="34" font-size="16" font-weight="600" fill="#1f2937" text-anchor="middle">量出来的结果：和 CPU 与 GPU 比</text>
+
+  <rect x="23" y="56" width="313" height="72.0" rx="8" fill="#d1fae5" stroke="#22c55e" stroke-width="1.5"/>
+  <text x="179.5" y="78.2" font-size="12" fill="#166534" text-anchor="middle">比 CPU 快 93.0 倍</text>
+  <text x="179.5" y="96.2" font-size="12" fill="#166534" text-anchor="middle">13 个基准，2556-DPU 那台</text>
+  <text x="179.5" y="114.2" font-size="12" fill="#166534" text-anchor="middle">640-DPU 同一批是 27.9 倍</text>
+
+  <rect x="364" y="56" width="313" height="72.0" rx="8" fill="#dbeafe" stroke="#3b82f6" stroke-width="1.5"/>
+  <text x="520.5" y="78.2" font-size="12" fill="#1e40af" text-anchor="middle">比 GPU 快 2.54 倍</text>
+  <text x="520.5" y="96.2" font-size="12" fill="#1e40af" text-anchor="middle">10 个基准，2556-DPU 那台</text>
+  <text x="520.5" y="114.2" font-size="12" fill="#1e40af" text-anchor="middle">640-DPU 落在 GPU 的 65% 以内</text>
+
+  <rect x="23" y="154" width="313" height="72.0" rx="8" fill="#f3e8ff" stroke="#a855f7" stroke-width="1.5"/>
+  <text x="179.5" y="176.2" font-size="12" fill="#6b21a8" text-anchor="middle">比 CPU 省能量 1.64 倍</text>
+  <text x="179.5" y="194.2" font-size="12" fill="#6b21a8" text-anchor="middle">全部 16 个基准，640-DPU 那台</text>
+  <text x="179.5" y="212.2" font-size="12" fill="#6b21a8" text-anchor="middle">其中 12 个基准省到 5.23 倍</text>
+
+  <rect x="364" y="154" width="313" height="72.0" rx="8" fill="#fce7f3" stroke="#ec4899" stroke-width="1.5"/>
+  <text x="520.5" y="176.2" font-size="12" fill="#9d174d" text-anchor="middle">Key Takeaway 4 写的是 23.2 倍</text>
+  <text x="520.5" y="194.2" font-size="12" fill="#9d174d" text-anchor="middle">2556 个 DPU 对 CPU，16 个基准</text>
+  <text x="520.5" y="212.2" font-size="12" fill="#9d174d" text-anchor="middle">与 93.0 倍的分母不同，两个都照录</text>
+
+  <rect x="23" y="252" width="654" height="54.0" rx="8" fill="#fef3c7" stroke="#f59e0b" stroke-width="1.5"/>
+  <text x="350.0" y="274.2" font-size="12" fill="#b45309" text-anchor="middle">被测的 16 个基准来自 14 个负载、10 个领域</text>
+  <text x="350.0" y="292.2" font-size="12" fill="#b45309" text-anchor="middle">源用 Intel Advisor 在 Xeon E3-1225 v6 上跑出的 Roofline 图显示，它们都落在访存受限区</text>
+
+  <rect x="23" y="332" width="654" height="54.0" rx="8" fill="#eff6ff" stroke="#3b82f6" stroke-width="1.5"/>
+  <text x="350.0" y="354.2" font-size="12" fill="#1e40af" text-anchor="middle">对比对象是 Intel Xeon E3-1240 与 NVIDIA Titan V</text>
+  <text x="350.0" y="372.2" font-size="12" fill="#1e40af" text-anchor="middle">不占上风的三个是 SpMV、BFS、NW，后面两个都卡在负载不均上</text>
+</svg>

@@ -1,0 +1,45 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 700 355" width="700" height="355"
+     role="img" aria-labelledby="fig-upmem-7-title fig-upmem-7-desc">
+  <title id="fig-upmem-7-title">DPU 里面是什么</title>
+  <desc id="fig-upmem-7-desc">第一行说流水线是顺序的、最高 425 MHz、14 级；中间一条是六级名字 DISPATCH、FETCH、READOP、FORMAT、ALU、MERGE；第三行说细粒度多线程每个周期换一个线程取指，同一个线程的两条指令不会同时在流水线里；第四行是代价：单线程变差、要额外逻辑存上下文，ISA 是自己的 32 位指令集。</desc>
+
+  <defs>
+    <style>
+      text { font-family: 'PingFang SC', 'Microsoft YaHei', 'Noto Sans CJK SC', system-ui, sans-serif; }
+    </style>
+  </defs>
+
+  <rect x="0" y="0" width="700" height="355" fill="#ffffff"/>
+
+  <text x="350" y="34" font-size="16" font-weight="600" fill="#1f2937" text-anchor="middle">DPU 里面是什么</text>
+
+  <rect x="23" y="56" width="654" height="54.0" rx="8" fill="#eff6ff" stroke="#3b82f6" stroke-width="1.5"/>
+  <text x="350.0" y="78.2" font-size="12" fill="#1e40af" text-anchor="middle">第 69 页给 DPU 的流水线参数：顺序、最高 425 MHz、14 级</text>
+  <text x="350.0" y="96.2" font-size="12" fill="#1e40af" text-anchor="middle">六级有名字，源一个一个列了出来</text>
+
+  <rect x="23.0" y="136" width="85.5" height="36.0" rx="8" fill="#fef3c7" stroke="#f59e0b" stroke-width="1.5"/>
+  <text x="65.75" y="158.2" font-size="12" fill="#b45309" text-anchor="middle">DISPATCH</text>
+
+  <rect x="136.5" y="136" width="85.5" height="36.0" rx="8" fill="#fef3c7" stroke="#f59e0b" stroke-width="1.5"/>
+  <text x="179.25" y="158.2" font-size="12" fill="#b45309" text-anchor="middle">FETCH</text>
+
+  <rect x="250.0" y="136" width="85.5" height="36.0" rx="8" fill="#fef3c7" stroke="#f59e0b" stroke-width="1.5"/>
+  <text x="292.75" y="158.2" font-size="12" fill="#b45309" text-anchor="middle">READOP</text>
+
+  <rect x="363.5" y="136" width="85.5" height="36.0" rx="8" fill="#fef3c7" stroke="#f59e0b" stroke-width="1.5"/>
+  <text x="406.25" y="158.2" font-size="12" fill="#b45309" text-anchor="middle">FORMAT</text>
+
+  <rect x="477.0" y="136" width="85.5" height="36.0" rx="8" fill="#fef3c7" stroke="#f59e0b" stroke-width="1.5"/>
+  <text x="519.75" y="158.2" font-size="12" fill="#b45309" text-anchor="middle">ALU</text>
+
+  <rect x="590.5" y="136" width="85.5" height="36.0" rx="8" fill="#fef3c7" stroke="#f59e0b" stroke-width="1.5"/>
+  <text x="633.25" y="158.2" font-size="12" fill="#b45309" text-anchor="middle">MERGE</text>
+
+  <rect x="23" y="198" width="654" height="54.0" rx="8" fill="#d1fae5" stroke="#22c55e" stroke-width="1.5"/>
+  <text x="350.0" y="220.2" font-size="12" fill="#166534" text-anchor="middle">细粒度多线程：硬件里存着多个线程上下文，每个周期换一个线程取指</text>
+  <text x="350.0" y="238.2" font-size="12" fill="#166534" text-anchor="middle">同一个线程的两条指令不会同时待在流水线里，于是相关的延迟被别人盖住</text>
+
+  <rect x="23" y="278" width="654" height="54.0" rx="8" fill="#fce7f3" stroke="#ec4899" stroke-width="1.5"/>
+  <text x="350.0" y="300.2" font-size="12" fill="#9d174d" text-anchor="middle">代价也列出来了：单线程性能变差、要额外逻辑保存线程上下文</text>
+  <text x="350.0" y="318.2" font-size="12" fill="#9d174d" text-anchor="middle">线程不够多就盖不住整条流水线；ISA 是它自己的 32 位指令集</text>
+</svg>

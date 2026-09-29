@@ -1,0 +1,41 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 700 337" width="700" height="337"
+     role="img" aria-labelledby="fig-upmem-2-title fig-upmem-2-desc">
+  <title id="fig-upmem-2-title">一条 PIM 内存条里装了什么</title>
+  <desc id="fig-upmem-2-desc">上面两块并排：左边是内存侧，8 GB 容量、标准 DDR4 R-DIMM 形态、2x 纳米工艺；右边是计算侧，128 个 DPU 分布在 16 颗 PIM 芯片里，每颗芯片有 8 个 64 MB 的 bank。下面一行说一个 rank 是 8 颗芯片即 64 个 DPU。</desc>
+
+  <defs>
+    <style>
+      text { font-family: 'PingFang SC', 'Microsoft YaHei', 'Noto Sans CJK SC', system-ui, sans-serif; }
+    </style>
+  </defs>
+
+  <rect x="0" y="0" width="700" height="337" fill="#ffffff"/>
+
+  <text x="350" y="34" font-size="16" font-weight="600" fill="#1f2937" text-anchor="middle">一条 PIM 内存条里装了什么</text>
+
+  <rect x="23" y="56" width="313" height="178" rx="10" fill="#f8fafc" stroke="#94a3b8" stroke-width="1.5" stroke-dasharray="6,4"/>
+  <text x="33" y="70" font-size="11" fill="#64748b" text-anchor="start">内存侧</text>
+
+  <rect x="38" y="84" width="283" height="54.0" rx="8" fill="#dbeafe" stroke="#3b82f6" stroke-width="1.5"/>
+  <text x="179.5" y="106.2" font-size="12" fill="#1e40af" text-anchor="middle">8 GB 容量</text>
+  <text x="179.5" y="124.2" font-size="12" fill="#1e40af" text-anchor="middle">替换的是标准 DDR4 R-DIMM</text>
+
+  <rect x="38" y="164" width="283" height="54.0" rx="8" fill="#dbeafe" stroke="#3b82f6" stroke-width="1.5"/>
+  <text x="179.5" y="186.2" font-size="12" fill="#1e40af" text-anchor="middle">制造用标准的 2x 纳米工艺</text>
+  <text x="179.5" y="204.2" font-size="12" fill="#1e40af" text-anchor="middle">形态是普通内存条，插在普通插槽上</text>
+
+  <rect x="364" y="56" width="313" height="178" rx="10" fill="#f8fafc" stroke="#94a3b8" stroke-width="1.5" stroke-dasharray="6,4"/>
+  <text x="374" y="70" font-size="11" fill="#64748b" text-anchor="start">计算侧</text>
+
+  <rect x="379" y="84" width="283" height="54.0" rx="8" fill="#fef3c7" stroke="#f59e0b" stroke-width="1.5"/>
+  <text x="520.5" y="106.2" font-size="12" fill="#b45309" text-anchor="middle">128 个 DPU</text>
+  <text x="520.5" y="124.2" font-size="12" fill="#b45309" text-anchor="middle">分布在 16 颗 PIM 芯片里</text>
+
+  <rect x="379" y="164" width="283" height="54.0" rx="8" fill="#fef3c7" stroke="#f59e0b" stroke-width="1.5"/>
+  <text x="520.5" y="186.2" font-size="12" fill="#b45309" text-anchor="middle">每颗芯片 8 个 64 MB 的 bank</text>
+  <text x="520.5" y="204.2" font-size="12" fill="#b45309" text-anchor="middle">芯片里那 8 个 DPU 就近访问它们</text>
+
+  <rect x="23" y="260" width="654" height="54.0" rx="8" fill="#f3e8ff" stroke="#a855f7" stroke-width="1.5"/>
+  <text x="350.0" y="282.2" font-size="12" fill="#6b21a8" text-anchor="middle">一个 rank 是 8 颗芯片，也就是 64 个 DPU</text>
+  <text x="350.0" y="300.2" font-size="12" fill="#6b21a8" text-anchor="middle">一条内存条装 8 颗或 16 颗，于是 1 个或 2 个 rank</text>
+</svg>

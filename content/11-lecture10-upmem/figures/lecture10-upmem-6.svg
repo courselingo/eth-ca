@@ -1,0 +1,39 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 700 373" width="700" height="373"
+     role="img" aria-labelledby="fig-upmem-6-title fig-upmem-6-desc">
+  <title id="fig-upmem-6-title">数据怎么进出这条内存条</title>
+  <desc id="fig-upmem-6-desc">第一行说 CPU 与 DPU 之间的传输分三类；中间三张卡片是串行（一个 DPU）、并行（多个 DPU、同尺寸缓冲区）、广播（多个 DPU 收同一份）；第三行说 DPU 之间没有直连通道，只能经主机 CPU 绕一圈；第四行是第 46 到 49 页的三条带宽观察。</desc>
+
+  <defs>
+    <style>
+      text { font-family: 'PingFang SC', 'Microsoft YaHei', 'Noto Sans CJK SC', system-ui, sans-serif; }
+    </style>
+  </defs>
+
+  <rect x="0" y="0" width="700" height="373" fill="#ffffff"/>
+
+  <text x="350" y="34" font-size="16" font-weight="600" fill="#1f2937" text-anchor="middle">数据怎么进出这条内存条</text>
+
+  <rect x="23" y="56" width="654" height="54.0" rx="8" fill="#eff6ff" stroke="#3b82f6" stroke-width="1.5"/>
+  <text x="350.0" y="78.2" font-size="12" fill="#1e40af" text-anchor="middle">第 40 页把 CPU 与 DPU 之间的传输分成三类</text>
+  <text x="350.0" y="96.2" font-size="12" fill="#1e40af" text-anchor="middle">区别在于一次搬运覆盖几个 DPU、以及是不是同一份缓冲区</text>
+
+  <rect x="23" y="136" width="199" height="54.0" rx="8" fill="#dbeafe" stroke="#3b82f6" stroke-width="1.5"/>
+  <text x="122.5" y="158.2" font-size="12" fill="#1e40af" text-anchor="middle">串行</text>
+  <text x="122.5" y="176.2" font-size="12" fill="#1e40af" text-anchor="middle">一个 DPU、也就是一个 bank</text>
+
+  <rect x="250" y="136" width="199" height="54.0" rx="8" fill="#fef3c7" stroke="#f59e0b" stroke-width="1.5"/>
+  <text x="349.5" y="158.2" font-size="12" fill="#b45309" text-anchor="middle">并行</text>
+  <text x="349.5" y="176.2" font-size="12" fill="#b45309" text-anchor="middle">多个 DPU，缓冲区要同尺寸</text>
+
+  <rect x="477" y="136" width="199" height="54.0" rx="8" fill="#d1fae5" stroke="#22c55e" stroke-width="1.5"/>
+  <text x="576.5" y="158.2" font-size="12" fill="#166534" text-anchor="middle">广播</text>
+  <text x="576.5" y="176.2" font-size="12" fill="#166534" text-anchor="middle">多个 DPU 收同一份缓冲区</text>
+
+  <rect x="23" y="216" width="654" height="54.0" rx="8" fill="#fce7f3" stroke="#ec4899" stroke-width="1.5"/>
+  <text x="350.0" y="238.2" font-size="12" fill="#9d174d" text-anchor="middle">第 45 页给了一条硬限制：DPU 之间没有直连通道</text>
+  <text x="350.0" y="256.2" font-size="12" fill="#9d174d" text-anchor="middle">跨 DPU 通信只能经主机 CPU 绕一圈，用两类传输拼出来</text>
+
+  <rect x="23" y="296" width="654" height="54.0" rx="8" fill="#f3e8ff" stroke="#a855f7" stroke-width="1.5"/>
+  <text x="350.0" y="318.2" font-size="12" fill="#6b21a8" text-anchor="middle">第 46 到 49 页把这条限制量了下来，三条观察</text>
+  <text x="350.0" y="336.2" font-size="12" fill="#6b21a8" text-anchor="middle">传输越大持续带宽越高；同 rank 内并行越快；CPU 到 DPU 高于反向，广播最高</text>
+</svg>

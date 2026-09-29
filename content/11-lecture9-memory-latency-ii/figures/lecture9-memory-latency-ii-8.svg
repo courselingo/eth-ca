@@ -1,7 +1,7 @@
 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 720 302" width="720" height="302"
      role="img" aria-labelledby="fig-l9-8-title fig-l9-8-desc">
   <title id="fig-l9-8-title">片内两种差异：按区域分档，与只刻画慢区</title>
-  <desc id="fig-l9-8-desc">上面是 FLY-DRAM 的三档延迟 D1、D2、D3 对应 13、10、7.5 ns，tRCD 覆盖率分别是 12%、93%、99%，控制器只对没有慢单元的区域用更低延迟，源在这一页标了 17.6%、19.5%、19.7%、13.3% 四个数；下面是 DIVA 的两条腿：固有的慢区靠在线刻画找出，随机的慢单元交给纠错码接住。</desc>
+  <desc id="fig-l9-8-desc">上面是 FLY-DRAM 的三档延迟 D1、D2、D3 对应 13、10、7.5 ns，tRCD 覆盖率分别是 12%、93%、99%，控制器只对没有慢单元的区域用更低延迟，源在第 80 页标了 17.6%、19.5%、19.7%、13.3% 四个数；下面是 DIVA 的两条腿：固有的慢区靠在线刻画找出，随机的慢单元交给纠错码接住。</desc>
 
   <defs>
     <style>
@@ -26,7 +26,7 @@
   <text x="595" y="100.2" font-size="12" fill="#1e40af" text-anchor="middle">tRCD 覆盖 99%</text>
 
   <rect x="22" y="142" width="676" height="54" rx="8" fill="#fef3c7" stroke="#f59e0b" stroke-width="1.5"/>
-  <text x="360" y="164.2" font-size="12" fill="#b45309" text-anchor="middle">控制器对没有慢单元的区域用更低延迟</text>
+  <text x="360" y="164.2" font-size="12" fill="#b45309" text-anchor="middle">FLY-DRAM：对没有慢单元的区域用更低延迟</text>
   <text x="360" y="182.2" font-size="12" fill="#b45309" text-anchor="middle">源在第 80 页标了四个数：17.6%、19.5%、19.7%、13.3%</text>
 
   <rect x="22" y="224" width="326" height="54" rx="8" fill="#f3e8ff" stroke="#a855f7" stroke-width="1.5"/>
