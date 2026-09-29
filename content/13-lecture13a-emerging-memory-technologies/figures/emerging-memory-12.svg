@@ -1,0 +1,30 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="2 13.0 856 312.0" width="856" height="312.0"
+     role="img" aria-labelledby="fig-emerging-memory-12-title fig-emerging-memory-12-desc">
+  <title id="fig-emerging-memory-12-title">讲义的结论与它给的原则</title>
+  <desc id="fig-emerging-memory-12-desc">讲义对前景是乐观的，同时它强调困难不只在新器件本身，也在上层的问题与需求上；它给的做法是要跨栈地思考，并设计能把这些技术用起来的系统。</desc>
+
+  <defs>
+    <style>
+      text { font-family: 'PingFang SC', 'Microsoft YaHei', 'Noto Sans CJK SC', system-ui, sans-serif; }
+    </style>
+    <marker id="arrow" markerWidth="8" markerHeight="8" refX="2" refY="4"
+            orient="auto" markerUnits="userSpaceOnUse">
+      <path d="M0,0 L8,4 L0,8 L2,4 z" fill="#64748b"/>
+    </marker>
+  </defs>
+
+  <rect x="2" y="13.0" width="856" height="312.0" fill="#ffffff"/>
+
+  <text x="430.0" y="48" font-size="16" font-weight="600" fill="#1f2937" text-anchor="middle">讲义的结论与它给的原则</text>
+  <rect x="25" y="70" width="712" height="42" fill="#d1fae5" stroke="#22c55e"/>
+  <text x="381.0" y="95.9" font-size="14" fill="#166534" text-anchor="middle">前景是好的，但要跨栈地设计</text>
+  <rect x="25" y="138" width="340" height="68" fill="#d1fae5" stroke="#22c55e"/>
+  <text x="195.0" y="167.7" font-size="15" fill="#166534" text-anchor="middle">乐观在哪</text>
+  <text x="195.0" y="185.7" font-size="12" fill="#166534" text-anchor="middle">可能带来数量级的提升与新应用</text>
+  <rect x="393" y="138" width="340" height="68" fill="#fce7f3" stroke="#ec4899"/>
+  <text x="563.0" y="167.7" font-size="15" fill="#9d174d" text-anchor="middle">难在哪</text>
+  <text x="563.0" y="185.7" font-size="12" fill="#9d174d" text-anchor="middle">器件本身，以及上层的问题与需求</text>
+  <rect x="25" y="234" width="810" height="68" fill="#f3e8ff" stroke="#a855f7"/>
+  <text x="430.0" y="263.7" font-size="15" fill="#6b21a8" text-anchor="middle">讲义把要跨的层次从电子一路列到问题与算法</text>
+  <text x="430.0" y="281.7" font-size="12" fill="#6b21a8" text-anchor="middle">这一条与前一讲的「按比最坏情况更好的情况设计」是两种不同的跨栈动机</text>
+</svg>

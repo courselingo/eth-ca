@@ -1,0 +1,30 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="2 13.0 846 312.0" width="846" height="312.0"
+     role="img" aria-labelledby="fig-emerging-memory-11-title fig-emerging-memory-11-desc">
+  <title id="fig-emerging-memory-11-title">挑战二与挑战三：好不好写、安不安全</title>
+  <desc id="fig-emerging-memory-11-desc">讲义把另外两个挑战并列出来。编程易用性指的是「怎么让程序员真的用上持久性」，做法是给工具与库。安全与隐私则有三条具体的问题。</desc>
+
+  <defs>
+    <style>
+      text { font-family: 'PingFang SC', 'Microsoft YaHei', 'Noto Sans CJK SC', system-ui, sans-serif; }
+    </style>
+    <marker id="arrow" markerWidth="8" markerHeight="8" refX="2" refY="4"
+            orient="auto" markerUnits="userSpaceOnUse">
+      <path d="M0,0 L8,4 L0,8 L2,4 z" fill="#64748b"/>
+    </marker>
+  </defs>
+
+  <rect x="2" y="13.0" width="846" height="312.0" fill="#ffffff"/>
+
+  <text x="425.0" y="48" font-size="16" font-weight="600" fill="#1f2937" text-anchor="middle">挑战二与挑战三：好不好写、安不安全</text>
+  <rect x="25" y="70" width="712" height="42" fill="#eff6ff" stroke="#3b82f6"/>
+  <text x="381.0" y="95.9" font-size="14" fill="#1e40af" text-anchor="middle">两个挑战各自的具体问题</text>
+  <rect x="25" y="138" width="340" height="68" fill="#fef3c7" stroke="#f59e0b"/>
+  <text x="195.0" y="167.7" font-size="15" fill="#b45309" text-anchor="middle">编程易用性</text>
+  <text x="195.0" y="185.7" font-size="12" fill="#b45309" text-anchor="middle">给工具与库，帮程序员迁移过来</text>
+  <rect x="393" y="138" width="340" height="68" fill="#fce7f3" stroke="#ec4899"/>
+  <text x="563.0" y="167.7" font-size="15" fill="#9d174d" text-anchor="middle">安全与隐私</text>
+  <text x="563.0" y="185.7" font-size="12" fill="#9d174d" text-anchor="middle">磨损攻击、性能攻击、断电后数据还在</text>
+  <rect x="25" y="234" width="800" height="68" fill="#f3e8ff" stroke="#a855f7"/>
+  <text x="425.0" y="263.7" font-size="15" fill="#6b21a8" text-anchor="middle">安全那三条各有各的机理：写入次数有限所以能被磨坏、</text>
+  <text x="425.0" y="281.7" font-size="12" fill="#6b21a8" text-anchor="middle">混合内存的不均匀所以能被拿来打性能、数据不擦所以断电后仍在</text>
+</svg>

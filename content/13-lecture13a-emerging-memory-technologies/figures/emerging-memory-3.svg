@@ -1,0 +1,30 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="2 13.0 766 312.0" width="766" height="312.0"
+     role="img" aria-labelledby="fig-emerging-memory-3-title fig-emerging-memory-3-desc">
+  <title id="fig-emerging-memory-3-title">目标：把两层合成一层</title>
+  <desc id="fig-emerging-memory-3-desc">讲义给的目标是把内存与存储的管理合成一个单元，从而消掉定位、搬运与翻译这些「白干的工作」；它带来的是功耗、性能与编程模型三方面的好处。</desc>
+
+  <defs>
+    <style>
+      text { font-family: 'PingFang SC', 'Microsoft YaHei', 'Noto Sans CJK SC', system-ui, sans-serif; }
+    </style>
+    <marker id="arrow" markerWidth="8" markerHeight="8" refX="2" refY="4"
+            orient="auto" markerUnits="userSpaceOnUse">
+      <path d="M0,0 L8,4 L0,8 L2,4 z" fill="#64748b"/>
+    </marker>
+  </defs>
+
+  <rect x="2" y="13.0" width="766" height="312.0" fill="#ffffff"/>
+
+  <text x="385.0" y="48" font-size="16" font-weight="600" fill="#1f2937" text-anchor="middle">目标：把两层合成一层</text>
+  <rect x="25" y="70" width="712" height="42" fill="#d1fae5" stroke="#22c55e"/>
+  <text x="381.0" y="95.9" font-size="14" fill="#166534" text-anchor="middle">合成一层：消掉定位、搬运与翻译</text>
+  <rect x="25" y="138" width="340" height="68" fill="#dbeafe" stroke="#3b82f6"/>
+  <text x="195.0" y="167.7" font-size="15" fill="#1e40af" text-anchor="middle">拿掉了什么</text>
+  <text x="195.0" y="185.7" font-size="12" fill="#1e40af" text-anchor="middle">定位、搬运、翻译这些白干的工作</text>
+  <rect x="393" y="138" width="340" height="68" fill="#d1fae5" stroke="#22c55e"/>
+  <text x="563.0" y="167.7" font-size="15" fill="#166534" text-anchor="middle">拿到什么</text>
+  <text x="563.0" y="185.7" font-size="12" fill="#166534" text-anchor="middle">功耗、性能、编程模型三方面</text>
+  <rect x="25" y="234" width="720" height="68" fill="#f3e8ff" stroke="#a855f7"/>
+  <text x="385.0" y="263.7" font-size="15" fill="#6b21a8" text-anchor="middle">代价是需要在硬件与软件之间重新分工</text>
+  <text x="385.0" y="281.7" font-size="12" fill="#6b21a8" text-anchor="middle">讲义提的方案是一个持久内存管理器，它把持久数据映射到物理地址上</text>
+</svg>

@@ -1,0 +1,30 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="2 13.0 758 312.0" width="758" height="312.0"
+     role="img" aria-labelledby="fig-emerging-memory-2-title fig-emerging-memory-2-desc">
+  <title id="fig-emerging-memory-2-title">旧的模型：内存一层、存储一层</title>
+  <desc id="fig-emerging-memory-2-desc">传统做法把易失数据放在内存里用读写指令访问，把持久数据放在存储里用文件系统访问；问题在于，当持久存储变得很快时，操作系统与文件系统里那些定位、翻译、缓冲的开销就成了瓶颈。</desc>
+
+  <defs>
+    <style>
+      text { font-family: 'PingFang SC', 'Microsoft YaHei', 'Noto Sans CJK SC', system-ui, sans-serif; }
+    </style>
+    <marker id="arrow" markerWidth="8" markerHeight="8" refX="2" refY="4"
+            orient="auto" markerUnits="userSpaceOnUse">
+      <path d="M0,0 L8,4 L0,8 L2,4 z" fill="#64748b"/>
+    </marker>
+  </defs>
+
+  <rect x="2" y="13.0" width="758" height="312.0" fill="#ffffff"/>
+
+  <text x="381.0" y="48" font-size="16" font-weight="600" fill="#1f2937" text-anchor="middle">旧的模型：内存一层、存储一层</text>
+  <rect x="25" y="70" width="712" height="42" fill="#eff6ff" stroke="#3b82f6"/>
+  <text x="381.0" y="95.9" font-size="14" fill="#1e40af" text-anchor="middle">两层模型：易失的走读写指令，持久的走文件系统</text>
+  <rect x="25" y="138" width="340" height="68" fill="#fef3c7" stroke="#f59e0b"/>
+  <text x="195.0" y="167.7" font-size="15" fill="#b45309" text-anchor="middle">内存那一层</text>
+  <text x="195.0" y="185.7" font-size="12" fill="#b45309" text-anchor="middle">读写指令直接访问</text>
+  <rect x="393" y="138" width="340" height="68" fill="#fce7f3" stroke="#ec4899"/>
+  <text x="563.0" y="167.7" font-size="15" fill="#9d174d" text-anchor="middle">存储那一层</text>
+  <text x="563.0" y="185.7" font-size="12" fill="#9d174d" text-anchor="middle">打开读写，还要翻译与缓冲</text>
+  <rect x="25" y="234" width="710" height="68" fill="#f3e8ff" stroke="#a855f7"/>
+  <text x="380.0" y="263.7" font-size="15" fill="#6b21a8" text-anchor="middle">过去这不成问题，因为存储本来就慢，那些开销被淹没在等待里</text>
+  <text x="380.0" y="281.7" font-size="12" fill="#6b21a8" text-anchor="middle">而持久内存变快之后，这些开销就浮出来变成了瓶颈</text>
+</svg>
