@@ -1,0 +1,38 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 700 244" width="700" height="244"
+     role="img" aria-labelledby="fig-l8a-6-title fig-l8a-6-desc">
+  <title id="fig-l8a-6-title">连续刻画几天：失败的名单一直在变</title>
+  <desc id="fig-l8a-6-desc">从第 1 天到第 6 天，新的失败单元持续出现，被归为失败的集合一直在变，所以刻画不能只做一次。</desc>
+
+  <defs>
+    <style>
+      text { font-family: 'PingFang SC', 'Microsoft YaHei', 'Noto Sans CJK SC', system-ui, sans-serif; }
+    </style>
+  </defs>
+
+  <rect x="0" y="0" width="700" height="244" fill="#ffffff"/>
+
+  <text x="350" y="34" font-size="16" font-weight="600" fill="#1f2937" text-anchor="middle">连续刻画几天：失败的名单一直在变</text>
+
+  <rect x="23" y="64" width="200" height="54" rx="8" fill="#dbeafe" stroke="#3b82f6" stroke-width="1.5"/>
+  <text x="123" y="86.2" font-size="12" fill="#1e40af" text-anchor="middle">第 1 天</text>
+  <text x="123" y="104.2" font-size="12" fill="#1e40af" text-anchor="middle">名单看起来是固定的</text>
+
+  <rect x="250" y="64" width="200" height="54" rx="8" fill="#fef3c7" stroke="#f59e0b" stroke-width="1.5"/>
+  <text x="350" y="86.2" font-size="12" fill="#b45309" text-anchor="middle">第 3 天</text>
+  <text x="350" y="104.2" font-size="12" fill="#b45309" text-anchor="middle">新的失败单元开始出现</text>
+
+  <rect x="477" y="64" width="200" height="54" rx="8" fill="#fce7f3" stroke="#ec4899" stroke-width="1.5"/>
+  <text x="577" y="86.2" font-size="12" fill="#9d174d" text-anchor="middle">第 6 天</text>
+  <text x="577" y="104.2" font-size="12" fill="#9d174d" text-anchor="middle">名单还在变</text>
+
+  <path d="M23,140 L677,140" fill="none" stroke="#94a3b8" stroke-width="1.5"/>
+  <path d="M23,133 L23,147" fill="none" stroke="#94a3b8" stroke-width="1.5"/>
+  <path d="M250,133 L250,147" fill="none" stroke="#94a3b8" stroke-width="1.5"/>
+  <path d="M477,133 L477,147" fill="none" stroke="#94a3b8" stroke-width="1.5"/>
+  <path d="M677,133 L677,147" fill="none" stroke="#94a3b8" stroke-width="1.5"/>
+
+  <text x="350" y="170" font-size="12" fill="#64748b" text-anchor="middle">横轴：连续刻画经过的天数</text>
+
+  <text x="350" y="200" font-size="12" fill="#1e293b" text-anchor="middle">既然名单会变，只在出厂时测一次就不够</text>
+  <text x="350" y="218" font-size="12" fill="#1e293b" text-anchor="middle">必须有纠错加上在线刻画</text>
+</svg>

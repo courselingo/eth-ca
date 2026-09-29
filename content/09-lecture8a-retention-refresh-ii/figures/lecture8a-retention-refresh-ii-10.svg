@@ -1,0 +1,33 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 700 224" width="700" height="224"
+     role="img" aria-labelledby="fig-l8a-10-title fig-l8a-10-desc">
+  <title id="fig-l8a-10-title">刷新还能往哪三个方向改</title>
+  <desc id="fig-l8a-10-desc">去掉不必要的刷新、用在线刻画降低刷新频率并用纠错接住错误、让刷新与访存并行起来；源讲义把收尾留给了两句没有展开的话。</desc>
+
+  <defs>
+    <style>
+      text { font-family: 'PingFang SC', 'Microsoft YaHei', 'Noto Sans CJK SC', system-ui, sans-serif; }
+    </style>
+  </defs>
+
+  <rect x="0" y="0" width="700" height="224" fill="#ffffff"/>
+
+  <text x="350" y="32" font-size="16" font-weight="600" fill="#1f2937" text-anchor="middle">刷新还能往哪三个方向改</text>
+
+  <rect x="23" y="56" width="200" height="72" rx="8" fill="#d1fae5" stroke="#22c55e" stroke-width="1.5"/>
+  <text x="123" y="78.2" font-size="12" fill="#166534" text-anchor="middle">一：去掉多余刷新</text>
+  <text x="123" y="96.2" font-size="12" fill="#166534" text-anchor="middle">按保持时间分箱</text>
+  <text x="123" y="114.2" font-size="12" fill="#166534" text-anchor="middle">该勤的勤，该懒的懒</text>
+
+  <rect x="250" y="56" width="200" height="72" rx="8" fill="#fef3c7" stroke="#f59e0b" stroke-width="1.5"/>
+  <text x="350" y="78.2" font-size="12" fill="#b45309" text-anchor="middle">二：降频率加纠错</text>
+  <text x="350" y="96.2" font-size="12" fill="#b45309" text-anchor="middle">在线刻画加纠错</text>
+  <text x="350" y="114.2" font-size="12" fill="#b45309" text-anchor="middle">把错误接住</text>
+
+  <rect x="477" y="56" width="200" height="72" rx="8" fill="#dbeafe" stroke="#3b82f6" stroke-width="1.5"/>
+  <text x="577" y="78.2" font-size="12" fill="#1e40af" text-anchor="middle">三：刷新与访存并行</text>
+  <text x="577" y="96.2" font-size="12" fill="#1e40af" text-anchor="middle">次数并不减少</text>
+  <text x="577" y="114.2" font-size="12" fill="#1e40af" text-anchor="middle">改的是那段时间能不能同时用</text>
+
+  <rect x="23" y="156" width="654" height="44" rx="8" fill="#f3e8ff" stroke="#a855f7" stroke-width="1.5"/>
+  <text x="350" y="182.2" font-size="12" fill="#6b21a8" text-anchor="middle">收尾留给两句没有展开的话：工业界也在写论文、控制器要更聪明</text>
+</svg>

@@ -1,0 +1,37 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 700 258" width="700" height="258"
+     role="img" aria-labelledby="fig-l8a-1-title fig-l8a-1-desc">
+  <title id="fig-l8a-1-title">这一讲与上一讲的分工</title>
+  <desc id="fig-l8a-1-desc">第 8 讲给出刷新为什么必须做、RAIDR 的三步与结果，两个现象只点了名字；第 9 讲接手刻画怎么做、以及片上纠错之后「错误」的含义与刷新还有哪些改法。</desc>
+
+  <defs>
+    <style>
+      text { font-family: 'PingFang SC', 'Microsoft YaHei', 'Noto Sans CJK SC', system-ui, sans-serif; }
+    </style>
+  </defs>
+
+  <rect x="0" y="0" width="700" height="258" fill="#ffffff"/>
+
+  <text x="350" y="34" font-size="16" font-weight="600" fill="#1f2937" text-anchor="middle">这一讲与上一讲的分工</text>
+
+  <rect x="23" y="58" width="310" height="176" rx="10" fill="#f8fafc" stroke="#94a3b8" stroke-width="1.5" stroke-dasharray="6,4"/>
+  <text x="33" y="72" font-size="11" fill="#64748b" text-anchor="start">第 8 讲 · 已经交代过的</text>
+
+  <rect x="38" y="84" width="280" height="54" rx="8" fill="#dbeafe" stroke="#3b82f6" stroke-width="1.5"/>
+  <text x="178" y="106.2" font-size="12" fill="#1e40af" text-anchor="middle">刷新为什么必须做</text>
+  <text x="178" y="124.2" font-size="12" fill="#1e40af" text-anchor="middle">RAIDR 的三步与结果</text>
+
+  <rect x="38" y="164" width="280" height="54" rx="8" fill="#dbeafe" stroke="#3b82f6" stroke-width="1.5"/>
+  <text x="178" y="186.2" font-size="12" fill="#1e40af" text-anchor="middle">两个现象只点了名</text>
+  <text x="178" y="204.2" font-size="12" fill="#1e40af" text-anchor="middle">机理停在概览</text>
+
+  <rect x="367" y="58" width="310" height="176" rx="10" fill="#f8fafc" stroke="#94a3b8" stroke-width="1.5" stroke-dasharray="6,4"/>
+  <text x="377" y="72" font-size="11" fill="#64748b" text-anchor="start">第 9 讲 · 本页</text>
+
+  <rect x="382" y="84" width="280" height="54" rx="8" fill="#f3e8ff" stroke="#a855f7" stroke-width="1.5"/>
+  <text x="522" y="106.2" font-size="12" fill="#6b21a8" text-anchor="middle">刻画怎么真的做出来</text>
+  <text x="522" y="124.2" font-size="12" fill="#6b21a8" text-anchor="middle">三个度量、几条路线</text>
+
+  <rect x="382" y="164" width="280" height="54" rx="8" fill="#f3e8ff" stroke="#a855f7" stroke-width="1.5"/>
+  <text x="522" y="186.2" font-size="12" fill="#6b21a8" text-anchor="middle">以及纠错之后的「错误」</text>
+  <text x="522" y="204.2" font-size="12" fill="#6b21a8" text-anchor="middle">和刷新本身还能怎么改</text>
+</svg>

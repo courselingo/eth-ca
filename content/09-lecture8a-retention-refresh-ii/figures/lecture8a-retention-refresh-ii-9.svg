@@ -1,0 +1,37 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 700 258" width="700" height="258"
+     role="img" aria-labelledby="fig-l8a-9-title fig-l8a-9-desc">
+  <title id="fig-l8a-9-title">同一件事，两处实现</title>
+  <desc id="fig-l8a-9-desc">做在内存控制器里需要一对布隆过滤器、3 个计数器和额外的逐行刷新命令；做在 DRAM 芯片里每颗 4 Gbit 芯片只要 20 字节和 1 个计数器，整机合起来是 1.25 KB 加 64 个计数器。</desc>
+
+  <defs>
+    <style>
+      text { font-family: 'PingFang SC', 'Microsoft YaHei', 'Noto Sans CJK SC', system-ui, sans-serif; }
+    </style>
+  </defs>
+
+  <rect x="0" y="0" width="700" height="258" fill="#ffffff"/>
+
+  <text x="350" y="34" font-size="16" font-weight="600" fill="#1f2937" text-anchor="middle">同一件事，两处实现</text>
+
+  <rect x="23" y="56" width="313" height="178" rx="10" fill="#f8fafc" stroke="#94a3b8" stroke-width="1.5" stroke-dasharray="6,4"/>
+  <text x="33" y="70" font-size="11" fill="#64748b" text-anchor="start">做在内存控制器里</text>
+
+  <rect x="38" y="84" width="283" height="54" rx="8" fill="#f3e8ff" stroke="#a855f7" stroke-width="1.5"/>
+  <text x="179.5" y="106.2" font-size="12" fill="#6b21a8" text-anchor="middle">一对布隆过滤器 1.25 KB</text>
+  <text x="179.5" y="124.2" font-size="12" fill="#6b21a8" text-anchor="middle">外加 3 个计数器</text>
+
+  <rect x="38" y="164" width="283" height="54" rx="8" fill="#f3e8ff" stroke="#a855f7" stroke-width="1.5"/>
+  <text x="179.5" y="186.2" font-size="12" fill="#6b21a8" text-anchor="middle">还要多发逐行刷新的命令</text>
+  <text x="179.5" y="204.2" font-size="12" fill="#6b21a8" text-anchor="middle">控制器必须知道箱子的细节</text>
+
+  <rect x="364" y="56" width="313" height="178" rx="10" fill="#f8fafc" stroke="#94a3b8" stroke-width="1.5" stroke-dasharray="6,4"/>
+  <text x="374" y="70" font-size="11" fill="#64748b" text-anchor="start">做在 DRAM 芯片里</text>
+
+  <rect x="379" y="84" width="283" height="54" rx="8" fill="#fef3c7" stroke="#f59e0b" stroke-width="1.5"/>
+  <text x="520.5" y="106.2" font-size="12" fill="#b45309" text-anchor="middle">每颗 4 Gbit 芯片 20 字节</text>
+  <text x="520.5" y="124.2" font-size="12" fill="#b45309" text-anchor="middle">外加 1 个计数器</text>
+
+  <rect x="379" y="164" width="283" height="54" rx="8" fill="#fef3c7" stroke="#f59e0b" stroke-width="1.5"/>
+  <text x="520.5" y="186.2" font-size="12" fill="#b45309" text-anchor="middle">整机合起来 1.25 KB</text>
+  <text x="520.5" y="204.2" font-size="12" fill="#b45309" text-anchor="middle">一共 64 个计数器</text>
+</svg>

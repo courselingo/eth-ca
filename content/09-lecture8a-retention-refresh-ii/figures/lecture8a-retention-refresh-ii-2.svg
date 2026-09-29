@@ -1,0 +1,27 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 700 293" width="700" height="293"
+     role="img" aria-labelledby="fig-l8a-2-title fig-l8a-2-desc">
+  <title id="fig-l8a-2-title">刻画的三个度量</title>
+  <desc id="fig-l8a-2-desc">运行时间、覆盖度与假阳性三个量互相拉扯：跑得快就覆盖不全，想测全就会把只在刻画时失败的单元也带进来。</desc>
+
+  <defs>
+    <style>
+      text { font-family: 'PingFang SC', 'Microsoft YaHei', 'Noto Sans CJK SC', system-ui, sans-serif; }
+    </style>
+  </defs>
+
+  <rect x="0" y="0" width="700" height="293" fill="#ffffff"/>
+
+  <text x="350" y="34" font-size="16" font-weight="600" fill="#1f2937" text-anchor="middle">刻画的三个度量</text>
+
+  <rect x="23" y="56" width="654" height="54" rx="8" fill="#fef3c7" stroke="#f59e0b" stroke-width="1.5"/>
+  <text x="350" y="78.2" font-size="12" fill="#b45309" text-anchor="middle">运行时间：刻画一共要跑多久</text>
+  <text x="350" y="96.2" font-size="12" fill="#b45309" text-anchor="middle">跑得越久，机器能用的时间越少</text>
+
+  <rect x="23" y="136" width="654" height="54" rx="8" fill="#d1fae5" stroke="#22c55e" stroke-width="1.5"/>
+  <text x="350" y="158.2" font-size="12" fill="#166534" text-anchor="middle">覆盖度：真正会失败的单元里找到了多少</text>
+  <text x="350" y="176.2" font-size="12" fill="#166534" text-anchor="middle">漏掉的那部分，正是以后会丢数据的</text>
+
+  <rect x="23" y="216" width="654" height="54" rx="8" fill="#fce7f3" stroke="#ec4899" stroke-width="1.5"/>
+  <text x="350" y="238.2" font-size="12" fill="#9d174d" text-anchor="middle">假阳性：只在刻画时失败、真实运行中从不失败</text>
+  <text x="350" y="256.2" font-size="12" fill="#9d174d" text-anchor="middle">不会伤到正确性，但要多付代价</text>
+</svg>

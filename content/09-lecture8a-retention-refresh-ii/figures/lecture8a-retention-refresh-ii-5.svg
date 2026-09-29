@@ -1,0 +1,29 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 699 236" width="699" height="236"
+     role="img" aria-labelledby="fig-l8a-5-title fig-l8a-5-desc">
+  <title id="fig-l8a-5-title">运行条件与刻画条件</title>
+  <desc id="fig-l8a-5-desc">运行条件是 64ms 间隔与机箱温度；刻画条件把间隔拉长、温度调高，同一个单元在那里更容易失败。换来的是快，代价是假阳性。</desc>
+
+  <defs>
+    <style>
+      text { font-family: 'PingFang SC', 'Microsoft YaHei', 'Noto Sans CJK SC', system-ui, sans-serif; }
+    </style>
+  </defs>
+
+  <rect x="0" y="0" width="699" height="236" fill="#ffffff"/>
+
+  <text x="349.5" y="34" font-size="16" font-weight="600" fill="#1f2937" text-anchor="middle">运行条件与刻画条件</text>
+
+  <rect x="23" y="58" width="313" height="72" rx="8" fill="#dbeafe" stroke="#3b82f6" stroke-width="1.5"/>
+  <text x="179.5" y="80.2" font-size="12" fill="#1e40af" text-anchor="middle">运行条件</text>
+  <text x="179.5" y="98.2" font-size="12" fill="#1e40af" text-anchor="middle">刷新间隔 64ms</text>
+  <text x="179.5" y="116.2" font-size="12" fill="#1e40af" text-anchor="middle">温度就是机箱里的温度</text>
+
+  <rect x="363" y="58" width="313" height="72" rx="8" fill="#fef3c7" stroke="#f59e0b" stroke-width="1.5"/>
+  <text x="519.5" y="80.2" font-size="12" fill="#b45309" text-anchor="middle">刻画条件</text>
+  <text x="519.5" y="98.2" font-size="12" fill="#b45309" text-anchor="middle">间隔拉长、温度调高</text>
+  <text x="519.5" y="116.2" font-size="12" fill="#b45309" text-anchor="middle">同一批单元在这里更容易失败</text>
+
+  <rect x="23" y="158" width="653" height="54" rx="8" fill="#fce7f3" stroke="#ec4899" stroke-width="1.5"/>
+  <text x="349.5" y="180.2" font-size="12" fill="#9d174d" text-anchor="middle">换成刻画条件：失败看得见，也更快</text>
+  <text x="349.5" y="198.2" font-size="12" fill="#9d174d" text-anchor="middle">代价是假阳性：只在刻画时才失败的单元</text>
+</svg>

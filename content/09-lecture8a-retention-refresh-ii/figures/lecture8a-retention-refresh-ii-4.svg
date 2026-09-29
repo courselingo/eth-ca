@@ -1,0 +1,35 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 693 301" width="693" height="301"
+     role="img" aria-labelledby="fig-l8a-4-title fig-l8a-4-desc">
+  <title id="fig-l8a-4-title">两条路，各对付一个现象</title>
+  <desc id="fig-l8a-4-desc">AVATAR 不预测，某一行被纠错报错就升级它的刷新频率；PARBOR 直接用内存里现在的内容当测试图案，逼出数据相关的失败。两条路合起来覆盖两类现象。</desc>
+
+  <defs>
+    <style>
+      text { font-family: 'PingFang SC', 'Microsoft YaHei', 'Noto Sans CJK SC', system-ui, sans-serif; }
+    </style>
+  </defs>
+
+  <rect x="0" y="0" width="693" height="301" fill="#ffffff"/>
+
+  <text x="346.5" y="34" font-size="16" font-weight="600" fill="#1f2937" text-anchor="middle">两条路，各对付一个现象</text>
+
+  <rect x="23" y="56" width="310" height="44" rx="8" fill="#dbeafe" stroke="#3b82f6" stroke-width="1.5"/>
+  <text x="178" y="82.2" font-size="12" fill="#1e40af" text-anchor="middle">AVATAR：对付可变保持时间</text>
+
+  <rect x="360" y="56" width="310" height="44" rx="8" fill="#fef3c7" stroke="#f59e0b" stroke-width="1.5"/>
+  <text x="515" y="82.2" font-size="12" fill="#b45309" text-anchor="middle">PARBOR：对付数据模式依赖</text>
+
+  <rect x="23" y="126" width="310" height="72" rx="8" fill="#dbeafe" stroke="#3b82f6" stroke-width="1.5"/>
+  <text x="178" y="148.2" font-size="12" fill="#1e40af" text-anchor="middle">不预测，只补救</text>
+  <text x="178" y="166.2" font-size="12" fill="#1e40af" text-anchor="middle">某一行被纠错报错</text>
+  <text x="178" y="184.2" font-size="12" fill="#1e40af" text-anchor="middle">就把它的刷新频率升一级</text>
+
+  <rect x="360" y="126" width="310" height="72" rx="8" fill="#fef3c7" stroke="#f59e0b" stroke-width="1.5"/>
+  <text x="515" y="148.2" font-size="12" fill="#b45309" text-anchor="middle">直接用现在的数据当图案</text>
+  <text x="515" y="166.2" font-size="12" fill="#b45309" text-anchor="middle">读出来、按当前内容写回</text>
+  <text x="515" y="184.2" font-size="12" fill="#b45309" text-anchor="middle">逼出和当前数据有关的失败</text>
+
+  <rect x="23" y="224" width="647" height="54" rx="8" fill="#f3e8ff" stroke="#a855f7" stroke-width="1.5"/>
+  <text x="346.5" y="246.2" font-size="12" fill="#6b21a8" text-anchor="middle">两条路合起来，覆盖两类现象</text>
+  <text x="346.5" y="264.2" font-size="12" fill="#6b21a8" text-anchor="middle">一个会随时间随机变，一个和当前数据有关</text>
+</svg>

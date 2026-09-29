@@ -1,0 +1,37 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 700 166" width="700" height="166"
+     role="img" aria-labelledby="fig-l8a-3-title fig-l8a-3-desc">
+  <title id="fig-l8a-3-title">在线刻画系统的三个阶段</title>
+  <desc id="fig-l8a-3-desc">先把纠错开到最强保证不丢数据，再定期只测内存的一小块并修掉问题，最后把需要的保护强度降下来。</desc>
+
+  <defs>
+    <style>
+      text { font-family: 'PingFang SC', 'Microsoft YaHei', 'Noto Sans CJK SC', system-ui, sans-serif; }
+    </style>
+    <marker id="arrow" markerWidth="8" markerHeight="8" refX="2" refY="4"
+            orient="auto" markerUnits="userSpaceOnUse">
+      <path d="M0,0 L8,4 L0,8 L2,4 z" fill="#64748b"/>
+    </marker>
+  </defs>
+
+  <rect x="0" y="0" width="700" height="166" fill="#ffffff"/>
+
+  <text x="350" y="34" font-size="16" font-weight="600" fill="#1f2937" text-anchor="middle">在线刻画系统的三个阶段</text>
+
+  <rect x="23" y="70" width="200" height="72" rx="8" fill="#dbeafe" stroke="#3b82f6" stroke-width="1.5"/>
+  <text x="123" y="92.2" font-size="12" fill="#1e40af" text-anchor="middle">① 先把保护拉高</text>
+  <text x="123" y="110.2" font-size="12" fill="#1e40af" text-anchor="middle">纠错开到最强</text>
+  <text x="123" y="128.2" font-size="12" fill="#1e40af" text-anchor="middle">这段时间不能丢数据</text>
+
+  <rect x="250" y="70" width="200" height="72" rx="8" fill="#fef3c7" stroke="#f59e0b" stroke-width="1.5"/>
+  <text x="350" y="92.2" font-size="12" fill="#b45309" text-anchor="middle">② 定期分区轮测</text>
+  <text x="350" y="110.2" font-size="12" fill="#b45309" text-anchor="middle">一次只测一小块</text>
+  <text x="350" y="128.2" font-size="12" fill="#b45309" text-anchor="middle">测得慢也没关系</text>
+
+  <rect x="477" y="70" width="200" height="72" rx="8" fill="#d1fae5" stroke="#22c55e" stroke-width="1.5"/>
+  <text x="577" y="92.2" font-size="12" fill="#166534" text-anchor="middle">③ 再把保护降下来</text>
+  <text x="577" y="110.2" font-size="12" fill="#166534" text-anchor="middle">测出的问题先修掉</text>
+  <text x="577" y="128.2" font-size="12" fill="#166534" text-anchor="middle">需要的纠错强度就低了</text>
+
+  <path d="M228,106 L239,106" fill="none" stroke="#64748b" stroke-width="1.5" marker-end="url(#arrow)"/>
+  <path d="M455,106 L466,106" fill="none" stroke="#64748b" stroke-width="1.5" marker-end="url(#arrow)"/>
+</svg>

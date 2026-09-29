@@ -156,3 +156,83 @@ key = "speculation"
 zh = "推测执行"
 en = "speculation"
 note = "处理器在还没确认该不该执行时先执行，事后回滚；Meltdown/Spectre 就出在这里"
+
+# ---- 第 9 讲（Lecture 8a）新增：刻画与片上纠错 ----
+
+[[term]]
+key = "retention-time"
+zh = "保持时间"
+en = "retention time"
+note = "一个存储单元在不再补电的情况下，还能被正确读出的最长时间"
+
+[[term]]
+key = "retention-failure"
+zh = "保持时间失败"
+en = "retention failure"
+note = "单元漏电到读不出来，属于时间与温度引起的错误，和访问模式无关"
+
+[[term]]
+key = "retention-time-profiling"
+zh = "保持时间刻画"
+en = "retention time profiling"
+note = "把每个存储单元的保持时间测出来、再给它们分类的过程；本页行文里简称为刻画"
+
+[[term]]
+key = "data-pattern-dependence"
+zh = "数据模式依赖"
+en = "data pattern dependence"
+note = "同一个单元的保持时间会随它自己和邻居存的值变化，所以「这一行的保持时间」不是一个固定的数"
+
+[[term]]
+key = "variable-retention-time"
+zh = "可变保持时间"
+en = "variable retention time"
+note = "同一个单元会在几个保持时间状态之间随机切换，只能靠观测发现，推断不出来"
+
+[[term]]
+key = "reach-profiling"
+zh = "触及式刻画"
+en = "reach profiling"
+note = "把刷新间隔调得更长或温度调得更高去刻画，让容易失败的单元先暴露出来；代价是假阳性"
+
+[[term]]
+key = "refresh-rate"
+zh = "刷新频率"
+en = "refresh rate"
+note = "单位时间内对同一行做多少次刷新；频率越低越省性能与能量，但越容易丢数据"
+
+[[term]]
+key = "false-positive"
+zh = "假阳性"
+en = "false positive"
+note = "被判定为有问题、但真实运行条件下从不失败；不伤正确性，但要多付代价"
+
+[[term]]
+key = "bloom-filter"
+zh = "布隆过滤器"
+en = "Bloom filter"
+note = "用很少的位表示集合成员：查询快、不会溢出、没有假阴性，但可能有假阳性"
+
+[[term]]
+key = "ecc"
+zh = "纠错码"
+en = "error correcting code"
+note = "通常缩写为 ECC：在数据里附加校验位，读到错误时能自动纠正其中一部分"
+
+[[term]]
+key = "on-die-ecc"
+zh = "片上纠错"
+en = "on-die ECC"
+note = "纠错逻辑做在 DRAM 芯片内部；它会在外部观察到错误之前就把错误修掉"
+
+[[term]]
+key = "scrubbing"
+zh = "巡检"
+en = "scrubbing"
+note = "定期把内存里的数据读出来检查、必要时写回，在错误积累成不可纠正之前修掉它"
+
+[[term]]
+key = "energy-delay-product"
+zh = "能耗延迟积"
+en = "energy delay product"
+note = "把能耗与延迟相乘得到的一个综合指标，用来比较方案在两个方向上的总收益"

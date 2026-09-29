@@ -1,0 +1,29 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 700 334" width="700" height="334"
+     role="img" aria-labelledby="fig-l8a-11-title fig-l8a-11-desc">
+  <title id="fig-l8a-11-title">同一个思路的两种实现</title>
+  <desc id="fig-l8a-11-desc">DRAM 把电荷放在电容上，漏得快所以按毫秒级反复补电；闪存把电荷放在浮栅里，漏得慢但仍会漏，保持时间错误成为主因，补救同样是定期刷新。共同的问题是单元越小，保持与可靠读出都越难。</desc>
+
+  <defs>
+    <style>
+      text { font-family: 'PingFang SC', 'Microsoft YaHei', 'Noto Sans CJK SC', system-ui, sans-serif; }
+    </style>
+  </defs>
+
+  <rect x="0" y="0" width="700" height="334" fill="#ffffff"/>
+
+  <text x="350" y="32" font-size="16" font-weight="600" fill="#1f2937" text-anchor="middle">同一个思路的两种实现</text>
+
+  <rect x="23" y="56" width="654" height="72" rx="8" fill="#dbeafe" stroke="#3b82f6" stroke-width="1.5"/>
+  <text x="350" y="78.2" font-size="12" fill="#1e40af" text-anchor="middle">DRAM：把电荷放在电容上</text>
+  <text x="350" y="96.2" font-size="12" fill="#1e40af" text-anchor="middle">漏得快，所以按毫秒级反复补电</text>
+  <text x="350" y="114.2" font-size="12" fill="#1e40af" text-anchor="middle">补的方式就是刷新</text>
+
+  <rect x="23" y="156" width="654" height="72" rx="8" fill="#fef3c7" stroke="#f59e0b" stroke-width="1.5"/>
+  <text x="350" y="178.2" font-size="12" fill="#b45309" text-anchor="middle">闪存：把电荷放在浮栅里</text>
+  <text x="350" y="196.2" font-size="12" fill="#b45309" text-anchor="middle">漏得慢，但仍会漏，保持时间错误成为主因</text>
+  <text x="350" y="214.2" font-size="12" fill="#b45309" text-anchor="middle">补救也是定期刷新，只是周期长得多</text>
+
+  <rect x="23" y="256" width="654" height="54" rx="8" fill="#fce7f3" stroke="#ec4899" stroke-width="1.5"/>
+  <text x="350" y="278.2" font-size="12" fill="#9d174d" text-anchor="middle">共同的问题：单元越小，保持与可靠读出都越难</text>
+  <text x="350" y="296.2" font-size="12" fill="#9d174d" text-anchor="middle">闪存里的表现之一，是旧文件读得更慢</text>
+</svg>
