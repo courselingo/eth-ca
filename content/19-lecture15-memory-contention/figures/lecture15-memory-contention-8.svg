@@ -1,0 +1,27 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 760 216" width="760" height="216"
+     role="img" aria-labelledby="fig-lecture15-memory-contention-8-title fig-lecture15-memory-contention-8-desc">
+  <title id="fig-lecture15-memory-contention-8-title">聚类换来的两个数字，以及推到数据中心之后的得失</title>
+  <desc id="fig-lecture15-memory-contention-8-desc">上排两格是聚类的结果：系统性能提升 17%，片上网络平均功耗降低 52%。下面两格是数据中心这一侧：A-DRM 把微体系结构级的干扰纳入集群调度，盯住共享缓存容量与共享内存带宽；它的得失是从根上把共生应用放在一起、对硬件侵入小，但迁移线程与数据的开销大，而且所有线程都相似时无效。</desc>
+
+  <defs>
+    <style>
+      text { font-family: 'PingFang SC', 'Microsoft YaHei', 'Noto Sans CJK SC', system-ui, sans-serif; }
+    </style>
+  </defs>
+
+  <rect x="0" y="0" width="760" height="216" fill="#ffffff"/>
+
+  <text x="380" y="34" font-size="16" font-weight="600" fill="#1f2937" text-anchor="middle">聚类换来的两个数字，以及推到数据中心之后的得失</text>
+  <rect x="25" y="64" width="342.5" height="49.5" rx="6" fill="#f3e8ff" stroke="#a855f7"/>
+  <text x="196.25" y="84.35" font-size="11" fill="#6b21a8" text-anchor="middle">系统性能提升 17%</text>
+  <text x="196.25" y="100.85" font-size="11" fill="#6b21a8" text-anchor="middle">（p170）</text>
+  <rect x="392.5" y="64" width="342.5" height="49.5" rx="6" fill="#f3e8ff" stroke="#a855f7"/>
+  <text x="563.75" y="84.35" font-size="11" fill="#6b21a8" text-anchor="middle">片上网络平均功耗降低 52%</text>
+  <text x="563.75" y="100.85" font-size="11" fill="#6b21a8" text-anchor="middle">（p171）</text>
+  <rect x="25" y="141.5" width="342.5" height="49.5" rx="6" fill="#fef3c7" stroke="#f59e0b"/>
+  <text x="196.25" y="161.85" font-size="11" fill="#b45309" text-anchor="middle">A-DRM：把微体系结构级干扰纳入集群调度</text>
+  <text x="196.25" y="178.35" font-size="11" fill="#b45309" text-anchor="middle">盯住共享缓存容量与共享内存带宽（p174）</text>
+  <rect x="392.5" y="141.5" width="342.5" height="49.5" rx="6" fill="#f8fafc" stroke="#94a3b8"/>
+  <text x="563.75" y="161.85" font-size="11" fill="#1e293b" text-anchor="middle">得失：从根上把共生应用放一起、对硬件侵入小</text>
+  <text x="563.75" y="178.35" font-size="11" fill="#1e293b" text-anchor="middle">迁移开销大；线程都相似时无效（p176）</text>
+</svg>

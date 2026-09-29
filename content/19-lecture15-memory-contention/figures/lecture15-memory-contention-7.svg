@@ -1,0 +1,38 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 760 280" width="760" height="280"
+     role="img" aria-labelledby="fig-lecture15-memory-contention-7-title fig-lecture15-memory-contention-7-desc">
+  <title id="fig-lecture15-memory-contention-7-title">应用到核的映射：三条想法与四类策略</title>
+  <desc id="fig-lecture15-memory-contention-7-desc">上排三格是三条关键想法：按内存控制器聚类以减少跨芯片干扰、把对干扰敏感的低强度应用隔到单独一簇、把吃带宽的应用放得离控制器更近。中间四格是四类策略各自主打什么：聚类提高局部性、均衡提高带宽利用率、隔离减少干扰、径向缩短通信距离。最下面一条是总想法：挑互不严重干扰的线程，把它们一起放到共享内存的核上。</desc>
+
+  <defs>
+    <style>
+      text { font-family: 'PingFang SC', 'Microsoft YaHei', 'Noto Sans CJK SC', system-ui, sans-serif; }
+    </style>
+  </defs>
+
+  <rect x="0" y="0" width="760" height="280" fill="#ffffff"/>
+
+  <text x="380" y="34" font-size="16" font-weight="600" fill="#1f2937" text-anchor="middle">应用到核的映射：三条想法与四类策略</text>
+  <rect x="25" y="64" width="220" height="49.5" rx="6" fill="#dbeafe" stroke="#3b82f6"/>
+  <text x="135" y="84.35" font-size="11" fill="#1e40af" text-anchor="middle">想法一 按控制器聚类</text>
+  <text x="135" y="100.85" font-size="11" fill="#1e40af" text-anchor="middle">减少跨芯片干扰</text>
+  <rect x="270" y="64" width="220" height="49.5" rx="6" fill="#dbeafe" stroke="#3b82f6"/>
+  <text x="380" y="84.35" font-size="11" fill="#1e40af" text-anchor="middle">想法二 隔离敏感应用</text>
+  <text x="380" y="100.85" font-size="11" fill="#1e40af" text-anchor="middle">把低强度的应用隔到单独一簇</text>
+  <rect x="515" y="64" width="220" height="49.5" rx="6" fill="#dbeafe" stroke="#3b82f6"/>
+  <text x="625" y="84.35" font-size="11" fill="#1e40af" text-anchor="middle">想法三 靠近控制器</text>
+  <text x="625" y="100.85" font-size="11" fill="#1e40af" text-anchor="middle">把吃带宽的应用放得离控制器更近</text>
+  <rect x="25" y="141.5" width="158.75" height="49.5" rx="6" fill="#d1fae5" stroke="#22c55e"/>
+  <text x="104.375" y="161.85" font-size="11" fill="#166534" text-anchor="middle">聚类</text>
+  <text x="104.375" y="178.35" font-size="11" fill="#166534" text-anchor="middle">提高局部性</text>
+  <rect x="208.75" y="141.5" width="158.75" height="49.5" rx="6" fill="#d1fae5" stroke="#22c55e"/>
+  <text x="288.125" y="161.85" font-size="11" fill="#166534" text-anchor="middle">均衡</text>
+  <text x="288.125" y="178.35" font-size="11" fill="#166534" text-anchor="middle">提高带宽利用率</text>
+  <rect x="392.5" y="141.5" width="158.75" height="49.5" rx="6" fill="#d1fae5" stroke="#22c55e"/>
+  <text x="471.875" y="161.85" font-size="11" fill="#166534" text-anchor="middle">隔离</text>
+  <text x="471.875" y="178.35" font-size="11" fill="#166534" text-anchor="middle">减少干扰</text>
+  <rect x="576.25" y="141.5" width="158.75" height="49.5" rx="6" fill="#d1fae5" stroke="#22c55e"/>
+  <text x="655.625" y="161.85" font-size="11" fill="#166534" text-anchor="middle">径向</text>
+  <text x="655.625" y="178.35" font-size="11" fill="#166534" text-anchor="middle">缩短通信距离</text>
+  <rect x="25" y="219" width="710" height="36" rx="6" fill="#eff6ff" stroke="#3b82f6"/>
+  <text x="380" y="241.2" font-size="12" fill="#1e40af" text-anchor="middle">总想法：挑互不严重干扰的线程，把它们一起放到共享内存的核上（p161）</text>
+</svg>

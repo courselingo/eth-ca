@@ -1,0 +1,38 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 760 277" width="760" height="277"
+     role="img" aria-labelledby="fig-lecture15-memory-contention-1-title fig-lecture15-memory-contention-1-desc">
+  <title id="fig-lecture15-memory-contention-1-title">本讲在三站里的位置与它的结构</title>
+  <desc id="fig-lecture15-memory-contention-1-desc">上排三格是三条讲次的分工：第 13 讲讲控制器这个部件本身；第 18 讲讲干扰与调度器演化；第 19 讲（本讲）展开另外三种基本功与复杂度。中间四格是这一讲的结构：共享资源链与聪明资源的问题、数据映射（内存通道划分）、源限流（FST）、以及应用到核与 CPU 和 IO、可预测性能与总结。最下面一条说明讲义前 90 多页带 Recall: 或复习第 18 讲那条线，新内容从 p93 与 p115 起。</desc>
+
+  <defs>
+    <style>
+      text { font-family: 'PingFang SC', 'Microsoft YaHei', 'Noto Sans CJK SC', system-ui, sans-serif; }
+    </style>
+  </defs>
+
+  <rect x="0" y="0" width="760" height="277" fill="#ffffff"/>
+
+  <text x="380" y="34" font-size="16" font-weight="600" fill="#1f2937" text-anchor="middle">本讲在三站里的位置与它的结构</text>
+  <rect x="25" y="64" width="220" height="49.5" rx="6" fill="#dbeafe" stroke="#3b82f6"/>
+  <text x="135" y="84.35" font-size="11" fill="#1e40af" text-anchor="middle">第 13 讲</text>
+  <text x="135" y="100.85" font-size="11" fill="#1e40af" text-anchor="middle">控制器这个部件本身</text>
+  <rect x="270" y="64" width="220" height="49.5" rx="6" fill="#dbeafe" stroke="#3b82f6"/>
+  <text x="380" y="84.35" font-size="11" fill="#1e40af" text-anchor="middle">第 18 讲</text>
+  <text x="380" y="100.85" font-size="11" fill="#1e40af" text-anchor="middle">干扰与调度器演化</text>
+  <rect x="515" y="64" width="220" height="49.5" rx="6" fill="#fef3c7" stroke="#f59e0b"/>
+  <text x="625" y="84.35" font-size="11" fill="#b45309" text-anchor="middle">第 19 讲（本讲）</text>
+  <text x="625" y="100.85" font-size="11" fill="#b45309" text-anchor="middle">另外三种基本功与复杂度</text>
+  <rect x="25" y="141.5" width="158.75" height="49.5" rx="6" fill="#d1fae5" stroke="#22c55e"/>
+  <text x="104.375" y="161.85" font-size="11" fill="#166534" text-anchor="middle">一、共享资源链</text>
+  <text x="104.375" y="178.35" font-size="11" fill="#166534" text-anchor="middle">与聪明资源的问题</text>
+  <rect x="208.75" y="141.5" width="158.75" height="49.5" rx="6" fill="#d1fae5" stroke="#22c55e"/>
+  <text x="288.125" y="161.85" font-size="11" fill="#166534" text-anchor="middle">二、数据映射</text>
+  <text x="288.125" y="178.35" font-size="11" fill="#166534" text-anchor="middle">内存通道划分</text>
+  <rect x="392.5" y="141.5" width="158.75" height="49.5" rx="6" fill="#d1fae5" stroke="#22c55e"/>
+  <text x="471.875" y="161.85" font-size="11" fill="#166534" text-anchor="middle">三、源限流</text>
+  <text x="471.875" y="178.35" font-size="11" fill="#166534" text-anchor="middle">FST</text>
+  <rect x="576.25" y="141.5" width="158.75" height="49.5" rx="6" fill="#d1fae5" stroke="#22c55e"/>
+  <text x="655.625" y="161.85" font-size="11" fill="#166534" text-anchor="middle">四、应用到核、CPU 与 IO</text>
+  <text x="655.625" y="178.35" font-size="11" fill="#166534" text-anchor="middle">可预测性能与总结</text>
+  <rect x="25" y="219" width="710" height="33" rx="6" fill="#f8fafc" stroke="#94a3b8"/>
+  <text x="380" y="239.35" font-size="11" fill="#1e293b" text-anchor="middle">讲义前 90 多页带 Recall: 或复习第 18 讲那条线，新内容从 p93 与 p115 起</text>
+</svg>

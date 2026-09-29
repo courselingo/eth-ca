@@ -1,0 +1,29 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 760 388.5" width="760" height="388.5"
+     role="img" aria-labelledby="fig-lecture15-memory-contention-11-title fig-lecture15-memory-contention-11-desc">
+  <title id="fig-lecture15-memory-contention-11-title">总结：没有单一最好的手段，组合本身是难题</title>
+  <desc id="fig-lecture15-memory-contention-11-desc">上排两格是两类立场：聪明资源（服务质量感知的内存调度）与笨资源（源限流与通道划分）。下面四条依次是讲义的三条判断（两类做法都有效、没有对所有工作负载都最好的单一做法、组合起来最有力）、这一讲新增的一层（组合更强，但难点是决定何时用哪一种、哪些交给软件哪些交给硬件）、没讲的（预取感知、控制器协同设计、缓存与互连的干扰、写读调度、减少干扰的 DRAM 设计、PIM 里的服务质量）与未来方向（异构 SoC 的服务质量、技术组合、用机器学习管理资源、端到端的服务质量与性能）。</desc>
+
+  <defs>
+    <style>
+      text { font-family: 'PingFang SC', 'Microsoft YaHei', 'Noto Sans CJK SC', system-ui, sans-serif; }
+    </style>
+  </defs>
+
+  <rect x="0" y="0" width="760" height="388.5" fill="#ffffff"/>
+
+  <text x="380" y="34" font-size="16" font-weight="600" fill="#1f2937" text-anchor="middle">总结：没有单一最好的手段，组合本身是难题</text>
+  <rect x="25" y="64" width="342.5" height="49.5" rx="6" fill="#d1fae5" stroke="#22c55e"/>
+  <text x="196.25" y="84.35" font-size="11" fill="#166534" text-anchor="middle">聪明资源</text>
+  <text x="196.25" y="100.85" font-size="11" fill="#166534" text-anchor="middle">服务质量感知的内存调度</text>
+  <rect x="392.5" y="64" width="342.5" height="49.5" rx="6" fill="#fef3c7" stroke="#f59e0b"/>
+  <text x="563.75" y="84.35" font-size="11" fill="#b45309" text-anchor="middle">笨资源</text>
+  <text x="563.75" y="100.85" font-size="11" fill="#b45309" text-anchor="middle">源限流与通道划分</text>
+  <rect x="25" y="141.5" width="710" height="36" rx="6" fill="#eff6ff" stroke="#3b82f6"/>
+  <text x="380" y="163.7" font-size="12" fill="#1e40af" text-anchor="middle">三条判断：两类做法都有效；没有对所有工作负载都最好的单一做法；组合起来最有力（p179）</text>
+  <rect x="25" y="205.5" width="710" height="36" rx="6" fill="#f3e8ff" stroke="#a855f7"/>
+  <text x="380" y="227.7" font-size="12" fill="#6b21a8" text-anchor="middle">新增的一层：组合更强，但难点是决定何时用哪一种，以及哪些交给软件、哪些交给硬件（p143）</text>
+  <rect x="25" y="269.5" width="710" height="33" rx="6" fill="#f8fafc" stroke="#94a3b8"/>
+  <text x="380" y="289.85" font-size="11" fill="#1e293b" text-anchor="middle">没讲的：预取感知、控制器协同设计、缓存与互连的干扰、写读调度、减少干扰的 DRAM 设计、PIM 里的 QoS（p181）</text>
+  <rect x="25" y="330.5" width="710" height="33" rx="6" fill="#f8fafc" stroke="#94a3b8"/>
+  <text x="380" y="350.85" font-size="11" fill="#1e293b" text-anchor="middle">未来：异构 SoC 的服务质量、技术组合、用机器学习管理资源、端到端的服务质量与性能（p182）</text>
+</svg>

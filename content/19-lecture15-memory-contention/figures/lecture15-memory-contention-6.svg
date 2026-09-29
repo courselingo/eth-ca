@@ -1,0 +1,38 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 760 277" width="760" height="277"
+     role="img" aria-labelledby="fig-lecture15-memory-contention-6-title fig-lecture15-memory-contention-6-desc">
+  <title id="fig-lecture15-memory-contention-6-title">限流级别把两个旋钮绑在一起</title>
+  <desc id="fig-lecture15-memory-contention-6-desc">上排四格与下排三格是七个限流级别：100% 对应 128 个缺失寄存器、每周期发；50% 对应 64 个、隔周期；25% 对应 32 个、每 4 周期；10% 对应 12 个、每 10 周期；5% 对应 6 个、每 20 周期；4% 对应 5 个、每 25 周期；3% 对应 3 个、每 30 周期。最下面一条说明一个级别同时决定两个旋钮（缺失寄存器配额与请求注入频率），寄存器总量是 128。</desc>
+
+  <defs>
+    <style>
+      text { font-family: 'PingFang SC', 'Microsoft YaHei', 'Noto Sans CJK SC', system-ui, sans-serif; }
+    </style>
+  </defs>
+
+  <rect x="0" y="0" width="760" height="277" fill="#ffffff"/>
+
+  <text x="380" y="34" font-size="16" font-weight="600" fill="#1f2937" text-anchor="middle">限流级别把两个旋钮绑在一起</text>
+  <rect x="25" y="64" width="158.75" height="49.5" rx="6" fill="#dbeafe" stroke="#3b82f6"/>
+  <text x="104.375" y="84.35" font-size="11" fill="#1e40af" text-anchor="middle">100%</text>
+  <text x="104.375" y="100.85" font-size="11" fill="#1e40af" text-anchor="middle">128 个，每周期</text>
+  <rect x="208.75" y="64" width="158.75" height="49.5" rx="6" fill="#dbeafe" stroke="#3b82f6"/>
+  <text x="288.125" y="84.35" font-size="11" fill="#1e40af" text-anchor="middle">50%</text>
+  <text x="288.125" y="100.85" font-size="11" fill="#1e40af" text-anchor="middle">64 个，隔周期</text>
+  <rect x="392.5" y="64" width="158.75" height="49.5" rx="6" fill="#dbeafe" stroke="#3b82f6"/>
+  <text x="471.875" y="84.35" font-size="11" fill="#1e40af" text-anchor="middle">25%</text>
+  <text x="471.875" y="100.85" font-size="11" fill="#1e40af" text-anchor="middle">32 个，每 4 周期</text>
+  <rect x="576.25" y="64" width="158.75" height="49.5" rx="6" fill="#dbeafe" stroke="#3b82f6"/>
+  <text x="655.625" y="84.35" font-size="11" fill="#1e40af" text-anchor="middle">10%</text>
+  <text x="655.625" y="100.85" font-size="11" fill="#1e40af" text-anchor="middle">12 个，每 10 周期</text>
+  <rect x="25" y="141.5" width="220" height="49.5" rx="6" fill="#d1fae5" stroke="#22c55e"/>
+  <text x="135" y="161.85" font-size="11" fill="#166534" text-anchor="middle">5%</text>
+  <text x="135" y="178.35" font-size="11" fill="#166534" text-anchor="middle">6 个，每 20 周期</text>
+  <rect x="270" y="141.5" width="220" height="49.5" rx="6" fill="#d1fae5" stroke="#22c55e"/>
+  <text x="380" y="161.85" font-size="11" fill="#166534" text-anchor="middle">4%</text>
+  <text x="380" y="178.35" font-size="11" fill="#166534" text-anchor="middle">5 个，每 25 周期</text>
+  <rect x="515" y="141.5" width="220" height="49.5" rx="6" fill="#d1fae5" stroke="#22c55e"/>
+  <text x="625" y="161.85" font-size="11" fill="#166534" text-anchor="middle">3%</text>
+  <text x="625" y="178.35" font-size="11" fill="#166534" text-anchor="middle">3 个，每 30 周期</text>
+  <rect x="25" y="219" width="710" height="33" rx="6" fill="#f8fafc" stroke="#94a3b8"/>
+  <text x="380" y="239.35" font-size="11" fill="#1e293b" text-anchor="middle">一个级别同时决定两个旋钮：缺失寄存器配额与请求注入频率；寄存器总量 128（p153、p154）</text>
+</svg>

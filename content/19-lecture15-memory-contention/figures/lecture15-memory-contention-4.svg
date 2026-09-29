@@ -1,0 +1,35 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 760 318.5" width="760" height="318.5"
+     role="img" aria-labelledby="fig-lecture15-memory-contention-4-title fig-lecture15-memory-contention-4-desc">
+  <title id="fig-lecture15-memory-contention-4-title">MCP 的五步机制与 IMPS 的分工</title>
+  <desc id="fig-lecture15-memory-contention-4-desc">上排五格是机制的五步：刻画应用、分类、划分通道、分配首选通道、分配页面。下面一条说它是按区间运行的，一个区间里做完刻画与分类，下一个区间按新结果调整。再下面两格是 IMPS 的分工：极低强度的应用很少访问内存、最有潜力让核忙碌、干扰最小，所以它们在调度器里永远优先，其余应用之间的干扰靠通道划分化解。最下面一条是代价：MCP 只要刻画计数器，24 核 4 通道下 1.5 KB；IMPS 每个请求一个比特。</desc>
+
+  <defs>
+    <style>
+      text { font-family: 'PingFang SC', 'Microsoft YaHei', 'Noto Sans CJK SC', system-ui, sans-serif; }
+    </style>
+  </defs>
+
+  <rect x="0" y="0" width="760" height="318.5" fill="#ffffff"/>
+
+  <text x="380" y="34" font-size="16" font-weight="600" fill="#1f2937" text-anchor="middle">MCP 的五步机制与 IMPS 的分工</text>
+  <rect x="25" y="64" width="122" height="30" rx="6" fill="#dbeafe" stroke="#3b82f6"/>
+  <text x="86" y="82.5" font-size="10" fill="#1e40af" text-anchor="middle">① 刻画应用</text>
+  <rect x="172" y="64" width="122" height="30" rx="6" fill="#dbeafe" stroke="#3b82f6"/>
+  <text x="233" y="82.5" font-size="10" fill="#1e40af" text-anchor="middle">② 分类</text>
+  <rect x="319" y="64" width="122" height="30" rx="6" fill="#dbeafe" stroke="#3b82f6"/>
+  <text x="380" y="82.5" font-size="10" fill="#1e40af" text-anchor="middle">③ 划分通道</text>
+  <rect x="466" y="64" width="122" height="30" rx="6" fill="#dbeafe" stroke="#3b82f6"/>
+  <text x="527" y="82.5" font-size="10" fill="#1e40af" text-anchor="middle">④ 分配首选通道</text>
+  <rect x="613" y="64" width="122" height="30" rx="6" fill="#dbeafe" stroke="#3b82f6"/>
+  <text x="674" y="82.5" font-size="10" fill="#1e40af" text-anchor="middle">⑤ 分配页面</text>
+  <rect x="25" y="122" width="710" height="33" rx="6" fill="#f8fafc" stroke="#94a3b8"/>
+  <text x="380" y="142.35" font-size="11" fill="#1e293b" text-anchor="middle">按区间运行：一个区间里做完刻画与分类，下一个区间按新结果调整（p137）</text>
+  <rect x="25" y="183" width="342.5" height="49.5" rx="6" fill="#d1fae5" stroke="#22c55e"/>
+  <text x="196.25" y="203.35" font-size="11" fill="#166534" text-anchor="middle">极低强度的应用</text>
+  <text x="196.25" y="219.85" font-size="11" fill="#166534" text-anchor="middle">很少访问内存、最有潜力让核忙碌、干扰最小（p138）</text>
+  <rect x="392.5" y="183" width="342.5" height="49.5" rx="6" fill="#fef3c7" stroke="#f59e0b"/>
+  <text x="563.75" y="203.35" font-size="11" fill="#b45309" text-anchor="middle">IMPS 的分工</text>
+  <text x="563.75" y="219.85" font-size="11" fill="#b45309" text-anchor="middle">它们在调度器里永远优先，其余靠通道划分（p139）</text>
+  <rect x="25" y="260.5" width="710" height="33" rx="6" fill="#f3e8ff" stroke="#a855f7"/>
+  <text x="380" y="280.85" font-size="11" fill="#6b21a8" text-anchor="middle">代价：MCP 只要刻画计数器，24 核 4 通道下 1.5 KB；IMPS 每个请求一个比特（p140）</text>
+</svg>

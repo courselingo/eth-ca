@@ -1,0 +1,32 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 760 280" width="760" height="280"
+     role="img" aria-labelledby="fig-lecture15-memory-contention-9-title fig-lecture15-memory-contention-9-desc">
+  <title id="fig-lecture15-memory-contention-9-title">CPU 与 IO 的争用，以及解耦 DMA</title>
+  <desc id="fig-lecture15-memory-contention-9-desc">上排三格是问题：CPU 与 GPU 通信平均占执行时间 33.5%；一颗处理器 959 个引脚，去掉电源引脚后 IO 界面占 10.6%；算上电源引脚则占 28.4%。中间一条是做法：双数据端口 DRAM，一个端口接 CPU，另一个接 IO 设备，把两条访问路径在物理上隔离。下面两格是结果：两通道两 rank 系统里性能提升 20%，处理器引脚数减少 4.5%。</desc>
+
+  <defs>
+    <style>
+      text { font-family: 'PingFang SC', 'Microsoft YaHei', 'Noto Sans CJK SC', system-ui, sans-serif; }
+    </style>
+  </defs>
+
+  <rect x="0" y="0" width="760" height="280" fill="#ffffff"/>
+
+  <text x="380" y="34" font-size="16" font-weight="600" fill="#1f2937" text-anchor="middle">CPU 与 IO 的争用，以及解耦 DMA</text>
+  <rect x="25" y="64" width="220" height="49.5" rx="6" fill="#fef3c7" stroke="#f59e0b"/>
+  <text x="135" y="84.35" font-size="11" fill="#b45309" text-anchor="middle">CPU 与 GPU 通信</text>
+  <text x="135" y="100.85" font-size="11" fill="#b45309" text-anchor="middle">平均占执行时间 33.5%（p99）</text>
+  <rect x="270" y="64" width="220" height="49.5" rx="6" fill="#fef3c7" stroke="#f59e0b"/>
+  <text x="380" y="84.35" font-size="11" fill="#b45309" text-anchor="middle">959 个引脚</text>
+  <text x="380" y="100.85" font-size="11" fill="#b45309" text-anchor="middle">去掉电源引脚后 IO 界面占 10.6%</text>
+  <rect x="515" y="64" width="220" height="49.5" rx="6" fill="#fef3c7" stroke="#f59e0b"/>
+  <text x="625" y="84.35" font-size="11" fill="#b45309" text-anchor="middle">算上电源引脚</text>
+  <text x="625" y="100.85" font-size="11" fill="#b45309" text-anchor="middle">IO 界面占 28.4%（p100）</text>
+  <rect x="25" y="141.5" width="710" height="36" rx="6" fill="#eff6ff" stroke="#3b82f6"/>
+  <text x="380" y="163.7" font-size="12" fill="#1e40af" text-anchor="middle">做法：双数据端口 DRAM，一个端口接 CPU，另一个接 IO 设备，两条路径物理隔离（p97、p102）</text>
+  <rect x="25" y="205.5" width="342.5" height="49.5" rx="6" fill="#d1fae5" stroke="#22c55e"/>
+  <text x="196.25" y="225.85" font-size="11" fill="#166534" text-anchor="middle">结果：两通道两 rank 系统</text>
+  <text x="196.25" y="242.35" font-size="11" fill="#166534" text-anchor="middle">性能提升 20%</text>
+  <rect x="392.5" y="205.5" width="342.5" height="49.5" rx="6" fill="#d1fae5" stroke="#22c55e"/>
+  <text x="563.75" y="225.85" font-size="11" fill="#166534" text-anchor="middle">处理器引脚数减少 4.5%</text>
+  <text x="563.75" y="242.35" font-size="11" fill="#166534" text-anchor="middle">（p97）</text>
+</svg>
