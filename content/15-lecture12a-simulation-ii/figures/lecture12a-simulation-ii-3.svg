@@ -1,0 +1,35 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 760 360.5" width="760" height="360.5"
+     role="img" aria-labelledby="fig-lecture12a-simulation-ii-3-title fig-lecture12a-simulation-ii-3-desc">
+  <title id="fig-lecture12a-simulation-ii-3-title">Ramulator 支持什么，以及它的两个数字</title>
+  <desc id="fig-lecture12a-simulation-ii-3-desc">上排三格是它开箱支持的标准与提案：DDR3、DDR4、LPDDR3、LPDDR4；GDDR5、WIO1、WIO2、HBM；以及 SALP、AL-DRAM、TLDRAM、RowClone、SARP 这些新提案。中间两格是它的两个数字：比当时最快的开源模拟器快约 2.5 倍，论文发表在 2015 年的 IEEE CAL、源码按 MIT 许可发布。最下面一条是第 8 页的用例：比较多种 DRAM 标准，跑 22 个工作负载，配一个简单的 CPU 模型。</desc>
+
+  <defs>
+    <style>
+      text { font-family: 'PingFang SC', 'Microsoft YaHei', 'Noto Sans CJK SC', system-ui, sans-serif; }
+    </style>
+  </defs>
+
+  <rect x="0" y="0" width="760" height="360.5" fill="#ffffff"/>
+
+  <text x="380" y="34" font-size="16" font-weight="600" fill="#1f2937" text-anchor="middle">Ramulator 支持什么，以及它的两个数字</text>
+  <rect x="25" y="64" width="710" height="36" rx="6" fill="#eff6ff" stroke="#3b82f6"/>
+  <text x="380" y="86.2" font-size="12" fill="#1e40af" text-anchor="middle">开箱支持的标准与提案</text>
+  <rect x="25" y="128" width="220" height="66" rx="6" fill="#d1fae5" stroke="#22c55e"/>
+  <text x="135" y="156.6" font-size="11" fill="#166534" text-anchor="middle">DDR3、DDR4</text>
+  <text x="135" y="173.1" font-size="11" fill="#166534" text-anchor="middle">LPDDR3、LPDDR4</text>
+  <rect x="270" y="128" width="220" height="66" rx="6" fill="#d1fae5" stroke="#22c55e"/>
+  <text x="380" y="156.6" font-size="11" fill="#166534" text-anchor="middle">GDDR5</text>
+  <text x="380" y="173.1" font-size="11" fill="#166534" text-anchor="middle">WIO1、WIO2、HBM</text>
+  <rect x="515" y="128" width="220" height="66" rx="6" fill="#d1fae5" stroke="#22c55e"/>
+  <text x="625" y="148.35" font-size="11" fill="#166534" text-anchor="middle">新提案</text>
+  <text x="625" y="164.85" font-size="11" fill="#166534" text-anchor="middle">SALP、AL-DRAM、TLDRAM</text>
+  <text x="625" y="181.35" font-size="11" fill="#166534" text-anchor="middle">RowClone、SARP</text>
+  <rect x="25" y="222" width="342.5" height="49.5" rx="6" fill="#dbeafe" stroke="#3b82f6"/>
+  <text x="196.25" y="242.35" font-size="11" fill="#1e40af" text-anchor="middle">比当时最快的开源模拟器</text>
+  <text x="196.25" y="258.85" font-size="11" fill="#1e40af" text-anchor="middle">快约 2.5 倍</text>
+  <rect x="392.5" y="222" width="342.5" height="49.5" rx="6" fill="#dbeafe" stroke="#3b82f6"/>
+  <text x="563.75" y="242.35" font-size="11" fill="#1e40af" text-anchor="middle">2015 年 IEEE CAL 论文</text>
+  <text x="563.75" y="258.85" font-size="11" fill="#1e40af" text-anchor="middle">源码 MIT 许可，在 GitHub 上</text>
+  <rect x="25" y="299.5" width="710" height="36" rx="6" fill="#f3e8ff" stroke="#a855f7"/>
+  <text x="380" y="321.7" font-size="12" fill="#6b21a8" text-anchor="middle">用例：用同一个模拟器比较多种 DRAM 标准，跑 22 个工作负载，配一个简单的 CPU 模型</text>
+</svg>

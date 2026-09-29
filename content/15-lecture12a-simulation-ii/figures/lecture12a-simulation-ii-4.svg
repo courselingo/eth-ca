@@ -1,0 +1,31 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 760 405" width="760" height="405"
+     role="img" aria-labelledby="fig-lecture12a-simulation-ii-4-title fig-lecture12a-simulation-ii-4-desc">
+  <title id="fig-lecture12a-simulation-ii-4-title">第一项研究的规模与它的第一条发现</title>
+  <desc id="fig-lecture12a-simulation-ii-4-desc">上面一条是研究的规模：115 个时下流行与新兴的应用与多道程序工作负载，配 9 种现代 DRAM 类型。中间三格列出这 9 种类型。下面两条是结论页的 12 条观察，以及第一条要点：DRAM 延迟仍然是很多应用的关键瓶颈，新类型为了更多存储体与更高吞吐抬高延迟，很多应用补不回来；第 19 页柱状图括号里的数从 0.1 到 16.5。</desc>
+
+  <defs>
+    <style>
+      text { font-family: 'PingFang SC', 'Microsoft YaHei', 'Noto Sans CJK SC', system-ui, sans-serif; }
+    </style>
+  </defs>
+
+  <rect x="0" y="0" width="760" height="405" fill="#ffffff"/>
+
+  <text x="380" y="34" font-size="16" font-weight="600" fill="#1f2937" text-anchor="middle">第一项研究的规模与它的第一条发现</text>
+  <rect x="25" y="64" width="710" height="36" rx="6" fill="#eff6ff" stroke="#3b82f6"/>
+  <text x="380" y="86.2" font-size="12" fill="#1e40af" text-anchor="middle">研究的规模：115 个时下流行与新兴的应用与多道程序工作负载，配 9 种现代 DRAM 类型</text>
+  <rect x="25" y="128" width="220" height="49.5" rx="6" fill="#d1fae5" stroke="#22c55e"/>
+  <text x="135" y="156.6" font-size="11" fill="#166534" text-anchor="middle">DDR3、DDR4、GDDR5</text>
+  <rect x="270" y="128" width="220" height="49.5" rx="6" fill="#d1fae5" stroke="#22c55e"/>
+  <text x="380" y="156.6" font-size="11" fill="#166534" text-anchor="middle">HBM、HMC、LPDDR3</text>
+  <rect x="515" y="128" width="220" height="49.5" rx="6" fill="#d1fae5" stroke="#22c55e"/>
+  <text x="625" y="148.35" font-size="11" fill="#166534" text-anchor="middle">LPDDR4、Wide I/O</text>
+  <text x="625" y="164.85" font-size="11" fill="#166534" text-anchor="middle">Wide I/O 2</text>
+  <rect x="25" y="205.5" width="710" height="36" rx="6" fill="#dbeafe" stroke="#3b82f6"/>
+  <text x="380" y="227.7" font-size="12" fill="#1e40af" text-anchor="middle">结论页：一共给出 12 条关于 DRAM 与工作负载行为的观察</text>
+  <rect x="25" y="269.5" width="710" height="49.5" rx="6" fill="#fef3c7" stroke="#f59e0b"/>
+  <text x="380" y="289.85" font-size="11" fill="#b45309" text-anchor="middle">第一条要点：DRAM 延迟仍然是很多应用的关键瓶颈；</text>
+  <text x="380" y="306.35" font-size="11" fill="#b45309" text-anchor="middle">新类型为了更多存储体与更高吞吐抬高延迟，很多应用补不回来</text>
+  <rect x="25" y="347" width="710" height="33" rx="6" fill="#f8fafc" stroke="#94a3b8"/>
+  <text x="380" y="367.35" font-size="11" fill="#1e293b" text-anchor="middle">第 19 页柱状图括号里的数从 0.1 到 16.5，图上写着：有些应用并不能从更多并行度里获益</text>
+</svg>

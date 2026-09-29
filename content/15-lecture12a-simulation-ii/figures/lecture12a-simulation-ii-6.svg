@@ -1,0 +1,25 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 760 266.5" width="760" height="266.5"
+     role="img" aria-labelledby="fig-lecture12a-simulation-ii-6-title fig-lecture12a-simulation-ii-6-desc">
+  <title id="fig-lecture12a-simulation-ii-6-title">PIM 这一侧的模拟基础设施</title>
+  <desc id="fig-lecture12a-simulation-ii-6-desc">上面一条说第 4、5 讲讲的是 PIM 本身，这一讲讲评估它的基础设施。中间两格是为 PIM 扩展的 Ramulator 与 NAPEL（DAC 2019，用集成学习为近内存计算应用做性能预测）。最下面一条是它要回答的问题：在真正做出来之前，先预测一个近内存方案能带来多少收益。</desc>
+
+  <defs>
+    <style>
+      text { font-family: 'PingFang SC', 'Microsoft YaHei', 'Noto Sans CJK SC', system-ui, sans-serif; }
+    </style>
+  </defs>
+
+  <rect x="0" y="0" width="760" height="266.5" fill="#ffffff"/>
+
+  <text x="380" y="34" font-size="16" font-weight="600" fill="#1f2937" text-anchor="middle">PIM 这一侧的模拟基础设施</text>
+  <rect x="25" y="64" width="710" height="36" rx="6" fill="#eff6ff" stroke="#3b82f6"/>
+  <text x="380" y="86.2" font-size="12" fill="#1e40af" text-anchor="middle">第 4、5 讲讲的是 PIM 本身；这一讲讲评估它的基础设施</text>
+  <rect x="25" y="128" width="342.5" height="49.5" rx="6" fill="#dbeafe" stroke="#3b82f6"/>
+  <text x="196.25" y="148.35" font-size="11" fill="#1e40af" text-anchor="middle">为 PIM 扩展的 Ramulator</text>
+  <text x="196.25" y="164.85" font-size="11" fill="#1e40af" text-anchor="middle">灵活可扩展，能建模很多标准与提案</text>
+  <rect x="392.5" y="128" width="342.5" height="49.5" rx="6" fill="#d1fae5" stroke="#22c55e"/>
+  <text x="563.75" y="148.35" font-size="11" fill="#166534" text-anchor="middle">NAPEL（DAC 2019）</text>
+  <text x="563.75" y="164.85" font-size="11" fill="#166534" text-anchor="middle">用集成学习为近内存计算应用做性能预测</text>
+  <rect x="25" y="205.5" width="710" height="36" rx="6" fill="#f3e8ff" stroke="#a855f7"/>
+  <text x="380" y="227.7" font-size="12" fill="#6b21a8" text-anchor="middle">它要回答的问题：在真正做出来之前，能不能先预测一个近内存方案能带来多少收益</text>
+</svg>

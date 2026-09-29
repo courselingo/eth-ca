@@ -1,0 +1,41 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 760 357.5" width="760" height="357.5"
+     role="img" aria-labelledby="fig-lecture12a-simulation-ii-7-title fig-lecture12a-simulation-ii-7-desc">
+  <title id="fig-lecture12a-simulation-ii-7-title">七个模拟器各管一段</title>
+  <desc id="fig-lecture12a-simulation-ii-7-desc">上排四格是 gem5（全系统多核）、MQSim（SSD）、DiskSim（硬盘）、DAMOV-Sim（近内存处理）。下排三格是 Sniper（快速处理器）、Scarab（细致的微体系结构）、Simics 与 Bochs 与 QEMU（全系统功能级）。下面两条是讲义补的那句「或者为你的目的自己写一个模拟器」，以及 DAMOV 与 MQSim 两篇材料的出处。</desc>
+
+  <defs>
+    <style>
+      text { font-family: 'PingFang SC', 'Microsoft YaHei', 'Noto Sans CJK SC', system-ui, sans-serif; }
+    </style>
+  </defs>
+
+  <rect x="0" y="0" width="760" height="357.5" fill="#ffffff"/>
+
+  <text x="380" y="34" font-size="16" font-weight="600" fill="#1f2937" text-anchor="middle">七个模拟器各管一段</text>
+  <rect x="25" y="64" width="158.75" height="49.5" rx="6" fill="#dbeafe" stroke="#3b82f6"/>
+  <text x="104.375" y="84.35" font-size="11" fill="#1e40af" text-anchor="middle">gem5</text>
+  <text x="104.375" y="100.85" font-size="11" fill="#1e40af" text-anchor="middle">全系统多核仿真</text>
+  <rect x="208.75" y="64" width="158.75" height="49.5" rx="6" fill="#dbeafe" stroke="#3b82f6"/>
+  <text x="288.125" y="84.35" font-size="11" fill="#1e40af" text-anchor="middle">MQSim</text>
+  <text x="288.125" y="100.85" font-size="11" fill="#1e40af" text-anchor="middle">SSD 仿真</text>
+  <rect x="392.5" y="64" width="158.75" height="49.5" rx="6" fill="#dbeafe" stroke="#3b82f6"/>
+  <text x="471.875" y="84.35" font-size="11" fill="#1e40af" text-anchor="middle">DiskSim</text>
+  <text x="471.875" y="100.85" font-size="11" fill="#1e40af" text-anchor="middle">硬盘仿真</text>
+  <rect x="576.25" y="64" width="158.75" height="49.5" rx="6" fill="#dbeafe" stroke="#3b82f6"/>
+  <text x="655.625" y="84.35" font-size="11" fill="#1e40af" text-anchor="middle">DAMOV-Sim</text>
+  <text x="655.625" y="100.85" font-size="11" fill="#1e40af" text-anchor="middle">近内存处理仿真</text>
+  <rect x="25" y="141.5" width="220" height="49.5" rx="6" fill="#d1fae5" stroke="#22c55e"/>
+  <text x="135" y="161.85" font-size="11" fill="#166534" text-anchor="middle">Sniper</text>
+  <text x="135" y="178.35" font-size="11" fill="#166534" text-anchor="middle">快速处理器仿真</text>
+  <rect x="270" y="141.5" width="220" height="49.5" rx="6" fill="#d1fae5" stroke="#22c55e"/>
+  <text x="380" y="161.85" font-size="11" fill="#166534" text-anchor="middle">Scarab</text>
+  <text x="380" y="178.35" font-size="11" fill="#166534" text-anchor="middle">细致的微体系结构仿真</text>
+  <rect x="515" y="141.5" width="220" height="49.5" rx="6" fill="#d1fae5" stroke="#22c55e"/>
+  <text x="625" y="161.85" font-size="11" fill="#166534" text-anchor="middle">Simics、Bochs、QEMU</text>
+  <text x="625" y="178.35" font-size="11" fill="#166534" text-anchor="middle">全系统功能级仿真</text>
+  <rect x="25" y="219" width="710" height="36" rx="6" fill="#fef3c7" stroke="#f59e0b"/>
+  <text x="380" y="241.2" font-size="12" fill="#b45309" text-anchor="middle">讲义补的一句：或者，为你的目的自己写一个模拟器</text>
+  <rect x="25" y="283" width="710" height="49.5" rx="6" fill="#f8fafc" stroke="#94a3b8"/>
+  <text x="380" y="303.35" font-size="11" fill="#1e293b" text-anchor="middle">两篇出处：DAMOV（IEEE Access 2021，数据搬运瓶颈，开源）；</text>
+  <text x="380" y="319.85" font-size="11" fill="#1e293b" text-anchor="middle">MQSim（FAST 2018，现代多队列 SSD）</text>
+</svg>

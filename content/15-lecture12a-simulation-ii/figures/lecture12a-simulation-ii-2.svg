@@ -1,0 +1,26 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 760 263.5" width="760" height="263.5"
+     role="img" aria-labelledby="fig-lecture12a-simulation-ii-2-title fig-lecture12a-simulation-ii-2-desc">
+  <title id="fig-lecture12a-simulation-ii-2-title">为什么需要一个又快又容易扩展的模拟器</title>
+  <desc id="fig-lecture12a-simulation-ii-2-desc">上排三格是讲义第 6 页给的三条变化：DRAM 与控制器的格局在变、很多新的即将到来的标准、很多新的控制器设计。中间一条是结论：一个又快又容易扩展的模拟器非常必要。最下面一条是真实硬件跟不上：换一种新的 DRAM 类型就要换一颗新的 CPU。</desc>
+
+  <defs>
+    <style>
+      text { font-family: 'PingFang SC', 'Microsoft YaHei', 'Noto Sans CJK SC', system-ui, sans-serif; }
+    </style>
+  </defs>
+
+  <rect x="0" y="0" width="760" height="263.5" fill="#ffffff"/>
+
+  <text x="380" y="34" font-size="16" font-weight="600" fill="#1f2937" text-anchor="middle">为什么需要一个又快又容易扩展的模拟器</text>
+  <rect x="25" y="64" width="220" height="33" rx="6" fill="#fef3c7" stroke="#f59e0b"/>
+  <text x="135" y="84.35" font-size="11" fill="#b45309" text-anchor="middle">DRAM 与控制器的格局在变</text>
+  <rect x="270" y="64" width="220" height="33" rx="6" fill="#fef3c7" stroke="#f59e0b"/>
+  <text x="380" y="84.35" font-size="11" fill="#b45309" text-anchor="middle">很多新的、即将到来的标准</text>
+  <rect x="515" y="64" width="220" height="33" rx="6" fill="#fef3c7" stroke="#f59e0b"/>
+  <text x="625" y="84.35" font-size="11" fill="#b45309" text-anchor="middle">很多新的控制器设计</text>
+  <rect x="25" y="125" width="710" height="36" rx="6" fill="#eff6ff" stroke="#3b82f6"/>
+  <text x="380" y="147.2" font-size="12" fill="#1e40af" text-anchor="middle">⇒ 一个又快又容易扩展的模拟器非常必要</text>
+  <rect x="25" y="189" width="710" height="49.5" rx="6" fill="#f8fafc" stroke="#94a3b8"/>
+  <text x="380" y="209.35" font-size="11" fill="#1e293b" text-anchor="middle">真实硬件跟不上：换一种新的 DRAM 类型就要换一颗新的 CPU，</text>
+  <text x="380" y="225.85" font-size="11" fill="#1e293b" text-anchor="middle">所以一批问题只能在模拟器里问（讲义把这句放在第 17 页的动机里）</text>
+</svg>

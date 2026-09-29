@@ -354,3 +354,15 @@ key = "weak-scaling"
 zh = "弱扩展"
 en = "weak scaling"
 note = "每个处理器分到的问题规模固定、处理器数量与数据一起增加时，执行时间怎么变"
+
+[[term]]
+key = "simulation"
+zh = "仿真"
+en = "simulation"
+note = "用一个可执行的模型复现系统的行为，用来评估和理解还不存在或难以实测的系统"
+
+[[term]]
+key = "design-space-exploration"
+zh = "设计空间探索"
+en = "design space exploration"
+note = "在设计参数的各种组合里快速搜索，找出值得实现或值得继续细化的那一档"

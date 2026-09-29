@@ -17,7 +17,7 @@ output_mode = "explanation"
 > 页内配图全部由我们自绘；原讲义里只有图、没有字的页，我们只如实记下它的标题。
 > 本页为非官方材料，与 ETH Zürich 及课程教学团队无隶属关系；如与原文有出入，以原文为准。
 
-本页的事实来自 `_sources/eth-ddca-ca/evidence/eth-ca2022-lecture11a-memorycontrollers.pdf.pypdf.txt`（pypdf 抽取，126 页，45,505 字符），并与同一份 PDF 用第二个抽取器得到的 `.pdf.pypdfium2.txt`（126 页，46,167 字符）逐页比对：抽查正文 30 页，两边的文本相似度在 0.989 到 1.000 之间，绝大多数页逐字相同。该 PDF 入库前按三道核验过完整性：体积 8,656,107 字节、尾部有 `%%EOF`、大小不是 2 的整数次幂。本页还有一条抽取器的事实要说明：这个文件用 `pdftext.py` 抽出的 `.embedded.txt` **是坏的**，得到的是内嵌字体的二进制（`OS/2`、`cmap`、`glyf` 与 Monotype Garamond 字体表），126 页里没有一个可用文本块；同一脚本产出的 `.text.txt` 是 4,981 万字符的字形级转储，读不出句子。所以本页依据的是 pypdf 与 pypdfium2 两个抽取器，且两者互为交叉核对。
+本页的事实来自 `_sources/eth-ddca-ca/evidence/eth-ca2022-lecture11a-memorycontrollers.pdf.pypdf.txt`（pypdf 抽取，126 页，45,505 字符），并与同一份 PDF 用第二个抽取器得到的 `.pdf.pypdfium2.txt`（126 页，46,167 字符）逐页比对：抽查正文 30 页，两边的文本相似度在 0.989 到 1.000 之间，绝大多数页逐字相同。该 PDF 入库前按三道核验过完整性：体积 8,656,107 字节、尾部有 `%%EOF`、大小不是 2 的整数次幂。本页还有一条抽取器的事实要说明：同一份 PDF 用**仓内自研抽取器 `pdftext.py`** 抽不出可用文本——它写出的 `.embedded.txt` 是内嵌字体的二进制（`OS/2`、`cmap`、`glyf` 与 Monotype Garamond 字体表），`.text.txt` 是字形级转储。**这两个文件名每次重跑都会被覆盖，所以本页只把它当作「该工具在这份文件上失败」的记录，不当作引用**；本页依据的是 pypdf 与 pypdfium2 两个独立抽取器的输出，且两者互为交叉核对。
 
 ## 这一讲要解决什么问题
 
@@ -218,7 +218,7 @@ p53 给出对立面：由数据驱动，由机器学出最好的策略；策略�
 - 对应：ETH Zürich Computer Architecture（Onur Mutlu 主讲，Fall 2022），Lecture 11a — Memory Controllers（2022 年 11 月 3 日）。
 - 讲义链接：<https://safari.ethz.ch/architecture/fall2022/lib/exe/fetch.php?media=onur-comparch-fall2022-lecture11a-memorycontrollers-afterlecture.pdf>
 - 上游许可：站点级页脚为 CC BY-NC-SA 4.0。**SA 是传染性的**，所以本页的译文也以同协议发布、且为非商业用途。本页未转载原讲义里的任何图片，配图全部自绘。
-- 证据来源：`_sources/eth-ddca-ca/evidence/eth-ca2022-lecture11a-memorycontrollers.pdf.pypdf.txt`（pypdf 抽取，126 页），交叉核对用同名的 `.pdf.pypdfium2.txt`。三道完整性核验：8,656,107 字节、尾部有 `%%EOF`、不是 2 的整数次幂。`pdftext.py` 的 `.embedded.txt` 抽到的是内嵌字体二进制，`.text.txt` 是字形级转储，两者都没有被本页用于任何结论。
+- 证据来源：`_sources/eth-ddca-ca/evidence/eth-ca2022-lecture11a-memorycontrollers.pdf.pypdf.txt`（pypdf 抽取，126 页），交叉核对用同名的 `.pdf.pypdfium2.txt`。三道完整性核验：8,656,107 字节、尾部有 `%%EOF`、不是 2 的整数次幂。仓内自研抽取器 `pdftext.py` 在同一份 PDF 上没有产出可用文本（它写出的 `.embedded.txt` 是内嵌字体二进制、`.text.txt` 是字形级转储）；那两个文件名会被后续重跑覆盖，因此本页不作为引用。
 - 取材范围是讲义的正文 p1 到 p65（p65 是重复的封面页）。p66 起是讲义自己标注的 Backup Slides，不计入；其中 p104 起那组讲内存干扰与服务质量感知的调度，与本课程第 2 讲同名一节相通。只有图或只有出处的页（p4 到 p14、p16、p19、p25、p26、p35、p36、p38、p39、p42、p46、p48、p50、p54 到 p56、p60、p62 到 p64）本页只登记主题或出处。
 - 数字与定义以讲义页面为准：50 条以上定时约束、tWTR 与 tRC 的定义、DDR3 的 8 个存储体与 DDR4 的 16 个、HMC 的 256 个、Ryzen 5000 与 POWER10 的规格、行缓冲那张表的五行命令、功耗四个状态、奖励与动作的条目数，都逐条对回原页。一处说明：p44 的折扣累计式在文本层里丢掉了折扣因子的字形（抽出来是 `r0 + r1 + 2r2 + … ( 0 < 1)`），本页按这个形状写成 `r0 + γr1 + γ²r2 + …`。p34 的 tRC 讲义没有给具体周期值；奖励与动作的条目数（+1 与 0、三条状态、七个动作）是本页逐条数出来的。
 - 讲义未展开的推论属于 CourseLingo 的讲解。这类推论有三组：把「控制器握着唯一的旋钮」说成这一讲的动机；把行缓冲与功耗两节收成「省下的开销要在别处用延迟或命令数付回去」；以及开头的抽取器说明与第 2 讲、第 4 讲的对照。

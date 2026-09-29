@@ -1,0 +1,29 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 760 330.5" width="760" height="330.5"
+     role="img" aria-labelledby="fig-lecture12a-simulation-ii-5-title fig-lecture12a-simulation-ii-5-desc">
+  <title id="fig-lecture12a-simulation-ii-5-title">BlockHammer 的三条性质</title>
+  <desc id="fig-lecture12a-simulation-ii-5-desc">上面一条是第二项研究的名字与出处：BlockHammer，HPCA 2021。中间三格是它的三条性质：做在内存控制器里；不改动 DRAM 芯片、不需要专有信息；随 RowHammer 变糟继续扩展，兼容商用 DRAM 芯片。下面两条是它的外部评价与开放性：34 个提名里的 4 个入围者之一，与另外六种最先进机制一起开源。</desc>
+
+  <defs>
+    <style>
+      text { font-family: 'PingFang SC', 'Microsoft YaHei', 'Noto Sans CJK SC', system-ui, sans-serif; }
+    </style>
+  </defs>
+
+  <rect x="0" y="0" width="760" height="330.5" fill="#ffffff"/>
+
+  <text x="380" y="34" font-size="16" font-weight="600" fill="#1f2937" text-anchor="middle">BlockHammer 的三条性质</text>
+  <rect x="25" y="64" width="710" height="36" rx="6" fill="#eff6ff" stroke="#3b82f6"/>
+  <text x="380" y="86.2" font-size="12" fill="#1e40af" text-anchor="middle">第二项研究：BlockHammer（HPCA 2021）</text>
+  <rect x="25" y="128" width="220" height="49.5" rx="6" fill="#d1fae5" stroke="#22c55e"/>
+  <text x="135" y="156.6" font-size="11" fill="#166534" text-anchor="middle">做在内存控制器里</text>
+  <rect x="270" y="128" width="220" height="49.5" rx="6" fill="#d1fae5" stroke="#22c55e"/>
+  <text x="380" y="148.35" font-size="11" fill="#166534" text-anchor="middle">不改动 DRAM 芯片</text>
+  <text x="380" y="164.85" font-size="11" fill="#166534" text-anchor="middle">不需要专有信息</text>
+  <rect x="515" y="128" width="220" height="49.5" rx="6" fill="#d1fae5" stroke="#22c55e"/>
+  <text x="625" y="148.35" font-size="11" fill="#166534" text-anchor="middle">随 RowHammer 变糟继续扩展</text>
+  <text x="625" y="164.85" font-size="11" fill="#166534" text-anchor="middle">兼容商用 DRAM 芯片</text>
+  <rect x="25" y="205.5" width="710" height="36" rx="6" fill="#dbeafe" stroke="#3b82f6"/>
+  <text x="380" y="227.7" font-size="12" fill="#1e40af" text-anchor="middle">入围 Intel Hardware Security Academic Award：34 个提名里的 4 个入围者之一</text>
+  <rect x="25" y="269.5" width="710" height="36" rx="6" fill="#f3e8ff" stroke="#a855f7"/>
+  <text x="380" y="291.7" font-size="12" fill="#6b21a8" text-anchor="middle">开源：与另外六种最先进机制一起发布</text>
+</svg>

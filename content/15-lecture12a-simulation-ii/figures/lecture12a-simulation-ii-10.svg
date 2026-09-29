@@ -1,0 +1,33 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 760 341" width="760" height="341"
+     role="img" aria-labelledby="fig-lecture12a-simulation-ii-10-title fig-lecture12a-simulation-ii-10-desc">
+  <title id="fig-lecture12a-simulation-ii-10-title">渐进细化：从高层模型到真实设计</title>
+  <desc id="fig-lecture12a-simulation-ii-10-desc">上排四格是阶梯：高层模型（抽象，用 C 写）、中层模型（不那么抽象）、低层模型（RTL，什么都要建模）、真实设计。下面三条是往下走时同时发生的变化（抽象度降低；精度但愿上升；灵活性下降；速度通常也下降，只有真实设计例外）、那条出口（可以回头去修高层的模型），以及第 54 页的判词：好的建筑师在每一层都自在，知道该用哪一种评估方法。</desc>
+
+  <defs>
+    <style>
+      text { font-family: 'PingFang SC', 'Microsoft YaHei', 'Noto Sans CJK SC', system-ui, sans-serif; }
+    </style>
+  </defs>
+
+  <rect x="0" y="0" width="760" height="341" fill="#ffffff"/>
+
+  <text x="380" y="34" font-size="16" font-weight="600" fill="#1f2937" text-anchor="middle">渐进细化：从高层模型到真实设计</text>
+  <rect x="25" y="64" width="158.75" height="49.5" rx="6" fill="#dbeafe" stroke="#3b82f6"/>
+  <text x="104.375" y="84.35" font-size="11" fill="#1e40af" text-anchor="middle">高层模型</text>
+  <text x="104.375" y="100.85" font-size="11" fill="#1e40af" text-anchor="middle">抽象，用 C 写</text>
+  <rect x="208.75" y="64" width="158.75" height="49.5" rx="6" fill="#dbeafe" stroke="#3b82f6"/>
+  <text x="288.125" y="84.35" font-size="11" fill="#1e40af" text-anchor="middle">中层模型</text>
+  <text x="288.125" y="100.85" font-size="11" fill="#1e40af" text-anchor="middle">不那么抽象</text>
+  <rect x="392.5" y="64" width="158.75" height="49.5" rx="6" fill="#dbeafe" stroke="#3b82f6"/>
+  <text x="471.875" y="84.35" font-size="11" fill="#1e40af" text-anchor="middle">低层模型</text>
+  <text x="471.875" y="100.85" font-size="11" fill="#1e40af" text-anchor="middle">RTL，什么都要建模</text>
+  <rect x="576.25" y="64" width="158.75" height="49.5" rx="6" fill="#d1fae5" stroke="#22c55e"/>
+  <text x="655.625" y="92.6" font-size="11" fill="#166534" text-anchor="middle">真实设计</text>
+  <rect x="25" y="141.5" width="710" height="49.5" rx="6" fill="#fef3c7" stroke="#f59e0b"/>
+  <text x="380" y="161.85" font-size="11" fill="#b45309" text-anchor="middle">往下走：抽象度降低；精度但愿上升（不小心并不必然）；</text>
+  <text x="380" y="178.35" font-size="11" fill="#b45309" text-anchor="middle">灵活性下降；速度通常也下降，只有真实设计这一步例外</text>
+  <rect x="25" y="219" width="710" height="36" rx="6" fill="#f3e8ff" stroke="#a855f7"/>
+  <text x="380" y="241.2" font-size="12" fill="#6b21a8" text-anchor="middle">出口：可以回头去修高层的模型</text>
+  <rect x="25" y="283" width="710" height="33" rx="6" fill="#f8fafc" stroke="#94a3b8"/>
+  <text x="380" y="303.35" font-size="11" fill="#1e293b" text-anchor="middle">好的建筑师在每一层都自在，知道该用哪一种评估方法</text>
+</svg>

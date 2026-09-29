@@ -1,0 +1,34 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 760 344" width="760" height="344"
+     role="img" aria-labelledby="fig-lecture12a-simulation-ii-9-title fig-lecture12a-simulation-ii-9-desc">
+  <title id="fig-lecture12a-simulation-ii-9-title">三个度量，以及它们各自牵动什么</title>
+  <desc id="fig-lecture12a-simulation-ii-9-desc">上排三格是评价模拟器的三个度量：速度（xIPS、xCPS、减速比）、灵活性（多快能改成评估别的算法与设计）、精度（数字相比真实设计有多准，也就是仿真误差）。中间两格是它们牵动的东西：速度与灵活性影响你多快能做出设计取舍，精度影响取舍最终多好、以及建模拟器本身要多久。下面两条是灵活性牵动的人力，以及三者的相对重要性取决于你处在设计流程的哪个位置。</desc>
+
+  <defs>
+    <style>
+      text { font-family: 'PingFang SC', 'Microsoft YaHei', 'Noto Sans CJK SC', system-ui, sans-serif; }
+    </style>
+  </defs>
+
+  <rect x="0" y="0" width="760" height="344" fill="#ffffff"/>
+
+  <text x="380" y="34" font-size="16" font-weight="600" fill="#1f2937" text-anchor="middle">三个度量，以及它们各自牵动什么</text>
+  <rect x="25" y="64" width="220" height="49.5" rx="6" fill="#dbeafe" stroke="#3b82f6"/>
+  <text x="135" y="84.35" font-size="11" fill="#1e40af" text-anchor="middle">速度</text>
+  <text x="135" y="100.85" font-size="11" fill="#1e40af" text-anchor="middle">xIPS、xCPS、减速比</text>
+  <rect x="270" y="64" width="220" height="49.5" rx="6" fill="#dbeafe" stroke="#3b82f6"/>
+  <text x="380" y="84.35" font-size="11" fill="#1e40af" text-anchor="middle">灵活性</text>
+  <text x="380" y="100.85" font-size="11" fill="#1e40af" text-anchor="middle">多快能改成评估别的算法与设计</text>
+  <rect x="515" y="64" width="220" height="49.5" rx="6" fill="#dbeafe" stroke="#3b82f6"/>
+  <text x="625" y="84.35" font-size="11" fill="#1e40af" text-anchor="middle">精度</text>
+  <text x="625" y="100.85" font-size="11" fill="#1e40af" text-anchor="middle">数字相比真实设计有多准（仿真误差）</text>
+  <rect x="25" y="141.5" width="342.5" height="49.5" rx="6" fill="#d1fae5" stroke="#22c55e"/>
+  <text x="196.25" y="161.85" font-size="11" fill="#166534" text-anchor="middle">速度与灵活性影响</text>
+  <text x="196.25" y="178.35" font-size="11" fill="#166534" text-anchor="middle">你多快能做出设计取舍</text>
+  <rect x="392.5" y="141.5" width="342.5" height="49.5" rx="6" fill="#d1fae5" stroke="#22c55e"/>
+  <text x="563.75" y="161.85" font-size="11" fill="#166534" text-anchor="middle">精度影响</text>
+  <text x="563.75" y="178.35" font-size="11" fill="#166534" text-anchor="middle">取舍最终多好；以及建模拟器本身要多久</text>
+  <rect x="25" y="219" width="710" height="36" rx="6" fill="#fef3c7" stroke="#f59e0b"/>
+  <text x="380" y="241.2" font-size="12" fill="#b45309" text-anchor="middle">灵活性还影响：改模拟器要花多少人力</text>
+  <rect x="25" y="283" width="710" height="36" rx="6" fill="#f3e8ff" stroke="#a855f7"/>
+  <text x="380" y="305.2" font-size="12" fill="#6b21a8" text-anchor="middle">三者的相对重要性，取决于你处在设计流程的哪个位置</text>
+</svg>
