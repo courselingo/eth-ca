@@ -1,0 +1,31 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 626 140" width="626" height="140"
+     role="img" aria-labelledby="fig-l4-6-title fig-l4-6-desc">
+  <title id="fig-l4-6-title">四个系统级挑战</title>
+  <desc id="fig-l4-6-desc">代码映射、数据映射、调度与缓存一致性四个问题，各自决定了 PIM 能不能与现有系统相处。</desc>
+
+  <defs>
+    <style>
+      text { font-family: 'PingFang SC', 'Microsoft YaHei', 'Noto Sans CJK SC', system-ui, sans-serif; }
+    </style>
+  </defs>
+
+  <rect x="0" y="0" width="626" height="140" fill="#ffffff"/>
+
+  <text x="313" y="34" font-size="16" font-weight="600" fill="#1f2937" text-anchor="middle">四个系统级挑战，各有一批工作在解</text>
+
+  <rect x="23" y="64" width="124" height="54" rx="8" fill="#dbeafe" stroke="#3b82f6" stroke-width="1.5"/>
+  <text x="85" y="86.2" font-size="12" fill="#1e40af" text-anchor="middle">代码映射</text>
+  <text x="85" y="104.2" font-size="12" fill="#1e40af" text-anchor="middle">哪些给内存做</text>
+
+  <rect x="175" y="64" width="124" height="54" rx="8" fill="#fef3c7" stroke="#f59e0b" stroke-width="1.5"/>
+  <text x="237" y="86.2" font-size="12" fill="#b45309" text-anchor="middle">数据映射</text>
+  <text x="237" y="104.2" font-size="12" fill="#b45309" text-anchor="middle">放哪个堆叠</text>
+
+  <rect x="327" y="64" width="124" height="54" rx="8" fill="#f3e8ff" stroke="#a855f7" stroke-width="1.5"/>
+  <text x="389" y="86.2" font-size="12" fill="#6b21a8" text-anchor="middle">调度</text>
+  <text x="389" y="104.2" font-size="12" fill="#6b21a8" text-anchor="middle">谁先谁后</text>
+
+  <rect x="479" y="64" width="124" height="54" rx="8" fill="#fce7f3" stroke="#ec4899" stroke-width="1.5"/>
+  <text x="541" y="86.2" font-size="12" fill="#9d174d" text-anchor="middle">一致性</text>
+  <text x="541" y="104.2" font-size="12" fill="#9d174d" text-anchor="middle">看到同一份</text>
+</svg>

@@ -1,0 +1,39 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 642 222" width="642" height="222"
+     role="img" aria-labelledby="fig-l4-11-title fig-l4-11-desc">
+  <title id="fig-l4-11-title">六条原则，而不是六种技术</title>
+  <desc id="fig-l4-11-desc">数据为中心的设计、所有部件都具备智能、更好的跨层接口、优于最坏情况的设计、异构化、以及灵活与可适应。</desc>
+
+  <defs>
+    <style>
+      text { font-family: 'PingFang SC', 'Microsoft YaHei', 'Noto Sans CJK SC', system-ui, sans-serif; }
+    </style>
+  </defs>
+
+  <rect x="0" y="0" width="642" height="222" fill="#ffffff"/>
+
+  <text x="321" y="34" font-size="16" font-weight="600" fill="#1f2937" text-anchor="middle">六条原则，而不是六种技术</text>
+
+  <rect x="23" y="64" width="180" height="54" rx="8" fill="#dbeafe" stroke="#3b82f6" stroke-width="1.5"/>
+  <text x="113" y="86.2" font-size="12" fill="#1e40af" text-anchor="middle">数据为中心</text>
+  <text x="113" y="104.2" font-size="12" fill="#1e40af" text-anchor="middle">围着数据做设计</text>
+
+  <rect x="231" y="64" width="180" height="54" rx="8" fill="#dbeafe" stroke="#3b82f6" stroke-width="1.5"/>
+  <text x="321" y="86.2" font-size="12" fill="#1e40af" text-anchor="middle">所有部件智能</text>
+  <text x="321" y="104.2" font-size="12" fill="#1e40af" text-anchor="middle">不只是处理器</text>
+
+  <rect x="439" y="64" width="180" height="54" rx="8" fill="#dbeafe" stroke="#3b82f6" stroke-width="1.5"/>
+  <text x="529" y="86.2" font-size="12" fill="#1e40af" text-anchor="middle">更好的跨层接口</text>
+  <text x="529" y="104.2" font-size="12" fill="#1e40af" text-anchor="middle">让上下沟通顺畅</text>
+
+  <rect x="23" y="146" width="180" height="54" rx="8" fill="#d1fae5" stroke="#22c55e" stroke-width="1.5"/>
+  <text x="113" y="168.2" font-size="12" fill="#166534" text-anchor="middle">优于最坏情况</text>
+  <text x="113" y="186.2" font-size="12" fill="#166534" text-anchor="middle">按常见情况设计</text>
+
+  <rect x="231" y="146" width="180" height="54" rx="8" fill="#d1fae5" stroke="#22c55e" stroke-width="1.5"/>
+  <text x="321" y="168.2" font-size="12" fill="#166534" text-anchor="middle">异构化</text>
+  <text x="321" y="186.2" font-size="12" fill="#166534" text-anchor="middle">不同任务不同硬件</text>
+
+  <rect x="439" y="146" width="180" height="54" rx="8" fill="#d1fae5" stroke="#22c55e" stroke-width="1.5"/>
+  <text x="529" y="168.2" font-size="12" fill="#166534" text-anchor="middle">灵活与可适应</text>
+  <text x="529" y="186.2" font-size="12" fill="#166534" text-anchor="middle">跟着负载变化</text>
+</svg>

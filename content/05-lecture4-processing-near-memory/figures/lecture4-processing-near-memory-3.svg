@@ -1,0 +1,43 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 626 210" width="626" height="210"
+     role="img" aria-labelledby="fig-l4-3-title fig-l4-3-desc">
+  <title id="fig-l4-3-title">手机上最值得做近内存计算的四个负载</title>
+  <desc id="fig-l4-3-desc">Chrome、TensorFlow Mobile、视频播放与视频采集四条负载的共同点是搬运占比高、且搬运多来自简单函数；把这些函数卸载到内存逻辑，平均能量降 55.4%、性能升 54.2%。</desc>
+
+  <defs>
+    <style>
+      text { font-family: 'PingFang SC', 'Microsoft YaHei', 'Noto Sans CJK SC', system-ui, sans-serif; }
+    </style>
+    <marker id="arrow" markerWidth="8" markerHeight="8" refX="2" refY="4"
+            orient="auto" markerUnits="userSpaceOnUse">
+      <path d="M0,0 L8,4 L0,8 L2,4 z" fill="#64748b"/>
+    </marker>
+  </defs>
+
+  <rect x="0" y="0" width="626" height="210" fill="#ffffff"/>
+
+  <text x="313" y="34" font-size="16" font-weight="600" fill="#1f2937" text-anchor="middle">手机上最值得做的四个负载</text>
+
+  <rect x="23" y="64" width="124" height="54" rx="8" fill="#dbeafe" stroke="#3b82f6" stroke-width="1.5"/>
+  <text x="85" y="86.2" font-size="12" fill="#1e40af" text-anchor="middle">Chrome</text>
+  <text x="85" y="104.2" font-size="12" fill="#1e40af" text-anchor="middle">浏览器</text>
+
+  <rect x="175" y="64" width="124" height="54" rx="8" fill="#dbeafe" stroke="#3b82f6" stroke-width="1.5"/>
+  <text x="237" y="86.2" font-size="12" fill="#1e40af" text-anchor="middle">TensorFlow</text>
+  <text x="237" y="104.2" font-size="12" fill="#1e40af" text-anchor="middle">Mobile 推理</text>
+
+  <rect x="327" y="64" width="124" height="54" rx="8" fill="#dbeafe" stroke="#3b82f6" stroke-width="1.5"/>
+  <text x="389" y="86.2" font-size="12" fill="#1e40af" text-anchor="middle">视频播放</text>
+  <text x="389" y="104.2" font-size="12" fill="#1e40af" text-anchor="middle">编解码器</text>
+
+  <rect x="479" y="64" width="124" height="54" rx="8" fill="#dbeafe" stroke="#3b82f6" stroke-width="1.5"/>
+  <text x="541" y="86.2" font-size="12" fill="#1e40af" text-anchor="middle">视频采集</text>
+  <text x="541" y="104.2" font-size="12" fill="#1e40af" text-anchor="middle">编解码器</text>
+
+  <path d="M85,123 L85,135" fill="none" stroke="#64748b" stroke-width="1.5" marker-end="url(#arrow)"/>
+  <path d="M237,123 L237,135" fill="none" stroke="#64748b" stroke-width="1.5" marker-end="url(#arrow)"/>
+  <path d="M389,123 L389,135" fill="none" stroke="#64748b" stroke-width="1.5" marker-end="url(#arrow)"/>
+  <path d="M541,123 L541,135" fill="none" stroke="#64748b" stroke-width="1.5" marker-end="url(#arrow)"/>
+
+  <rect x="23" y="146" width="580" height="42" rx="8" fill="#d1fae5" stroke="#22c55e" stroke-width="1.5"/>
+  <text x="313" y="171.2" font-size="12" fill="#166534" text-anchor="middle">把简单函数卸载到内存逻辑：平均能量 -55.4%、性能 +54.2%</text>
+</svg>
