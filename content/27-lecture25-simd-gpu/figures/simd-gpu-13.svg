@@ -1,0 +1,30 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="2 13.0 866 312.0" width="866" height="312.0"
+     role="img" aria-labelledby="fig-simd-gpu-13-title fig-simd-gpu-13-desc">
+  <title id="fig-simd-gpu-13-title">这样换来两个好处</title>
+  <desc id="fig-simd-gpu-13-desc">讲义指出，把线程编成 warp 这件事带来了两个好处：每个线程可以被单独对待，于是它可以按标量流水线独立执行；而线程可以灵活编组，于是硬件能动态地挑出真正在跑同一条指令的那些线程。</desc>
+
+  <defs>
+    <style>
+      text { font-family: 'PingFang SC', 'Microsoft YaHei', 'Noto Sans CJK SC', system-ui, sans-serif; }
+    </style>
+    <marker id="arrow" markerWidth="8" markerHeight="8" refX="2" refY="4"
+            orient="auto" markerUnits="userSpaceOnUse">
+      <path d="M0,0 L8,4 L0,8 L2,4 z" fill="#64748b"/>
+    </marker>
+  </defs>
+
+  <rect x="2" y="13.0" width="866" height="312.0" fill="#ffffff"/>
+
+  <text x="435.0" y="48" font-size="16" font-weight="600" fill="#1f2937" text-anchor="middle">这样换来两个好处</text>
+  <rect x="25" y="70" width="712" height="42" fill="#d1fae5" stroke="#22c55e"/>
+  <text x="381.0" y="95.9" font-size="14" fill="#166534" text-anchor="middle">线程可单独对待，也可灵活编组</text>
+  <rect x="25" y="138" width="340" height="68" fill="#d1fae5" stroke="#22c55e"/>
+  <text x="195.0" y="167.7" font-size="15" fill="#166534" text-anchor="middle">好处一</text>
+  <text x="195.0" y="185.7" font-size="12" fill="#166534" text-anchor="middle">每个线程可以独立执行、独立重启</text>
+  <rect x="393" y="138" width="340" height="68" fill="#d1fae5" stroke="#22c55e"/>
+  <text x="563.0" y="167.7" font-size="15" fill="#166534" text-anchor="middle">好处二</text>
+  <text x="563.0" y="185.7" font-size="12" fill="#166534" text-anchor="middle">可以动态挑出该编在一起的线程</text>
+  <rect x="25" y="234" width="820" height="68" fill="#f3e8ff" stroke="#a855f7"/>
+  <text x="435.0" y="263.7" font-size="15" fill="#6b21a8" text-anchor="middle">第一条好处让图形处理器在很多方面更像多指令多数据机器</text>
+  <text x="435.0" y="281.7" font-size="12" fill="#6b21a8" text-anchor="middle">第二条好处是背后那一批机制的根据</text>
+</svg>

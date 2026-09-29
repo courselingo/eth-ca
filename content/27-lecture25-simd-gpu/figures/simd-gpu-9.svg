@@ -1,0 +1,34 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="2 13.0 826 244.0" width="826" height="244.0"
+     role="img" aria-labelledby="fig-simd-gpu-9-title fig-simd-gpu-9-desc">
+  <title id="fig-simd-gpu-9-title">四个配套机制，各治一个具体的难题</title>
+  <desc id="fig-simd-gpu-9-desc">讲义给了四个配套机制：链接把前一个运算单元的结果直接送给下一个；条带挖掘处理数据比向量寄存器长的情况；收集与散布处理下标是间接取来的情况；掩码处理「有些元素不该做这次运算」的情况。</desc>
+
+  <defs>
+    <style>
+      text { font-family: 'PingFang SC', 'Microsoft YaHei', 'Noto Sans CJK SC', system-ui, sans-serif; }
+    </style>
+    <marker id="arrow" markerWidth="8" markerHeight="8" refX="2" refY="4"
+            orient="auto" markerUnits="userSpaceOnUse">
+      <path d="M0,0 L8,4 L0,8 L2,4 z" fill="#64748b"/>
+    </marker>
+  </defs>
+
+  <rect x="2" y="13.0" width="826" height="244.0" fill="#ffffff"/>
+
+  <text x="415.0" y="48" font-size="16" font-weight="600" fill="#1f2937" text-anchor="middle">四个配套机制，各治一个具体的难题</text>
+  <rect x="25" y="70" width="170" height="68" fill="#d1fae5" stroke="#22c55e"/>
+  <text x="110.0" y="99.7" font-size="15" fill="#166534" text-anchor="middle">链接</text>
+  <text x="110.0" y="117.7" font-size="12" fill="#166534" text-anchor="middle">结果直接送给下一个单元</text>
+  <rect x="223" y="70" width="170" height="68" fill="#fef3c7" stroke="#f59e0b"/>
+  <text x="308.0" y="99.7" font-size="15" fill="#b45309" text-anchor="middle">条带挖掘</text>
+  <text x="308.0" y="117.7" font-size="12" fill="#b45309" text-anchor="middle">数据比寄存器长就切几趟</text>
+  <rect x="421" y="70" width="170" height="68" fill="#fef3c7" stroke="#f59e0b"/>
+  <text x="506.0" y="99.7" font-size="15" fill="#b45309" text-anchor="middle">收集散布</text>
+  <text x="506.0" y="117.7" font-size="12" fill="#b45309" text-anchor="middle">下标本身是算出来的</text>
+  <rect x="619" y="70" width="170" height="68" fill="#fef3c7" stroke="#f59e0b"/>
+  <text x="704.0" y="99.7" font-size="15" fill="#b45309" text-anchor="middle">掩码</text>
+  <text x="704.0" y="117.7" font-size="12" fill="#b45309" text-anchor="middle">挑出该做这次运算的元素</text>
+  <rect x="25" y="166" width="780" height="68" fill="#f3e8ff" stroke="#a855f7"/>
+  <text x="415.0" y="195.7" font-size="15" fill="#6b21a8" text-anchor="middle">四个机制分别对付：延迟、长度、地址不规则、以及条件执行</text>
+  <text x="415.0" y="213.7" font-size="12" fill="#6b21a8" text-anchor="middle">值得留意的是四个里没有一个是「换个更快的硬件」</text>
+</svg>

@@ -1,0 +1,30 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="2 13.0 758 312.0" width="758" height="312.0"
+     role="img" aria-labelledby="fig-simd-gpu-2-title fig-simd-gpu-2-desc">
+  <title id="fig-simd-gpu-2-title">而这一讲接住的是上一讲的哪一类部件</title>
+  <desc id="fig-simd-gpu-2-desc">上一讲讲的是「为什么要有多种性质的部件」。这一讲讲的是其中最主要的两类：擅长宽执行的 SIMD 部件，以及靠大量线程换取吞吐的图形处理器。</desc>
+
+  <defs>
+    <style>
+      text { font-family: 'PingFang SC', 'Microsoft YaHei', 'Noto Sans CJK SC', system-ui, sans-serif; }
+    </style>
+    <marker id="arrow" markerWidth="8" markerHeight="8" refX="2" refY="4"
+            orient="auto" markerUnits="userSpaceOnUse">
+      <path d="M0,0 L8,4 L0,8 L2,4 z" fill="#64748b"/>
+    </marker>
+  </defs>
+
+  <rect x="2" y="13.0" width="758" height="312.0" fill="#ffffff"/>
+
+  <text x="381.0" y="48" font-size="16" font-weight="600" fill="#1f2937" text-anchor="middle">而这一讲接住的是上一讲的哪一类部件</text>
+  <rect x="25" y="70" width="712" height="42" fill="#d1fae5" stroke="#22c55e"/>
+  <text x="381.0" y="95.9" font-size="14" fill="#166534" text-anchor="middle">异构里最主要的两类部件</text>
+  <rect x="25" y="138" width="340" height="68" fill="#d1fae5" stroke="#22c55e"/>
+  <text x="195.0" y="167.7" font-size="15" fill="#166534" text-anchor="middle">这一类</text>
+  <text x="195.0" y="185.7" font-size="12" fill="#166534" text-anchor="middle">一条指令做很多份同样的工作</text>
+  <rect x="393" y="138" width="340" height="68" fill="#d1fae5" stroke="#22c55e"/>
+  <text x="563.0" y="167.7" font-size="15" fill="#166534" text-anchor="middle">那一类</text>
+  <text x="563.0" y="185.7" font-size="12" fill="#166534" text-anchor="middle">用大量线程掩盖延迟，而不是靠大缓存</text>
+  <rect x="25" y="234" width="710" height="68" fill="#f3e8ff" stroke="#a855f7"/>
+  <text x="380.0" y="263.7" font-size="15" fill="#6b21a8" text-anchor="middle">两类走的都是「不去等」这条路，所以都属于延迟容忍那一档</text>
+  <text x="380.0" y="281.7" font-size="12" fill="#6b21a8" text-anchor="middle">区别在于它们是靠做得更宽，还是靠同时做更多件</text>
+</svg>

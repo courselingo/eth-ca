@@ -1,0 +1,30 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="2 13.0 846 312.0" width="846" height="312.0"
+     role="img" aria-labelledby="fig-simd-gpu-11-title fig-simd-gpu-11-desc">
+  <title id="fig-simd-gpu-11-title">到了图形处理器这里，出现了一个反转</title>
+  <desc id="fig-simd-gpu-11-desc">讲义指出：图形处理器的流水线底下就是一条 SIMD 流水线，可是它不用 SIMD 指令来编程，而是用线程来编程。要看懂这个反转，得把编程模型与执行模型分开。</desc>
+
+  <defs>
+    <style>
+      text { font-family: 'PingFang SC', 'Microsoft YaHei', 'Noto Sans CJK SC', system-ui, sans-serif; }
+    </style>
+    <marker id="arrow" markerWidth="8" markerHeight="8" refX="2" refY="4"
+            orient="auto" markerUnits="userSpaceOnUse">
+      <path d="M0,0 L8,4 L0,8 L2,4 z" fill="#64748b"/>
+    </marker>
+  </defs>
+
+  <rect x="2" y="13.0" width="846" height="312.0" fill="#ffffff"/>
+
+  <text x="425.0" y="48" font-size="16" font-weight="600" fill="#1f2937" text-anchor="middle">到了图形处理器这里，出现了一个反转</text>
+  <rect x="25" y="70" width="712" height="42" fill="#d1fae5" stroke="#22c55e"/>
+  <text x="381.0" y="95.9" font-size="14" fill="#166534" text-anchor="middle">底下是 SIMD，上面用线程编程</text>
+  <rect x="25" y="138" width="340" height="68" fill="#dbeafe" stroke="#3b82f6"/>
+  <text x="195.0" y="167.7" font-size="15" fill="#1e40af" text-anchor="middle">编程模型</text>
+  <text x="195.0" y="185.7" font-size="12" fill="#1e40af" text-anchor="middle">程序员怎么表达：线程、多道控制流</text>
+  <rect x="393" y="138" width="340" height="68" fill="#dbeafe" stroke="#3b82f6"/>
+  <text x="563.0" y="167.7" font-size="15" fill="#1e40af" text-anchor="middle">执行模型</text>
+  <text x="563.0" y="185.7" font-size="12" fill="#1e40af" text-anchor="middle">硬件怎么跑：SIMD 流水线</text>
+  <rect x="25" y="234" width="800" height="68" fill="#f3e8ff" stroke="#a855f7"/>
+  <text x="425.0" y="263.7" font-size="15" fill="#6b21a8" text-anchor="middle">这个区分是理解图形处理器的钥匙</text>
+  <text x="425.0" y="281.7" font-size="12" fill="#6b21a8" text-anchor="middle">把两者混在一起谈，就会觉得它自相矛盾</text>
+</svg>
