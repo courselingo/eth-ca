@@ -2,7 +2,7 @@
 title = "导论与基础：体系结构在解决什么问题"
 lecture = 1
 slug = "lecture1-intro"
-status = "draft"
+status = "reviewed"
 source_kind = "notes"
 source_url = "https://safari.ethz.ch/architecture/fall2022/lib/exe/fetch.php?media=onur-comparch-fall2022-lecture1-intro-afterlecture.pdf"
 source_title = "Lecture 1: Introduction and Basics (Fall 2022, afterlecture)"
