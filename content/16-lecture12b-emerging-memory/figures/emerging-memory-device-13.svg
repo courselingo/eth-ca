@@ -1,0 +1,30 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="2 13.0 866 312.0" width="866" height="312.0"
+     role="img" aria-labelledby="fig-emerging-memory-device-13-title fig-emerging-memory-device-13-desc">
+  <title id="fig-emerging-memory-device-13-title">更现实的做法不是替换，而是混合</title>
+  <desc id="fig-emerging-memory-device-13-desc">讲义把结论引向混合内存：快而贵的那层做小、慢而便宜的那层做大，用硬件与软件协作管理。一个具体做法是让 DRAM 当相变内存的缓存，并在它上面做写过滤。</desc>
+
+  <defs>
+    <style>
+      text { font-family: 'PingFang SC', 'Microsoft YaHei', 'Noto Sans CJK SC', system-ui, sans-serif; }
+    </style>
+    <marker id="arrow" markerWidth="8" markerHeight="8" refX="2" refY="4"
+            orient="auto" markerUnits="userSpaceOnUse">
+      <path d="M0,0 L8,4 L0,8 L2,4 z" fill="#64748b"/>
+    </marker>
+  </defs>
+
+  <rect x="2" y="13.0" width="866" height="312.0" fill="#ffffff"/>
+
+  <text x="435.0" y="48" font-size="16" font-weight="600" fill="#1f2937" text-anchor="middle">更现实的做法不是替换，而是混合</text>
+  <rect x="25" y="70" width="712" height="42" fill="#d1fae5" stroke="#22c55e"/>
+  <text x="381.0" y="95.9" font-size="14" fill="#166534" text-anchor="middle">快的一层当缓存，慢的一层当主存</text>
+  <rect x="25" y="138" width="340" height="68" fill="#fef3c7" stroke="#f59e0b"/>
+  <text x="195.0" y="167.7" font-size="15" fill="#b45309" text-anchor="middle">为什么这样配</text>
+  <text x="195.0" y="185.7" font-size="12" fill="#b45309" text-anchor="middle">快的那层挡住延迟，慢的那层给容量</text>
+  <rect x="393" y="138" width="340" height="68" fill="#d1fae5" stroke="#22c55e"/>
+  <text x="563.0" y="167.7" font-size="15" fill="#166534" text-anchor="middle">写过滤</text>
+  <text x="563.0" y="185.7" font-size="12" fill="#166534" text-anchor="middle">懒写、部分写、页面绕过，都是为了少写慢层</text>
+  <rect x="25" y="234" width="820" height="68" fill="#f3e8ff" stroke="#a855f7"/>
+  <text x="435.0" y="263.7" font-size="15" fill="#6b21a8" text-anchor="middle">三条写过滤技术每一条都在减少写进慢层的次数</text>
+  <text x="435.0" y="281.7" font-size="12" fill="#6b21a8" text-anchor="middle">这与前面那四条代价里「寿命与写入能耗都指向少写」完全是同一个方向</text>
+</svg>

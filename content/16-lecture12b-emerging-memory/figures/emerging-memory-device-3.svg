@@ -1,0 +1,33 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="2 13.0 777 312.0" width="777" height="312.0"
+     role="img" aria-labelledby="fig-emerging-memory-device-3-title fig-emerging-memory-device-3-desc">
+  <title id="fig-emerging-memory-device-3-title">出路二：换成电阻型器件</title>
+  <desc id="fig-emerging-memory-device-3-desc">第二条路是换器件：有一类新兴的电阻型内存看起来比 DRAM 更容易继续缩小，而且是非易失的。讲义用相变内存做代表，并把它当成本讲的主线。</desc>
+
+  <defs>
+    <style>
+      text { font-family: 'PingFang SC', 'Microsoft YaHei', 'Noto Sans CJK SC', system-ui, sans-serif; }
+    </style>
+    <marker id="arrow" markerWidth="8" markerHeight="8" refX="2" refY="4"
+            orient="auto" markerUnits="userSpaceOnUse">
+      <path d="M0,0 L8,4 L0,8 L2,4 z" fill="#64748b"/>
+    </marker>
+  </defs>
+
+  <rect x="2" y="13.0" width="777" height="312.0" fill="#ffffff"/>
+
+  <text x="390.5" y="48" font-size="16" font-weight="600" fill="#1f2937" text-anchor="middle">出路二：换成电阻型器件</text>
+  <rect x="25" y="70" width="712" height="42" fill="#eff6ff" stroke="#3b82f6"/>
+  <text x="381.0" y="95.9" font-size="14" fill="#1e40af" text-anchor="middle">电阻型新兴内存：三类换法</text>
+  <rect x="25" y="138" width="225" height="68" fill="#d1fae5" stroke="#22c55e"/>
+  <text x="137.5" y="167.7" font-size="15" fill="#166534" text-anchor="middle">相变内存</text>
+  <text x="137.5" y="185.7" font-size="12" fill="#166534" text-anchor="middle">注入电流改变材料相态</text>
+  <rect x="278" y="138" width="225" height="68" fill="#fef3c7" stroke="#f59e0b"/>
+  <text x="390.5" y="167.7" font-size="15" fill="#b45309" text-anchor="middle">自旋内存</text>
+  <text x="390.5" y="185.7" font-size="12" fill="#b45309" text-anchor="middle">注入电流改变磁极方向</text>
+  <rect x="531" y="138" width="225" height="68" fill="#fef3c7" stroke="#f59e0b"/>
+  <text x="643.5" y="167.7" font-size="15" fill="#b45309" text-anchor="middle">忆阻器</text>
+  <text x="643.5" y="185.7" font-size="12" fill="#b45309" text-anchor="middle">注入电流改变原子结构</text>
+  <rect x="25" y="234" width="720" height="68" fill="#f3e8ff" stroke="#a855f7"/>
+  <text x="385.0" y="263.7" font-size="15" fill="#6b21a8" text-anchor="middle">三类的共同点：都是「注入电流改变某个物理量、再靠电阻读出」</text>
+  <text x="385.0" y="281.7" font-size="12" fill="#6b21a8" text-anchor="middle">所以它们可以共用同一套上层的架构讨论</text>
+</svg>

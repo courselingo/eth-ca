@@ -1,0 +1,30 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="2 13.0 826 312.0" width="826" height="312.0"
+     role="img" aria-labelledby="fig-emerging-memory-device-9-title fig-emerging-memory-device-9-desc">
+  <title id="fig-emerging-memory-device-9-title">先试最朴素的做法：直接替换</title>
+  <desc id="fig-emerging-memory-device-9-desc">讲义先给了一个「直接把 DRAM 换成相变内存、其余照旧」的实验：四核、四兆二级缓存，相变内存的组织方式与 DRAM 完全一样。结果延迟一点六倍、能耗二点二倍，而平均寿命只有五百小时。</desc>
+
+  <defs>
+    <style>
+      text { font-family: 'PingFang SC', 'Microsoft YaHei', 'Noto Sans CJK SC', system-ui, sans-serif; }
+    </style>
+    <marker id="arrow" markerWidth="8" markerHeight="8" refX="2" refY="4"
+            orient="auto" markerUnits="userSpaceOnUse">
+      <path d="M0,0 L8,4 L0,8 L2,4 z" fill="#64748b"/>
+    </marker>
+  </defs>
+
+  <rect x="2" y="13.0" width="826" height="312.0" fill="#ffffff"/>
+
+  <text x="415.0" y="48" font-size="16" font-weight="600" fill="#1f2937" text-anchor="middle">先试最朴素的做法：直接替换</text>
+  <rect x="25" y="70" width="712" height="42" fill="#fce7f3" stroke="#ec4899"/>
+  <text x="381.0" y="95.9" font-size="14" fill="#9d174d" text-anchor="middle">朴素替换：延迟 1.6 倍、能耗 2.2 倍、寿命 500 小时</text>
+  <rect x="25" y="138" width="340" height="68" fill="#dbeafe" stroke="#3b82f6"/>
+  <text x="195.0" y="167.7" font-size="15" fill="#1e40af" text-anchor="middle">怎么做的</text>
+  <text x="195.0" y="185.7" font-size="12" fill="#1e40af" text-anchor="middle">组织方式与 DRAM 完全一样</text>
+  <rect x="393" y="138" width="340" height="68" fill="#fce7f3" stroke="#ec4899"/>
+  <text x="563.0" y="167.7" font-size="15" fill="#9d174d" text-anchor="middle">得到什么</text>
+  <text x="563.0" y="185.7" font-size="12" fill="#9d174d" text-anchor="middle">延迟与能耗都涨，寿命只有几百小时</text>
+  <rect x="25" y="234" width="780" height="68" fill="#f3e8ff" stroke="#a855f7"/>
+  <text x="415.0" y="263.7" font-size="15" fill="#6b21a8" text-anchor="middle">这个实验的价值在于它把「不能直接换」变成了一个具体的数</text>
+  <text x="415.0" y="281.7" font-size="12" fill="#6b21a8" text-anchor="middle">而五百小时这个数字说明：问题不在性能，而在根本不能用</text>
+</svg>

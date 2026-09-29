@@ -1,0 +1,30 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="2 13.0 856 312.0" width="856" height="312.0"
+     role="img" aria-labelledby="fig-emerging-memory-device-12-title fig-emerging-memory-device-12-desc">
+  <title id="fig-emerging-memory-device-12-title">另一类器件多了一个自由度</title>
+  <desc id="fig-emerging-memory-device-12-desc">讲义也讲了自旋内存。它的优势与相变内存类似（可缩小、非易失、空闲功耗低），代价是写延迟与写能耗高、密度目前较差。而它多出来的一个自由度是：可以通过缩小磁结来拿写延迟与能耗换非易失性。</desc>
+
+  <defs>
+    <style>
+      text { font-family: 'PingFang SC', 'Microsoft YaHei', 'Noto Sans CJK SC', system-ui, sans-serif; }
+    </style>
+    <marker id="arrow" markerWidth="8" markerHeight="8" refX="2" refY="4"
+            orient="auto" markerUnits="userSpaceOnUse">
+      <path d="M0,0 L8,4 L0,8 L2,4 z" fill="#64748b"/>
+    </marker>
+  </defs>
+
+  <rect x="2" y="13.0" width="856" height="312.0" fill="#ffffff"/>
+
+  <text x="430.0" y="48" font-size="16" font-weight="600" fill="#1f2937" text-anchor="middle">另一类器件多了一个自由度</text>
+  <rect x="25" y="70" width="712" height="42" fill="#d1fae5" stroke="#22c55e"/>
+  <text x="381.0" y="95.9" font-size="14" fill="#166534" text-anchor="middle">可以在非易失性与写代价之间调</text>
+  <rect x="25" y="138" width="340" height="68" fill="#d1fae5" stroke="#22c55e"/>
+  <text x="195.0" y="167.7" font-size="15" fill="#166534" text-anchor="middle">与相变内存相同的部分</text>
+  <text x="195.0" y="185.7" font-size="12" fill="#166534" text-anchor="middle">可缩小、非易失、空闲功耗低</text>
+  <rect x="393" y="138" width="340" height="68" fill="#d1fae5" stroke="#22c55e"/>
+  <text x="563.0" y="167.7" font-size="15" fill="#166534" text-anchor="middle">它独有的一档</text>
+  <text x="563.0" y="185.7" font-size="12" fill="#166534" text-anchor="middle">缩小磁结可以把非易失换成更低的写代价</text>
+  <rect x="25" y="234" width="810" height="68" fill="#f3e8ff" stroke="#a855f7"/>
+  <text x="430.0" y="263.7" font-size="15" fill="#6b21a8" text-anchor="middle">这一档的意义在于它把「非易失」从一个固定属性变成了可调参数</text>
+  <text x="430.0" y="281.7" font-size="12" fill="#6b21a8" text-anchor="middle">讲义给的评测结果是相对 DRAM 性能损失约百分之六、能耗省约六成</text>
+</svg>

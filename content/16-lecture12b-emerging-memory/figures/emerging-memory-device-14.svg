@@ -1,0 +1,30 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="2 13.0 876 312.0" width="876" height="312.0"
+     role="img" aria-labelledby="fig-emerging-memory-device-14-title fig-emerging-memory-device-14-desc">
+  <title id="fig-emerging-memory-device-14-title">往上一层：该把哪份数据放在哪一层</title>
+  <desc id="fig-emerging-memory-device-14-desc">混合内存带来一个放置问题。讲义先给了基于行缓冲局部性的答案：把「预计会行未命中、而且会被反复用」的数据放在快层。后来它指出这类启发式的共同缺陷是没有抓住访存并行度，于是给出按效用评估、只迁移最有价值页的做法。</desc>
+
+  <defs>
+    <style>
+      text { font-family: 'PingFang SC', 'Microsoft YaHei', 'Noto Sans CJK SC', system-ui, sans-serif; }
+    </style>
+    <marker id="arrow" markerWidth="8" markerHeight="8" refX="2" refY="4"
+            orient="auto" markerUnits="userSpaceOnUse">
+      <path d="M0,0 L8,4 L0,8 L2,4 z" fill="#64748b"/>
+    </marker>
+  </defs>
+
+  <rect x="2" y="13.0" width="876" height="312.0" fill="#ffffff"/>
+
+  <text x="440.0" y="48" font-size="16" font-weight="600" fill="#1f2937" text-anchor="middle">往上一层：该把哪份数据放在哪一层</text>
+  <rect x="25" y="70" width="712" height="42" fill="#d1fae5" stroke="#22c55e"/>
+  <text x="381.0" y="95.9" font-size="14" fill="#166534" text-anchor="middle">数据放置：从启发式到按效用评估</text>
+  <rect x="25" y="138" width="340" height="68" fill="#fef3c7" stroke="#f59e0b"/>
+  <text x="195.0" y="167.7" font-size="15" fill="#b45309" text-anchor="middle">先给的答案</text>
+  <text x="195.0" y="185.7" font-size="12" fill="#b45309" text-anchor="middle">按行缓冲局部性与复用次数放置</text>
+  <rect x="393" y="138" width="340" height="68" fill="#fce7f3" stroke="#ec4899"/>
+  <text x="563.0" y="167.7" font-size="15" fill="#9d174d" text-anchor="middle">后来指出的缺陷</text>
+  <text x="563.0" y="185.7" font-size="12" fill="#9d174d" text-anchor="middle">没抓住访存并行度，只看到局部行为</text>
+  <rect x="25" y="234" width="830" height="68" fill="#f3e8ff" stroke="#a855f7"/>
+  <text x="440.0" y="263.7" font-size="15" fill="#6b21a8" text-anchor="middle">讲义用一张图说明并行度为什么重要：迁移一页能省多少时间取决于同时在飞的请求</text>
+  <text x="440.0" y="281.7" font-size="12" fill="#6b21a8" text-anchor="middle">新的做法是对每一页估一个效用，只迁移效用最高的那些页</text>
+</svg>

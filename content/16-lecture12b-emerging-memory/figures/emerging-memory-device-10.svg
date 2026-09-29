@@ -1,0 +1,30 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="2 13.0 836 312.0" width="836" height="312.0"
+     role="img" aria-labelledby="fig-emerging-memory-device-10-title fig-emerging-memory-device-10-desc">
+  <title id="fig-emerging-memory-device-10-title">改架构之后：能用了，但留了三条保留</title>
+  <desc id="fig-emerging-memory-device-10-desc">讲义接着给了改架构之后的版本。两个想法：在每个芯片里用多个窄行缓冲（减少阵列读写次数），以及按缓存块或字的粒度写入（减少无谓的磨损）。结果是延迟一点二倍、能耗一倍、平均寿命五点六年。</desc>
+
+  <defs>
+    <style>
+      text { font-family: 'PingFang SC', 'Microsoft YaHei', 'Noto Sans CJK SC', system-ui, sans-serif; }
+    </style>
+    <marker id="arrow" markerWidth="8" markerHeight="8" refX="2" refY="4"
+            orient="auto" markerUnits="userSpaceOnUse">
+      <path d="M0,0 L8,4 L0,8 L2,4 z" fill="#64748b"/>
+    </marker>
+  </defs>
+
+  <rect x="2" y="13.0" width="836" height="312.0" fill="#ffffff"/>
+
+  <text x="420.0" y="48" font-size="16" font-weight="600" fill="#1f2937" text-anchor="middle">改架构之后：能用了，但留了三条保留</text>
+  <rect x="25" y="70" width="712" height="42" fill="#d1fae5" stroke="#22c55e"/>
+  <text x="381.0" y="95.9" font-size="14" fill="#166534" text-anchor="middle">改架构后：延迟 1.2 倍、能耗 1.0 倍、寿命 5.6 年</text>
+  <rect x="25" y="138" width="340" height="68" fill="#d1fae5" stroke="#22c55e"/>
+  <text x="195.0" y="167.7" font-size="15" fill="#166534" text-anchor="middle">两个想法</text>
+  <text x="195.0" y="185.7" font-size="12" fill="#166534" text-anchor="middle">多个窄行缓冲、按块粒度写入</text>
+  <rect x="393" y="138" width="340" height="68" fill="#fce7f3" stroke="#ec4899"/>
+  <text x="563.0" y="167.7" font-size="15" fill="#9d174d" text-anchor="middle">但讲义留了三条保留</text>
+  <text x="563.0" y="185.7" font-size="12" fill="#9d174d" text-anchor="middle">最坏寿命短、密集负载仍差、参数偏乐观</text>
+  <rect x="25" y="234" width="790" height="68" fill="#f3e8ff" stroke="#a855f7"/>
+  <text x="420.0" y="263.7" font-size="15" fill="#6b21a8" text-anchor="middle">「能耗一倍」与「延迟一点二倍」说明改架构把差距压到了可用范围</text>
+  <text x="420.0" y="281.7" font-size="12" fill="#6b21a8" text-anchor="middle">而三条保留说明这不是终点：平均寿命不等于有保证的寿命</text>
+</svg>
