@@ -1,0 +1,34 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 760 405" width="760" height="405"
+     role="img" aria-labelledby="fig-lecture13b-memory-controllers-ii-7-title fig-lecture13b-memory-controllers-ii-7-desc">
+  <title id="fig-lecture13b-memory-controllers-ii-7-title">PAR-BS：保住并行度，再用分批防饥饿</title>
+  <desc id="fig-lecture13b-memory-controllers-ii-7-desc">上面一条是它要解决的问题：控制器不知道线程的并行度，可能把一个线程的多个请求串行服务。中间三格是停机时间的对照：单线程约 1 个存储体访问延迟、基线两线程各约 2 个、并行度感知平均约 1.5 个。再下面两格是两条原则：并行度感知（同一线程发往不同存储体的请求背靠背服务）与请求分批（每个线程最老的一批组成一个批次，服务完再换）。下面两条是最终策略的四层判断顺序，以及成本：8 核 128 项请求缓冲下不到 1.5 KB，每个 DRAM 周期才决策一次。</desc>
+
+  <defs>
+    <style>
+      text { font-family: 'PingFang SC', 'Microsoft YaHei', 'Noto Sans CJK SC', system-ui, sans-serif; }
+    </style>
+  </defs>
+
+  <rect x="0" y="0" width="760" height="405" fill="#ffffff"/>
+
+  <text x="380" y="34" font-size="16" font-weight="600" fill="#1f2937" text-anchor="middle">PAR-BS：保住并行度，再用分批防饥饿</text>
+  <rect x="25" y="64" width="710" height="36" rx="6" fill="#eff6ff" stroke="#3b82f6"/>
+  <text x="380" y="86.2" font-size="12" fill="#1e40af" text-anchor="middle">问题：控制器不知道线程的并行度，可能把一个线程的多个请求串行服务</text>
+  <rect x="25" y="128" width="220" height="49.5" rx="6" fill="#d1fae5" stroke="#22c55e"/>
+  <text x="135" y="148.35" font-size="11" fill="#166534" text-anchor="middle">单线程：约 1 个</text>
+  <text x="135" y="164.85" font-size="11" fill="#166534" text-anchor="middle">存储体访问延迟</text>
+  <rect x="270" y="128" width="220" height="49.5" rx="6" fill="#fef3c7" stroke="#f59e0b"/>
+  <text x="380" y="156.6" font-size="11" fill="#b45309" text-anchor="middle">基线两线程：各约 2 个</text>
+  <rect x="515" y="128" width="220" height="49.5" rx="6" fill="#dbeafe" stroke="#3b82f6"/>
+  <text x="625" y="156.6" font-size="11" fill="#1e40af" text-anchor="middle">并行度感知：平均约 1.5 个</text>
+  <rect x="25" y="205.5" width="342.5" height="49.5" rx="6" fill="#dbeafe" stroke="#3b82f6"/>
+  <text x="196.25" y="225.85" font-size="11" fill="#1e40af" text-anchor="middle">原则一 并行度感知</text>
+  <text x="196.25" y="242.35" font-size="11" fill="#1e40af" text-anchor="middle">同一线程发往不同存储体的请求背靠背服务</text>
+  <rect x="392.5" y="205.5" width="342.5" height="49.5" rx="6" fill="#d1fae5" stroke="#22c55e"/>
+  <text x="563.75" y="225.85" font-size="11" fill="#166534" text-anchor="middle">原则二 请求分批</text>
+  <text x="563.75" y="242.35" font-size="11" fill="#166534" text-anchor="middle">每个线程最老的一批组成一个批次，服务完再换</text>
+  <rect x="25" y="283" width="710" height="36" rx="6" fill="#f3e8ff" stroke="#a855f7"/>
+  <text x="380" y="305.2" font-size="12" fill="#6b21a8" text-anchor="middle">最终策略四层：标记优先 → 行命中优先 → 排名高的线程优先 → 最老的优先</text>
+  <rect x="25" y="347" width="710" height="33" rx="6" fill="#f8fafc" stroke="#94a3b8"/>
+  <text x="380" y="367.35" font-size="11" fill="#1e293b" text-anchor="middle">成本：8 核 128 项请求缓冲下不到 1.5 KB，每个 DRAM 周期才决策一次</text>
+</svg>

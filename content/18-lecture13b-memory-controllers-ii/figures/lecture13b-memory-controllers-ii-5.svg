@@ -1,0 +1,46 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 760 418.5" width="760" height="418.5"
+     role="img" aria-labelledby="fig-lecture13b-memory-controllers-ii-5-title fig-lecture13b-memory-controllers-ii-5-desc">
+  <title id="fig-lecture13b-memory-controllers-ii-5-title">调度器的演化：从公平出发，分两条线，最后合起来</title>
+  <desc id="fig-lecture13b-memory-controllers-ii-5-desc">上面三排九格按年份列出主干：2007 STFM 估计并拉平线程减速比；2008 PAR-BS 用线程排名与请求分批；2010 ATLAS 优先拿到服务最少的线程；2010 TCM 分两簇、不同簇用不同策略；2011 把通道划分与调度整合起来；2011 PAMS 优先 limiter 线程；2012 SMS 把功能拆成多级；2013 与 2015 的 MISE 与 ASM 做减速模型；2014 BLISS 用黑名单代替完整排名。下面两条是 2016 年的 DASH（处理有截止时间的硬件加速器）与几条支线（预取感知、DRAM 感知的末级缓存、NVM 的写读、GPU 的 criticality、实时系统的 WCET）。</desc>
+
+  <defs>
+    <style>
+      text { font-family: 'PingFang SC', 'Microsoft YaHei', 'Noto Sans CJK SC', system-ui, sans-serif; }
+    </style>
+  </defs>
+
+  <rect x="0" y="0" width="760" height="418.5" fill="#ffffff"/>
+
+  <text x="380" y="34" font-size="16" font-weight="600" fill="#1f2937" text-anchor="middle">调度器的演化：从公平出发，分两条线，最后合起来</text>
+  <rect x="25" y="64" width="220" height="49.5" rx="6" fill="#dbeafe" stroke="#3b82f6"/>
+  <text x="135" y="84.35" font-size="11" fill="#1e40af" text-anchor="middle">2007 STFM</text>
+  <text x="135" y="100.85" font-size="11" fill="#1e40af" text-anchor="middle">估计并拉平线程减速比</text>
+  <rect x="270" y="64" width="220" height="49.5" rx="6" fill="#dbeafe" stroke="#3b82f6"/>
+  <text x="380" y="84.35" font-size="11" fill="#1e40af" text-anchor="middle">2008 PAR-BS</text>
+  <text x="380" y="100.85" font-size="11" fill="#1e40af" text-anchor="middle">线程排名 + 请求分批</text>
+  <rect x="515" y="64" width="220" height="49.5" rx="6" fill="#dbeafe" stroke="#3b82f6"/>
+  <text x="625" y="84.35" font-size="11" fill="#1e40af" text-anchor="middle">2010 ATLAS</text>
+  <text x="625" y="100.85" font-size="11" fill="#1e40af" text-anchor="middle">优先拿到服务最少的线程</text>
+  <rect x="25" y="141.5" width="220" height="49.5" rx="6" fill="#d1fae5" stroke="#22c55e"/>
+  <text x="135" y="161.85" font-size="11" fill="#166534" text-anchor="middle">2010 TCM</text>
+  <text x="135" y="178.35" font-size="11" fill="#166534" text-anchor="middle">分两簇，不同簇不同策略</text>
+  <rect x="270" y="141.5" width="220" height="49.5" rx="6" fill="#d1fae5" stroke="#22c55e"/>
+  <text x="380" y="161.85" font-size="11" fill="#166534" text-anchor="middle">2011 通道划分 + 调度</text>
+  <text x="380" y="178.35" font-size="11" fill="#166534" text-anchor="middle">整合两种手段</text>
+  <rect x="515" y="141.5" width="220" height="49.5" rx="6" fill="#d1fae5" stroke="#22c55e"/>
+  <text x="625" y="161.85" font-size="11" fill="#166534" text-anchor="middle">2011 PAMS</text>
+  <text x="625" y="178.35" font-size="11" fill="#166534" text-anchor="middle">优先 limiter 线程</text>
+  <rect x="25" y="219" width="220" height="49.5" rx="6" fill="#fef3c7" stroke="#f59e0b"/>
+  <text x="135" y="239.35" font-size="11" fill="#b45309" text-anchor="middle">2012 SMS</text>
+  <text x="135" y="255.85" font-size="11" fill="#b45309" text-anchor="middle">把功能拆成多级</text>
+  <rect x="270" y="219" width="220" height="49.5" rx="6" fill="#fef3c7" stroke="#f59e0b"/>
+  <text x="380" y="239.35" font-size="11" fill="#b45309" text-anchor="middle">2013 / 2015 MISE 与 ASM</text>
+  <text x="380" y="255.85" font-size="11" fill="#b45309" text-anchor="middle">减速模型</text>
+  <rect x="515" y="219" width="220" height="49.5" rx="6" fill="#fef3c7" stroke="#f59e0b"/>
+  <text x="625" y="239.35" font-size="11" fill="#b45309" text-anchor="middle">2014 BLISS</text>
+  <text x="625" y="255.85" font-size="11" fill="#b45309" text-anchor="middle">黑名单代替完整排名</text>
+  <rect x="25" y="296.5" width="710" height="36" rx="6" fill="#f3e8ff" stroke="#a855f7"/>
+  <text x="380" y="318.7" font-size="12" fill="#6b21a8" text-anchor="middle">2016 DASH：处理有截止时间的硬件加速器</text>
+  <rect x="25" y="360.5" width="710" height="33" rx="6" fill="#f8fafc" stroke="#94a3b8"/>
+  <text x="380" y="380.85" font-size="11" fill="#1e293b" text-anchor="middle">支线：预取感知、DRAM 感知的末级缓存、NVM 的写读、GPU 的 criticality、实时系统的 WCET</text>
+</svg>

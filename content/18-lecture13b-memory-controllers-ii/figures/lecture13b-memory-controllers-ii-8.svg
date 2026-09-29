@@ -1,0 +1,30 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 760 296.5" width="760" height="296.5"
+     role="img" aria-labelledby="fig-lecture13b-memory-controllers-ii-8-title fig-lecture13b-memory-controllers-ii-8-desc">
+  <title id="fig-lecture13b-memory-controllers-ii-8-title">ATLAS 与 TCM：一个把吞吐做高，一个想把两样都拿到</title>
+  <desc id="fig-lecture13b-memory-controllers-ii-8-desc">上排两格是两台策略的立场：ATLAS（HPCA 2010）优先拿到服务最少的线程，把吞吐做上去，代价是不公平；TCM（MICRO 2010）的出发点是此前没有算法同时给出最好的公平与吞吐。中间一条是 TCM 的判断：对所有线程用同一条策略是不够的。下面两格是两种偏法各自的后果：偏吞吐会优先非密集线程、把密集线程饿死；偏公平让密集线程之间轮转、吞吐上不去。</desc>
+
+  <defs>
+    <style>
+      text { font-family: 'PingFang SC', 'Microsoft YaHei', 'Noto Sans CJK SC', system-ui, sans-serif; }
+    </style>
+  </defs>
+
+  <rect x="0" y="0" width="760" height="296.5" fill="#ffffff"/>
+
+  <text x="380" y="34" font-size="16" font-weight="600" fill="#1f2937" text-anchor="middle">ATLAS 与 TCM：一个把吞吐做高，一个想把两样都拿到</text>
+  <rect x="25" y="64" width="342.5" height="66" rx="6" fill="#fef3c7" stroke="#f59e0b"/>
+  <text x="196.25" y="84.35" font-size="11" fill="#b45309" text-anchor="middle">ATLAS（HPCA 2010）</text>
+  <text x="196.25" y="100.85" font-size="11" fill="#b45309" text-anchor="middle">优先拿到服务最少的线程，把吞吐做上去</text>
+  <text x="196.25" y="117.35" font-size="11" fill="#b45309" text-anchor="middle">代价是不公平</text>
+  <rect x="392.5" y="64" width="342.5" height="66" rx="6" fill="#d1fae5" stroke="#22c55e"/>
+  <text x="563.75" y="92.6" font-size="11" fill="#166534" text-anchor="middle">TCM（MICRO 2010）</text>
+  <text x="563.75" y="109.1" font-size="11" fill="#166534" text-anchor="middle">此前没有算法同时给出最好的公平与吞吐</text>
+  <rect x="25" y="158" width="710" height="36" rx="6" fill="#eff6ff" stroke="#3b82f6"/>
+  <text x="380" y="180.2" font-size="12" fill="#1e40af" text-anchor="middle">TCM 的判断：对所有线程用同一条策略是不够的（p95）</text>
+  <rect x="25" y="222" width="342.5" height="49.5" rx="6" fill="#dbeafe" stroke="#3b82f6"/>
+  <text x="196.25" y="242.35" font-size="11" fill="#1e40af" text-anchor="middle">偏吞吐的做法</text>
+  <text x="196.25" y="258.85" font-size="11" fill="#1e40af" text-anchor="middle">优先非密集线程，会把密集线程饿死</text>
+  <rect x="392.5" y="222" width="342.5" height="49.5" rx="6" fill="#dbeafe" stroke="#3b82f6"/>
+  <text x="563.75" y="242.35" font-size="11" fill="#1e40af" text-anchor="middle">偏公平的做法</text>
+  <text x="563.75" y="258.85" font-size="11" fill="#1e40af" text-anchor="middle">密集线程之间轮转，吞吐上不去</text>
+</svg>

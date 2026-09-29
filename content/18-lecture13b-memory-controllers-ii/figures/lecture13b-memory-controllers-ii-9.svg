@@ -1,0 +1,30 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 760 324.5" width="760" height="324.5"
+     role="img" aria-labelledby="fig-lecture13b-memory-controllers-ii-9-title fig-lecture13b-memory-controllers-ii-9-desc">
+  <title id="fig-lecture13b-memory-controllers-ii-9-title">TCM 的三步：分簇、簇间、簇内</title>
+  <desc id="fig-lecture13b-memory-controllers-ii-9-desc">上排三格是三步：第一步分簇，按 MPKI 排序、再用带宽使用量分两簇，阈值 α 小于 10%；第二步簇间优先非密集簇，提升吞吐且不伤公平；第三步簇内分两套，非密集按 MPKI 排名、密集周期性打乱。下面三条是打乱的偏向（偏向容易被干扰的线程）、两个时间尺度（量子约 100 万周期、打乱间隔约 1000 周期）与成本（24 核下不到 4 kbit，操作系统可以调 ClusterThreshold 与线程权重）。</desc>
+
+  <defs>
+    <style>
+      text { font-family: 'PingFang SC', 'Microsoft YaHei', 'Noto Sans CJK SC', system-ui, sans-serif; }
+    </style>
+  </defs>
+
+  <rect x="0" y="0" width="760" height="324.5" fill="#ffffff"/>
+
+  <text x="380" y="34" font-size="16" font-weight="600" fill="#1f2937" text-anchor="middle">TCM 的三步：分簇、簇间、簇内</text>
+  <rect x="25" y="64" width="220" height="49.5" rx="6" fill="#dbeafe" stroke="#3b82f6"/>
+  <text x="135" y="84.35" font-size="11" fill="#1e40af" text-anchor="middle">第一步 分簇</text>
+  <text x="135" y="100.85" font-size="11" fill="#1e40af" text-anchor="middle">按 MPKI 排序，再按带宽分两簇</text>
+  <rect x="270" y="64" width="220" height="49.5" rx="6" fill="#d1fae5" stroke="#22c55e"/>
+  <text x="380" y="84.35" font-size="11" fill="#166534" text-anchor="middle">第二步 簇间</text>
+  <text x="380" y="100.85" font-size="11" fill="#166534" text-anchor="middle">优先非密集簇，提升吞吐且不伤公平</text>
+  <rect x="515" y="64" width="220" height="49.5" rx="6" fill="#fef3c7" stroke="#f59e0b"/>
+  <text x="625" y="84.35" font-size="11" fill="#b45309" text-anchor="middle">第三步 簇内</text>
+  <text x="625" y="100.85" font-size="11" fill="#b45309" text-anchor="middle">非密集按 MPKI 排名；密集周期性打乱</text>
+  <rect x="25" y="141.5" width="710" height="36" rx="6" fill="#f3e8ff" stroke="#a855f7"/>
+  <text x="380" y="163.7" font-size="12" fill="#6b21a8" text-anchor="middle">打乱要偏向好说话的线程：容易被干扰的（并行度高、行缓冲局部性好）优先</text>
+  <rect x="25" y="205.5" width="710" height="33" rx="6" fill="#f8fafc" stroke="#94a3b8"/>
+  <text x="380" y="225.85" font-size="11" fill="#1e293b" text-anchor="middle">阈值 α 小于 10%；量子约 100 万周期，打乱间隔约 1000 周期</text>
+  <rect x="25" y="266.5" width="710" height="33" rx="6" fill="#f8fafc" stroke="#94a3b8"/>
+  <text x="380" y="286.85" font-size="11" fill="#1e293b" text-anchor="middle">成本：24 核下不到 4 kbit；操作系统可以调 ClusterThreshold 与线程权重</text>
+</svg>

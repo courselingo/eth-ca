@@ -1,0 +1,31 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 760 344" width="760" height="344"
+     role="img" aria-labelledby="fig-lecture13b-memory-controllers-ii-6-title fig-lecture13b-memory-controllers-ii-6-desc">
+  <title id="fig-lecture13b-memory-controllers-ii-6-title">STFM 的阈值开关</title>
+  <desc id="fig-lecture13b-memory-controllers-ii-6-desc">上排两格是定义：内存减速比等于 STshared 除以 STalone；不公平度等于最大减速比除以最小减速比。中间两条是策略：不公平度小于阈值 α 时用面向吞吐的调度策略；大于等于 α 时先服务减速比最大的线程，然后行命中，最后最老的。最下面两格是它的正面与反面：第一个专门做多核公平调度、公平本身也能提升性能；不处理所有干扰、实现复杂、减速比估计可能不准。</desc>
+
+  <defs>
+    <style>
+      text { font-family: 'PingFang SC', 'Microsoft YaHei', 'Noto Sans CJK SC', system-ui, sans-serif; }
+    </style>
+  </defs>
+
+  <rect x="0" y="0" width="760" height="344" fill="#ffffff"/>
+
+  <text x="380" y="34" font-size="16" font-weight="600" fill="#1f2937" text-anchor="middle">STFM 的阈值开关</text>
+  <rect x="25" y="64" width="342.5" height="49.5" rx="6" fill="#dbeafe" stroke="#3b82f6"/>
+  <text x="196.25" y="84.35" font-size="11" fill="#1e40af" text-anchor="middle">定义：内存减速比</text>
+  <text x="196.25" y="100.85" font-size="11" fill="#1e40af" text-anchor="middle">STshared ÷ STalone</text>
+  <rect x="392.5" y="64" width="342.5" height="49.5" rx="6" fill="#dbeafe" stroke="#3b82f6"/>
+  <text x="563.75" y="84.35" font-size="11" fill="#1e40af" text-anchor="middle">不公平度</text>
+  <text x="563.75" y="100.85" font-size="11" fill="#1e40af" text-anchor="middle">MAX 减速比 ÷ MIN 减速比</text>
+  <rect x="25" y="141.5" width="710" height="36" rx="6" fill="#d1fae5" stroke="#22c55e"/>
+  <text x="380" y="163.7" font-size="12" fill="#166534" text-anchor="middle">不公平度低于阈值 α：用面向吞吐的调度策略</text>
+  <rect x="25" y="205.5" width="710" height="36" rx="6" fill="#fef3c7" stroke="#f59e0b"/>
+  <text x="380" y="227.7" font-size="12" fill="#b45309" text-anchor="middle">不公平度 ≥ α：先服务减速比最大的线程，然后行命中，最后最老的</text>
+  <rect x="25" y="269.5" width="342.5" height="49.5" rx="6" fill="#f3e8ff" stroke="#a855f7"/>
+  <text x="196.25" y="289.85" font-size="11" fill="#6b21a8" text-anchor="middle">正面：第一个专门做多核公平调度</text>
+  <text x="196.25" y="306.35" font-size="11" fill="#6b21a8" text-anchor="middle">公平本身也能提升性能</text>
+  <rect x="392.5" y="269.5" width="342.5" height="49.5" rx="6" fill="#f8fafc" stroke="#94a3b8"/>
+  <text x="563.75" y="289.85" font-size="11" fill="#1e293b" text-anchor="middle">反面：不处理所有干扰</text>
+  <text x="563.75" y="306.35" font-size="11" fill="#1e293b" text-anchor="middle">实现复杂；减速比估计可能不准</text>
+</svg>

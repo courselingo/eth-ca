@@ -1,0 +1,34 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 760 405" width="760" height="405"
+     role="img" aria-labelledby="fig-lecture13b-memory-controllers-ii-2-title fig-lecture13b-memory-controllers-ii-2-desc">
+  <title id="fig-lecture13b-memory-controllers-ii-2-title">共享换来吞吐，代价是争用与不可预测</title>
+  <desc id="fig-lecture13b-memory-controllers-ii-2-desc">上面一排三格是共享的三条收益：利用率与效率带来吞吐、通信延迟降低、兼容共享内存模型。下面两条是代价：资源争用，线程性能可能比自己独占时更差、性能取决于同跑的线程；以及不受控的共享降低服务质量，带来不公平、饥饿与无法执行服务水平协议。再下面两格是划分（提供性能隔离，代价是专用空间）与讲义给的方向（资源要高效可利用、可控、可划分）。最后一条说内存系统是主要的共享资源，未来会更主要。</desc>
+
+  <defs>
+    <style>
+      text { font-family: 'PingFang SC', 'Microsoft YaHei', 'Noto Sans CJK SC', system-ui, sans-serif; }
+    </style>
+  </defs>
+
+  <rect x="0" y="0" width="760" height="405" fill="#ffffff"/>
+
+  <text x="380" y="34" font-size="16" font-weight="600" fill="#1f2937" text-anchor="middle">共享换来吞吐，代价是争用与不可预测</text>
+  <rect x="25" y="64" width="220" height="49.5" rx="6" fill="#d1fae5" stroke="#22c55e"/>
+  <text x="135" y="84.35" font-size="11" fill="#166534" text-anchor="middle">收益：利用率与效率</text>
+  <text x="135" y="100.85" font-size="11" fill="#166534" text-anchor="middle">资源不闲置，吞吐上去</text>
+  <rect x="270" y="64" width="220" height="49.5" rx="6" fill="#d1fae5" stroke="#22c55e"/>
+  <text x="380" y="84.35" font-size="11" fill="#166534" text-anchor="middle">收益：通信延迟降低</text>
+  <text x="380" y="100.85" font-size="11" fill="#166534" text-anchor="middle">共享数据留在同一个缓存里</text>
+  <rect x="515" y="64" width="220" height="49.5" rx="6" fill="#d1fae5" stroke="#22c55e"/>
+  <text x="625" y="92.6" font-size="11" fill="#166534" text-anchor="middle">收益：兼容共享内存模型</text>
+  <rect x="25" y="141.5" width="710" height="36" rx="6" fill="#fef3c7" stroke="#f59e0b"/>
+  <text x="380" y="163.7" font-size="12" fill="#b45309" text-anchor="middle">代价：资源争用；线程性能可能比自己独占时更差；性能取决于同跑的线程</text>
+  <rect x="25" y="205.5" width="710" height="36" rx="6" fill="#fef3c7" stroke="#f59e0b"/>
+  <text x="380" y="227.7" font-size="12" fill="#b45309" text-anchor="middle">不受控的共享会降低服务质量：不公平、饥饿、服务水平协议无法执行</text>
+  <rect x="25" y="269.5" width="342.5" height="49.5" rx="6" fill="#dbeafe" stroke="#3b82f6"/>
+  <text x="196.25" y="289.85" font-size="11" fill="#1e40af" text-anchor="middle">划分：提供性能隔离</text>
+  <text x="196.25" y="306.35" font-size="11" fill="#1e40af" text-anchor="middle">代价是专用空间</text>
+  <rect x="392.5" y="269.5" width="342.5" height="49.5" rx="6" fill="#f3e8ff" stroke="#a855f7"/>
+  <text x="563.75" y="298.1" font-size="11" fill="#6b21a8" text-anchor="middle">讲义的方向：资源要高效可利用、可控、可划分</text>
+  <rect x="25" y="347" width="710" height="33" rx="6" fill="#f8fafc" stroke="#94a3b8"/>
+  <text x="380" y="367.35" font-size="11" fill="#1e293b" text-anchor="middle">内存系统是主要的共享资源，未来会更主要（p25、p26）</text>
+</svg>

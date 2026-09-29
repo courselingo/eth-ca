@@ -1,0 +1,28 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 760 263.5" width="760" height="263.5"
+     role="img" aria-labelledby="fig-lecture13b-memory-controllers-ii-12-title fig-lecture13b-memory-controllers-ii-12-desc">
+  <title id="fig-lecture13b-memory-controllers-ii-12-title">其它三种基本功</title>
+  <desc id="fig-lecture13b-memory-controllers-ii-12-desc">上排三格是请求调度之外的三种手段：数据映射（内存通道划分，把不同应用放到不同通道）、源限流（在请求的源头控制注入速率）、应用与线程调度（把应用放到哪个核，以及虚拟机里的资源管理）。中间一条列了源限流的三项工作。最后一条说它们与请求调度的关系：不是替代，而是可以叠加。</desc>
+
+  <defs>
+    <style>
+      text { font-family: 'PingFang SC', 'Microsoft YaHei', 'Noto Sans CJK SC', system-ui, sans-serif; }
+    </style>
+  </defs>
+
+  <rect x="0" y="0" width="760" height="263.5" fill="#ffffff"/>
+
+  <text x="380" y="34" font-size="16" font-weight="600" fill="#1f2937" text-anchor="middle">其它三种基本功</text>
+  <rect x="25" y="64" width="220" height="49.5" rx="6" fill="#dbeafe" stroke="#3b82f6"/>
+  <text x="135" y="84.35" font-size="11" fill="#1e40af" text-anchor="middle">数据映射</text>
+  <text x="135" y="100.85" font-size="11" fill="#1e40af" text-anchor="middle">内存通道划分：把不同应用放到不同通道</text>
+  <rect x="270" y="64" width="220" height="49.5" rx="6" fill="#d1fae5" stroke="#22c55e"/>
+  <text x="380" y="84.35" font-size="11" fill="#166534" text-anchor="middle">源限流</text>
+  <text x="380" y="100.85" font-size="11" fill="#166534" text-anchor="middle">在请求的源头控制注入速率</text>
+  <rect x="515" y="64" width="220" height="49.5" rx="6" fill="#fef3c7" stroke="#f59e0b"/>
+  <text x="625" y="84.35" font-size="11" fill="#b45309" text-anchor="middle">应用与线程调度</text>
+  <text x="625" y="100.85" font-size="11" fill="#b45309" text-anchor="middle">把应用放到哪个核；虚拟机的资源管理</text>
+  <rect x="25" y="141.5" width="710" height="33" rx="6" fill="#f8fafc" stroke="#94a3b8"/>
+  <text x="380" y="161.85" font-size="11" fill="#1e293b" text-anchor="middle">源限流的三项工作：多核内存的公平、片上网络的自适应限流、从网络角度看的拥塞与可扩展性</text>
+  <rect x="25" y="202.5" width="710" height="36" rx="6" fill="#f3e8ff" stroke="#a855f7"/>
+  <text x="380" y="224.7" font-size="12" fill="#6b21a8" text-anchor="middle">它们与请求调度的关系不是替代，而是可以叠加</text>
+</svg>

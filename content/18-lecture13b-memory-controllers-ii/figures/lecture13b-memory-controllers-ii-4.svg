@@ -1,0 +1,32 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 760 280" width="760" height="280"
+     role="img" aria-labelledby="fig-lecture13b-memory-controllers-ii-4-title fig-lecture13b-memory-controllers-ii-4-desc">
+  <title id="fig-lecture13b-memory-controllers-ii-4-title">四种基本功，以及两类实现立场</title>
+  <desc id="fig-lecture13b-memory-controllers-ii-4-desc">上排四格是四种基本功：请求调度；数据映射到存储体、通道与 rank；核或源限流；应用或线程调度。中间两格是两类实现立场：聪明的资源（每个共享资源自带可配置的干扰控制）与笨的资源（资源保持先到先得，在入口做注入控制或数据映射）。最下面一条是总结页的判词：最好的是把四种组合起来用。</desc>
+
+  <defs>
+    <style>
+      text { font-family: 'PingFang SC', 'Microsoft YaHei', 'Noto Sans CJK SC', system-ui, sans-serif; }
+    </style>
+  </defs>
+
+  <rect x="0" y="0" width="760" height="280" fill="#ffffff"/>
+
+  <text x="380" y="34" font-size="16" font-weight="600" fill="#1f2937" text-anchor="middle">四种基本功，以及两类实现立场</text>
+  <rect x="25" y="64" width="158.75" height="49.5" rx="6" fill="#dbeafe" stroke="#3b82f6"/>
+  <text x="104.375" y="92.6" font-size="11" fill="#1e40af" text-anchor="middle">① 请求调度</text>
+  <rect x="208.75" y="64" width="158.75" height="49.5" rx="6" fill="#dbeafe" stroke="#3b82f6"/>
+  <text x="288.125" y="84.35" font-size="11" fill="#1e40af" text-anchor="middle">② 数据映射到</text>
+  <text x="288.125" y="100.85" font-size="11" fill="#1e40af" text-anchor="middle">bank／通道／rank</text>
+  <rect x="392.5" y="64" width="158.75" height="49.5" rx="6" fill="#dbeafe" stroke="#3b82f6"/>
+  <text x="471.875" y="92.6" font-size="11" fill="#1e40af" text-anchor="middle">③ 核／源限流</text>
+  <rect x="576.25" y="64" width="158.75" height="49.5" rx="6" fill="#dbeafe" stroke="#3b82f6"/>
+  <text x="655.625" y="92.6" font-size="11" fill="#1e40af" text-anchor="middle">④ 应用／线程调度</text>
+  <rect x="25" y="141.5" width="342.5" height="49.5" rx="6" fill="#d1fae5" stroke="#22c55e"/>
+  <text x="196.25" y="161.85" font-size="11" fill="#166534" text-anchor="middle">聪明的资源</text>
+  <text x="196.25" y="178.35" font-size="11" fill="#166534" text-anchor="middle">每个共享资源自带可配置的干扰控制</text>
+  <rect x="392.5" y="141.5" width="342.5" height="49.5" rx="6" fill="#fef3c7" stroke="#f59e0b"/>
+  <text x="563.75" y="161.85" font-size="11" fill="#b45309" text-anchor="middle">笨的资源</text>
+  <text x="563.75" y="178.35" font-size="11" fill="#b45309" text-anchor="middle">资源保持先到先得，在入口做注入控制或数据映射</text>
+  <rect x="25" y="219" width="710" height="36" rx="6" fill="#f3e8ff" stroke="#a855f7"/>
+  <text x="380" y="241.2" font-size="12" fill="#6b21a8" text-anchor="middle">总结页的判词：最好的是把四种组合起来用（p176）</text>
+</svg>

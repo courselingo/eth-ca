@@ -1,0 +1,36 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 760 324.5" width="760" height="324.5"
+     role="img" aria-labelledby="fig-lecture13b-memory-controllers-ii-11-title fig-lecture13b-memory-controllers-ii-11-desc">
+  <title id="fig-lecture13b-memory-controllers-ii-11-title">并行应用的三种关键路径，以及异构系统里的几类主体</title>
+  <desc id="fig-lecture13b-memory-controllers-ii-11-desc">上排三格是并行应用的三种关键路径：被争用的临界区、屏障的最后一个到达者、流水线里最慢的那一段。中间一条是 PAMS 的做法：估计 limiter 线程并优先它们的请求，同时打乱非 limiter 线程的优先级。下面四格是异构系统里共享内存的几类主体：CPU、GPU、硬件加速器与 DMA 引擎。最后一条是这一侧的三项工作：SMS 把功能拆成多级、DASH 处理有截止时间的加速器、CPU 与 IO 的流量隔离。</desc>
+
+  <defs>
+    <style>
+      text { font-family: 'PingFang SC', 'Microsoft YaHei', 'Noto Sans CJK SC', system-ui, sans-serif; }
+    </style>
+  </defs>
+
+  <rect x="0" y="0" width="760" height="324.5" fill="#ffffff"/>
+
+  <text x="380" y="34" font-size="16" font-weight="600" fill="#1f2937" text-anchor="middle">并行应用的三种关键路径，以及异构系统里的几类主体</text>
+  <rect x="25" y="64" width="220" height="49.5" rx="6" fill="#dbeafe" stroke="#3b82f6"/>
+  <text x="135" y="84.35" font-size="11" fill="#1e40af" text-anchor="middle">临界区</text>
+  <text x="135" y="100.85" font-size="11" fill="#1e40af" text-anchor="middle">被争用时一次只能一个线程进入</text>
+  <rect x="270" y="64" width="220" height="49.5" rx="6" fill="#dbeafe" stroke="#3b82f6"/>
+  <text x="380" y="84.35" font-size="11" fill="#1e40af" text-anchor="middle">屏障</text>
+  <text x="380" y="100.85" font-size="11" fill="#1e40af" text-anchor="middle">最后一个到达者在关键路径上</text>
+  <rect x="515" y="64" width="220" height="49.5" rx="6" fill="#dbeafe" stroke="#3b82f6"/>
+  <text x="625" y="84.35" font-size="11" fill="#1e40af" text-anchor="middle">流水线</text>
+  <text x="625" y="100.85" font-size="11" fill="#1e40af" text-anchor="middle">执行最慢那一段的线程在关键路径上</text>
+  <rect x="25" y="141.5" width="710" height="36" rx="6" fill="#d1fae5" stroke="#22c55e"/>
+  <text x="380" y="163.7" font-size="12" fill="#166534" text-anchor="middle">PAMS：估计 limiter 线程并优先它们的请求，同时打乱非 limiter 线程的优先级</text>
+  <rect x="25" y="205.5" width="158.75" height="33" rx="6" fill="#fef3c7" stroke="#f59e0b"/>
+  <text x="104.375" y="225.85" font-size="11" fill="#b45309" text-anchor="middle">CPU</text>
+  <rect x="208.75" y="205.5" width="158.75" height="33" rx="6" fill="#fef3c7" stroke="#f59e0b"/>
+  <text x="288.125" y="225.85" font-size="11" fill="#b45309" text-anchor="middle">GPU</text>
+  <rect x="392.5" y="205.5" width="158.75" height="33" rx="6" fill="#fef3c7" stroke="#f59e0b"/>
+  <text x="471.875" y="225.85" font-size="11" fill="#b45309" text-anchor="middle">硬件加速器</text>
+  <rect x="576.25" y="205.5" width="158.75" height="33" rx="6" fill="#fef3c7" stroke="#f59e0b"/>
+  <text x="655.625" y="225.85" font-size="11" fill="#b45309" text-anchor="middle">DMA 引擎</text>
+  <rect x="25" y="266.5" width="710" height="33" rx="6" fill="#f3e8ff" stroke="#a855f7"/>
+  <text x="380" y="286.85" font-size="11" fill="#6b21a8" text-anchor="middle">异构这一侧：SMS 把功能拆成多级；DASH 处理有截止时间的加速器；CPU 与 IO 的流量隔离</text>
+</svg>

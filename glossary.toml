@@ -366,3 +366,15 @@ key = "design-space-exploration"
 zh = "设计空间探索"
 en = "design space exploration"
 note = "在设计参数的各种组合里快速搜索，找出值得实现或值得继续细化的那一档"
+
+[[term]]
+key = "interference"
+zh = "干扰"
+en = "interference"
+note = "多个线程或主体共享同一份硬件资源时，一方对另一方造成的性能影响"
+
+[[term]]
+key = "fairness"
+zh = "公平"
+en = "fairness"
+note = "在共享资源上让各线程的减速比接近，通常按相对单独运行时的减速比衡量"

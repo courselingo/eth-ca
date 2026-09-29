@@ -1,0 +1,32 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 760 277" width="760" height="277"
+     role="img" aria-labelledby="fig-lecture13b-memory-controllers-ii-10-title fig-lecture13b-memory-controllers-ii-10-desc">
+  <title id="fig-lecture13b-memory-controllers-ii-10-title">BLISS 的两个观察</title>
+  <desc id="fig-lecture13b-memory-controllers-ii-10-desc">上排两格是两个观察：把应用分成两组就够、不需要完整排名；连续服务同一个应用的大量请求会造成干扰。中间三格是做法与结果：把连续请求多的应用拉黑并降级；周期性地清空黑名单，周期是数千周期；结果是最接近理想且复杂度显著降低。最下面一条是完整排名的代价：显著增加关键路径延迟与面积。</desc>
+
+  <defs>
+    <style>
+      text { font-family: 'PingFang SC', 'Microsoft YaHei', 'Noto Sans CJK SC', system-ui, sans-serif; }
+    </style>
+  </defs>
+
+  <rect x="0" y="0" width="760" height="277" fill="#ffffff"/>
+
+  <text x="380" y="34" font-size="16" font-weight="600" fill="#1f2937" text-anchor="middle">BLISS 的两个观察</text>
+  <rect x="25" y="64" width="342.5" height="49.5" rx="6" fill="#dbeafe" stroke="#3b82f6"/>
+  <text x="196.25" y="84.35" font-size="11" fill="#1e40af" text-anchor="middle">观察一</text>
+  <text x="196.25" y="100.85" font-size="11" fill="#1e40af" text-anchor="middle">把应用分成两组就够，不需要完整排名</text>
+  <rect x="392.5" y="64" width="342.5" height="49.5" rx="6" fill="#dbeafe" stroke="#3b82f6"/>
+  <text x="563.75" y="84.35" font-size="11" fill="#1e40af" text-anchor="middle">观察二</text>
+  <text x="563.75" y="100.85" font-size="11" fill="#1e40af" text-anchor="middle">连续服务同一个应用的大量请求会造成干扰</text>
+  <rect x="25" y="141.5" width="220" height="49.5" rx="6" fill="#d1fae5" stroke="#22c55e"/>
+  <text x="135" y="161.85" font-size="11" fill="#166534" text-anchor="middle">做法</text>
+  <text x="135" y="178.35" font-size="11" fill="#166534" text-anchor="middle">把连续请求多的应用拉黑并降级</text>
+  <rect x="270" y="141.5" width="220" height="49.5" rx="6" fill="#d1fae5" stroke="#22c55e"/>
+  <text x="380" y="161.85" font-size="11" fill="#166534" text-anchor="middle">清空</text>
+  <text x="380" y="178.35" font-size="11" fill="#166534" text-anchor="middle">周期性地清空黑名单，周期是数千周期</text>
+  <rect x="515" y="141.5" width="220" height="49.5" rx="6" fill="#f3e8ff" stroke="#a855f7"/>
+  <text x="625" y="161.85" font-size="11" fill="#6b21a8" text-anchor="middle">结果</text>
+  <text x="625" y="178.35" font-size="11" fill="#6b21a8" text-anchor="middle">最接近理想，且复杂度显著降低</text>
+  <rect x="25" y="219" width="710" height="33" rx="6" fill="#f8fafc" stroke="#94a3b8"/>
+  <text x="380" y="239.35" font-size="11" fill="#1e293b" text-anchor="middle">完整排名的代价：显著增加关键路径延迟与面积（p122）</text>
+</svg>
