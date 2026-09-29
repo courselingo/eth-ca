@@ -1,0 +1,36 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 683 246" width="683" height="246"
+     role="img" aria-labelledby="fig-l2a-7-title fig-l2a-7-desc">
+  <title id="fig-l2a-7-title">DRAM 单元：一个电容存一位</title>
+  <desc id="fig-l2a-7-desc">字线控制晶体管开关，电荷存在电容里；缩放的两难是电容要够大才能可靠读出，晶体管要够大才能低漏电。</desc>
+
+  <defs>
+    <style>
+      text { font-family: 'PingFang SC', 'Microsoft YaHei', 'Noto Sans CJK SC', system-ui, sans-serif; }
+    </style>
+    <marker id="arrow" markerWidth="8" markerHeight="8" refX="2" refY="4"
+            orient="auto" markerUnits="userSpaceOnUse">
+      <path d="M0,0 L8,4 L0,8 L2,4 z" fill="#64748b"/>
+    </marker>
+  </defs>
+
+  <rect x="0" y="0" width="683" height="246" fill="#ffffff"/>
+
+  <text x="341.5" y="34" font-size="16" font-weight="600" fill="#1f2937" text-anchor="middle">一个电容存一位，缩放的两难也在这里</text>
+
+  <text x="23" y="56" font-size="12" fill="#64748b" text-anchor="start">字线：控制开关</text>
+  <path d="M23,70 L210,70" fill="none" stroke="#94a3b8" stroke-width="1.5"/>
+  <path d="M135,70 L135,90" fill="none" stroke="#94a3b8" stroke-width="1.5"/>
+
+  <rect x="60" y="90" width="150" height="42" rx="8" fill="#dbeafe" stroke="#3b82f6" stroke-width="1.5"/>
+  <text x="135" y="115.2" font-size="12" fill="#1e40af" text-anchor="middle">晶体管（开关）</text>
+
+  <path d="M215,111 L240,111" fill="none" stroke="#64748b" stroke-width="1.5" marker-end="url(#arrow)"/>
+
+  <path d="M250,95 L250,127" fill="none" stroke="#22c55e" stroke-width="2.5"/>
+  <path d="M266,95 L266,127" fill="none" stroke="#22c55e" stroke-width="2.5"/>
+  <text x="282" y="115" font-size="12" fill="#166534" text-anchor="start">电容：存一位电荷</text>
+
+  <rect x="380" y="170" width="280" height="54" rx="8" fill="#fce7f3" stroke="#ec4899" stroke-width="1.5"/>
+  <text x="520" y="192.2" font-size="12" fill="#9d174d" text-anchor="middle">电容要够大才能可靠读出</text>
+  <text x="520" y="210.2" font-size="12" fill="#9d174d" text-anchor="middle">晶体管要够大才能低漏电</text>
+</svg>

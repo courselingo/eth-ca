@@ -1,0 +1,36 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 587 268" width="587" height="268"
+     role="img" aria-labelledby="fig-l2a-8-title fig-l2a-8-desc">
+  <title id="fig-l2a-8-title">反复激活一行会扰动相邻两行</title>
+  <desc id="fig-l2a-8-desc">被反复激活的中间一行会把上下两个 victim 行的电荷扰动起来，两个方向都有影响。</desc>
+
+  <defs>
+    <style>
+      text { font-family: 'PingFang SC', 'Microsoft YaHei', 'Noto Sans CJK SC', system-ui, sans-serif; }
+    </style>
+    <marker id="arrow" markerWidth="8" markerHeight="8" refX="2" refY="4"
+            orient="auto" markerUnits="userSpaceOnUse">
+      <path d="M0,0 L8,4 L0,8 L2,4 z" fill="#ec4899"/>
+    </marker>
+  </defs>
+
+  <rect x="0" y="0" width="587" height="268" fill="#ffffff"/>
+
+  <text x="213" y="34" font-size="16" font-weight="600" fill="#1f2937" text-anchor="middle">反复激活一行，会让相邻两行出错</text>
+
+  <rect x="23" y="64" width="380" height="42" rx="8" fill="#f3e8ff" stroke="#a855f7" stroke-width="1.5"/>
+  <text x="213" y="89.2" font-size="12" fill="#6b21a8" text-anchor="middle">相邻行（victim）</text>
+
+  <rect x="23" y="134" width="380" height="42" rx="8" fill="#fce7f3" stroke="#ec4899" stroke-width="1.5"/>
+  <text x="213" y="159.2" font-size="12" fill="#9d174d" text-anchor="middle">被反复激活的行（hammered）</text>
+
+  <rect x="23" y="204" width="380" height="42" rx="8" fill="#f3e8ff" stroke="#a855f7" stroke-width="1.5"/>
+  <text x="213" y="229.2" font-size="12" fill="#6b21a8" text-anchor="middle">相邻行（victim）</text>
+
+  <path d="M350,111 L350,123" fill="none" stroke="#ec4899" stroke-width="1.5" marker-end="url(#arrow)"/>
+  <path d="M378,129 L378,117" fill="none" stroke="#ec4899" stroke-width="1.5" marker-end="url(#arrow)"/>
+  <path d="M350,181 L350,193" fill="none" stroke="#ec4899" stroke-width="1.5" marker-end="url(#arrow)"/>
+  <path d="M378,199 L378,187" fill="none" stroke="#ec4899" stroke-width="1.5" marker-end="url(#arrow)"/>
+
+  <text x="480" y="150" font-size="12" fill="#9d174d" text-anchor="start">反复激活这一行</text>
+  <text x="480" y="168" font-size="12" fill="#9d174d" text-anchor="start">相邻行被扰动</text>
+</svg>

@@ -128,6 +128,24 @@ en = "refresh"
 note = "DRAM 电容会漏电，必须周期性地读出来再写回去，否则数据丢失"
 
 [[term]]
+key = "memory controller"
+zh = "内存控制器"
+en = "memory controller"
+note = "夹在处理器与内存颗粒之间的部件：负责把访存请求排成内存能接受的顺序，并决定谁先被服务"
+
+[[term]]
+key = "QoS"
+zh = "服务质量"
+en = "QoS"
+note = "Quality of Service：对「每个使用者至少能拿到多少」给出可检验的承诺，而不是只看平均值"
+
+[[term]]
+key = "heterogeneous memory"
+zh = "异构内存"
+en = "heterogeneous memory"
+note = "把几种特性不同的内存拼在一个系统里，再按数据的性质分别放置"
+
+[[term]]
 key = "speculation"
 zh = "推测执行"
 en = "speculation"

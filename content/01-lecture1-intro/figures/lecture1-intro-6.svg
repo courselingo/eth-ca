@@ -1,7 +1,7 @@
 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 748 184" width="748" height="184"
      role="img" aria-labelledby="fig-l1-6-title fig-l1-6-desc">
-  <title id="fig-l1-6-title">当前体系结构面对的五堵墙</title>
-  <desc id="fig-l1-6-desc">能量、可靠性、复杂度、安全与可扩展性五堵墙同时存在，省能量要加复杂度，加冗余要吃能量。</desc>
+  <title id="fig-l1-6-title">当下必须同时应付的五堵墙</title>
+  <desc id="fig-l1-6-desc">能量、可靠性、复杂度、安全与可扩展性五堵墙同时存在；它们互相拉扯，省能量要加复杂度，加冗余要吃能量。</desc>
 
   <defs>
     <style>
@@ -11,10 +11,10 @@
 
   <rect x="0" y="0" width="748" height="184" fill="#ffffff"/>
 
-  <text x="374" y="34" font-size="16" font-weight="600" fill="#1f2937" text-anchor="middle">五堵墙，而且它们互相拉扯</text>
+  <text x="374" y="34" font-size="16" font-weight="600" fill="#1f2937" text-anchor="middle">当下必须同时应付的五堵墙</text>
 
   <rect x="23" y="56" width="702" height="106" rx="10" fill="#f8fafc" stroke="#94a3b8" stroke-width="1.5" stroke-dasharray="6,4"/>
-  <text x="33" y="72" font-size="11" fill="#64748b" text-anchor="start">当下必须同时应付的五个约束</text>
+  <text x="33" y="72" font-size="11" fill="#64748b" text-anchor="start">省能量要靠更复杂的硬件，加可靠性要吃更多能量</text>
 
   <rect x="43" y="88" width="110" height="54" rx="8" fill="#fce7f3" stroke="#ec4899" stroke-width="1.5"/>
   <text x="98" y="110.2" font-size="12" fill="#9d174d" text-anchor="middle">能量</text>

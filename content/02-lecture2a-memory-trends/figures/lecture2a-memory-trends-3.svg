@@ -1,0 +1,24 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="37 0 546 347" width="546" height="347"
+     role="img" aria-labelledby="fig-l2a-3-title fig-l2a-3-desc">
+  <title id="fig-l2a-3-title">核数往上走，每核分到的容量往下走</title>
+  <desc id="fig-l2a-3-desc">核数约每两年翻一倍，而每核能分到的内存容量约每两年减少 30%，两条趋势线反向张开。</desc>
+
+  <defs>
+    <style>
+      text { font-family: 'PingFang SC', 'Microsoft YaHei', 'Noto Sans CJK SC', system-ui, sans-serif; }
+    </style>
+  </defs>
+
+  <rect x="37" y="0" width="546" height="347" fill="#ffffff"/>
+
+  <text x="310" y="34" font-size="16" font-weight="600" fill="#1f2937" text-anchor="middle">需求往上走，每核容量往下走</text>
+
+  <path d="M60,64 L60,300" fill="none" stroke="#94a3b8" stroke-width="1.5"/>
+  <path d="M60,300 L560,300" fill="none" stroke="#94a3b8" stroke-width="1.5"/>
+
+  <path d="M60,290 C 200,280 380,180 540,70" fill="none" stroke="#3b82f6" stroke-width="2"/>
+  <path d="M60,80 C 200,90 380,190 540,290" fill="none" stroke="#ef4444" stroke-width="2"/>
+
+  <text x="330" y="80" font-size="12" fill="#1d4ed8" text-anchor="start">核数：每两年翻一倍</text>
+  <text x="330" y="322" font-size="12" fill="#ef4444" text-anchor="start">每核容量：每两年降 30%</text>
+</svg>

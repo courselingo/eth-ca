@@ -1,0 +1,55 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 570 224" width="570" height="224"
+     role="img" aria-labelledby="fig-l2a-5-title fig-l2a-5-desc">
+  <title id="fig-l2a-5-title">runahead 把等内存的周期用来提前发起访存</title>
+  <desc id="fig-l2a-5-desc">上排是处理器发出取数请求后空转三个周期，下排是同样的三个周期被用来提前发起后面的访存。</desc>
+
+  <defs>
+    <style>
+      text { font-family: 'PingFang SC', 'Microsoft YaHei', 'Noto Sans CJK SC', system-ui, sans-serif; }
+    </style>
+    <marker id="arrow" markerWidth="8" markerHeight="8" refX="2" refY="4"
+            orient="auto" markerUnits="userSpaceOnUse">
+      <path d="M0,0 L8,4 L0,8 L2,4 z" fill="#64748b"/>
+    </marker>
+  </defs>
+
+  <rect x="0" y="0" width="570" height="224" fill="#ffffff"/>
+
+  <text x="285" y="34" font-size="16" font-weight="600" fill="#1f2937" text-anchor="middle">runahead：把等内存的时间用起来</text>
+
+  <text x="23" y="78" font-size="12" fill="#9d174d" text-anchor="start">没有 runahead：等内存的周期只能空转</text>
+
+  <rect x="23" y="90" width="110" height="42" rx="8" fill="#fef3c7" stroke="#f59e0b" stroke-width="1.5"/>
+  <text x="78" y="115.2" font-size="12" fill="#b45309" text-anchor="middle">发出取数请求</text>
+
+  <rect x="161" y="90" width="110" height="42" rx="8" fill="#fce7f3" stroke="#ec4899" stroke-width="1.5"/>
+  <text x="216" y="115.2" font-size="12" fill="#9d174d" text-anchor="middle">空转</text>
+
+  <rect x="299" y="90" width="110" height="42" rx="8" fill="#fce7f3" stroke="#ec4899" stroke-width="1.5"/>
+  <text x="354" y="115.2" font-size="12" fill="#9d174d" text-anchor="middle">空转</text>
+
+  <rect x="437" y="90" width="110" height="42" rx="8" fill="#fce7f3" stroke="#ec4899" stroke-width="1.5"/>
+  <text x="492" y="115.2" font-size="12" fill="#9d174d" text-anchor="middle">空转</text>
+
+  <path d="M138,111 L150,111" fill="none" stroke="#64748b" stroke-width="1.5" marker-end="url(#arrow)"/>
+  <path d="M276,111 L288,111" fill="none" stroke="#64748b" stroke-width="1.5" marker-end="url(#arrow)"/>
+  <path d="M414,111 L426,111" fill="none" stroke="#64748b" stroke-width="1.5" marker-end="url(#arrow)"/>
+
+  <text x="23" y="148" font-size="12" fill="#1e40af" text-anchor="start">有 runahead：把这段时间用来预取后面的数据</text>
+
+  <rect x="23" y="160" width="110" height="42" rx="8" fill="#fef3c7" stroke="#f59e0b" stroke-width="1.5"/>
+  <text x="78" y="185.2" font-size="12" fill="#b45309" text-anchor="middle">发出取数请求</text>
+
+  <rect x="161" y="160" width="110" height="42" rx="8" fill="#dbeafe" stroke="#3b82f6" stroke-width="1.5"/>
+  <text x="216" y="185.2" font-size="12" fill="#1e40af" text-anchor="middle">提前发起访存</text>
+
+  <rect x="299" y="160" width="110" height="42" rx="8" fill="#dbeafe" stroke="#3b82f6" stroke-width="1.5"/>
+  <text x="354" y="185.2" font-size="12" fill="#1e40af" text-anchor="middle">提前发起访存</text>
+
+  <rect x="437" y="160" width="110" height="42" rx="8" fill="#dbeafe" stroke="#3b82f6" stroke-width="1.5"/>
+  <text x="492" y="185.2" font-size="12" fill="#1e40af" text-anchor="middle">提前发起访存</text>
+
+  <path d="M138,181 L150,181" fill="none" stroke="#64748b" stroke-width="1.5" marker-end="url(#arrow)"/>
+  <path d="M276,181 L288,181" fill="none" stroke="#64748b" stroke-width="1.5" marker-end="url(#arrow)"/>
+  <path d="M414,181 L426,181" fill="none" stroke="#64748b" stroke-width="1.5" marker-end="url(#arrow)"/>
+</svg>

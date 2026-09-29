@@ -1,0 +1,42 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 514 442" width="514" height="442"
+     role="img" aria-labelledby="fig-l2a-9-title fig-l2a-9-desc">
+  <title id="fig-l2a-9-title">多数模块都能被翻转，新芯片还更脆弱</title>
+  <desc id="fig-l2a-9-desc">上栏是三家公司共 129 个模块的实测覆盖率 86%、83%、88%；下栏是同型号新芯片最弱单元的首次翻转次数明显下降。</desc>
+
+  <defs>
+    <style>
+      text { font-family: 'PingFang SC', 'Microsoft YaHei', 'Noto Sans CJK SC', system-ui, sans-serif; }
+    </style>
+  </defs>
+
+  <rect x="0" y="0" width="514" height="442" fill="#ffffff"/>
+
+  <text x="257" y="34" font-size="16" font-weight="600" fill="#1f2937" text-anchor="middle">多数模块都能被翻，新芯片还更脆弱</text>
+
+  <rect x="23" y="56" width="468" height="104" rx="10" fill="#f8fafc" stroke="#94a3b8" stroke-width="1.5" stroke-dasharray="6,4"/>
+  <text x="33" y="72" font-size="11" fill="#64748b" text-anchor="start">覆盖率：三家公司共 129 个模块</text>
+
+  <rect x="43" y="86" width="124" height="54" rx="8" fill="#fce7f3" stroke="#ec4899" stroke-width="1.5"/>
+  <text x="105" y="108.2" font-size="12" fill="#9d174d" text-anchor="middle">86%</text>
+  <text x="105" y="126.2" font-size="12" fill="#9d174d" text-anchor="middle">37 / 43 模块</text>
+
+  <rect x="195" y="86" width="124" height="54" rx="8" fill="#fce7f3" stroke="#ec4899" stroke-width="1.5"/>
+  <text x="257" y="108.2" font-size="12" fill="#9d174d" text-anchor="middle">83%</text>
+  <text x="257" y="126.2" font-size="12" fill="#9d174d" text-anchor="middle">45 / 54 模块</text>
+
+  <rect x="347" y="86" width="124" height="54" rx="8" fill="#fce7f3" stroke="#ec4899" stroke-width="1.5"/>
+  <text x="409" y="108.2" font-size="12" fill="#9d174d" text-anchor="middle">88%</text>
+  <text x="409" y="126.2" font-size="12" fill="#9d174d" text-anchor="middle">28 / 32 模块</text>
+
+  <rect x="23" y="188" width="468" height="232" rx="10" fill="#f8fafc" stroke="#94a3b8" stroke-width="1.5" stroke-dasharray="6,4"/>
+  <text x="33" y="204" font-size="11" fill="#64748b" text-anchor="start">同型号新芯片更脆弱：最弱单元首次翻转所需次数</text>
+
+  <rect x="43" y="218" width="380" height="42" rx="8" fill="#dbeafe" stroke="#3b82f6" stroke-width="1.5"/>
+  <text x="233" y="243.2" font-size="12" fill="#1e40af" text-anchor="middle">DDR3：从 69200 次降到 22400 次</text>
+
+  <rect x="43" y="288" width="380" height="42" rx="8" fill="#dbeafe" stroke="#3b82f6" stroke-width="1.5"/>
+  <text x="233" y="313.2" font-size="12" fill="#1e40af" text-anchor="middle">DDR4：从 17500 次降到 10000 次</text>
+
+  <rect x="43" y="358" width="380" height="42" rx="8" fill="#dbeafe" stroke="#3b82f6" stroke-width="1.5"/>
+  <text x="233" y="383.2" font-size="12" fill="#1e40af" text-anchor="middle">LPDDR4：从 16800 次降到 4800 次</text>
+</svg>

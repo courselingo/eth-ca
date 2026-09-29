@@ -1,0 +1,38 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 624 268" width="624" height="268"
+     role="img" aria-labelledby="fig-l2a-11-title fig-l2a-11-desc">
+  <title id="fig-l2a-11-title">按容错度把数据分到两种内存里</title>
+  <desc id="fig-l2a-11-desc">先分类数据的容错度，再把容错的数据放进低成本内存、不能出错的数据放进可靠内存。</desc>
+
+  <defs>
+    <style>
+      text { font-family: 'PingFang SC', 'Microsoft YaHei', 'Noto Sans CJK SC', system-ui, sans-serif; }
+    </style>
+    <marker id="arrow" markerWidth="8" markerHeight="8" refX="2" refY="4"
+            orient="auto" markerUnits="userSpaceOnUse">
+      <path d="M0,0 L8,4 L0,8 L2,4 z" fill="#64748b"/>
+    </marker>
+  </defs>
+
+  <rect x="0" y="0" width="624" height="268" fill="#ffffff"/>
+
+  <text x="312" y="34" font-size="16" font-weight="600" fill="#1f2937" text-anchor="middle">按容错度把数据分到两种内存里</text>
+
+  <rect x="23" y="64" width="578" height="42" rx="8" fill="#fef3c7" stroke="#f59e0b" stroke-width="1.5"/>
+  <text x="312" y="89.2" font-size="12" fill="#b45309" text-anchor="middle">第一步：分类数据的容错度</text>
+
+  <rect x="23" y="134" width="250" height="42" rx="8" fill="#dbeafe" stroke="#3b82f6" stroke-width="1.5"/>
+  <text x="148" y="159.2" font-size="12" fill="#1e40af" text-anchor="middle">容错的数据</text>
+
+  <path d="M278,155 L290,155" fill="none" stroke="#64748b" stroke-width="1.5" marker-end="url(#arrow)"/>
+
+  <rect x="301" y="134" width="300" height="42" rx="8" fill="#d1fae5" stroke="#22c55e" stroke-width="1.5"/>
+  <text x="451" y="159.2" font-size="12" fill="#166534" text-anchor="middle">低成本内存：不配纠错码</text>
+
+  <rect x="23" y="204" width="250" height="42" rx="8" fill="#dbeafe" stroke="#3b82f6" stroke-width="1.5"/>
+  <text x="148" y="229.2" font-size="12" fill="#1e40af" text-anchor="middle">不能出错的数据</text>
+
+  <path d="M278,225 L290,225" fill="none" stroke="#64748b" stroke-width="1.5" marker-end="url(#arrow)"/>
+
+  <rect x="301" y="204" width="300" height="42" rx="8" fill="#d1fae5" stroke="#22c55e" stroke-width="1.5"/>
+  <text x="451" y="229.2" font-size="12" fill="#166534" text-anchor="middle">可靠内存：纠错码保护</text>
+</svg>

@@ -1,7 +1,7 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 707 396" width="707" height="396"
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 707 439" width="707" height="439"
      role="img" aria-labelledby="fig-l1-3-title fig-l1-3-desc">
   <title id="fig-l1-3-title">同一份算法在不同层上落地的收益</title>
-  <desc id="fig-l1-3-desc">横条按对数刻度表示相对 Python 的加速比，从解释执行到 AVX 向量指令共 62806 倍。</desc>
+  <desc id="fig-l1-3-desc">横条长度按对数刻度表示相对 Python 的加速比，从解释执行到 AVX 向量指令共 62806 倍；颜色表示改动发生在哪一层。</desc>
 
   <defs>
     <style>
@@ -9,7 +9,7 @@
     </style>
   </defs>
 
-  <rect x="0" y="0" width="707" height="396" fill="#ffffff"/>
+  <rect x="0" y="0" width="707" height="439" fill="#ffffff"/>
 
   <text x="390" y="34" font-size="16" font-weight="600" fill="#1f2937" text-anchor="middle">越往下走，收益越大：同一份算法差 62806 倍</text>
 
@@ -40,4 +40,7 @@
   <text x="23" y="367.2" font-size="12" fill="#1e293b" text-anchor="start">手写 AVX 向量指令</text>
   <rect x="150" y="352" width="480" height="22" rx="4" fill="#f3e8ff" stroke="#a855f7" stroke-width="1.5"/>
   <text x="642" y="367.2" font-size="12" fill="#64748b" text-anchor="start">62806×</text>
+
+  <text x="23" y="398" font-size="11" fill="#64748b" text-anchor="start">横条长度按对数刻度，1× 处条长为零；颜色表示改动发生在哪一层</text>
+  <text x="23" y="416" font-size="11" fill="#64748b" text-anchor="start">蓝＝语言层，黄＝算法层，紫＝微架构层</text>
 </svg>

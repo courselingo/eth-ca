@@ -1,0 +1,39 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="17 0 446 365" width="446" height="365"
+     role="img" aria-labelledby="fig-l2a-1-title fig-l2a-1-desc">
+  <title id="fig-l2a-1-title">系统的大部分是存储与互连</title>
+  <desc id="fig-l2a-1-desc">处理器只占系统的一小块，缓存、主存与存储这三层才是面积与功耗的大头，而瓶颈也落在主存这一侧。</desc>
+
+  <defs>
+    <style>
+      text { font-family: 'PingFang SC', 'Microsoft YaHei', 'Noto Sans CJK SC', system-ui, sans-serif; }
+    </style>
+    <marker id="arrow" markerWidth="8" markerHeight="8" refX="2" refY="4"
+            orient="auto" markerUnits="userSpaceOnUse">
+      <path d="M0,0 L8,4 L0,8 L2,4 z" fill="#64748b"/>
+    </marker>
+  </defs>
+
+  <rect x="17" y="0" width="446" height="365" fill="#ffffff"/>
+
+  <text x="240" y="34" font-size="16" font-weight="600" fill="#1f2937" text-anchor="middle">系统的大部分是存储与互连</text>
+
+  <rect x="170" y="64" width="140" height="42" rx="8" fill="#fef3c7" stroke="#f59e0b" stroke-width="1.5"/>
+  <text x="240" y="89.2" font-size="12" fill="#b45309" text-anchor="middle">处理器</text>
+
+  <path d="M240,111 L240,123" fill="none" stroke="#64748b" stroke-width="1.5" marker-end="url(#arrow)"/>
+
+  <rect x="40" y="134" width="400" height="42" rx="8" fill="#dbeafe" stroke="#3b82f6" stroke-width="1.5"/>
+  <text x="240" y="159.2" font-size="12" fill="#1e40af" text-anchor="middle">缓存层次</text>
+
+  <path d="M240,181 L240,193" fill="none" stroke="#64748b" stroke-width="1.5" marker-end="url(#arrow)"/>
+
+  <rect x="40" y="204" width="400" height="42" rx="8" fill="#dbeafe" stroke="#3b82f6" stroke-width="1.5"/>
+  <text x="240" y="229.2" font-size="12" fill="#1e40af" text-anchor="middle">主存（DRAM）</text>
+
+  <path d="M240,251 L240,263" fill="none" stroke="#64748b" stroke-width="1.5" marker-end="url(#arrow)"/>
+
+  <rect x="40" y="274" width="400" height="42" rx="8" fill="#dbeafe" stroke="#3b82f6" stroke-width="1.5"/>
+  <text x="240" y="299.2" font-size="12" fill="#1e40af" text-anchor="middle">存储（SSD 与硬盘）</text>
+
+  <text x="240" y="340" font-size="12" fill="#1e293b" text-anchor="middle">这三层是面积与功耗的大头</text>
+</svg>

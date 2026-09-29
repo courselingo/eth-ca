@@ -1,0 +1,46 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 699 466" width="699" height="466"
+     role="img" aria-labelledby="fig-l2a-6-title fig-l2a-6-desc">
+  <title id="fig-l2a-6-title">按 32 位操作排序的能量阶梯</title>
+  <desc id="fig-l2a-6-desc">横条按对数刻度：整数加法 0.1 pJ、浮点加法 0.9 pJ、寄存器文件 1 pJ、整数乘法 3.1 pJ、浮点乘法 3.7 pJ、片上 SRAM 缓存 5 pJ，而一次 DRAM 访问是 640 pJ。</desc>
+
+  <defs>
+    <style>
+      text { font-family: 'PingFang SC', 'Microsoft YaHei', 'Noto Sans CJK SC', system-ui, sans-serif; }
+    </style>
+  </defs>
+
+  <rect x="0" y="0" width="699" height="466" fill="#ffffff"/>
+
+  <text x="322.5" y="34" font-size="16" font-weight="600" fill="#1f2937" text-anchor="middle">一次 DRAM 访问 640 pJ，一次整数加法 0.1 pJ</text>
+
+  <text x="23" y="79.2" font-size="12" fill="#1e293b" text-anchor="start">整数加法</text>
+  <rect x="190" y="64" width="12" height="22" rx="4" fill="#dbeafe" stroke="#3b82f6" stroke-width="1.5"/>
+  <text x="214" y="79.2" font-size="12" fill="#64748b" text-anchor="start">0.1 pJ</text>
+
+  <text x="23" y="127.2" font-size="12" fill="#1e293b" text-anchor="start">浮点加法</text>
+  <rect x="190" y="112" width="107" height="22" rx="4" fill="#dbeafe" stroke="#3b82f6" stroke-width="1.5"/>
+  <text x="309" y="127.2" font-size="12" fill="#64748b" text-anchor="start">0.9 pJ</text>
+
+  <text x="23" y="175.2" font-size="12" fill="#1e293b" text-anchor="start">寄存器文件</text>
+  <rect x="190" y="160" width="122" height="22" rx="4" fill="#dbeafe" stroke="#3b82f6" stroke-width="1.5"/>
+  <text x="324" y="175.2" font-size="12" fill="#64748b" text-anchor="start">1 pJ</text>
+
+  <text x="23" y="223.2" font-size="12" fill="#1e293b" text-anchor="start">整数乘法</text>
+  <rect x="190" y="208" width="177" height="22" rx="4" fill="#fef3c7" stroke="#f59e0b" stroke-width="1.5"/>
+  <text x="379" y="223.2" font-size="12" fill="#64748b" text-anchor="start">3.1 pJ</text>
+
+  <text x="23" y="271.2" font-size="12" fill="#1e293b" text-anchor="start">浮点乘法</text>
+  <rect x="190" y="256" width="185" height="22" rx="4" fill="#fef3c7" stroke="#f59e0b" stroke-width="1.5"/>
+  <text x="387" y="271.2" font-size="12" fill="#64748b" text-anchor="start">3.7 pJ</text>
+
+  <text x="23" y="319.2" font-size="12" fill="#1e293b" text-anchor="start">片上 SRAM 缓存</text>
+  <rect x="190" y="304" width="200" height="22" rx="4" fill="#fef3c7" stroke="#f59e0b" stroke-width="1.5"/>
+  <text x="402" y="319.2" font-size="12" fill="#64748b" text-anchor="start">5 pJ</text>
+
+  <text x="23" y="367.2" font-size="12" fill="#1e293b" text-anchor="start">DRAM 访问</text>
+  <rect x="190" y="352" width="432" height="22" rx="4" fill="#fce7f3" stroke="#ec4899" stroke-width="1.5"/>
+  <text x="634" y="367.2" font-size="12" fill="#64748b" text-anchor="start">640 pJ</text>
+
+  <rect x="23" y="402" width="240" height="42" rx="8" fill="#d1fae5" stroke="#22c55e" stroke-width="1.5"/>
+  <text x="143" y="427.2" font-size="12" fill="#166534" text-anchor="middle">640 除以 0.1 等于 6400 倍</text>
+</svg>
