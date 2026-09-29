@@ -1,0 +1,30 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="2 13.0 786 312.0" width="786" height="312.0"
+     role="img" aria-labelledby="fig-prefetching-5-title fig-prefetching-5-desc">
+  <title id="fig-prefetching-5-title">谁来取之二：最简单与最通用的两种硬件预取</title>
+  <desc id="fig-prefetching-5-desc">最简单的是下一行预取：每次访问之后把后面若干行也取回来。通用一点的是步长预取：记下相邻访问之间的间隔，如果这个间隔稳定，就用它去预测后面若干次访问。</desc>
+
+  <defs>
+    <style>
+      text { font-family: 'PingFang SC', 'Microsoft YaHei', 'Noto Sans CJK SC', system-ui, sans-serif; }
+    </style>
+    <marker id="arrow" markerWidth="8" markerHeight="8" refX="2" refY="4"
+            orient="auto" markerUnits="userSpaceOnUse">
+      <path d="M0,0 L8,4 L0,8 L2,4 z" fill="#64748b"/>
+    </marker>
+  </defs>
+
+  <rect x="2" y="13.0" width="786" height="312.0" fill="#ffffff"/>
+
+  <text x="395.0" y="48" font-size="16" font-weight="600" fill="#1f2937" text-anchor="middle">谁来取之二：最简单与最通用的两种硬件预取</text>
+  <rect x="25" y="70" width="712" height="42" fill="#eff6ff" stroke="#3b82f6"/>
+  <text x="381.0" y="95.9" font-size="14" fill="#1e40af" text-anchor="middle">下一行预取与步长预取</text>
+  <rect x="25" y="138" width="340" height="68" fill="#d1fae5" stroke="#22c55e"/>
+  <text x="195.0" y="167.7" font-size="15" fill="#166534" text-anchor="middle">下一行预取</text>
+  <text x="195.0" y="185.7" font-size="12" fill="#166534" text-anchor="middle">实现最简单，适合顺序访问</text>
+  <rect x="393" y="138" width="340" height="68" fill="#d1fae5" stroke="#22c55e"/>
+  <text x="563.0" y="167.7" font-size="15" fill="#166534" text-anchor="middle">步长预取</text>
+  <text x="563.0" y="185.7" font-size="12" fill="#166534" text-anchor="middle">记下间隔，稳定就用它预测</text>
+  <rect x="25" y="234" width="740" height="68" fill="#f3e8ff" stroke="#a855f7"/>
+  <text x="395.0" y="263.7" font-size="15" fill="#6b21a8" text-anchor="middle">下一行预取的短板讲义讲得很具体：如果访存的步长是二，而每次只取一行，效率就很低</text>
+  <text x="395.0" y="281.7" font-size="12" fill="#6b21a8" text-anchor="middle">而步长预取要解决的是「怎么知道步长」以及「按什么单位记步长」</text>
+</svg>

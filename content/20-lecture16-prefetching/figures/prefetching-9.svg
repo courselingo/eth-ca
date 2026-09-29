@@ -1,0 +1,33 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="2 13.0 826 312.0" width="826" height="312.0"
+     role="img" aria-labelledby="fig-prefetching-9-title fig-prefetching-9-desc">
+  <title id="fig-prefetching-9-title">怎么判断一个预取器好不好：三个指标与一个旋钮</title>
+  <desc id="fig-prefetching-9-desc">讲义给了三个指标：准确率（发出的预取里有多少被用上）、覆盖率（所有未命中里有多少是预取来的）、及时性（用上的预取里有多少是按时到的）。而这三个指标都由同一个旋钮牵动：侵略性。</desc>
+
+  <defs>
+    <style>
+      text { font-family: 'PingFang SC', 'Microsoft YaHei', 'Noto Sans CJK SC', system-ui, sans-serif; }
+    </style>
+    <marker id="arrow" markerWidth="8" markerHeight="8" refX="2" refY="4"
+            orient="auto" markerUnits="userSpaceOnUse">
+      <path d="M0,0 L8,4 L0,8 L2,4 z" fill="#64748b"/>
+    </marker>
+  </defs>
+
+  <rect x="2" y="13.0" width="826" height="312.0" fill="#ffffff"/>
+
+  <text x="415.0" y="48" font-size="16" font-weight="600" fill="#1f2937" text-anchor="middle">怎么判断一个预取器好不好：三个指标与一个旋钮</text>
+  <rect x="25" y="70" width="712" height="42" fill="#eff6ff" stroke="#3b82f6"/>
+  <text x="381.0" y="95.9" font-size="14" fill="#1e40af" text-anchor="middle">准确率、覆盖率、及时性</text>
+  <rect x="25" y="138" width="225" height="68" fill="#fef3c7" stroke="#f59e0b"/>
+  <text x="137.5" y="167.7" font-size="15" fill="#b45309" text-anchor="middle">准确率</text>
+  <text x="137.5" y="185.7" font-size="12" fill="#b45309" text-anchor="middle">发出的里有多少被用上</text>
+  <rect x="278" y="138" width="225" height="68" fill="#fef3c7" stroke="#f59e0b"/>
+  <text x="390.5" y="167.7" font-size="15" fill="#b45309" text-anchor="middle">覆盖率</text>
+  <text x="390.5" y="185.7" font-size="12" fill="#b45309" text-anchor="middle">未命中里有多少是预取的</text>
+  <rect x="531" y="138" width="225" height="68" fill="#d1fae5" stroke="#22c55e"/>
+  <text x="643.5" y="167.7" font-size="15" fill="#166534" text-anchor="middle">及时性</text>
+  <text x="643.5" y="185.7" font-size="12" fill="#166534" text-anchor="middle">用上的里有多少按时到</text>
+  <rect x="25" y="234" width="780" height="68" fill="#f3e8ff" stroke="#a855f7"/>
+  <text x="415.0" y="263.7" font-size="15" fill="#6b21a8" text-anchor="middle">侵略性有两个分量：预取距离（跑多远）与预取度（每次取几个）</text>
+  <text x="415.0" y="281.7" font-size="12" fill="#6b21a8" text-anchor="middle">讲义把它们排成保守、中庸、激进三档，并说明每一档在三个指标上怎么移动</text>
+</svg>

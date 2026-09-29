@@ -1,0 +1,30 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="2 13.0 776 312.0" width="776" height="312.0"
+     role="img" aria-labelledby="fig-prefetching-4-title fig-prefetching-4-desc">
+  <title id="fig-prefetching-4-title">谁来取之一：让程序员或编译器来</title>
+  <desc id="fig-prefetching-4-desc">软件预取靠指令集提供一条预取指令，由程序员或编译器把它插到代码里。它对非常规则的数组访问有效，但插在哪、插多早都很难定。</desc>
+
+  <defs>
+    <style>
+      text { font-family: 'PingFang SC', 'Microsoft YaHei', 'Noto Sans CJK SC', system-ui, sans-serif; }
+    </style>
+    <marker id="arrow" markerWidth="8" markerHeight="8" refX="2" refY="4"
+            orient="auto" markerUnits="userSpaceOnUse">
+      <path d="M0,0 L8,4 L0,8 L2,4 z" fill="#64748b"/>
+    </marker>
+  </defs>
+
+  <rect x="2" y="13.0" width="776" height="312.0" fill="#ffffff"/>
+
+  <text x="390.0" y="48" font-size="16" font-weight="600" fill="#1f2937" text-anchor="middle">谁来取之一：让程序员或编译器来</text>
+  <rect x="25" y="70" width="712" height="42" fill="#fef3c7" stroke="#f59e0b"/>
+  <text x="381.0" y="95.9" font-size="14" fill="#b45309" text-anchor="middle">软件预取：插一条预取指令</text>
+  <rect x="25" y="138" width="340" height="68" fill="#d1fae5" stroke="#22c55e"/>
+  <text x="195.0" y="167.7" font-size="15" fill="#166534" text-anchor="middle">它的好处</text>
+  <text x="195.0" y="185.7" font-size="12" fill="#166534" text-anchor="middle">编译器知道数据结构与循环</text>
+  <rect x="393" y="138" width="340" height="68" fill="#fce7f3" stroke="#ec4899"/>
+  <text x="563.0" y="167.7" font-size="15" fill="#9d174d" text-anchor="middle">它的难处</text>
+  <text x="563.0" y="185.7" font-size="12" fill="#9d174d" text-anchor="middle">插多早取决于硬件，因而不易移植</text>
+  <rect x="25" y="234" width="730" height="68" fill="#f3e8ff" stroke="#a855f7"/>
+  <text x="390.0" y="263.7" font-size="15" fill="#6b21a8" text-anchor="middle">「插多早」这个难处的根源是它把硬件的时延写进了软件的决策里</text>
+  <text x="390.0" y="281.7" font-size="12" fill="#6b21a8" text-anchor="middle">中间的分支越多，往前提得越远，准确率就越低</text>
+</svg>

@@ -1,0 +1,33 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="2 13.0 777 312.0" width="777" height="312.0"
+     role="img" aria-labelledby="fig-prefetching-1-title fig-prefetching-1-desc">
+  <title id="fig-prefetching-1-title">对付延迟的三条路，而这一讲走第二条</title>
+  <desc id="fig-prefetching-1-desc">讲义把它分成三条：降低延迟（以数据为中心，此前讲过的内存延迟那两讲）、隐藏延迟（以处理器为中心，缓存与预取）、以及容忍或摊薄延迟（多线程、乱序执行、runahead）。</desc>
+
+  <defs>
+    <style>
+      text { font-family: 'PingFang SC', 'Microsoft YaHei', 'Noto Sans CJK SC', system-ui, sans-serif; }
+    </style>
+    <marker id="arrow" markerWidth="8" markerHeight="8" refX="2" refY="4"
+            orient="auto" markerUnits="userSpaceOnUse">
+      <path d="M0,0 L8,4 L0,8 L2,4 z" fill="#64748b"/>
+    </marker>
+  </defs>
+
+  <rect x="2" y="13.0" width="777" height="312.0" fill="#ffffff"/>
+
+  <text x="390.5" y="48" font-size="16" font-weight="600" fill="#1f2937" text-anchor="middle">对付延迟的三条路，而这一讲走第二条</text>
+  <rect x="25" y="70" width="712" height="42" fill="#eff6ff" stroke="#3b82f6"/>
+  <text x="381.0" y="95.9" font-size="14" fill="#1e40af" text-anchor="middle">三条路：降低、隐藏、容忍</text>
+  <rect x="25" y="138" width="225" height="68" fill="#fef3c7" stroke="#f59e0b"/>
+  <text x="137.5" y="167.7" font-size="15" fill="#b45309" text-anchor="middle">降低</text>
+  <text x="137.5" y="185.7" font-size="12" fill="#b45309" text-anchor="middle">改数据侧，前面讲过</text>
+  <rect x="278" y="138" width="225" height="68" fill="#d1fae5" stroke="#22c55e"/>
+  <text x="390.5" y="167.7" font-size="15" fill="#166534" text-anchor="middle">隐藏</text>
+  <text x="390.5" y="185.7" font-size="12" fill="#166534" text-anchor="middle">缓存与预取</text>
+  <rect x="531" y="138" width="225" height="68" fill="#fce7f3" stroke="#ec4899"/>
+  <text x="643.5" y="167.7" font-size="15" fill="#9d174d" text-anchor="middle">容忍</text>
+  <text x="643.5" y="185.7" font-size="12" fill="#9d174d" text-anchor="middle">多线程、乱序、runahead</text>
+  <rect x="25" y="234" width="700" height="68" fill="#f3e8ff" stroke="#a855f7"/>
+  <text x="375.0" y="263.7" font-size="15" fill="#6b21a8" text-anchor="middle">这一讲走的是中间那条：预取</text>
+  <text x="375.0" y="281.7" font-size="12" fill="#6b21a8" text-anchor="middle">后两条都以处理器为中心，区别在于处理器是「提前拿到」还是「先干别的」</text>
+</svg>

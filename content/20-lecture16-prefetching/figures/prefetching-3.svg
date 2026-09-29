@@ -1,0 +1,36 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="2 13.0 810 312.0" width="810" height="312.0"
+     role="img" aria-labelledby="fig-prefetching-3-title fig-prefetching-3-desc">
+  <title id="fig-prefetching-3-title">预取的四个问题</title>
+  <desc id="fig-prefetching-3-desc">讲义用四个问题组织全部方案：取什么地址、什么时候发起、把数据放在哪、以及由谁来取。后面每一种预取器都可以被看成对这四个问题的一组回答。</desc>
+
+  <defs>
+    <style>
+      text { font-family: 'PingFang SC', 'Microsoft YaHei', 'Noto Sans CJK SC', system-ui, sans-serif; }
+    </style>
+    <marker id="arrow" markerWidth="8" markerHeight="8" refX="2" refY="4"
+            orient="auto" markerUnits="userSpaceOnUse">
+      <path d="M0,0 L8,4 L0,8 L2,4 z" fill="#64748b"/>
+    </marker>
+  </defs>
+
+  <rect x="2" y="13.0" width="810" height="312.0" fill="#ffffff"/>
+
+  <text x="407.0" y="48" font-size="16" font-weight="600" fill="#1f2937" text-anchor="middle">预取的四个问题</text>
+  <rect x="25" y="70" width="712" height="42" fill="#eff6ff" stroke="#3b82f6"/>
+  <text x="381.0" y="95.9" font-size="14" fill="#1e40af" text-anchor="middle">四个问题</text>
+  <rect x="25" y="138" width="170" height="68" fill="#fef3c7" stroke="#f59e0b"/>
+  <text x="110.0" y="167.7" font-size="15" fill="#b45309" text-anchor="middle">取什么</text>
+  <text x="110.0" y="185.7" font-size="12" fill="#b45309" text-anchor="middle">地址预测算法</text>
+  <rect x="223" y="138" width="170" height="68" fill="#fef3c7" stroke="#f59e0b"/>
+  <text x="308.0" y="167.7" font-size="15" fill="#b45309" text-anchor="middle">何时取</text>
+  <text x="308.0" y="185.7" font-size="12" fill="#b45309" text-anchor="middle">太早会白扔，太晚会来不及</text>
+  <rect x="421" y="138" width="170" height="68" fill="#fef3c7" stroke="#f59e0b"/>
+  <text x="506.0" y="167.7" font-size="15" fill="#b45309" text-anchor="middle">放哪里</text>
+  <text x="506.0" y="185.7" font-size="12" fill="#b45309" text-anchor="middle">进缓存还是单独缓冲</text>
+  <rect x="619" y="138" width="170" height="68" fill="#fef3c7" stroke="#f59e0b"/>
+  <text x="704.0" y="167.7" font-size="15" fill="#b45309" text-anchor="middle">谁来取</text>
+  <text x="704.0" y="185.7" font-size="12" fill="#b45309" text-anchor="middle">软件、硬件、执行导向</text>
+  <rect x="25" y="234" width="720" height="68" fill="#f3e8ff" stroke="#a855f7"/>
+  <text x="385.0" y="263.7" font-size="15" fill="#6b21a8" text-anchor="middle">这四个问题不是并列的清单，而是一组互相牵制的取舍</text>
+  <text x="385.0" y="281.7" font-size="12" fill="#6b21a8" text-anchor="middle">例如「何时取」太激进会污染缓存，而那其实是「放哪里」的代价</text>
+</svg>

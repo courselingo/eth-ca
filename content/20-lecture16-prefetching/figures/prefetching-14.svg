@@ -1,0 +1,30 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="2 13.0 876 312.0" width="876" height="312.0"
+     role="img" aria-labelledby="fig-prefetching-14-title fig-prefetching-14-desc">
+  <title id="fig-prefetching-14-title">把「取什么」交给学习：一个自优化的预取器</title>
+  <desc id="fig-prefetching-14-desc">讲义给了一个把预取写成强化学习问题的例子。状态是请求的特征（程序计数器、地址、相邻地址的差值等），动作是选一个预取偏移量，奖励则同时包含预取是否有用与系统层面的反馈（例如带宽用量）。</desc>
+
+  <defs>
+    <style>
+      text { font-family: 'PingFang SC', 'Microsoft YaHei', 'Noto Sans CJK SC', system-ui, sans-serif; }
+    </style>
+    <marker id="arrow" markerWidth="8" markerHeight="8" refX="2" refY="4"
+            orient="auto" markerUnits="userSpaceOnUse">
+      <path d="M0,0 L8,4 L0,8 L2,4 z" fill="#64748b"/>
+    </marker>
+  </defs>
+
+  <rect x="2" y="13.0" width="876" height="312.0" fill="#ffffff"/>
+
+  <text x="440.0" y="48" font-size="16" font-weight="600" fill="#1f2937" text-anchor="middle">把「取什么」交给学习：一个自优化的预取器</text>
+  <rect x="25" y="70" width="712" height="42" fill="#d1fae5" stroke="#22c55e"/>
+  <text x="381.0" y="95.9" font-size="14" fill="#166534" text-anchor="middle">把预取写成一个强化学习问题</text>
+  <rect x="25" y="138" width="340" height="68" fill="#dbeafe" stroke="#3b82f6"/>
+  <text x="195.0" y="167.7" font-size="15" fill="#1e40af" text-anchor="middle">状态与动作</text>
+  <text x="195.0" y="185.7" font-size="12" fill="#1e40af" text-anchor="middle">请求的特征，选一个偏移量</text>
+  <rect x="393" y="138" width="340" height="68" fill="#d1fae5" stroke="#22c55e"/>
+  <text x="563.0" y="167.7" font-size="15" fill="#166534" text-anchor="middle">奖励</text>
+  <text x="563.0" y="185.7" font-size="12" fill="#166534" text-anchor="middle">既看准不准，也看带宽与污染</text>
+  <rect x="25" y="234" width="830" height="68" fill="#f3e8ff" stroke="#a855f7"/>
+  <text x="440.0" y="263.7" font-size="15" fill="#6b21a8" text-anchor="middle">奖励里同时放这两样，是它比固定规则强的地方</text>
+  <text x="440.0" y="281.7" font-size="12" fill="#6b21a8" text-anchor="middle">而它也因此可以用同一个框架去换目标，不必为每个目标重写一套启发式</text>
+</svg>

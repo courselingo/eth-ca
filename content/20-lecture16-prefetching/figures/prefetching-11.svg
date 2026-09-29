@@ -1,0 +1,30 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="2 13.0 846 312.0" width="846" height="312.0"
+     role="img" aria-labelledby="fig-prefetching-11-title fig-prefetching-11-desc">
+  <title id="fig-prefetching-11-title">模式不规则时，改记「谁跟在谁后面」</title>
+  <desc id="fig-prefetching-11-desc">地址相关预取不再找步长，而是记下「访问了 A 之后，接下来更可能是 B、C、D」。它可以用一个马尔可夫模型来描述，也可以用（A, B）这样的多个地址做键来提高准确率。</desc>
+
+  <defs>
+    <style>
+      text { font-family: 'PingFang SC', 'Microsoft YaHei', 'Noto Sans CJK SC', system-ui, sans-serif; }
+    </style>
+    <marker id="arrow" markerWidth="8" markerHeight="8" refX="2" refY="4"
+            orient="auto" markerUnits="userSpaceOnUse">
+      <path d="M0,0 L8,4 L0,8 L2,4 z" fill="#64748b"/>
+    </marker>
+  </defs>
+
+  <rect x="2" y="13.0" width="846" height="312.0" fill="#ffffff"/>
+
+  <text x="425.0" y="48" font-size="16" font-weight="600" fill="#1f2937" text-anchor="middle">模式不规则时，改记「谁跟在谁后面」</text>
+  <rect x="25" y="70" width="712" height="42" fill="#d1fae5" stroke="#22c55e"/>
+  <text x="381.0" y="95.9" font-size="14" fill="#166534" text-anchor="middle">记「访问 A 之后更可能访问谁」</text>
+  <rect x="25" y="138" width="340" height="68" fill="#dbeafe" stroke="#3b82f6"/>
+  <text x="195.0" y="167.7" font-size="15" fill="#1e40af" text-anchor="middle">它放弃了什么</text>
+  <text x="195.0" y="185.7" font-size="12" fill="#1e40af" text-anchor="middle">放弃「模式有规律」这个假设</text>
+  <rect x="393" y="138" width="340" height="68" fill="#d1fae5" stroke="#22c55e"/>
+  <text x="563.0" y="167.7" font-size="15" fill="#166534" text-anchor="middle">它换来了什么</text>
+  <text x="563.0" y="185.7" font-size="12" fill="#166534" text-anchor="middle">不规则的重复序列也能预测</text>
+  <rect x="25" y="234" width="800" height="68" fill="#f3e8ff" stroke="#a855f7"/>
+  <text x="425.0" y="263.7" font-size="15" fill="#6b21a8" text-anchor="middle">它的适用前提从「地址成等差」换成了「地址成对出现」</text>
+  <text x="425.0" y="281.7" font-size="12" fill="#6b21a8" text-anchor="middle">而后者在真实的程序里往往也成立，只是需要一张表去记</text>
+</svg>

@@ -1,0 +1,30 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="2 13.0 886 312.0" width="886" height="312.0"
+     role="img" aria-labelledby="fig-prefetching-15-title fig-prefetching-15-desc">
+  <title id="fig-prefetching-15-title">最彻底的一类：把预取做成「先跑一段」</title>
+  <desc id="fig-prefetching-15-desc">执行导向预取不靠记录地址，而是真的把程序（或它的一部分）提前跑一遍，用跑出来的地址去做预取。runahead 是其中最省的一种：它不另开线程，而是趁长延迟未命中期间用主线程上下文往前跑。</desc>
+
+  <defs>
+    <style>
+      text { font-family: 'PingFang SC', 'Microsoft YaHei', 'Noto Sans CJK SC', system-ui, sans-serif; }
+    </style>
+    <marker id="arrow" markerWidth="8" markerHeight="8" refX="2" refY="4"
+            orient="auto" markerUnits="userSpaceOnUse">
+      <path d="M0,0 L8,4 L0,8 L2,4 z" fill="#64748b"/>
+    </marker>
+  </defs>
+
+  <rect x="2" y="13.0" width="886" height="312.0" fill="#ffffff"/>
+
+  <text x="445.0" y="48" font-size="16" font-weight="600" fill="#1f2937" text-anchor="middle">最彻底的一类：把预取做成「先跑一段」</text>
+  <rect x="25" y="70" width="712" height="42" fill="#d1fae5" stroke="#22c55e"/>
+  <text x="381.0" y="95.9" font-size="14" fill="#166534" text-anchor="middle">执行导向预取：先跑一段，拿它产生的地址去预取</text>
+  <rect x="25" y="138" width="340" height="68" fill="#fef3c7" stroke="#f59e0b"/>
+  <text x="195.0" y="167.7" font-size="15" fill="#b45309" text-anchor="middle">预执行</text>
+  <text x="195.0" y="185.7" font-size="12" fill="#b45309" text-anchor="middle">另开线程或另开上下文，先跑一段</text>
+  <rect x="393" y="138" width="340" height="68" fill="#fef3c7" stroke="#f59e0b"/>
+  <text x="563.0" y="167.7" font-size="15" fill="#b45309" text-anchor="middle">runahead</text>
+  <text x="563.0" y="185.7" font-size="12" fill="#b45309" text-anchor="middle">趁未命中期间用主线程上下文往前跑，再回滚</text>
+  <rect x="25" y="234" width="840" height="68" fill="#f3e8ff" stroke="#a855f7"/>
+  <text x="445.0" y="263.7" font-size="15" fill="#6b21a8" text-anchor="middle">它的优点是几乎能覆盖任何访问模式，而且顺着程序路径走</text>
+  <text x="445.0" y="281.7" font-size="12" fill="#6b21a8" text-anchor="middle">它的代价是依赖分支预测：预测错了，跑出来的地址就偏了</text>
+</svg>

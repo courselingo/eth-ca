@@ -1,0 +1,30 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="2 13.0 758 312.0" width="758" height="312.0"
+     role="img" aria-labelledby="fig-prefetching-2-title fig-prefetching-2-desc">
+  <title id="fig-prefetching-2-title">预取为什么能成立，以及它为什么安全</title>
+  <desc id="fig-prefetching-2-desc">想法很简单：在数据被用到之前先取回来。它成立的前提是程序的未命中地址有可预测的模式。而它有一个很好的性质：预测错了不影响正确性，取错的数据只是没人用而已。</desc>
+
+  <defs>
+    <style>
+      text { font-family: 'PingFang SC', 'Microsoft YaHei', 'Noto Sans CJK SC', system-ui, sans-serif; }
+    </style>
+    <marker id="arrow" markerWidth="8" markerHeight="8" refX="2" refY="4"
+            orient="auto" markerUnits="userSpaceOnUse">
+      <path d="M0,0 L8,4 L0,8 L2,4 z" fill="#64748b"/>
+    </marker>
+  </defs>
+
+  <rect x="2" y="13.0" width="758" height="312.0" fill="#ffffff"/>
+
+  <text x="381.0" y="48" font-size="16" font-weight="600" fill="#1f2937" text-anchor="middle">预取为什么能成立，以及它为什么安全</text>
+  <rect x="25" y="70" width="712" height="42" fill="#d1fae5" stroke="#22c55e"/>
+  <text x="381.0" y="95.9" font-size="14" fill="#166534" text-anchor="middle">提前取回来；预测错了只是白取</text>
+  <rect x="25" y="138" width="340" height="68" fill="#dbeafe" stroke="#3b82f6"/>
+  <text x="195.0" y="167.7" font-size="15" fill="#1e40af" text-anchor="middle">为什么能预取</text>
+  <text x="195.0" y="185.7" font-size="12" fill="#1e40af" text-anchor="middle">未命中地址的模式可以预测</text>
+  <rect x="393" y="138" width="340" height="68" fill="#d1fae5" stroke="#22c55e"/>
+  <text x="563.0" y="167.7" font-size="15" fill="#166534" text-anchor="middle">为什么安全</text>
+  <text x="563.0" y="185.7" font-size="12" fill="#166534" text-anchor="middle">取错的数据没人用，不必回滚状态</text>
+  <rect x="25" y="234" width="710" height="68" fill="#f3e8ff" stroke="#a855f7"/>
+  <text x="380.0" y="263.7" font-size="15" fill="#6b21a8" text-anchor="middle">第二条与分支预测、值预测形成鲜明对比：那些要回滚，这个不用</text>
+  <text x="380.0" y="281.7" font-size="12" fill="#6b21a8" text-anchor="middle">所以预取的代价不是正确性，而是带宽、缓存空间与能耗</text>
+</svg>

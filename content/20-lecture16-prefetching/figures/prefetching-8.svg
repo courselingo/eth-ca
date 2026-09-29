@@ -1,0 +1,30 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="2 13.0 816 312.0" width="816" height="312.0"
+     role="img" aria-labelledby="fig-prefetching-8-title fig-prefetching-8-desc">
+  <title id="fig-prefetching-8-title">不是所有模式都规整：按局部性预取</title>
+  <desc id="fig-prefetching-8-desc">很多程序的访问模式不是完美的步长，近处看起来像随机。局部性预取的做法是给一段地址范围维护多个跟踪项，先判断方向、再训练出流。</desc>
+
+  <defs>
+    <style>
+      text { font-family: 'PingFang SC', 'Microsoft YaHei', 'Noto Sans CJK SC', system-ui, sans-serif; }
+    </style>
+    <marker id="arrow" markerWidth="8" markerHeight="8" refX="2" refY="4"
+            orient="auto" markerUnits="userSpaceOnUse">
+      <path d="M0,0 L8,4 L0,8 L2,4 z" fill="#64748b"/>
+    </marker>
+  </defs>
+
+  <rect x="2" y="13.0" width="816" height="312.0" fill="#ffffff"/>
+
+  <text x="410.0" y="48" font-size="16" font-weight="600" fill="#1f2937" text-anchor="middle">不是所有模式都规整：按局部性预取</text>
+  <rect x="25" y="70" width="712" height="42" fill="#d1fae5" stroke="#22c55e"/>
+  <text x="381.0" y="95.9" font-size="14" fill="#166534" text-anchor="middle">给一段地址范围维护多个跟踪项</text>
+  <rect x="25" y="138" width="340" height="68" fill="#dbeafe" stroke="#3b82f6"/>
+  <text x="195.0" y="167.7" font-size="15" fill="#1e40af" text-anchor="middle">跟踪项的状态</text>
+  <text x="195.0" y="185.7" font-size="12" fill="#1e40af" text-anchor="middle">未分配、已分配、训练中</text>
+  <rect x="393" y="138" width="340" height="68" fill="#fce7f3" stroke="#ec4899"/>
+  <text x="563.0" y="167.7" font-size="15" fill="#9d174d" text-anchor="middle">它要解决什么</text>
+  <text x="563.0" y="185.7" font-size="12" fill="#9d174d" text-anchor="middle">近处像随机的那些访问</text>
+  <rect x="25" y="234" width="770" height="68" fill="#f3e8ff" stroke="#a855f7"/>
+  <text x="410.0" y="263.7" font-size="15" fill="#6b21a8" text-anchor="middle">从「一条流一个缓冲区」到「一段范围多个跟踪项」，粒度从流变成了范围</text>
+  <text x="410.0" y="281.7" font-size="12" fill="#6b21a8" text-anchor="middle">这也是后面那些更复杂方案共同的走向：粒度越来越细、状态越来越多</text>
+</svg>
