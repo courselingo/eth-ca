@@ -378,3 +378,71 @@ key = "fairness"
 zh = "公平"
 en = "fairness"
 note = "在共享资源上让各线程的减速比接近，通常按相对单独运行时的减速比衡量"
+
+# ---- 第 23 讲（Lecture 19: Cache Coherence）新增：多处理器里两份副本的一致 ----
+
+[[term]]
+key = "memory-consistency"
+zh = "内存一致性"
+en = "memory consistency"
+note = "不同处理器对**全部**内存地址的操作之间的顺序，也就是一个全局的顺序；写在 ISA 里"
+
+[[term]]
+key = "cache-coherence"
+zh = "缓存一致性"
+en = "cache coherence"
+note = "不同处理器对**同一个**内存地址的操作之间的顺序，也就是每个缓存块上的局部顺序"
+
+[[term]]
+key = "shared-memory"
+zh = "共享内存"
+en = "shared memory"
+note = "所有处理器看到同一个全局地址空间，靠读写隐式通信；与消息传递相对"
+
+[[term]]
+key = "snoopy-bus"
+zh = "监听总线"
+en = "snoopy bus"
+note = "所有缓存都监听别的缓存的读写请求；串行化集中在那条总线上，靠广播保持一致"
+
+[[term]]
+key = "directory-protocol"
+zh = "目录协议"
+en = "directory protocol"
+note = "由一个逻辑上集中的目录记录每个块的副本在哪里；串行化点按块分散到各节点，作废是显式的"
+
+[[term]]
+key = "coherence-metadata"
+zh = "一致性元数据"
+en = "coherence metadata"
+note = "跟每个缓存块存在一起的那份状态记录（例如验证、无效、独占），一致性协议靠它决定动作"
+
+[[term]]
+key = "MSI"
+zh = "MSI 协议"
+en = "MSI"
+note = "每个块三个状态的一致性协议：已修改（唯一副本且是脏的）、共享（可能是若干份之一且干净）、无效"
+
+[[term]]
+key = "MESI"
+zh = "MESI 协议"
+en = "MESI"
+note = "在 MSI 之上加一个独占态，表示这一份是唯一副本而且干净；写的时候可以从独占静默变成已修改。也叫 Illinois 协议"
+
+[[term]]
+key = "MOESI"
+zh = "MOESI 协议"
+en = "MOESI"
+note = "在 MESI 之上加一个属主状态：由它持有最新数据、内存不更新，等所有副本都被驱逐时再写回内存"
+
+[[term]]
+key = "silent-transition"
+zh = "静默转换"
+en = "silent transition"
+note = "不需要通知任何其他缓存的协议状态转换，例如独占态到已修改态"
+
+[[term]]
+key = "transactional-memory"
+zh = "事务内存"
+en = "transactional memory"
+note = "让程序员把一段代码声明成原子执行的事务，硬件或软件保证全做或全不做；属于乐观并发"

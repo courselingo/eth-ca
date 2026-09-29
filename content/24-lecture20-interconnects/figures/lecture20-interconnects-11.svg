@@ -1,0 +1,51 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="2 13 786 346" width="786" height="346"
+     role="img" aria-labelledby="fig-lecture20-interconnects-11-title fig-lecture20-interconnects-11-desc">
+  <title id="fig-lecture20-interconnects-11-title">死锁的成因、四种处置与两条平衡负载的路</title>
+  <desc id="fig-lecture20-interconnects-11-desc">上面一格是死锁的成因：资源的循环依赖，每个包都在等下游另一个包占着的缓冲。中间四格是四种处置：让路由不成环、限制包能做的转弯、加缓冲做逃逸路径、检测到之后打破它。下面两格是平衡负载的两条思路：Valiant 算法随机选一个中间目的地绕一下，以及两种自适应路由。</desc>
+
+  <defs>
+    <style>
+      text { font-family: 'PingFang SC', 'Microsoft YaHei', 'Noto Sans CJK SC', system-ui, sans-serif; }
+    </style>
+    <marker id="arrow" markerWidth="8" markerHeight="8" refX="2" refY="4"
+            orient="auto" markerUnits="userSpaceOnUse">
+      <path d="M0,0 L8,4 L0,8 L2,4 z" fill="#64748b"/>
+    </marker>
+  </defs>
+
+  <rect x="2" y="13" width="786" height="346" fill="#ffffff"/>
+
+  <text x="395" y="48" font-size="16" font-weight="600" fill="#1f2937" text-anchor="middle">死锁的成因、四种处置与两条平衡负载的路</text>
+
+  <rect x="25" y="70" width="740" height="54" fill="#fce7f3" stroke="#ec4899"/>
+  <text x="395" y="92.2" font-size="12" fill="#9d174d" text-anchor="middle">死锁：网络里没有前进（p67）</text>
+  <text x="395" y="110.2" font-size="12" fill="#9d174d" text-anchor="middle">成因是资源的循环依赖，每个包都在等下游另一个包占着的缓冲</text>
+  <rect x="25" y="149" width="164" height="90" fill="#fce7f3" stroke="#ec4899"/>
+  <text x="107" y="171.2" font-size="12" fill="#9d174d" text-anchor="middle">处置一</text>
+  <text x="107" y="189.2" font-size="12" fill="#9d174d" text-anchor="middle">让路由不成环</text>
+  <text x="107" y="207.2" font-size="12" fill="#9d174d" text-anchor="middle">比如维序路由</text>
+  <text x="107" y="225.2" font-size="12" fill="#9d174d" text-anchor="middle">资源分配里不会出现环</text>
+  <rect x="217" y="149" width="164" height="90" fill="#fce7f3" stroke="#ec4899"/>
+  <text x="299" y="171.2" font-size="12" fill="#9d174d" text-anchor="middle">处置二</text>
+  <text x="299" y="189.2" font-size="12" fill="#9d174d" text-anchor="middle">限制包能做的转弯</text>
+  <text x="299" y="207.2" font-size="12" fill="#9d174d" text-anchor="middle">turn model</text>
+  <text x="299" y="225.2" font-size="12" fill="#9d174d" text-anchor="middle">只禁掉刚好够的那几个</text>
+  <rect x="409" y="149" width="164" height="90" fill="#fce7f3" stroke="#ec4899"/>
+  <text x="491" y="171.2" font-size="12" fill="#9d174d" text-anchor="middle">处置三</text>
+  <text x="491" y="189.2" font-size="12" fill="#9d174d" text-anchor="middle">加缓冲做逃逸路径</text>
+  <text x="491" y="207.2" font-size="12" fill="#9d174d" text-anchor="middle">给包留一条退路</text>
+  <text x="491" y="225.2" font-size="12" fill="#9d174d" text-anchor="middle">也就是逃逸通道</text>
+  <rect x="601" y="149" width="164" height="90" fill="#fce7f3" stroke="#ec4899"/>
+  <text x="683" y="171.2" font-size="12" fill="#9d174d" text-anchor="middle">处置四</text>
+  <text x="683" y="189.2" font-size="12" fill="#9d174d" text-anchor="middle">检测到之后打破它</text>
+  <text x="683" y="207.2" font-size="12" fill="#9d174d" text-anchor="middle">比如抢占缓冲</text>
+  <text x="683" y="225.2" font-size="12" fill="#9d174d" text-anchor="middle">把循环依赖打断</text>
+  <rect x="25" y="264" width="340" height="72" fill="#f3e8ff" stroke="#a855f7"/>
+  <text x="195" y="286.2" font-size="12" fill="#6b21a8" text-anchor="middle">无关路由：Valiant 算法（p70）</text>
+  <text x="195" y="304.2" font-size="12" fill="#6b21a8" text-anchor="middle">随机选一个中间目的地，先路由到那里</text>
+  <text x="195" y="322.2" font-size="12" fill="#6b21a8" text-anchor="middle">好处是负载随机化，坏处是路径不再最小</text>
+  <rect x="395" y="264" width="340" height="72" fill="#f3e8ff" stroke="#a855f7"/>
+  <text x="565" y="286.2" font-size="12" fill="#6b21a8" text-anchor="middle">自适应路由的两种（p72）</text>
+  <text x="565" y="304.2" font-size="12" fill="#6b21a8" text-anchor="middle">最小自适应看下游缓冲占用挑有产力的端口</text>
+  <text x="565" y="322.2" font-size="12" fill="#6b21a8" text-anchor="middle">完全非最小自适应会故意「误送」以避免活锁</text>
+</svg>

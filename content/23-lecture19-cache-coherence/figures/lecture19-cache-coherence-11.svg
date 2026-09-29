@@ -1,0 +1,39 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 760 275.5" width="760" height="275.5"
+     role="img" aria-labelledby="fig-lecture19-cache-coherence-11-title fig-lecture19-cache-coherence-11-desc">
+  <title id="fig-lecture19-cache-coherence-11-title">那个目录算例：每一步的数字都能自己算一遍</title>
+  <desc id="fig-lecture19-cache-coherence-11-desc">上排四格是算例的四个输入：地址空间 32 GB、块 128 字节、节点 32 个，以及由此得到的每节点 2 的 23 次方块。中间两格是每节点的目录存储 200 MB与每块的目录存储 200 位。最下面一条是结论：每个条目 P+1 位，所以 P 等于 199。</desc>
+
+  <defs>
+    <style>
+      text { font-family: 'PingFang SC', 'Microsoft YaHei', 'Noto Sans CJK SC', system-ui, sans-serif; }
+    </style>
+    <marker id="arrow" markerWidth="8" markerHeight="8" refX="2" refY="4"
+            orient="auto" markerUnits="userSpaceOnUse">
+      <path d="M0,0 L8,4 L0,8 L2,4 z" fill="#64748b"/>
+    </marker>
+  </defs>
+
+  <rect x="0" y="0" width="760" height="275.5" fill="#ffffff"/>
+
+  <text x="380" y="34" font-size="16" font-weight="600" fill="#1f2937" text-anchor="middle">那个目录算例：每一步的数字都能自己算一遍</text>
+  <rect x="25" y="64" width="158.75" height="45" rx="6" fill="#dbeafe" stroke="#3b82f6"/>
+  <text x="104.375" y="82.5" font-size="10" fill="#1e40af" text-anchor="middle">地址空间</text>
+  <text x="104.375" y="97.5" font-size="10" fill="#1e40af" text-anchor="middle">32 GB</text>
+  <rect x="208.75" y="64" width="158.75" height="45" rx="6" fill="#dbeafe" stroke="#3b82f6"/>
+  <text x="288.125" y="82.5" font-size="10" fill="#1e40af" text-anchor="middle">块大小</text>
+  <text x="288.125" y="97.5" font-size="10" fill="#1e40af" text-anchor="middle">128 字节</text>
+  <rect x="392.5" y="64" width="158.75" height="45" rx="6" fill="#dbeafe" stroke="#3b82f6"/>
+  <text x="471.875" y="82.5" font-size="10" fill="#1e40af" text-anchor="middle">节点数</text>
+  <text x="471.875" y="97.5" font-size="10" fill="#1e40af" text-anchor="middle">32 个</text>
+  <rect x="576.25" y="64" width="158.75" height="45" rx="6" fill="#dbeafe" stroke="#3b82f6"/>
+  <text x="655.625" y="82.5" font-size="10" fill="#1e40af" text-anchor="middle">每节点块数</text>
+  <text x="655.625" y="97.5" font-size="10" fill="#1e40af" text-anchor="middle">2 的 23 次方</text>
+  <rect x="25" y="137" width="342.5" height="49.5" rx="6" fill="#f3e8ff" stroke="#a855f7"/>
+  <text x="196.25" y="157.35" font-size="11" fill="#6b21a8" text-anchor="middle">每节点目录 200 MB</text>
+  <text x="196.25" y="173.85" font-size="11" fill="#6b21a8" text-anchor="middle">25 乘 2 的 23 次方字节</text>
+  <rect x="392.5" y="137" width="342.5" height="49.5" rx="6" fill="#f3e8ff" stroke="#a855f7"/>
+  <text x="563.75" y="157.35" font-size="11" fill="#6b21a8" text-anchor="middle">每块目录 200 位</text>
+  <text x="563.75" y="173.85" font-size="11" fill="#6b21a8" text-anchor="middle">25 乘 2 的 26 次方位除以 2 的 23 次方块</text>
+  <rect x="25" y="214.5" width="710" height="36" rx="6" fill="#d1fae5" stroke="#22c55e"/>
+  <text x="380" y="236.7" font-size="12" fill="#166534" text-anchor="middle">每个条目 P+1 位，所以 P+1 等于 200，P 等于 199（p69）</text>
+</svg>

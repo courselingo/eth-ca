@@ -1,0 +1,32 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 760 262" width="760" height="262"
+     role="img" aria-labelledby="fig-lecture19-cache-coherence-10-title fig-lecture19-cache-coherence-10-desc">
+  <title id="fig-lecture19-cache-coherence-10-title">目录那一侧：记什么、查什么、怎么扩展</title>
+  <desc id="fig-lecture19-cache-coherence-10-desc">上排三格是讲义第 58 页到第 67 页讲的三个问题：记什么（每个块 P+1 位）、查什么（一次集合包含测试）、怎么扩展（讲义列了四个问题）。下面两条依次是 P+1 位与它列出的两项对得上，以及第 61 页对假阳性的态度与几种数据结构。</desc>
+
+  <defs>
+    <style>
+      text { font-family: 'PingFang SC', 'Microsoft YaHei', 'Noto Sans CJK SC', system-ui, sans-serif; }
+    </style>
+    <marker id="arrow" markerWidth="8" markerHeight="8" refX="2" refY="4"
+            orient="auto" markerUnits="userSpaceOnUse">
+      <path d="M0,0 L8,4 L0,8 L2,4 z" fill="#64748b"/>
+    </marker>
+  </defs>
+
+  <rect x="0" y="0" width="760" height="262" fill="#ffffff"/>
+
+  <text x="380" y="34" font-size="16" font-weight="600" fill="#1f2937" text-anchor="middle">目录那一侧：记什么、查什么、怎么扩展</text>
+  <rect x="25" y="64" width="220" height="45" rx="6" fill="#dbeafe" stroke="#3b82f6"/>
+  <text x="135" y="82.5" font-size="10" fill="#1e40af" text-anchor="middle">记什么</text>
+  <text x="135" y="97.5" font-size="10" fill="#1e40af" text-anchor="middle">每个块 P+1 位</text>
+  <rect x="270" y="64" width="220" height="45" rx="6" fill="#dbeafe" stroke="#3b82f6"/>
+  <text x="380" y="82.5" font-size="10" fill="#1e40af" text-anchor="middle">查什么</text>
+  <text x="380" y="97.5" font-size="10" fill="#1e40af" text-anchor="middle">一次集合包含测试</text>
+  <rect x="515" y="64" width="220" height="45" rx="6" fill="#dbeafe" stroke="#3b82f6"/>
+  <text x="625" y="82.5" font-size="10" fill="#1e40af" text-anchor="middle">怎么扩展</text>
+  <text x="625" y="97.5" font-size="10" fill="#1e40af" text-anchor="middle">讲义列了四个问题</text>
+  <rect x="25" y="137" width="710" height="36" rx="6" fill="#dbeafe" stroke="#3b82f6"/>
+  <text x="380" y="159.2" font-size="12" fill="#1e40af" text-anchor="middle">P 个缓存各一位，再加一个独占位，正好 P+1（p58）</text>
+  <rect x="25" y="201" width="710" height="36" rx="6" fill="#d1fae5" stroke="#22c55e"/>
+  <text x="380" y="223.2" font-size="12" fill="#166534" text-anchor="middle">假阳性可以接受，它只决定性能；完整位向量最精确，压缩、链表与布隆过滤器都可能（p61）</text>
+</svg>

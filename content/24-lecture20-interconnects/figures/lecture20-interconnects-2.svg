@@ -1,0 +1,37 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="2 13 786 319" width="786" height="319"
+     role="img" aria-labelledby="fig-lecture20-interconnects-2-title fig-lecture20-interconnects-2-desc">
+  <title id="fig-lecture20-interconnects-2-title">两种一致性方法对底下那张网提出的要求</title>
+  <desc id="fig-lecture20-interconnects-2-desc">左边是 snoopy：它把所有内存请求的串行化集中在一个点上，所以要求网提供全序广播，要扩展就得有一条虚拟总线。右边是 directory：它按块把串行化责任分散到各节点，只需要点对点通信，可扩展性与互连和目录存储同量级。下面一格是这两种要求带来的后果。</desc>
+
+  <defs>
+    <style>
+      text { font-family: 'PingFang SC', 'Microsoft YaHei', 'Noto Sans CJK SC', system-ui, sans-serif; }
+    </style>
+    <marker id="arrow" markerWidth="8" markerHeight="8" refX="2" refY="4"
+            orient="auto" markerUnits="userSpaceOnUse">
+      <path d="M0,0 L8,4 L0,8 L2,4 z" fill="#64748b"/>
+    </marker>
+  </defs>
+
+  <rect x="2" y="13" width="786" height="319" fill="#ffffff"/>
+
+  <text x="395" y="48" font-size="16" font-weight="600" fill="#1f2937" text-anchor="middle">两种一致性方法对底下那张网提出的要求</text>
+
+  <rect x="25" y="70" width="340" height="63" fill="#dbeafe" stroke="#3b82f6"/>
+  <text x="195" y="95.9" font-size="14" fill="#1e40af" text-anchor="middle">snoopy：基于总线</text>
+  <text x="195" y="116.9" font-size="14" fill="#1e40af" text-anchor="middle">所有内存请求在一个点上串行化</text>
+  <rect x="395" y="70" width="340" height="63" fill="#dbeafe" stroke="#3b82f6"/>
+  <text x="565" y="95.9" font-size="14" fill="#1e40af" text-anchor="middle">directory：按块分散</text>
+  <text x="565" y="116.9" font-size="14" fill="#1e40af" text-anchor="middle">目录记录谁持有每个块并协调作废</text>
+  <rect x="25" y="158" width="340" height="72" fill="#fce7f3" stroke="#ec4899"/>
+  <text x="195" y="180.2" font-size="12" fill="#9d174d" text-anchor="middle">它对网的要求：全序广播</text>
+  <text x="195" y="198.2" font-size="12" fill="#9d174d" text-anchor="middle">广播要被所有缓存以同一顺序看到</text>
+  <text x="195" y="216.2" font-size="12" fill="#9d174d" text-anchor="middle">要扩展就得有一条虚拟总线</text>
+  <rect x="395" y="158" width="340" height="72" fill="#fce7f3" stroke="#ec4899"/>
+  <text x="565" y="180.2" font-size="12" fill="#9d174d" text-anchor="middle">它对网的要求：点对点</text>
+  <text x="565" y="198.2" font-size="12" fill="#9d174d" text-anchor="middle">不需要广播，只要源到目的的通信</text>
+  <text x="565" y="216.2" font-size="12" fill="#9d174d" text-anchor="middle">可扩展性与互连和目录存储同量级</text>
+  <rect x="25" y="255" width="740" height="54" fill="#f3e8ff" stroke="#a855f7"/>
+  <text x="395" y="277.2" font-size="12" fill="#6b21a8" text-anchor="middle">两种要求对应后面完全不同的拓扑与流控选择</text>
+  <text x="395" y="295.2" font-size="12" fill="#6b21a8" text-anchor="middle">拓扑决定能不能提供全序广播，流控决定高负载下还能不能维持</text>
+</svg>

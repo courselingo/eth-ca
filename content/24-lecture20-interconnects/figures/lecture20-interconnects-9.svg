@@ -1,0 +1,53 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="2 13 786 303" width="786" height="303"
+     role="img" aria-labelledby="fig-lecture20-interconnects-9-title fig-lecture20-interconnects-9-desc">
+  <title id="fig-lecture20-interconnects-9-title">直接拓扑这一侧的六种</title>
+  <desc id="fig-lecture20-interconnects-9-desc">六种直接拓扑各给出成本与延迟两个量，并标出讲义点到的真实系统。环与网格的成本都是 O(N)，延迟分别是 O(N) 与 O(√N)；环面在边缘对称性上比网格好；树与胖树和超立方的延迟都是 O(log N)。</desc>
+
+  <defs>
+    <style>
+      text { font-family: 'PingFang SC', 'Microsoft YaHei', 'Noto Sans CJK SC', system-ui, sans-serif; }
+    </style>
+    <marker id="arrow" markerWidth="8" markerHeight="8" refX="2" refY="4"
+            orient="auto" markerUnits="userSpaceOnUse">
+      <path d="M0,0 L8,4 L0,8 L2,4 z" fill="#64748b"/>
+    </marker>
+  </defs>
+
+  <rect x="2" y="13" width="786" height="303" fill="#ffffff"/>
+
+  <text x="395" y="48" font-size="16" font-weight="600" fill="#1f2937" text-anchor="middle">直接拓扑这一侧的六种</text>
+
+  <rect x="25" y="70" width="228" height="90" fill="#dbeafe" stroke="#3b82f6"/>
+  <text x="139" y="92.2" font-size="12" fill="#1e40af" text-anchor="middle">环（p46）</text>
+  <text x="139" y="110.2" font-size="12" fill="#1e40af" text-anchor="middle">成本 O(N)，延迟 O(N)</text>
+  <text x="139" y="128.2" font-size="12" fill="#1e40af" text-anchor="middle">便宜但不易扩展；二分带宽是常数</text>
+  <text x="139" y="146.2" font-size="12" fill="#1e40af" text-anchor="middle">用在 Haswell、Larrabee、Cell 上</text>
+  <rect x="281" y="70" width="228" height="90" fill="#dbeafe" stroke="#3b82f6"/>
+  <text x="395" y="92.2" font-size="12" fill="#1e40af" text-anchor="middle">层次环</text>
+  <text x="395" y="110.2" font-size="12" fill="#1e40af" text-anchor="middle">更可扩展、延迟更低</text>
+  <text x="395" y="128.2" font-size="12" fill="#1e40af" text-anchor="middle">代价是更复杂</text>
+  <text x="395" y="146.2" font-size="12" fill="#1e40af" text-anchor="middle">第 49 页的例子是 Alder Lake</text>
+  <rect x="537" y="70" width="228" height="90" fill="#dbeafe" stroke="#3b82f6"/>
+  <text x="651" y="92.2" font-size="12" fill="#1e40af" text-anchor="middle">网格（p54）</text>
+  <text x="651" y="110.2" font-size="12" fill="#1e40af" text-anchor="middle">成本 O(N)，平均延迟 O(√N)</text>
+  <text x="651" y="128.2" font-size="12" fill="#1e40af" text-anchor="middle">片上容易布局，链路规则而且等长</text>
+  <text x="651" y="146.2" font-size="12" fill="#1e40af" text-anchor="middle">用在 Tilera 的 100 核芯片上</text>
+  <rect x="25" y="185" width="228" height="108" fill="#d1fae5" stroke="#22c55e"/>
+  <text x="139" y="207.2" font-size="12" fill="#166534" text-anchor="middle">环面（p55）</text>
+  <text x="139" y="225.2" font-size="12" fill="#166534" text-anchor="middle">路径多样性与二分带宽都比网格高</text>
+  <text x="139" y="243.2" font-size="12" fill="#166534" text-anchor="middle">代价：成本更高、片上更难布局</text>
+  <text x="139" y="261.2" font-size="12" fill="#166534" text-anchor="middle">链路长度也不相等</text>
+  <text x="139" y="279.2" font-size="12" fill="#166534" text-anchor="middle">解决网格在边缘的不对称</text>
+  <rect x="281" y="185" width="228" height="108" fill="#d1fae5" stroke="#22c55e"/>
+  <text x="395" y="207.2" font-size="12" fill="#166534" text-anchor="middle">树与胖树（p57）</text>
+  <text x="395" y="225.2" font-size="12" fill="#166534" text-anchor="middle">延迟 O(log N)，成本 O(N)</text>
+  <text x="395" y="243.2" font-size="12" fill="#166534" text-anchor="middle">适合局部流量，根可能成瓶颈</text>
+  <text x="395" y="261.2" font-size="12" fill="#166534" text-anchor="middle">胖树为避免这个问题而生，CM-5 用它</text>
+  <text x="395" y="279.2" font-size="12" fill="#166534" text-anchor="middle">第 58 页：4x2 开关与硬件合并</text>
+  <rect x="537" y="185" width="228" height="108" fill="#d1fae5" stroke="#22c55e"/>
+  <text x="651" y="207.2" font-size="12" fill="#166534" text-anchor="middle">超立方（p60）</text>
+  <text x="651" y="225.2" font-size="12" fill="#166534" text-anchor="middle">N 维立方，延迟 O(log N)</text>
+  <text x="651" y="243.2" font-size="12" fill="#166534" text-anchor="middle">路由器元数 O(log N)</text>
+  <text x="651" y="261.2" font-size="12" fill="#166534" text-anchor="middle">链路数 O(N log N)</text>
+  <text x="651" y="279.2" font-size="12" fill="#166534" text-anchor="middle">Caltech 的 Cosmic Cube</text>
+</svg>

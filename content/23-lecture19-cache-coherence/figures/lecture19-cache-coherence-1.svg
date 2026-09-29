@@ -1,0 +1,31 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 760 330.5" width="760" height="330.5"
+     role="img" aria-labelledby="fig-lecture19-cache-coherence-1-title fig-lecture19-cache-coherence-1-desc">
+  <title id="fig-lecture19-cache-coherence-1-title">本讲的起点：共享内存里的通信，以及缓存插进来之后多出的那一问</title>
+  <desc id="fig-lecture19-cache-coherence-1-desc">上面一条是通信的原始形态：一个处理器写，另一个处理器随后读。中间两格是讲义给出的要求（每一次读都拿到别人最后写入的值）与它括号里的追问（最后写入是什么意思）。下面两条是这一讲的入口与第 16 页那句问话：如果这个地址被缓存了呢，多个处理器缓存同一个块时怎么保证看到同一个状态。</desc>
+
+  <defs>
+    <style>
+      text { font-family: 'PingFang SC', 'Microsoft YaHei', 'Noto Sans CJK SC', system-ui, sans-serif; }
+    </style>
+    <marker id="arrow" markerWidth="8" markerHeight="8" refX="2" refY="4"
+            orient="auto" markerUnits="userSpaceOnUse">
+      <path d="M0,0 L8,4 L0,8 L2,4 z" fill="#64748b"/>
+    </marker>
+  </defs>
+
+  <rect x="0" y="0" width="760" height="330.5" fill="#ffffff"/>
+
+  <text x="380" y="34" font-size="16" font-weight="600" fill="#1f2937" text-anchor="middle">本讲的起点：共享内存里的通信，以及缓存插进来之后多出的那一问</text>
+  <rect x="25" y="64" width="710" height="36" rx="6" fill="#dbeafe" stroke="#3b82f6"/>
+  <text x="380" y="86.2" font-size="12" fill="#1e40af" text-anchor="middle">起点：很多并行程序靠共享内存通信（p15）</text>
+  <rect x="25" y="128" width="342.5" height="49.5" rx="6" fill="#dbeafe" stroke="#3b82f6"/>
+  <text x="196.25" y="148.35" font-size="11" fill="#1e40af" text-anchor="middle">一个处理器写，另一个</text>
+  <text x="196.25" y="164.85" font-size="11" fill="#1e40af" text-anchor="middle">随后读，这就是一次通信</text>
+  <rect x="392.5" y="128" width="342.5" height="49.5" rx="6" fill="#dbeafe" stroke="#3b82f6"/>
+  <text x="563.75" y="148.35" font-size="11" fill="#1e40af" text-anchor="middle">讲义的要求：每一次读都</text>
+  <text x="563.75" y="164.85" font-size="11" fill="#1e40af" text-anchor="middle">拿到别人最后写入的那个值</text>
+  <rect x="25" y="205.5" width="710" height="36" rx="6" fill="#fef3c7" stroke="#f59e0b"/>
+  <text x="380" y="227.7" font-size="12" fill="#b45309" text-anchor="middle">括号里的追问：「最后写入」是什么意思，这需要同步才能定义（p15）</text>
+  <rect x="25" y="269.5" width="710" height="36" rx="6" fill="#d1fae5" stroke="#22c55e"/>
+  <text x="380" y="291.7" font-size="12" fill="#166534" text-anchor="middle">入口：如果这个地址在两端各自被缓存了呢（p15）；第 16 页把问题写成一句问话</text>
+</svg>

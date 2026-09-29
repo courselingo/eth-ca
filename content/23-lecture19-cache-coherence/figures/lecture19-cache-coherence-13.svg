@@ -1,0 +1,32 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 760 262" width="760" height="262"
+     role="img" aria-labelledby="fig-lecture19-cache-coherence-13-title fig-lecture19-cache-coherence-13-desc">
+  <title id="fig-lecture19-cache-coherence-13-title">CoNDA：三条观察、三种既有机制、两个成绩</title>
+  <desc id="fig-lecture19-cache-coherence-13-desc">上排三格是这篇材料的骨架：三条观察（抹掉收益、片外流量多不必要、有洞察就能消掉）、三种既有机制（不可缓存、粗粒度、细粒度），以及做法（乐观执行加签名加冲突解决）。下面两条依次是三种既有机制的代价，与 CoNDA 自己的两个成绩。</desc>
+
+  <defs>
+    <style>
+      text { font-family: 'PingFang SC', 'Microsoft YaHei', 'Noto Sans CJK SC', system-ui, sans-serif; }
+    </style>
+    <marker id="arrow" markerWidth="8" markerHeight="8" refX="2" refY="4"
+            orient="auto" markerUnits="userSpaceOnUse">
+      <path d="M0,0 L8,4 L0,8 L2,4 z" fill="#64748b"/>
+    </marker>
+  </defs>
+
+  <rect x="0" y="0" width="760" height="262" fill="#ffffff"/>
+
+  <text x="380" y="34" font-size="16" font-weight="600" fill="#1f2937" text-anchor="middle">CoNDA：三条观察、三种既有机制、两个成绩</text>
+  <rect x="25" y="64" width="220" height="45" rx="6" fill="#f3e8ff" stroke="#a855f7"/>
+  <text x="135" y="82.5" font-size="10" fill="#6b21a8" text-anchor="middle">三条观察</text>
+  <text x="135" y="97.5" font-size="10" fill="#6b21a8" text-anchor="middle">抹掉收益、流量多不必要、有洞察就能消掉</text>
+  <rect x="270" y="64" width="220" height="45" rx="6" fill="#f3e8ff" stroke="#a855f7"/>
+  <text x="380" y="82.5" font-size="10" fill="#6b21a8" text-anchor="middle">三种既有机制</text>
+  <text x="380" y="97.5" font-size="10" fill="#6b21a8" text-anchor="middle">不可缓存、粗粒度、细粒度</text>
+  <rect x="515" y="64" width="220" height="45" rx="6" fill="#f3e8ff" stroke="#a855f7"/>
+  <text x="625" y="82.5" font-size="10" fill="#6b21a8" text-anchor="middle">做法</text>
+  <text x="625" y="97.5" font-size="10" fill="#6b21a8" text-anchor="middle">乐观执行加签名加冲突解决</text>
+  <rect x="25" y="137" width="710" height="36" rx="6" fill="#fef3c7" stroke="#f59e0b"/>
+  <text x="380" y="159.2" font-size="12" fill="#b45309" text-anchor="middle">代价：NC 比只用 CPU 差 6.0%，CG 差 0.4%，FG 抹掉理想机制 71.8% 的能耗收益</text>
+  <rect x="25" y="201" width="710" height="36" rx="6" fill="#d1fae5" stroke="#22c55e"/>
+  <text x="380" y="223.2" font-size="12" fill="#166534" text-anchor="middle">成绩：性能落在理想的 10.4% 以内，能耗落在 4.4% 以内（p82、p116）</text>
+</svg>

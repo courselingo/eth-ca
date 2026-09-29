@@ -1,0 +1,36 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="2 13 786 285" width="786" height="285"
+     role="img" aria-labelledby="fig-lecture20-interconnects-16-title fig-lecture20-interconnects-16-desc">
+  <title id="fig-lecture20-interconnects-16-title">网格与环面：边缘对称性与布局代价</title>
+  <desc id="fig-lecture20-interconnects-16-desc">网格给每个节点连上北东南西四个邻居，成本 O(N)、平均延迟 O(√N)，链路规则而且等长，在片上容易布局，路径多样性也好，被用在 Tilera 的 100 核芯片上。环面解决的是网格在边缘不对称的问题：网格的性能对任务被放在边缘还是中间很敏感，环面的路径多样性与二分带宽都比网格高，代价是成本更高、片上更难布局、链路长度也不相等。</desc>
+
+  <defs>
+    <style>
+      text { font-family: 'PingFang SC', 'Microsoft YaHei', 'Noto Sans CJK SC', system-ui, sans-serif; }
+    </style>
+    <marker id="arrow" markerWidth="8" markerHeight="8" refX="2" refY="4"
+            orient="auto" markerUnits="userSpaceOnUse">
+      <path d="M0,0 L8,4 L0,8 L2,4 z" fill="#64748b"/>
+    </marker>
+  </defs>
+
+  <rect x="2" y="13" width="786" height="285" fill="#ffffff"/>
+
+  <text x="395" y="48" font-size="16" font-weight="600" fill="#1f2937" text-anchor="middle">网格与环面：边缘对称性与布局代价</text>
+
+  <rect x="25" y="70" width="340" height="108" fill="#dbeafe" stroke="#3b82f6"/>
+  <text x="195" y="92.2" font-size="12" fill="#1e40af" text-anchor="middle">网格（p54）</text>
+  <text x="195" y="110.2" font-size="12" fill="#1e40af" text-anchor="middle">成本 O(N)，平均延迟 O(√N)</text>
+  <text x="195" y="128.2" font-size="12" fill="#1e40af" text-anchor="middle">链路规则而且等长，路径多样性也好</text>
+  <text x="195" y="146.2" font-size="12" fill="#1e40af" text-anchor="middle">在片上容易布局</text>
+  <text x="195" y="164.2" font-size="12" fill="#1e40af" text-anchor="middle">被用在 Tilera 的 100 核芯片上</text>
+  <rect x="395" y="70" width="340" height="108" fill="#fce7f3" stroke="#ec4899"/>
+  <text x="565" y="92.2" font-size="12" fill="#9d174d" text-anchor="middle">环面（p55）</text>
+  <text x="565" y="110.2" font-size="12" fill="#9d174d" text-anchor="middle">路径多样性与二分带宽都比网格高</text>
+  <text x="565" y="128.2" font-size="12" fill="#9d174d" text-anchor="middle">代价：成本更高、片上更难布局</text>
+  <text x="565" y="146.2" font-size="12" fill="#9d174d" text-anchor="middle">链路长度也不相等</text>
+  <text x="565" y="164.2" font-size="12" fill="#9d174d" text-anchor="middle">解决网格在边缘的不对称</text>
+  <rect x="25" y="203" width="740" height="72" fill="#f3e8ff" stroke="#a855f7"/>
+  <text x="395" y="225.2" font-size="12" fill="#6b21a8" text-anchor="middle">网格的性能对任务放在边缘还是中间很敏感（p55）</text>
+  <text x="395" y="243.2" font-size="12" fill="#6b21a8" text-anchor="middle">环面在这个问题上更好</text>
+  <text x="395" y="261.2" font-size="12" fill="#6b21a8" text-anchor="middle">代价是更贵、更难布局、链路也不等长</text>
+</svg>

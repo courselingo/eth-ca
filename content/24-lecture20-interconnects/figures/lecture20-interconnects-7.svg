@@ -1,0 +1,44 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="2 13 786 250" width="786" height="250"
+     role="img" aria-labelledby="fig-lecture20-interconnects-7-title fig-lecture20-interconnects-7-desc">
+  <title id="fig-lecture20-interconnects-7-title">三种最小规模的做法</title>
+  <desc id="fig-lecture20-interconnects-7-desc">三格分别给出总线、点对点与交叉开关的代价与好处。交叉开关那一格还附了它在真实系统里的用处：核到缓存体的网络，例子是 IBM 的 POWER5 与 Sun 的 Niagara。</desc>
+
+  <defs>
+    <style>
+      text { font-family: 'PingFang SC', 'Microsoft YaHei', 'Noto Sans CJK SC', system-ui, sans-serif; }
+    </style>
+    <marker id="arrow" markerWidth="8" markerHeight="8" refX="2" refY="4"
+            orient="auto" markerUnits="userSpaceOnUse">
+      <path d="M0,0 L8,4 L0,8 L2,4 z" fill="#64748b"/>
+    </marker>
+  </defs>
+
+  <rect x="2" y="13" width="786" height="250" fill="#ffffff"/>
+
+  <text x="395" y="48" font-size="16" font-weight="600" fill="#1f2937" text-anchor="middle">三种最小规模的做法</text>
+
+  <rect x="25" y="70" width="228" height="54" fill="#dbeafe" stroke="#3b82f6"/>
+  <text x="139" y="92.2" font-size="12" fill="#1e40af" text-anchor="middle">总线（p26）</text>
+  <text x="139" y="110.2" font-size="12" fill="#1e40af" text-anchor="middle">所有节点接到一条链路上</text>
+  <rect x="281" y="70" width="228" height="54" fill="#dbeafe" stroke="#3b82f6"/>
+  <text x="395" y="92.2" font-size="12" fill="#1e40af" text-anchor="middle">点对点（p27）</text>
+  <text x="395" y="110.2" font-size="12" fill="#1e40af" text-anchor="middle">每一对节点一条专用链路</text>
+  <rect x="537" y="70" width="228" height="54" fill="#dbeafe" stroke="#3b82f6"/>
+  <text x="651" y="92.2" font-size="12" fill="#1e40af" text-anchor="middle">交叉开关（p28）</text>
+  <text x="651" y="110.2" font-size="12" fill="#1e40af" text-anchor="middle">每个目的地一条共享链路</text>
+  <rect x="25" y="150" width="228" height="90" fill="#d1fae5" stroke="#22c55e"/>
+  <text x="139" y="172.2" font-size="12" fill="#166534" text-anchor="middle">好处：简单，节点少时成本低</text>
+  <text x="139" y="190.2" font-size="12" fill="#166534" text-anchor="middle">一致性与串行化容易做</text>
+  <text x="139" y="208.2" font-size="12" fill="#166534" text-anchor="middle">代价：带宽有限，电气负载降频</text>
+  <text x="139" y="226.2" font-size="12" fill="#166534" text-anchor="middle">争用高，很快就饱和</text>
+  <rect x="281" y="150" width="228" height="90" fill="#d1fae5" stroke="#22c55e"/>
+  <text x="395" y="172.2" font-size="12" fill="#166534" text-anchor="middle">好处：争用最低，延迟可能最低</text>
+  <text x="395" y="190.2" font-size="12" fill="#166534" text-anchor="middle">成本不是问题时最理想</text>
+  <text x="395" y="208.2" font-size="12" fill="#166534" text-anchor="middle">代价：每节点要 O(N) 个端口</text>
+  <text x="395" y="226.2" font-size="12" fill="#166534" text-anchor="middle">链路共 O(N²)，芯片上不好布局</text>
+  <rect x="537" y="150" width="228" height="90" fill="#d1fae5" stroke="#22c55e"/>
+  <text x="651" y="172.2" font-size="12" fill="#166534" text-anchor="middle">好处：低延迟、高吞吐</text>
+  <text x="651" y="190.2" font-size="12" fill="#166534" text-anchor="middle">代价：贵、O(N²) 不可扩展</text>
+  <text x="651" y="208.2" font-size="12" fill="#166534" text-anchor="middle">N 大时仲裁困难</text>
+  <text x="651" y="226.2" font-size="12" fill="#166534" text-anchor="middle">用于核到缓存体：POWER5、Niagara</text>
+</svg>

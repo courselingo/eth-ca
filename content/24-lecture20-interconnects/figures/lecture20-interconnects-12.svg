@@ -1,0 +1,57 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="2 13 786 267" width="786" height="267"
+     role="img" aria-labelledby="fig-lecture20-interconnects-12-title fig-lecture20-interconnects-12-desc">
+  <title id="fig-lecture20-interconnects-12-title">争用的三种处置与五种流控方法</title>
+  <desc id="fig-lecture20-interconnects-12-desc">上面三格是处理争用的三种选择：缓冲一个、丢掉一个、误送一个，其中误送是无缓冲路由的基础。下面五格是五种流控方法，各自给出它付出什么、换来什么。</desc>
+
+  <defs>
+    <style>
+      text { font-family: 'PingFang SC', 'Microsoft YaHei', 'Noto Sans CJK SC', system-ui, sans-serif; }
+    </style>
+    <marker id="arrow" markerWidth="8" markerHeight="8" refX="2" refY="4"
+            orient="auto" markerUnits="userSpaceOnUse">
+      <path d="M0,0 L8,4 L0,8 L2,4 z" fill="#64748b"/>
+    </marker>
+  </defs>
+
+  <rect x="2" y="13" width="786" height="267" fill="#ffffff"/>
+
+  <text x="395" y="48" font-size="16" font-weight="600" fill="#1f2937" text-anchor="middle">争用的三种处置与五种流控方法</text>
+
+  <rect x="25" y="70" width="228" height="72" fill="#fce7f3" stroke="#ec4899"/>
+  <text x="139" y="92.2" font-size="12" fill="#9d174d" text-anchor="middle">争用的处置一：缓冲一个</text>
+  <text x="139" y="110.2" font-size="12" fill="#9d174d" text-anchor="middle">把其中一个先存起来</text>
+  <text x="139" y="128.2" font-size="12" fill="#9d174d" text-anchor="middle">最常见</text>
+  <rect x="281" y="70" width="228" height="72" fill="#fce7f3" stroke="#ec4899"/>
+  <text x="395" y="92.2" font-size="12" fill="#9d174d" text-anchor="middle">争用的处置二：丢掉一个</text>
+  <text x="395" y="110.2" font-size="12" fill="#9d174d" text-anchor="middle">直接丢弃</text>
+  <text x="395" y="128.2" font-size="12" fill="#9d174d" text-anchor="middle">要上层重传</text>
+  <rect x="537" y="70" width="228" height="72" fill="#fce7f3" stroke="#ec4899"/>
+  <text x="651" y="92.2" font-size="12" fill="#9d174d" text-anchor="middle">争用的处置三：误送一个</text>
+  <text x="651" y="110.2" font-size="12" fill="#9d174d" text-anchor="middle">把它弹到别的方向</text>
+  <text x="651" y="128.2" font-size="12" fill="#9d174d" text-anchor="middle">这就是 deflection</text>
+  <rect x="25" y="167" width="124" height="90" fill="#dbeafe" stroke="#3b82f6"/>
+  <text x="87" y="189.2" font-size="12" fill="#1e40af" text-anchor="middle">电路交换</text>
+  <text x="87" y="207.2" font-size="12" fill="#1e40af" text-anchor="middle">预分配整条路径</text>
+  <text x="87" y="225.2" font-size="12" fill="#1e40af" text-anchor="middle">不缓冲、无争用</text>
+  <text x="87" y="243.2" font-size="12" fill="#1e40af" text-anchor="middle">链路利用率低</text>
+  <rect x="179" y="167" width="124" height="90" fill="#dbeafe" stroke="#3b82f6"/>
+  <text x="241" y="189.2" font-size="12" fill="#1e40af" text-anchor="middle">无缓冲流控</text>
+  <text x="241" y="207.2" font-size="12" fill="#1e40af" text-anchor="middle">从不在网内缓冲</text>
+  <text x="241" y="225.2" font-size="12" fill="#1e40af" text-anchor="middle">争用时弹到别处</text>
+  <text x="241" y="243.2" font-size="12" fill="#1e40af" text-anchor="middle">有活锁与复杂度</text>
+  <rect x="333" y="167" width="124" height="90" fill="#dbeafe" stroke="#3b82f6"/>
+  <text x="395" y="189.2" font-size="12" fill="#1e40af" text-anchor="middle">存储转发</text>
+  <text x="395" y="207.2" font-size="12" fill="#1e40af" text-anchor="middle">整包拷进路由器</text>
+  <text x="395" y="225.2" font-size="12" fill="#1e40af" text-anchor="middle">再走向下一跳</text>
+  <text x="395" y="243.2" font-size="12" fill="#1e40af" text-anchor="middle">每包延迟很高</text>
+  <rect x="487" y="167" width="124" height="90" fill="#dbeafe" stroke="#3b82f6"/>
+  <text x="549" y="189.2" font-size="12" fill="#1e40af" text-anchor="middle">虚拟直通</text>
+  <text x="549" y="207.2" font-size="12" fill="#1e40af" text-anchor="middle">收到头就转发</text>
+  <text x="549" y="225.2" font-size="12" fill="#1e40af" text-anchor="middle">延迟大幅下降</text>
+  <text x="549" y="243.2" font-size="12" fill="#1e40af" text-anchor="middle">仍按整包分配</text>
+  <rect x="641" y="167" width="124" height="90" fill="#dbeafe" stroke="#3b82f6"/>
+  <text x="703" y="189.2" font-size="12" fill="#1e40af" text-anchor="middle">虫洞</text>
+  <text x="703" y="207.2" font-size="12" fill="#1e40af" text-anchor="middle">包切成 flit 前流</text>
+  <text x="703" y="225.2" font-size="12" fill="#1e40af" text-anchor="middle">缓冲利用更高效</text>
+  <text x="703" y="243.2" font-size="12" fill="#1e40af" text-anchor="middle">代价是队头阻塞</text>
+</svg>

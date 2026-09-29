@@ -1,0 +1,38 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="2 13 786 231" width="786" height="231"
+     role="img" aria-labelledby="fig-lecture20-interconnects-1-title fig-lecture20-interconnects-1-desc">
+  <title id="fig-lecture20-interconnects-1-title">这一讲的位置与它的三根支柱</title>
+  <desc id="fig-lecture20-interconnects-1-desc">上面两格是回指：第 21 讲把紧耦合多处理器的设计问题列了五个，最后一个是通信与互连；第 23 讲的缓存一致性协议能不能扩展，取决于底下那张网。下面三格是这一讲要展开的三根支柱：拓扑、路由、缓冲与流控。</desc>
+
+  <defs>
+    <style>
+      text { font-family: 'PingFang SC', 'Microsoft YaHei', 'Noto Sans CJK SC', system-ui, sans-serif; }
+    </style>
+    <marker id="arrow" markerWidth="8" markerHeight="8" refX="2" refY="4"
+            orient="auto" markerUnits="userSpaceOnUse">
+      <path d="M0,0 L8,4 L0,8 L2,4 z" fill="#64748b"/>
+    </marker>
+  </defs>
+
+  <rect x="2" y="13" width="786" height="231" fill="#ffffff"/>
+
+  <text x="395" y="48" font-size="16" font-weight="600" fill="#1f2937" text-anchor="middle">这一讲的位置与它的三根支柱</text>
+
+  <rect x="25" y="70" width="340" height="54" fill="#dbeafe" stroke="#3b82f6"/>
+  <text x="195" y="92.2" font-size="12" fill="#1e40af" text-anchor="middle">第 21 讲：紧耦合多处理器</text>
+  <text x="195" y="110.2" font-size="12" fill="#1e40af" text-anchor="middle">五个设计问题，最后一个是「通信：互连」</text>
+  <rect x="395" y="70" width="340" height="54" fill="#dbeafe" stroke="#3b82f6"/>
+  <text x="565" y="92.2" font-size="12" fill="#1e40af" text-anchor="middle">第 23 讲：缓存一致性</text>
+  <text x="565" y="110.2" font-size="12" fill="#1e40af" text-anchor="middle">协议能不能扩展，取决于底下那张网</text>
+  <rect x="25" y="149" width="228" height="72" fill="#f3e8ff" stroke="#a855f7"/>
+  <text x="139" y="171.2" font-size="12" fill="#6b21a8" text-anchor="middle">第一根支柱：拓扑</text>
+  <text x="139" y="189.2" font-size="12" fill="#6b21a8" text-anchor="middle">开关怎么连起来</text>
+  <text x="139" y="207.2" font-size="12" fill="#6b21a8" text-anchor="middle">影响路由、可靠性、吞吐、延迟</text>
+  <rect x="281" y="149" width="228" height="72" fill="#f3e8ff" stroke="#a855f7"/>
+  <text x="395" y="171.2" font-size="12" fill="#6b21a8" text-anchor="middle">第二根支柱：路由</text>
+  <text x="395" y="189.2" font-size="12" fill="#6b21a8" text-anchor="middle">消息怎么从源到目的地</text>
+  <text x="395" y="207.2" font-size="12" fill="#6b21a8" text-anchor="middle">确定、无关与自适应三类</text>
+  <rect x="537" y="149" width="228" height="72" fill="#f3e8ff" stroke="#a855f7"/>
+  <text x="651" y="171.2" font-size="12" fill="#6b21a8" text-anchor="middle">第三根支柱：缓冲与流控</text>
+  <text x="651" y="189.2" font-size="12" fill="#6b21a8" text-anchor="middle">路由器与链路里存什么</text>
+  <text x="651" y="207.2" font-size="12" fill="#6b21a8" text-anchor="middle">过载时怎么限流</text>
+</svg>

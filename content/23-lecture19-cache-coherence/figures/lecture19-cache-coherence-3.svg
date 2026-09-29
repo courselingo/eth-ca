@@ -1,0 +1,31 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 760 330.5" width="760" height="330.5"
+     role="img" aria-labelledby="fig-lecture19-cache-coherence-3-title fig-lecture19-cache-coherence-3-desc">
+  <title id="fig-lecture19-cache-coherence-3-title">一个地址、两份副本：P1 改写之后，P2 还读得到旧值</title>
+  <desc id="fig-lecture19-cache-coherence-3-desc">上面两格是初始状态，P1 与 P2 的缓存里 x 都是 1000。中间两条按讲义第 19 页与第 20 页的顺序：P1 读 x、算一下、再写回，它自己的副本变成 2000 而主存仍是 1000；P2 再读一次 x，讲义在这一页写下判词 Should NOT load 1000。最下面一条说两次访存各自都没错。</desc>
+
+  <defs>
+    <style>
+      text { font-family: 'PingFang SC', 'Microsoft YaHei', 'Noto Sans CJK SC', system-ui, sans-serif; }
+    </style>
+    <marker id="arrow" markerWidth="8" markerHeight="8" refX="2" refY="4"
+            orient="auto" markerUnits="userSpaceOnUse">
+      <path d="M0,0 L8,4 L0,8 L2,4 z" fill="#64748b"/>
+    </marker>
+  </defs>
+
+  <rect x="0" y="0" width="760" height="330.5" fill="#ffffff"/>
+
+  <text x="380" y="34" font-size="16" font-weight="600" fill="#1f2937" text-anchor="middle">一个地址、两份副本：P1 改写之后，P2 还读得到旧值</text>
+  <rect x="25" y="64" width="342.5" height="49.5" rx="6" fill="#dbeafe" stroke="#3b82f6"/>
+  <text x="196.25" y="84.35" font-size="11" fill="#1e40af" text-anchor="middle">P1 的缓存</text>
+  <text x="196.25" y="100.85" font-size="11" fill="#1e40af" text-anchor="middle">x 是 1000</text>
+  <rect x="392.5" y="64" width="342.5" height="49.5" rx="6" fill="#dbeafe" stroke="#3b82f6"/>
+  <text x="563.75" y="84.35" font-size="11" fill="#1e40af" text-anchor="middle">P2 的缓存</text>
+  <text x="563.75" y="100.85" font-size="11" fill="#1e40af" text-anchor="middle">x 是 1000</text>
+  <rect x="25" y="141.5" width="710" height="36" rx="6" fill="#fef3c7" stroke="#f59e0b"/>
+  <text x="380" y="163.7" font-size="12" fill="#b45309" text-anchor="middle">P1 读 x、加上一个寄存器的值、再写回：它自己的副本变成 2000，主存还是 1000（p19）</text>
+  <rect x="25" y="205.5" width="710" height="36" rx="6" fill="#fce7f3" stroke="#ec4899"/>
+  <text x="380" y="227.7" font-size="12" fill="#9d174d" text-anchor="middle">P2 再读一次 x，讲义在这一页写下判词：Should NOT load 1000（p20）</text>
+  <rect x="25" y="269.5" width="710" height="36" rx="6" fill="#d1fae5" stroke="#22c55e"/>
+  <text x="380" y="291.7" font-size="12" fill="#166534" text-anchor="middle">两次访存各自都没错：错的是同一个值现在有了两个版本，而没人负责让它们一致</text>
+</svg>

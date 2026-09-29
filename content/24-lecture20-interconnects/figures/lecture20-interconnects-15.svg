@@ -1,0 +1,53 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="2 13 786 364" width="786" height="364"
+     role="img" aria-labelledby="fig-lecture20-interconnects-15-title fig-lecture20-interconnects-15-desc">
+  <title id="fig-lecture20-interconnects-15-title">这一讲在整门课里的位置</title>
+  <desc id="fig-lecture20-interconnects-15-desc">本讲管的这张网，在别的讲次里都是同一段数据通路。第 13 与第 18 讲的内存控制器一端接处理器与缓存、一端接 DRAM 体，中间这一段正是本讲的拓扑与流控在管；第 15 讲用 Ramulator 模拟内存系统时也建模了这一段；第 12 讲 UPMEM 的收益取决于数据通路够不够快；第 19 讲 CPU、GPU 与加速器共享内存的那一层也落在同类互连上；第 6 与第 7 讲的 RowHammer 缓解机制常要在内存控制器与存储体之间的通路上做动作。这一节是 CourseLingo 添加的连接。</desc>
+
+  <defs>
+    <style>
+      text { font-family: 'PingFang SC', 'Microsoft YaHei', 'Noto Sans CJK SC', system-ui, sans-serif; }
+    </style>
+    <marker id="arrow" markerWidth="8" markerHeight="8" refX="2" refY="4"
+            orient="auto" markerUnits="userSpaceOnUse">
+      <path d="M0,0 L8,4 L0,8 L2,4 z" fill="#64748b"/>
+    </marker>
+  </defs>
+
+  <rect x="2" y="13" width="786" height="364" fill="#ffffff"/>
+
+  <text x="395" y="48" font-size="16" font-weight="600" fill="#1f2937" text-anchor="middle">这一讲在整门课里的位置</text>
+
+  <rect x="25" y="70" width="740" height="54" fill="#f3e8ff" stroke="#a855f7"/>
+  <text x="395" y="92.2" font-size="12" fill="#6b21a8" text-anchor="middle">本讲：互连，把多个核连起来的那张网</text>
+  <text x="395" y="110.2" font-size="12" fill="#6b21a8" text-anchor="middle">下面这些讲次里的系统，收益能不能兑现都取决于这条通路</text>
+  <rect x="25" y="149" width="228" height="90" fill="#dbeafe" stroke="#3b82f6"/>
+  <text x="139" y="171.2" font-size="12" fill="#1e40af" text-anchor="middle">第 13 讲与第 18 讲</text>
+  <text x="139" y="189.2" font-size="12" fill="#1e40af" text-anchor="middle">内存控制器</text>
+  <text x="139" y="207.2" font-size="12" fill="#1e40af" text-anchor="middle">一端接处理器与缓存，一端接 DRAM 体</text>
+  <text x="139" y="225.2" font-size="12" fill="#1e40af" text-anchor="middle">中间这一段由本讲的拓扑与流控管</text>
+  <rect x="281" y="149" width="228" height="90" fill="#dbeafe" stroke="#3b82f6"/>
+  <text x="395" y="171.2" font-size="12" fill="#1e40af" text-anchor="middle">第 15 讲</text>
+  <text x="395" y="189.2" font-size="12" fill="#1e40af" text-anchor="middle">用 Ramulator 模拟内存系统</text>
+  <text x="395" y="207.2" font-size="12" fill="#1e40af" text-anchor="middle">被建模的东西里也包含内存控制器</text>
+  <text x="395" y="225.2" font-size="12" fill="#1e40af" text-anchor="middle">与存储体之间的通信</text>
+  <rect x="537" y="149" width="228" height="90" fill="#dbeafe" stroke="#3b82f6"/>
+  <text x="651" y="171.2" font-size="12" fill="#1e40af" text-anchor="middle">第 12 讲</text>
+  <text x="651" y="189.2" font-size="12" fill="#1e40af" text-anchor="middle">UPMEM 一类内存内计算</text>
+  <text x="651" y="207.2" font-size="12" fill="#1e40af" text-anchor="middle">把计算搬到数据旁边</text>
+  <text x="651" y="225.2" font-size="12" fill="#1e40af" text-anchor="middle">收益取决于数据通路够不够快</text>
+  <rect x="25" y="264" width="228" height="90" fill="#fce7f3" stroke="#ec4899"/>
+  <text x="139" y="286.2" font-size="12" fill="#9d174d" text-anchor="middle">第 19 讲</text>
+  <text x="139" y="304.2" font-size="12" fill="#9d174d" text-anchor="middle">CPU、GPU 与加速器</text>
+  <text x="139" y="322.2" font-size="12" fill="#9d174d" text-anchor="middle">共享内存的那一层</text>
+  <text x="139" y="340.2" font-size="12" fill="#9d174d" text-anchor="middle">落到的也是这一类互连</text>
+  <rect x="281" y="264" width="228" height="90" fill="#fce7f3" stroke="#ec4899"/>
+  <text x="395" y="286.2" font-size="12" fill="#9d174d" text-anchor="middle">第 6 讲与第 7 讲</text>
+  <text x="395" y="304.2" font-size="12" fill="#9d174d" text-anchor="middle">RowHammer 是 DRAM 侧的问题</text>
+  <text x="395" y="322.2" font-size="12" fill="#9d174d" text-anchor="middle">它与这一讲的交集在于</text>
+  <text x="395" y="340.2" font-size="12" fill="#9d174d" text-anchor="middle">缓解机制要在这条通路上做动作</text>
+  <rect x="537" y="264" width="228" height="90" fill="#fce7f3" stroke="#ec4899"/>
+  <text x="651" y="286.2" font-size="12" fill="#9d174d" text-anchor="middle">为什么集中放在一节</text>
+  <text x="651" y="304.2" font-size="12" fill="#9d174d" text-anchor="middle">讲义里没有出现这些名字</text>
+  <text x="651" y="322.2" font-size="12" fill="#9d174d" text-anchor="middle">这一节是 CourseLingo 添加的连接</text>
+  <text x="651" y="340.2" font-size="12" fill="#9d174d" text-anchor="middle">用来看清这一讲在整门课里的位置</text>
+</svg>

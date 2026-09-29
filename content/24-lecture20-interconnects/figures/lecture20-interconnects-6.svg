@@ -1,0 +1,47 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="2 13 786 328" width="786" height="328"
+     role="img" aria-labelledby="fig-lecture20-interconnects-6-title fig-lecture20-interconnects-6-desc">
+  <title id="fig-lecture20-interconnects-6-title">拓扑家族的总账</title>
+  <desc id="fig-lecture20-interconnects-6-desc">按成本从低到高排开六类拓扑，每一格给出它的成本与延迟量级，以及它付出的代价。两个极端是：总线最省但扩展不上去，点对点最快但成本是 O(N²)。下面一格补的是直连与间接的区分。</desc>
+
+  <defs>
+    <style>
+      text { font-family: 'PingFang SC', 'Microsoft YaHei', 'Noto Sans CJK SC', system-ui, sans-serif; }
+    </style>
+    <marker id="arrow" markerWidth="8" markerHeight="8" refX="2" refY="4"
+            orient="auto" markerUnits="userSpaceOnUse">
+      <path d="M0,0 L8,4 L0,8 L2,4 z" fill="#64748b"/>
+    </marker>
+  </defs>
+
+  <rect x="2" y="13" width="786" height="328" fill="#ffffff"/>
+
+  <text x="395" y="48" font-size="16" font-weight="600" fill="#1f2937" text-anchor="middle">拓扑家族的总账</text>
+
+  <rect x="25" y="70" width="228" height="72" fill="#dbeafe" stroke="#3b82f6"/>
+  <text x="139" y="92.2" font-size="12" fill="#1e40af" text-anchor="middle">总线</text>
+  <text x="139" y="110.2" font-size="12" fill="#1e40af" text-anchor="middle">成本 O(N)，延迟低</text>
+  <text x="139" y="128.2" font-size="12" fill="#1e40af" text-anchor="middle">简单，但很快饱和</text>
+  <rect x="281" y="70" width="228" height="72" fill="#dbeafe" stroke="#3b82f6"/>
+  <text x="395" y="92.2" font-size="12" fill="#1e40af" text-anchor="middle">点对点</text>
+  <text x="395" y="110.2" font-size="12" fill="#1e40af" text-anchor="middle">成本 O(N²)，争用最低</text>
+  <text x="395" y="128.2" font-size="12" fill="#1e40af" text-anchor="middle">延迟可能也最低，但不好布局</text>
+  <rect x="537" y="70" width="228" height="72" fill="#dbeafe" stroke="#3b82f6"/>
+  <text x="651" y="92.2" font-size="12" fill="#1e40af" text-anchor="middle">交叉开关</text>
+  <text x="651" y="110.2" font-size="12" fill="#1e40af" text-anchor="middle">成本 O(N²)，低延迟高吞吐</text>
+  <text x="651" y="128.2" font-size="12" fill="#1e40af" text-anchor="middle">核到缓存体，如 POWER5、Niagara</text>
+  <rect x="25" y="167" width="228" height="72" fill="#d1fae5" stroke="#22c55e"/>
+  <text x="139" y="189.2" font-size="12" fill="#166534" text-anchor="middle">多级对数网络</text>
+  <text x="139" y="207.2" font-size="12" fill="#166534" text-anchor="middle">成本 O(N log N)，延迟 O(log N)</text>
+  <text x="139" y="225.2" font-size="12" fill="#166534" text-anchor="middle">用并发收发对换便宜</text>
+  <rect x="281" y="167" width="228" height="72" fill="#d1fae5" stroke="#22c55e"/>
+  <text x="395" y="189.2" font-size="12" fill="#166534" text-anchor="middle">环、网格、环面</text>
+  <text x="395" y="207.2" font-size="12" fill="#166534" text-anchor="middle">成本 O(N)，延迟 O(N) 或 O(√N)</text>
+  <text x="395" y="225.2" font-size="12" fill="#166534" text-anchor="middle">规则、好布局，路径多样性不同</text>
+  <rect x="537" y="167" width="228" height="72" fill="#d1fae5" stroke="#22c55e"/>
+  <text x="651" y="189.2" font-size="12" fill="#166534" text-anchor="middle">树与胖树、超立方</text>
+  <text x="651" y="207.2" font-size="12" fill="#166534" text-anchor="middle">延迟 O(log N)，链路 O(N log N)</text>
+  <text x="651" y="225.2" font-size="12" fill="#166534" text-anchor="middle">根可能成瓶颈；超立方难布局</text>
+  <rect x="25" y="264" width="740" height="54" fill="#f3e8ff" stroke="#a855f7"/>
+  <text x="395" y="286.2" font-size="12" fill="#6b21a8" text-anchor="middle">两个极端：总线最省但扩展不上去，点对点最快但成本是 O(N²)</text>
+  <text x="395" y="304.2" font-size="12" fill="#6b21a8" text-anchor="middle">直连的端点在网内，间接的端点在网外；讲义从最简单的一路排到最复杂的</text>
+</svg>

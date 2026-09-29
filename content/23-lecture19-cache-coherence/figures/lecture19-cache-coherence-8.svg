@@ -1,0 +1,36 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 760 330.5" width="760" height="330.5"
+     role="img" aria-labelledby="fig-lecture19-cache-coherence-8-title fig-lecture19-cache-coherence-8-desc">
+  <title id="fig-lecture19-cache-coherence-8-title">从 VI 到 MSI 到 MESI：状态一个一个加上去</title>
+  <desc id="fig-lecture19-cache-coherence-8-desc">上排三格是三个协议各自的状态数，两个箭头表示它们是一个接一个加上去的：VI 有验证态与无效态，MSI 有已修改、共享与无效三个状态，MESI 再加一个独占态。下面三条依次是 VI 的配置与动作、MSI 的问题，以及 MESI 加的那一个状态解决了什么。</desc>
+
+  <defs>
+    <style>
+      text { font-family: 'PingFang SC', 'Microsoft YaHei', 'Noto Sans CJK SC', system-ui, sans-serif; }
+    </style>
+    <marker id="arrow" markerWidth="8" markerHeight="8" refX="2" refY="4"
+            orient="auto" markerUnits="userSpaceOnUse">
+      <path d="M0,0 L8,4 L0,8 L2,4 z" fill="#64748b"/>
+    </marker>
+  </defs>
+
+  <rect x="0" y="0" width="760" height="330.5" fill="#ffffff"/>
+
+  <text x="380" y="34" font-size="16" font-weight="600" fill="#1f2937" text-anchor="middle">从 VI 到 MSI 到 MESI：状态一个一个加上去</text>
+  <rect x="25" y="64" width="220" height="49.5" rx="6" fill="#dbeafe" stroke="#3b82f6"/>
+  <text x="135" y="84.35" font-size="11" fill="#1e40af" text-anchor="middle">VI</text>
+  <text x="135" y="100.85" font-size="11" fill="#1e40af" text-anchor="middle">验证态与无效态</text>
+  <rect x="270" y="64" width="220" height="49.5" rx="6" fill="#dbeafe" stroke="#3b82f6"/>
+  <text x="380" y="84.35" font-size="11" fill="#1e40af" text-anchor="middle">MSI</text>
+  <text x="380" y="100.85" font-size="11" fill="#1e40af" text-anchor="middle">已修改、共享、无效</text>
+  <rect x="515" y="64" width="220" height="49.5" rx="6" fill="#dbeafe" stroke="#3b82f6"/>
+  <text x="625" y="84.35" font-size="11" fill="#1e40af" text-anchor="middle">MESI</text>
+  <text x="625" y="100.85" font-size="11" fill="#1e40af" text-anchor="middle">再加一个独占态</text>
+  <path d="M250,88.75 L259,88.75" fill="none" stroke="#64748b" stroke-width="1.5" marker-end="url(#arrow)"/>
+  <path d="M495,88.75 L504,88.75" fill="none" stroke="#64748b" stroke-width="1.5" marker-end="url(#arrow)"/>
+  <rect x="25" y="141.5" width="710" height="36" rx="6" fill="#dbeafe" stroke="#3b82f6"/>
+  <text x="380" y="163.7" font-size="12" fill="#1e40af" text-anchor="middle">VI 配写直达、不写分配的缓存；一个处理器写，别人全部作废（p22、p38）</text>
+  <rect x="25" y="205.5" width="710" height="36" rx="6" fill="#fce7f3" stroke="#ec4899"/>
+  <text x="380" y="227.7" font-size="12" fill="#9d174d" text-anchor="middle">MSI 的问题：读进来的块直接进共享态，想写时还得广播作废，而它可能是唯一一份（p42）</text>
+  <rect x="25" y="269.5" width="710" height="36" rx="6" fill="#d1fae5" stroke="#22c55e"/>
+  <text x="380" y="291.7" font-size="12" fill="#166534" text-anchor="middle">MESI 加一个「唯一而且干净」的独占态；写的时候可以从独占静默变成已修改（p44）</text>
+</svg>

@@ -1,0 +1,52 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="2 13 786 249" width="786" height="249"
+     role="img" aria-labelledby="fig-lecture20-interconnects-5-title fig-lecture20-interconnects-5-desc">
+  <title id="fig-lecture20-interconnects-5-title">评价一张网：性质与度量</title>
+  <desc id="fig-lecture20-interconnects-5-desc">上面四格是四个拓扑性质：规则或不规则、路由距离、直径、平均距离。下面四格是更宏观的性质与常用度量：二分带宽、阻塞与非阻塞、可重排非阻塞，以及成本、延迟、争用这些评价维度。后面比较各种拓扑时用的就是这几个量。</desc>
+
+  <defs>
+    <style>
+      text { font-family: 'PingFang SC', 'Microsoft YaHei', 'Noto Sans CJK SC', system-ui, sans-serif; }
+    </style>
+    <marker id="arrow" markerWidth="8" markerHeight="8" refX="2" refY="4"
+            orient="auto" markerUnits="userSpaceOnUse">
+      <path d="M0,0 L8,4 L0,8 L2,4 z" fill="#64748b"/>
+    </marker>
+  </defs>
+
+  <rect x="2" y="13" width="786" height="249" fill="#ffffff"/>
+
+  <text x="395" y="48" font-size="16" font-weight="600" fill="#1f2937" text-anchor="middle">评价一张网：性质与度量</text>
+
+  <rect x="25" y="70" width="164" height="72" fill="#dbeafe" stroke="#3b82f6"/>
+  <text x="107" y="92.2" font-size="12" fill="#1e40af" text-anchor="middle">规则或不规则</text>
+  <text x="107" y="110.2" font-size="12" fill="#1e40af" text-anchor="middle">是不是一张规则图</text>
+  <text x="107" y="128.2" font-size="12" fill="#1e40af" text-anchor="middle">环与网格都是规则的</text>
+  <rect x="217" y="70" width="164" height="72" fill="#dbeafe" stroke="#3b82f6"/>
+  <text x="299" y="92.2" font-size="12" fill="#1e40af" text-anchor="middle">路由距离</text>
+  <text x="299" y="110.2" font-size="12" fill="#1e40af" text-anchor="middle">一条路径上的链路数</text>
+  <text x="299" y="128.2" font-size="12" fill="#1e40af" text-anchor="middle">也就是跳数</text>
+  <rect x="409" y="70" width="164" height="72" fill="#dbeafe" stroke="#3b82f6"/>
+  <text x="491" y="92.2" font-size="12" fill="#1e40af" text-anchor="middle">直径</text>
+  <text x="491" y="110.2" font-size="12" fill="#1e40af" text-anchor="middle">网络里最大的</text>
+  <text x="491" y="128.2" font-size="12" fill="#1e40af" text-anchor="middle">路由距离</text>
+  <rect x="601" y="70" width="164" height="72" fill="#dbeafe" stroke="#3b82f6"/>
+  <text x="683" y="92.2" font-size="12" fill="#1e40af" text-anchor="middle">平均距离</text>
+  <text x="683" y="110.2" font-size="12" fill="#1e40af" text-anchor="middle">所有有效路径</text>
+  <text x="683" y="128.2" font-size="12" fill="#1e40af" text-anchor="middle">跳数的平均值</text>
+  <rect x="25" y="167" width="164" height="72" fill="#d1fae5" stroke="#22c55e"/>
+  <text x="107" y="189.2" font-size="12" fill="#166534" text-anchor="middle">二分带宽</text>
+  <text x="107" y="207.2" font-size="12" fill="#166534" text-anchor="middle">把网络切成两半，把切断的</text>
+  <text x="107" y="225.2" font-size="12" fill="#166534" text-anchor="middle">链路带宽加起来</text>
+  <rect x="217" y="167" width="164" height="72" fill="#d1fae5" stroke="#22c55e"/>
+  <text x="299" y="189.2" font-size="12" fill="#166534" text-anchor="middle">阻塞与非阻塞</text>
+  <text x="299" y="207.2" font-size="12" fill="#166534" text-anchor="middle">任意排列都能连通</text>
+  <text x="299" y="225.2" font-size="12" fill="#166534" text-anchor="middle">就是非阻塞的</text>
+  <rect x="409" y="167" width="164" height="72" fill="#d1fae5" stroke="#22c55e"/>
+  <text x="491" y="189.2" font-size="12" fill="#166534" text-anchor="middle">可重排非阻塞</text>
+  <text x="491" y="207.2" font-size="12" fill="#166534" text-anchor="middle">切换排列时需要</text>
+  <text x="491" y="225.2" font-size="12" fill="#166534" text-anchor="middle">重新调整连接</text>
+  <rect x="601" y="167" width="164" height="72" fill="#d1fae5" stroke="#22c55e"/>
+  <text x="683" y="189.2" font-size="12" fill="#166534" text-anchor="middle">成本、延迟、争用</text>
+  <text x="683" y="207.2" font-size="12" fill="#166534" text-anchor="middle">延迟可按跳数或纳秒</text>
+  <text x="683" y="225.2" font-size="12" fill="#166534" text-anchor="middle">还有能量、带宽与总体性能</text>
+</svg>

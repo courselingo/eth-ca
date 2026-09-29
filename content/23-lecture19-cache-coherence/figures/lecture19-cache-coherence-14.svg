@@ -1,0 +1,34 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 760 330.5" width="760" height="330.5"
+     role="img" aria-labelledby="fig-lecture19-cache-coherence-14-title fig-lecture19-cache-coherence-14-desc">
+  <title id="fig-lecture19-cache-coherence-14-title">乐观并发这条线上的三份材料：事务内存、推测性锁消除、推测并行化</title>
+  <desc id="fig-lecture19-cache-coherence-14-desc">上排三格是讲义最后串起来的三份材料：事务内存（出处是 ISCA 1993）、推测性锁消除（出处是 MICRO 2001）与推测并行化。下面三条依次是锁这一侧的问题、事务带来的好处，以及事务内存自己要付的代价。</desc>
+
+  <defs>
+    <style>
+      text { font-family: 'PingFang SC', 'Microsoft YaHei', 'Noto Sans CJK SC', system-ui, sans-serif; }
+    </style>
+    <marker id="arrow" markerWidth="8" markerHeight="8" refX="2" refY="4"
+            orient="auto" markerUnits="userSpaceOnUse">
+      <path d="M0,0 L8,4 L0,8 L2,4 z" fill="#64748b"/>
+    </marker>
+  </defs>
+
+  <rect x="0" y="0" width="760" height="330.5" fill="#ffffff"/>
+
+  <text x="380" y="34" font-size="16" font-weight="600" fill="#1f2937" text-anchor="middle">乐观并发这条线上的三份材料：事务内存、推测性锁消除、推测并行化</text>
+  <rect x="25" y="64" width="220" height="49.5" rx="6" fill="#dbeafe" stroke="#3b82f6"/>
+  <text x="135" y="84.35" font-size="11" fill="#1e40af" text-anchor="middle">事务内存</text>
+  <text x="135" y="100.85" font-size="11" fill="#1e40af" text-anchor="middle">出处是 ISCA 1993</text>
+  <rect x="270" y="64" width="220" height="49.5" rx="6" fill="#dbeafe" stroke="#3b82f6"/>
+  <text x="380" y="84.35" font-size="11" fill="#1e40af" text-anchor="middle">推测性锁消除</text>
+  <text x="380" y="100.85" font-size="11" fill="#1e40af" text-anchor="middle">出处是 MICRO 2001</text>
+  <rect x="515" y="64" width="220" height="49.5" rx="6" fill="#dbeafe" stroke="#3b82f6"/>
+  <text x="625" y="84.35" font-size="11" fill="#1e40af" text-anchor="middle">推测并行化</text>
+  <text x="625" y="100.85" font-size="11" fill="#1e40af" text-anchor="middle">违反依赖就重来</text>
+  <rect x="25" y="141.5" width="710" height="36" rx="6" fill="#dbeafe" stroke="#3b82f6"/>
+  <text x="380" y="163.7" font-size="12" fill="#1e40af" text-anchor="middle">锁是悲观并发：欠锁会数据竞争，锁序会死锁，还会保守串行化（p121）</text>
+  <rect x="25" y="205.5" width="710" height="36" rx="6" fill="#d1fae5" stroke="#22c55e"/>
+  <text x="380" y="227.7" font-size="12" fill="#166534" text-anchor="middle">事务是乐观并发：接口简单、不排序、冲突时中止，只在冲突时才串行化（p121）</text>
+  <rect x="25" y="269.5" width="710" height="36" rx="6" fill="#fef3c7" stroke="#f59e0b"/>
+  <text x="380" y="291.7" font-size="12" fill="#b45309" text-anchor="middle">代价还是同一批老问题：日志与缓冲、冲突检测、中止回滚或提交（p122）</text>
+</svg>

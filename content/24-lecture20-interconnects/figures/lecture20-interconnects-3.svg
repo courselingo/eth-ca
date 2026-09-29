@@ -1,0 +1,56 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="2 13 786 320" width="786" height="320"
+     role="img" aria-labelledby="fig-lecture20-interconnects-3-title fig-lecture20-interconnects-3-desc">
+  <title id="fig-lecture20-interconnects-3-title">互连用在哪里，为什么重要</title>
+  <desc id="fig-lecture20-interconnects-3-desc">上面五格是五类用法：处理器与处理器、处理器与内存体、处理器与缓存体、缓存与缓存，以及 I/O 设备。中间三格是三个重要性层面：可扩展性与成本、性能与能效、可靠性与安全。下面三格是时钟分布这张特殊的互连：问题是时钟到达芯片不同部分的时间不一致，办法是把这张互连的延迟设计得大致相等，代价是时钟偏斜同时抬高建立时间与保持时间的要求。</desc>
+
+  <defs>
+    <style>
+      text { font-family: 'PingFang SC', 'Microsoft YaHei', 'Noto Sans CJK SC', system-ui, sans-serif; }
+    </style>
+    <marker id="arrow" markerWidth="8" markerHeight="8" refX="2" refY="4"
+            orient="auto" markerUnits="userSpaceOnUse">
+      <path d="M0,0 L8,4 L0,8 L2,4 z" fill="#64748b"/>
+    </marker>
+  </defs>
+
+  <rect x="2" y="13" width="786" height="320" fill="#ffffff"/>
+
+  <text x="395" y="48" font-size="16" font-weight="600" fill="#1f2937" text-anchor="middle">互连用在哪里，为什么重要</text>
+
+  <rect x="25" y="70" width="124" height="54" fill="#dbeafe" stroke="#3b82f6"/>
+  <text x="87" y="92.2" font-size="12" fill="#1e40af" text-anchor="middle">处理器与处理器</text>
+  <text x="87" y="110.2" font-size="12" fill="#1e40af" text-anchor="middle">核与核之间</text>
+  <rect x="179" y="70" width="124" height="54" fill="#dbeafe" stroke="#3b82f6"/>
+  <text x="241" y="92.2" font-size="12" fill="#1e40af" text-anchor="middle">处理器与内存体</text>
+  <text x="241" y="110.2" font-size="12" fill="#1e40af" text-anchor="middle">访存这条路</text>
+  <rect x="333" y="70" width="124" height="54" fill="#dbeafe" stroke="#3b82f6"/>
+  <text x="395" y="92.2" font-size="12" fill="#1e40af" text-anchor="middle">处理器与缓存体</text>
+  <text x="395" y="110.2" font-size="12" fill="#1e40af" text-anchor="middle">片上网络</text>
+  <rect x="487" y="70" width="124" height="54" fill="#dbeafe" stroke="#3b82f6"/>
+  <text x="549" y="92.2" font-size="12" fill="#1e40af" text-anchor="middle">缓存与缓存</text>
+  <text x="549" y="110.2" font-size="12" fill="#1e40af" text-anchor="middle">一致性流量</text>
+  <rect x="641" y="70" width="124" height="54" fill="#dbeafe" stroke="#3b82f6"/>
+  <text x="703" y="92.2" font-size="12" fill="#1e40af" text-anchor="middle">I/O 设备</text>
+  <text x="703" y="110.2" font-size="12" fill="#1e40af" text-anchor="middle">外设接入</text>
+  <rect x="25" y="154" width="228" height="54" fill="#fef3c7" stroke="#f59e0b"/>
+  <text x="139" y="176.2" font-size="12" fill="#b45309" text-anchor="middle">可扩展性与成本</text>
+  <text x="139" y="194.2" font-size="12" fill="#b45309" text-anchor="middle">能建多大、加核有多容易</text>
+  <rect x="281" y="154" width="228" height="54" fill="#fef3c7" stroke="#f59e0b"/>
+  <text x="395" y="176.2" font-size="12" fill="#b45309" text-anchor="middle">性能与能效</text>
+  <text x="395" y="194.2" font-size="12" fill="#b45309" text-anchor="middle">通信多快、访存延迟多长</text>
+  <rect x="537" y="154" width="228" height="54" fill="#fef3c7" stroke="#f59e0b"/>
+  <text x="651" y="176.2" font-size="12" fill="#b45309" text-anchor="middle">可靠性与安全</text>
+  <text x="651" y="194.2" font-size="12" fill="#b45309" text-anchor="middle">消息一定送达吗、协议能工作吗</text>
+  <rect x="25" y="238" width="228" height="72" fill="#fce7f3" stroke="#ec4899"/>
+  <text x="139" y="260.2" font-size="12" fill="#9d174d" text-anchor="middle">时钟分布：问题</text>
+  <text x="139" y="278.2" font-size="12" fill="#9d174d" text-anchor="middle">时钟到达芯片不同部分的时间不一致</text>
+  <text x="139" y="296.2" font-size="12" fill="#9d174d" text-anchor="middle">会造成时序问题</text>
+  <rect x="281" y="238" width="228" height="72" fill="#fce7f3" stroke="#ec4899"/>
+  <text x="395" y="260.2" font-size="12" fill="#9d174d" text-anchor="middle">时钟分布：办法</text>
+  <text x="395" y="278.2" font-size="12" fill="#9d174d" text-anchor="middle">把这张互连的延迟设计得大致相等</text>
+  <text x="395" y="296.2" font-size="12" fill="#9d174d" text-anchor="middle">第 15 页挂了 Alpha 21264</text>
+  <rect x="537" y="238" width="228" height="72" fill="#fce7f3" stroke="#ec4899"/>
+  <text x="651" y="260.2" font-size="12" fill="#9d174d" text-anchor="middle">时钟分布的代价</text>
+  <text x="651" y="278.2" font-size="12" fill="#9d174d" text-anchor="middle">偏斜抬高建立时间与保持时间</text>
+  <text x="651" y="296.2" font-size="12" fill="#9d174d" text-anchor="middle">每周期能做的有用功变少</text>
+</svg>

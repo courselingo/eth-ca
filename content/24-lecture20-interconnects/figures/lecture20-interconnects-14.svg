@@ -1,0 +1,50 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="2 13 786 364" width="786" height="364"
+     role="img" aria-labelledby="fig-lecture20-interconnects-14-title fig-lecture20-interconnects-14-desc">
+  <title id="fig-lecture20-interconnects-14-title">性能：延迟与吞吐各自由什么决定</title>
+  <desc id="fig-lecture20-interconnects-14-desc">上面两格把性能拆成两个方向：延迟的最小值由拓扑与路由算法决定，零负载延迟由拓扑、路由与流控共同决定；吞吐同样由这三者分担。中间三格是两个延迟公式与那条负载延迟曲线。下面两格是曲线的实例与常用度量。</desc>
+
+  <defs>
+    <style>
+      text { font-family: 'PingFang SC', 'Microsoft YaHei', 'Noto Sans CJK SC', system-ui, sans-serif; }
+    </style>
+    <marker id="arrow" markerWidth="8" markerHeight="8" refX="2" refY="4"
+            orient="auto" markerUnits="userSpaceOnUse">
+      <path d="M0,0 L8,4 L0,8 L2,4 z" fill="#64748b"/>
+    </marker>
+  </defs>
+
+  <rect x="2" y="13" width="786" height="364" fill="#ffffff"/>
+
+  <text x="395" y="48" font-size="16" font-weight="600" fill="#1f2937" text-anchor="middle">性能：延迟与吞吐各自由什么决定</text>
+
+  <rect x="25" y="70" width="340" height="90" fill="#dbeafe" stroke="#3b82f6"/>
+  <text x="195" y="92.2" font-size="12" fill="#1e40af" text-anchor="middle">延迟从哪里来（p113）</text>
+  <text x="195" y="110.2" font-size="12" fill="#1e40af" text-anchor="middle">最小延迟由拓扑与路由算法决定</text>
+  <text x="195" y="128.2" font-size="12" fill="#1e40af" text-anchor="middle">零负载延迟由拓扑、路由与流控共同决定</text>
+  <text x="195" y="146.2" font-size="12" fill="#1e40af" text-anchor="middle">饱和吞吐是延迟趋于无穷时的注入率</text>
+  <rect x="395" y="70" width="340" height="90" fill="#dbeafe" stroke="#3b82f6"/>
+  <text x="565" y="92.2" font-size="12" fill="#1e40af" text-anchor="middle">吞吐从哪里来（p113）</text>
+  <text x="565" y="110.2" font-size="12" fill="#1e40af" text-anchor="middle">一部分由拓扑给</text>
+  <text x="565" y="128.2" font-size="12" fill="#1e40af" text-anchor="middle">一部分由路由给，一部分由流控给</text>
+  <text x="565" y="146.2" font-size="12" fill="#1e40af" text-anchor="middle">三者分担</text>
+  <rect x="25" y="185" width="228" height="72" fill="#fef3c7" stroke="#f59e0b"/>
+  <text x="139" y="207.2" font-size="12" fill="#b45309" text-anchor="middle">理想延迟（p114）</text>
+  <text x="139" y="225.2" font-size="12" fill="#b45309" text-anchor="middle">D 除以 v 加上 L 除以 b</text>
+  <text x="139" y="243.2" font-size="12" fill="#b45309" text-anchor="middle">只来自源到目的的线延迟</text>
+  <rect x="281" y="185" width="228" height="72" fill="#fef3c7" stroke="#f59e0b"/>
+  <text x="395" y="207.2" font-size="12" fill="#b45309" text-anchor="middle">实际延迟（p115）</text>
+  <text x="395" y="225.2" font-size="12" fill="#b45309" text-anchor="middle">再加跳数 H 乘以路由器延迟</text>
+  <text x="395" y="243.2" font-size="12" fill="#b45309" text-anchor="middle">以及争用造成的延迟</text>
+  <rect x="537" y="185" width="228" height="72" fill="#fef3c7" stroke="#f59e0b"/>
+  <text x="651" y="207.2" font-size="12" fill="#b45309" text-anchor="middle">负载与延迟曲线（p116）</text>
+  <text x="651" y="225.2" font-size="12" fill="#b45309" text-anchor="middle">横轴是注入负载占容量的比例</text>
+  <text x="651" y="243.2" font-size="12" fill="#b45309" text-anchor="middle">平缓到饱和点后陡然上升</text>
+  <rect x="25" y="282" width="340" height="72" fill="#d1fae5" stroke="#22c55e"/>
+  <text x="195" y="304.2" font-size="12" fill="#166534" text-anchor="middle">曲线实例（p117）</text>
+  <text x="195" y="322.2" font-size="12" fill="#166534" text-anchor="middle">出处是 Grot 等关于 express cube 的工作</text>
+  <text x="195" y="340.2" font-size="12" fill="#166534" text-anchor="middle">两项后续工作：多落点 express 通道与 Kilo-NoC</text>
+  <rect x="395" y="282" width="340" height="72" fill="#d1fae5" stroke="#22c55e"/>
+  <text x="565" y="304.2" font-size="12" fill="#166534" text-anchor="middle">常用度量（p122）</text>
+  <text x="565" y="322.2" font-size="12" fill="#166534" text-anchor="middle">包延迟均值与最大值、往返延迟</text>
+  <text x="565" y="340.2" font-size="12" fill="#166534" text-anchor="middle">饱和吞吐、应用级执行时间与作业吞吐</text>
+</svg>

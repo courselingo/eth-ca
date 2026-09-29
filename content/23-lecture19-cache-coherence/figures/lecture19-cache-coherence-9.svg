@@ -1,0 +1,32 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 760 262" width="760" height="262"
+     role="img" aria-labelledby="fig-lecture19-cache-coherence-9-title fig-lecture19-cache-coherence-9-desc">
+  <title id="fig-lecture19-cache-coherence-9-title">协议越复杂，收益越小：三个要权衡的地方</title>
+  <desc id="fig-lecture19-cache-coherence-9-desc">上排三格是讲义第 51 页与第 53 页要权衡的三处：从已修改降级时去共享态还是去无效态、数据从另一个缓存来还是从内存来、以及要不要一个属主状态。下面两条依次是直传与走内存各自的取舍，以及第 54 页的收束：状态越多越难验证，而收益递减。</desc>
+
+  <defs>
+    <style>
+      text { font-family: 'PingFang SC', 'Microsoft YaHei', 'Noto Sans CJK SC', system-ui, sans-serif; }
+    </style>
+    <marker id="arrow" markerWidth="8" markerHeight="8" refX="2" refY="4"
+            orient="auto" markerUnits="userSpaceOnUse">
+      <path d="M0,0 L8,4 L0,8 L2,4 z" fill="#64748b"/>
+    </marker>
+  </defs>
+
+  <rect x="0" y="0" width="760" height="262" fill="#ffffff"/>
+
+  <text x="380" y="34" font-size="16" font-weight="600" fill="#1f2937" text-anchor="middle">协议越复杂，收益越小：三个要权衡的地方</text>
+  <rect x="25" y="64" width="220" height="45" rx="6" fill="#dbeafe" stroke="#3b82f6"/>
+  <text x="135" y="82.5" font-size="10" fill="#1e40af" text-anchor="middle">降级去哪</text>
+  <text x="135" y="97.5" font-size="10" fill="#1e40af" text-anchor="middle">从 M 去 S 还是去 I</text>
+  <rect x="270" y="64" width="220" height="45" rx="6" fill="#dbeafe" stroke="#3b82f6"/>
+  <text x="380" y="82.5" font-size="10" fill="#1e40af" text-anchor="middle">数据从哪来</text>
+  <text x="380" y="97.5" font-size="10" fill="#1e40af" text-anchor="middle">缓存之间直传还是走内存</text>
+  <rect x="515" y="64" width="220" height="45" rx="6" fill="#dbeafe" stroke="#3b82f6"/>
+  <text x="625" y="82.5" font-size="10" fill="#1e40af" text-anchor="middle">属主状态</text>
+  <text x="625" y="97.5" font-size="10" fill="#1e40af" text-anchor="middle">O 状态，也就是 MOESI</text>
+  <rect x="25" y="137" width="710" height="36" rx="6" fill="#dbeafe" stroke="#3b82f6"/>
+  <text x="380" y="159.2" font-size="12" fill="#1e40af" text-anchor="middle">从别的缓存拿可能更快；从内存拿更简单，代价是 M 降级时必须写回（p51）</text>
+  <rect x="25" y="201" width="710" height="36" rx="6" fill="#fef3c7" stroke="#f59e0b"/>
+  <text x="380" y="223.2" font-size="12" fill="#b45309" text-anchor="middle">更多状态更难设计与验证，会带来更多情形与竞争条件，而收益是递减的（p54）</text>
+</svg>

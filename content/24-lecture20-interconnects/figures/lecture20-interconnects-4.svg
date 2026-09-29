@@ -1,0 +1,39 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="2 13 756 292" width="756" height="292"
+     role="img" aria-labelledby="fig-lecture20-interconnects-4-title fig-lecture20-interconnects-4-desc">
+  <title id="fig-lecture20-interconnects-4-title">三根支柱与网络的基本术语</title>
+  <desc id="fig-lecture20-interconnects-4-desc">左边三格是这一讲的骨架：拓扑是开关怎么连，路由算法是消息怎么走，缓冲与流控是路由器与链路里存什么、过载时怎么限流。右边两格是这一节定义的一组基本词：网络接口、链路、开关或路由器、通道、节点，以及消息、包与 flit，最后是直连与间接的区分。</desc>
+
+  <defs>
+    <style>
+      text { font-family: 'PingFang SC', 'Microsoft YaHei', 'Noto Sans CJK SC', system-ui, sans-serif; }
+    </style>
+    <marker id="arrow" markerWidth="8" markerHeight="8" refX="2" refY="4"
+            orient="auto" markerUnits="userSpaceOnUse">
+      <path d="M0,0 L8,4 L0,8 L2,4 z" fill="#64748b"/>
+    </marker>
+  </defs>
+
+  <rect x="2" y="13" width="756" height="292" fill="#ffffff"/>
+
+  <text x="380" y="48" font-size="16" font-weight="600" fill="#1f2937" text-anchor="middle">三根支柱与网络的基本术语</text>
+
+  <rect x="25" y="70" width="340" height="54" fill="#f3e8ff" stroke="#a855f7"/>
+  <text x="195" y="92.2" font-size="12" fill="#6b21a8" text-anchor="middle">第一根支柱：拓扑</text>
+  <text x="195" y="110.2" font-size="12" fill="#6b21a8" text-anchor="middle">开关怎么连，影响路由、吞吐与延迟</text>
+  <rect x="25" y="149" width="340" height="54" fill="#f3e8ff" stroke="#a855f7"/>
+  <text x="195" y="171.2" font-size="12" fill="#6b21a8" text-anchor="middle">第二根支柱：路由算法</text>
+  <text x="195" y="189.2" font-size="12" fill="#6b21a8" text-anchor="middle">消息怎么从源走到目的地，静态或自适应</text>
+  <rect x="25" y="228" width="340" height="54" fill="#f3e8ff" stroke="#a855f7"/>
+  <text x="195" y="250.2" font-size="12" fill="#6b21a8" text-anchor="middle">第三根支柱：缓冲与流控</text>
+  <text x="195" y="268.2" font-size="12" fill="#6b21a8" text-anchor="middle">路由器与链路里存什么、过载时怎么限流</text>
+  <rect x="395" y="70" width="340" height="90" fill="#dbeafe" stroke="#3b82f6"/>
+  <text x="565" y="92.2" font-size="12" fill="#1e40af" text-anchor="middle">网络接口：把端点接到网络上，解耦计算与通信</text>
+  <text x="565" y="110.2" font-size="12" fill="#1e40af" text-anchor="middle">链路：承载信号的一束线</text>
+  <text x="565" y="128.2" font-size="12" fill="#1e40af" text-anchor="middle">开关或路由器：把输入通道接到输出通道</text>
+  <text x="565" y="146.2" font-size="12" fill="#1e40af" text-anchor="middle">通道：路由器之间的一条逻辑连接</text>
+  <rect x="395" y="185" width="340" height="90" fill="#dbeafe" stroke="#3b82f6"/>
+  <text x="565" y="207.2" font-size="12" fill="#1e40af" text-anchor="middle">节点：网络里的一个路由器或开关</text>
+  <text x="565" y="225.2" font-size="12" fill="#1e40af" text-anchor="middle">消息：网络客户端的传输单位</text>
+  <text x="565" y="243.2" font-size="12" fill="#1e40af" text-anchor="middle">包：网络的传输单位；flit：流控单位</text>
+  <text x="565" y="261.2" font-size="12" fill="#1e40af" text-anchor="middle">直连与间接：端点在网内还是网外</text>
+</svg>

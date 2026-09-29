@@ -1,0 +1,29 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 760 266.5" width="760" height="266.5"
+     role="img" aria-labelledby="fig-lecture19-cache-coherence-5-title fig-lecture19-cache-coherence-5-desc">
+  <title id="fig-lecture19-cache-coherence-5-title">一致性要保证的两件事：写传播与写串行化</title>
+  <desc id="fig-lecture19-cache-coherence-5-desc">上排两格是讲义第 24 页列出的两件必须做到的事：写传播保证更新会传播出去，写串行化为同一个内存位置的写提供所有处理器都看到的共同顺序。下面一条说这两件不是同一件事，最后一条点出它需要一个全局的串行化点。</desc>
+
+  <defs>
+    <style>
+      text { font-family: 'PingFang SC', 'Microsoft YaHei', 'Noto Sans CJK SC', system-ui, sans-serif; }
+    </style>
+    <marker id="arrow" markerWidth="8" markerHeight="8" refX="2" refY="4"
+            orient="auto" markerUnits="userSpaceOnUse">
+      <path d="M0,0 L8,4 L0,8 L2,4 z" fill="#64748b"/>
+    </marker>
+  </defs>
+
+  <rect x="0" y="0" width="760" height="266.5" fill="#ffffff"/>
+
+  <text x="380" y="34" font-size="16" font-weight="600" fill="#1f2937" text-anchor="middle">一致性要保证的两件事：写传播与写串行化</text>
+  <rect x="25" y="64" width="342.5" height="49.5" rx="6" fill="#dbeafe" stroke="#3b82f6"/>
+  <text x="196.25" y="84.35" font-size="11" fill="#1e40af" text-anchor="middle">写传播</text>
+  <text x="196.25" y="100.85" font-size="11" fill="#1e40af" text-anchor="middle">保证更新会传播出去</text>
+  <rect x="392.5" y="64" width="342.5" height="49.5" rx="6" fill="#dbeafe" stroke="#3b82f6"/>
+  <text x="563.75" y="84.35" font-size="11" fill="#1e40af" text-anchor="middle">写串行化</text>
+  <text x="563.75" y="100.85" font-size="11" fill="#1e40af" text-anchor="middle">同一个位置的写有共同顺序</text>
+  <rect x="25" y="141.5" width="710" height="36" rx="6" fill="#fef3c7" stroke="#f59e0b"/>
+  <text x="380" y="163.7" font-size="12" fill="#b45309" text-anchor="middle">一件问「会不会到」，另一件问「大家看到的先后是不是同一个先后」</text>
+  <rect x="25" y="205.5" width="710" height="36" rx="6" fill="#d1fae5" stroke="#22c55e"/>
+  <text x="380" y="227.7" font-size="12" fill="#166534" text-anchor="middle">所以需要一个全局的串行化点（p24）</text>
+</svg>

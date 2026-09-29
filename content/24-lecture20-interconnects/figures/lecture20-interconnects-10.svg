@@ -1,0 +1,44 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="2 13 756 346" width="756" height="346"
+     role="img" aria-labelledby="fig-lecture20-interconnects-10-title fig-lecture20-interconnects-10-desc">
+  <title id="fig-lecture20-interconnects-10-title">路由：三种机制与三类算法</title>
+  <desc id="fig-lecture20-interconnects-10-desc">左边三格是三种实现机制：算术机制、源端指定与查表机制，它们回答「怎么算」。右边三格是三类算法取向：确定性、无关与自适应，它们回答「怎么选」。</desc>
+
+  <defs>
+    <style>
+      text { font-family: 'PingFang SC', 'Microsoft YaHei', 'Noto Sans CJK SC', system-ui, sans-serif; }
+    </style>
+    <marker id="arrow" markerWidth="8" markerHeight="8" refX="2" refY="4"
+            orient="auto" markerUnits="userSpaceOnUse">
+      <path d="M0,0 L8,4 L0,8 L2,4 z" fill="#64748b"/>
+    </marker>
+  </defs>
+
+  <rect x="2" y="13" width="756" height="346" fill="#ffffff"/>
+
+  <text x="380" y="48" font-size="16" font-weight="600" fill="#1f2937" text-anchor="middle">路由：三种机制与三类算法</text>
+
+  <rect x="25" y="70" width="340" height="72" fill="#dbeafe" stroke="#3b82f6"/>
+  <text x="195" y="92.2" font-size="12" fill="#1e40af" text-anchor="middle">算术机制（p64）</text>
+  <text x="195" y="110.2" font-size="12" fill="#1e40af" text-anchor="middle">用简单算术在规则拓扑里决定路径</text>
+  <text x="195" y="128.2" font-size="12" fill="#1e40af" text-anchor="middle">网格与环面里的维序路由属于这一类</text>
+  <rect x="25" y="167" width="340" height="72" fill="#dbeafe" stroke="#3b82f6"/>
+  <text x="195" y="189.2" font-size="12" fill="#1e40af" text-anchor="middle">源端指定（p64）</text>
+  <text x="195" y="207.2" font-size="12" fill="#1e40af" text-anchor="middle">源为路径上每个开关指定输出端口</text>
+  <text x="195" y="225.2" font-size="12" fill="#1e40af" text-anchor="middle">开关简单，但头部很大</text>
+  <rect x="25" y="264" width="340" height="72" fill="#dbeafe" stroke="#3b82f6"/>
+  <text x="195" y="286.2" font-size="12" fill="#1e40af" text-anchor="middle">查表机制（p64）</text>
+  <text x="195" y="304.2" font-size="12" fill="#1e40af" text-anchor="middle">用索引去查表得到输出端口</text>
+  <text x="195" y="322.2" font-size="12" fill="#1e40af" text-anchor="middle">头部小，但开关更复杂</text>
+  <rect x="395" y="70" width="340" height="72" fill="#f3e8ff" stroke="#a855f7"/>
+  <text x="565" y="92.2" font-size="12" fill="#6b21a8" text-anchor="middle">确定性算法（p65）</text>
+  <text x="565" y="110.2" font-size="12" fill="#6b21a8" text-anchor="middle">同一对源与目的总选同一条路径</text>
+  <text x="565" y="128.2" font-size="12" fill="#6b21a8" text-anchor="middle">典型是 XY 维序路由</text>
+  <rect x="395" y="167" width="340" height="72" fill="#f3e8ff" stroke="#a855f7"/>
+  <text x="565" y="189.2" font-size="12" fill="#6b21a8" text-anchor="middle">无关算法（p65）</text>
+  <text x="565" y="207.2" font-size="12" fill="#6b21a8" text-anchor="middle">会选不同的路径，但不看网络状态</text>
+  <text x="565" y="225.2" font-size="12" fill="#6b21a8" text-anchor="middle">代表是 Valiant 算法</text>
+  <rect x="395" y="264" width="340" height="72" fill="#f3e8ff" stroke="#a855f7"/>
+  <text x="565" y="286.2" font-size="12" fill="#6b21a8" text-anchor="middle">自适应算法（p65）</text>
+  <text x="565" y="304.2" font-size="12" fill="#6b21a8" text-anchor="middle">根据网络状态选不同的路径</text>
+  <text x="565" y="322.2" font-size="12" fill="#6b21a8" text-anchor="middle">可以是局部或全局反馈</text>
+</svg>

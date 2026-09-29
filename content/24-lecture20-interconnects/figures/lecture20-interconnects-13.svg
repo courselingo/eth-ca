@@ -1,0 +1,41 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="2 13 786 371" width="786" height="371"
+     role="img" aria-labelledby="fig-lecture20-interconnects-13-title fig-lecture20-interconnects-13-desc">
+  <title id="fig-lecture20-interconnects-13-title">从存储转发到虚拟通道</title>
+  <desc id="fig-lecture20-interconnects-13-desc">左边三格是三级递进与它们各自的问题：存储转发要为整包缓冲，直通一收到头就开始转发但资源仍按整包分配，虫洞把包切成 flit 却带来队头阻塞。右边三格是虚拟通道这个解法、它把什么解开了、它还能做什么。最下面一格是三种把缓冲可用性告诉上游的方式。</desc>
+
+  <defs>
+    <style>
+      text { font-family: 'PingFang SC', 'Microsoft YaHei', 'Noto Sans CJK SC', system-ui, sans-serif; }
+    </style>
+    <marker id="arrow" markerWidth="8" markerHeight="8" refX="2" refY="4"
+            orient="auto" markerUnits="userSpaceOnUse">
+      <path d="M0,0 L8,4 L0,8 L2,4 z" fill="#64748b"/>
+    </marker>
+  </defs>
+
+  <rect x="2" y="13" width="786" height="371" fill="#ffffff"/>
+
+  <text x="395" y="48" font-size="16" font-weight="600" fill="#1f2937" text-anchor="middle">从存储转发到虚拟通道</text>
+
+  <rect x="25" y="70" width="340" height="54" fill="#fce7f3" stroke="#ec4899"/>
+  <text x="195" y="92.2" font-size="12" fill="#9d174d" text-anchor="middle">第一步：存储转发（p94）</text>
+  <text x="195" y="110.2" font-size="12" fill="#9d174d" text-anchor="middle">整包先拷进路由器再走，每包延迟很高</text>
+  <rect x="25" y="149" width="340" height="54" fill="#fce7f3" stroke="#ec4899"/>
+  <text x="195" y="171.2" font-size="12" fill="#9d174d" text-anchor="middle">第二步：直通（p95）</text>
+  <text x="195" y="189.2" font-size="12" fill="#9d174d" text-anchor="middle">收到头就转发，但仍按整包分配缓冲</text>
+  <rect x="25" y="228" width="340" height="54" fill="#fce7f3" stroke="#ec4899"/>
+  <text x="195" y="250.2" font-size="12" fill="#9d174d" text-anchor="middle">第三步：虫洞（p97）</text>
+  <text x="195" y="268.2" font-size="12" fill="#9d174d" text-anchor="middle">切成 flit 前流，代价是队头阻塞</text>
+  <rect x="395" y="70" width="340" height="54" fill="#d1fae5" stroke="#22c55e"/>
+  <text x="565" y="92.2" font-size="12" fill="#166534" text-anchor="middle">解法：虚拟通道（p101）</text>
+  <text x="565" y="110.2" font-size="12" fill="#166534" text-anchor="middle">一条物理通道上多路复用多条通道</text>
+  <rect x="395" y="149" width="340" height="54" fill="#d1fae5" stroke="#22c55e"/>
+  <text x="565" y="171.2" font-size="12" fill="#166534" text-anchor="middle">它把什么解开了</text>
+  <text x="565" y="189.2" font-size="12" fill="#166534" text-anchor="middle">把输入缓冲切开共享物理通道，解开队头阻塞</text>
+  <rect x="395" y="228" width="340" height="54" fill="#d1fae5" stroke="#22c55e"/>
+  <text x="565" y="250.2" font-size="12" fill="#166534" text-anchor="middle">它还能做什么（p105）</text>
+  <text x="565" y="268.2" font-size="12" fill="#166534" text-anchor="middle">避免死锁、保留逃逸通道、给流量分类</text>
+  <rect x="25" y="307" width="740" height="54" fill="#fef3c7" stroke="#f59e0b"/>
+  <text x="395" y="329.2" font-size="12" fill="#b45309" text-anchor="middle">三种把缓冲可用性告诉上游的方式（p108）</text>
+  <text x="395" y="347.2" font-size="12" fill="#b45309" text-anchor="middle">信用式：下游把信用传回上游；开关式（XON/XOFF）；ACK/NACK：缓冲要等确认才释放</text>
+</svg>

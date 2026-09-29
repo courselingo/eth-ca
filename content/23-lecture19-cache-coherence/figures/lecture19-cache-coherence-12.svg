@@ -1,0 +1,25 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 760 253" width="760" height="253"
+     role="img" aria-labelledby="fig-lecture19-cache-coherence-12-title fig-lecture19-cache-coherence-12-desc">
+  <title id="fig-lecture19-cache-coherence-12-title">一致性流量会把 RowHammer 放大：这一处只有标题、一句判断与一个出处</title>
+  <desc id="fig-lecture19-cache-coherence-12-desc">上面三条是讲义第 70 到 72 页上能读到的全部：这一处只有三样东西，一句判断（一致性流量会加重 RowHammer），以及一个出处（这项工作出现在 ISCA 2022，附了外部链接）。本页只登记这三样，不替它补论证与数据。</desc>
+
+  <defs>
+    <style>
+      text { font-family: 'PingFang SC', 'Microsoft YaHei', 'Noto Sans CJK SC', system-ui, sans-serif; }
+    </style>
+    <marker id="arrow" markerWidth="8" markerHeight="8" refX="2" refY="4"
+            orient="auto" markerUnits="userSpaceOnUse">
+      <path d="M0,0 L8,4 L0,8 L2,4 z" fill="#64748b"/>
+    </marker>
+  </defs>
+
+  <rect x="0" y="0" width="760" height="253" fill="#ffffff"/>
+
+  <text x="380" y="34" font-size="16" font-weight="600" fill="#1f2937" text-anchor="middle">一致性流量会把 RowHammer 放大：这一处只有标题、一句判断与一个出处</text>
+  <rect x="25" y="64" width="710" height="36" rx="6" fill="#f8fafc" stroke="#94a3b8"/>
+  <text x="380" y="86.2" font-size="12" fill="#1e293b" text-anchor="middle">第 70 到 72 页只有三样东西：一个分节标题、一句判断、一个出处</text>
+  <rect x="25" y="128" width="710" height="36" rx="6" fill="#fce7f3" stroke="#ec4899"/>
+  <text x="380" y="150.2" font-size="12" fill="#9d174d" text-anchor="middle">判断：一致性流量会加重 RowHammer（p71）</text>
+  <rect x="25" y="192" width="710" height="36" rx="6" fill="#f8fafc" stroke="#94a3b8"/>
+  <text x="380" y="214.2" font-size="12" fill="#1e293b" text-anchor="middle">出处：这项工作出现在 ISCA 2022，附了一个外部链接；本页只登记，不替它补内容</text>
+</svg>
