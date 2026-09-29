@@ -1,0 +1,31 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 650 144" width="650" height="144"
+     role="img" aria-labelledby="fig-l7b-6-title fig-l7b-6-desc">
+  <title id="fig-l7b-6-title">RAIDR 的四组结果</title>
+  <desc id="fig-l7b-6-desc">在 32 GB、8 核系统上：刷新次数减少 74.6%，动态能量降低 16%，空闲功耗降低 20%，性能提升 9%，而硬件成本是 1.25 KB。</desc>
+
+  <defs>
+    <style>
+      text { font-family: 'PingFang SC', 'Microsoft YaHei', 'Noto Sans CJK SC', system-ui, sans-serif; }
+    </style>
+  </defs>
+
+  <rect x="0" y="0" width="650" height="144" fill="#ffffff"/>
+
+  <text x="325" y="34" font-size="16" font-weight="600" fill="#1f2937" text-anchor="middle">RAIDR 的四组结果</text>
+
+  <rect x="23" y="64" width="130" height="58" rx="8" fill="#d1fae5" stroke="#22c55e" stroke-width="1.5"/>
+  <text x="88" y="88.2" font-size="12" fill="#166534" text-anchor="middle">刷新次数</text>
+  <text x="88" y="106.2" font-size="12" fill="#166534" text-anchor="middle">减少 74.6%</text>
+
+  <rect x="181" y="64" width="130" height="58" rx="8" fill="#d1fae5" stroke="#22c55e" stroke-width="1.5"/>
+  <text x="246" y="88.2" font-size="12" fill="#166534" text-anchor="middle">动态能量</text>
+  <text x="246" y="106.2" font-size="12" fill="#166534" text-anchor="middle">降低 16%</text>
+
+  <rect x="339" y="64" width="130" height="58" rx="8" fill="#d1fae5" stroke="#22c55e" stroke-width="1.5"/>
+  <text x="404" y="88.2" font-size="12" fill="#166534" text-anchor="middle">空闲功耗</text>
+  <text x="404" y="106.2" font-size="12" fill="#166534" text-anchor="middle">降低 20%</text>
+
+  <rect x="497" y="64" width="130" height="58" rx="8" fill="#dbeafe" stroke="#3b82f6" stroke-width="1.5"/>
+  <text x="562" y="88.2" font-size="12" fill="#1e40af" text-anchor="middle">性能</text>
+  <text x="562" y="106.2" font-size="12" fill="#1e40af" text-anchor="middle">提升 9%</text>
+</svg>

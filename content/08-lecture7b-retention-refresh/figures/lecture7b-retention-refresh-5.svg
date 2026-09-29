@@ -1,0 +1,26 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 574 210" width="574" height="210"
+     role="img" aria-labelledby="fig-l7b-5-title fig-l7b-5-desc">
+  <title id="fig-l7b-5-title">布隆过滤器的缺点为什么在这里无害</title>
+  <desc id="fig-l7b-5-desc">没有假阴性，需要勤刷的行不会被漏掉；可能有假阳性，后果只是多刷几次，不会丢数据。</desc>
+
+  <defs>
+    <style>
+      text { font-family: 'PingFang SC', 'Microsoft YaHei', 'Noto Sans CJK SC', system-ui, sans-serif; }
+    </style>
+  </defs>
+
+  <rect x="0" y="0" width="574" height="210" fill="#ffffff"/>
+
+  <text x="287" y="34" font-size="16" font-weight="600" fill="#1f2937" text-anchor="middle">缺点为什么在这里无害</text>
+
+  <rect x="23" y="64" width="250" height="54" rx="8" fill="#d1fae5" stroke="#22c55e" stroke-width="1.5"/>
+  <text x="148" y="86.2" font-size="12" fill="#166534" text-anchor="middle">没有假阴性</text>
+  <text x="148" y="104.2" font-size="12" fill="#166534" text-anchor="middle">要勤刷的行不会被漏掉</text>
+
+  <rect x="301" y="64" width="250" height="54" rx="8" fill="#fef3c7" stroke="#f59e0b" stroke-width="1.5"/>
+  <text x="426" y="86.2" font-size="12" fill="#b45309" text-anchor="middle">可能有假阳性</text>
+  <text x="426" y="104.2" font-size="12" fill="#b45309" text-anchor="middle">顶多多刷几次，不丢数据</text>
+
+  <rect x="23" y="146" width="528" height="42" rx="8" fill="#f3e8ff" stroke="#a855f7" stroke-width="1.5"/>
+  <text x="287" y="171.2" font-size="12" fill="#6b21a8" text-anchor="middle">差错的方向不伤及正确性，这个缺点就落在可接受的误差里</text>
+</svg>

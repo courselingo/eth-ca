@@ -1,0 +1,34 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 642 140" width="642" height="140"
+     role="img" aria-labelledby="fig-l7b-4-title fig-l7b-4-desc">
+  <title id="fig-l7b-4-title">RAIDR 的三步</title>
+  <desc id="fig-l7b-4-desc">先刻画每一行的保持时间，再用布隆过滤器把行分箱，最后让控制器按行所属的箱子决定刷新频率。</desc>
+
+  <defs>
+    <style>
+      text { font-family: 'PingFang SC', 'Microsoft YaHei', 'Noto Sans CJK SC', system-ui, sans-serif; }
+    </style>
+    <marker id="arrow" markerWidth="8" markerHeight="8" refX="2" refY="4"
+            orient="auto" markerUnits="userSpaceOnUse">
+      <path d="M0,0 L8,4 L0,8 L2,4 z" fill="#64748b"/>
+    </marker>
+  </defs>
+
+  <rect x="0" y="0" width="642" height="140" fill="#ffffff"/>
+
+  <text x="321" y="34" font-size="16" font-weight="600" fill="#1f2937" text-anchor="middle">RAIDR 的三步</text>
+
+  <rect x="23" y="64" width="180" height="54" rx="8" fill="#dbeafe" stroke="#3b82f6" stroke-width="1.5"/>
+  <text x="113" y="86.2" font-size="12" fill="#1e40af" text-anchor="middle">一：刻画</text>
+  <text x="113" y="104.2" font-size="12" fill="#1e40af" text-anchor="middle">测出每行的保持时间</text>
+
+  <rect x="231" y="64" width="180" height="54" rx="8" fill="#fef3c7" stroke="#f59e0b" stroke-width="1.5"/>
+  <text x="321" y="86.2" font-size="12" fill="#b45309" text-anchor="middle">二：分箱</text>
+  <text x="321" y="104.2" font-size="12" fill="#b45309" text-anchor="middle">布隆过滤器按保持时间归箱</text>
+
+  <rect x="439" y="64" width="180" height="54" rx="8" fill="#d1fae5" stroke="#22c55e" stroke-width="1.5"/>
+  <text x="529" y="86.2" font-size="12" fill="#166534" text-anchor="middle">三：刷新</text>
+  <text x="529" y="104.2" font-size="12" fill="#166534" text-anchor="middle">按箱决定刷新频率</text>
+
+  <path d="M208,91 L220,91" fill="none" stroke="#64748b" stroke-width="1.5" marker-end="url(#arrow)"/>
+  <path d="M416,91 L428,91" fill="none" stroke="#64748b" stroke-width="1.5" marker-end="url(#arrow)"/>
+</svg>

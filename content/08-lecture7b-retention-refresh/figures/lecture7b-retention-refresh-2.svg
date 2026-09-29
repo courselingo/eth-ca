@@ -1,0 +1,33 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 574 210" width="574" height="210"
+     role="img" aria-labelledby="fig-l7b-2-title fig-l7b-2-desc">
+  <title id="fig-l7b-2-title">为什么必须刷：电容会漏</title>
+  <desc id="fig-l7b-2-desc">一个存储单元是电容加访问晶体管；电容的电荷会漏，所以每 64 毫秒要把每一行读出来再写回去。</desc>
+
+  <defs>
+    <style>
+      text { font-family: 'PingFang SC', 'Microsoft YaHei', 'Noto Sans CJK SC', system-ui, sans-serif; }
+    </style>
+    <marker id="arrow" markerWidth="8" markerHeight="8" refX="2" refY="4"
+            orient="auto" markerUnits="userSpaceOnUse">
+      <path d="M0,0 L8,4 L0,8 L2,4 z" fill="#64748b"/>
+    </marker>
+  </defs>
+
+  <rect x="0" y="0" width="574" height="210" fill="#ffffff"/>
+
+  <text x="287" y="34" font-size="16" font-weight="600" fill="#1f2937" text-anchor="middle">为什么必须刷：电容会漏</text>
+
+  <rect x="23" y="64" width="250" height="54" rx="8" fill="#dbeafe" stroke="#3b82f6" stroke-width="1.5"/>
+  <text x="148" y="86.2" font-size="12" fill="#1e40af" text-anchor="middle">电容</text>
+  <text x="148" y="104.2" font-size="12" fill="#1e40af" text-anchor="middle">存电荷，会慢慢漏掉</text>
+
+  <rect x="301" y="64" width="250" height="54" rx="8" fill="#dbeafe" stroke="#3b82f6" stroke-width="1.5"/>
+  <text x="426" y="86.2" font-size="12" fill="#1e40af" text-anchor="middle">访问晶体管</text>
+  <text x="426" y="104.2" font-size="12" fill="#1e40af" text-anchor="middle">选通它才能读写这一位</text>
+
+  <path d="M148,123 L148,135" fill="none" stroke="#64748b" stroke-width="1.5" marker-end="url(#arrow)"/>
+  <path d="M426,123 L426,135" fill="none" stroke="#64748b" stroke-width="1.5" marker-end="url(#arrow)"/>
+
+  <rect x="23" y="146" width="528" height="42" rx="8" fill="#fef3c7" stroke="#f59e0b" stroke-width="1.5"/>
+  <text x="287" y="171.2" font-size="12" fill="#b45309" text-anchor="middle">所以每 64 ms 要把每一行读出再写回，把电荷补满</text>
+</svg>

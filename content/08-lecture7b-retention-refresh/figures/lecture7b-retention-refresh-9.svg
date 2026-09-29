@@ -1,0 +1,34 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 642 140" width="642" height="140"
+     role="img" aria-labelledby="fig-l7b-9-title fig-l7b-9-desc">
+  <title id="fig-l7b-9-title">找到保持时间失败的演进线</title>
+  <desc id="fig-l7b-9-desc">AVATAR 出错就升级该行的刷新率；REAPER 在更高刷新间隔与更高温度下刻画；之后还要处理芯片内置纠错把现象掩盖的问题。</desc>
+
+  <defs>
+    <style>
+      text { font-family: 'PingFang SC', 'Microsoft YaHei', 'Noto Sans CJK SC', system-ui, sans-serif; }
+    </style>
+    <marker id="arrow" markerWidth="8" markerHeight="8" refX="2" refY="4"
+            orient="auto" markerUnits="userSpaceOnUse">
+      <path d="M0,0 L8,4 L0,8 L2,4 z" fill="#64748b"/>
+    </marker>
+  </defs>
+
+  <rect x="0" y="0" width="642" height="140" fill="#ffffff"/>
+
+  <text x="321" y="34" font-size="16" font-weight="600" fill="#1f2937" text-anchor="middle">找到保持时间失败的演进线</text>
+
+  <rect x="23" y="64" width="180" height="54" rx="8" fill="#dbeafe" stroke="#3b82f6" stroke-width="1.5"/>
+  <text x="113" y="86.2" font-size="12" fill="#1e40af" text-anchor="middle">AVATAR</text>
+  <text x="113" y="104.2" font-size="12" fill="#1e40af" text-anchor="middle">纠错报错就升级刷新率</text>
+
+  <rect x="231" y="64" width="180" height="54" rx="8" fill="#fef3c7" stroke="#f59e0b" stroke-width="1.5"/>
+  <text x="321" y="86.2" font-size="12" fill="#b45309" text-anchor="middle">REAPER</text>
+  <text x="321" y="104.2" font-size="12" fill="#b45309" text-anchor="middle">在更激进的条件下刻画</text>
+
+  <rect x="439" y="64" width="180" height="54" rx="8" fill="#f3e8ff" stroke="#a855f7" stroke-width="1.5"/>
+  <text x="529" y="86.2" font-size="12" fill="#6b21a8" text-anchor="middle">有片上纠错之后</text>
+  <text x="529" y="104.2" font-size="12" fill="#6b21a8" text-anchor="middle">错误被提前修掉，需新方法</text>
+
+  <path d="M208,91 L220,91" fill="none" stroke="#64748b" stroke-width="1.5" marker-end="url(#arrow)"/>
+  <path d="M416,91 L428,91" fill="none" stroke="#64748b" stroke-width="1.5" marker-end="url(#arrow)"/>
+</svg>

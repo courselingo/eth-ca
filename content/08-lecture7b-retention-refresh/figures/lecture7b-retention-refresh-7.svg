@@ -1,0 +1,23 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 566 222" width="566" height="222"
+     role="img" aria-labelledby="fig-l7b-7-title fig-l7b-7-desc">
+  <title id="fig-l7b-7-title">让刻画变难的两个挑战</title>
+  <desc id="fig-l7b-7-desc">保持时间既取决于这一行自己的值和邻居的值（数据模式依赖），又会在多个状态之间随时间随机切换（保持时间变化）。</desc>
+
+  <defs>
+    <style>
+      text { font-family: 'PingFang SC', 'Microsoft YaHei', 'Noto Sans CJK SC', system-ui, sans-serif; }
+    </style>
+  </defs>
+
+  <rect x="0" y="0" width="566" height="222" fill="#ffffff"/>
+
+  <text x="283" y="34" font-size="16" font-weight="600" fill="#1f2937" text-anchor="middle">让刻画变难的两个挑战</text>
+
+  <rect x="23" y="64" width="520" height="54" rx="8" fill="#fce7f3" stroke="#ec4899" stroke-width="1.5"/>
+  <text x="283" y="86.2" font-size="12" fill="#9d174d" text-anchor="middle">挑战一：数据模式依赖</text>
+  <text x="283" y="104.2" font-size="12" fill="#9d174d" text-anchor="middle">保持时间取决于自己的值，也取决于邻居的值</text>
+
+  <rect x="23" y="146" width="520" height="54" rx="8" fill="#fce7f3" stroke="#ec4899" stroke-width="1.5"/>
+  <text x="283" y="168.2" font-size="12" fill="#9d174d" text-anchor="middle">挑战二：保持时间随时间变化</text>
+  <text x="283" y="186.2" font-size="12" fill="#9d174d" text-anchor="middle">同一个单元在多个保持时间状态之间随机切换</text>
+</svg>

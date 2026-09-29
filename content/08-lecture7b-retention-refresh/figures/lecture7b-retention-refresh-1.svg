@@ -1,0 +1,26 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 574 210" width="574" height="210"
+     role="img" aria-labelledby="fig-l7b-1-title fig-l7b-1-desc">
+  <title id="fig-l7b-1-title">刷新的两笔账都会变重</title>
+  <desc id="fig-l7b-1-desc">刷新占掉的时间从现在的 8% 会长到 46%，占掉的能量从 15% 会长到 47%，两者来自同一个原因。</desc>
+
+  <defs>
+    <style>
+      text { font-family: 'PingFang SC', 'Microsoft YaHei', 'Noto Sans CJK SC', system-ui, sans-serif; }
+    </style>
+  </defs>
+
+  <rect x="0" y="0" width="574" height="210" fill="#ffffff"/>
+
+  <text x="287" y="34" font-size="16" font-weight="600" fill="#1f2937" text-anchor="middle">刷新的两笔账都会变重</text>
+
+  <rect x="23" y="64" width="250" height="54" rx="8" fill="#dbeafe" stroke="#3b82f6" stroke-width="1.5"/>
+  <text x="148" y="86.2" font-size="12" fill="#1e40af" text-anchor="middle">性能开销</text>
+  <text x="148" y="104.2" font-size="12" fill="#1e40af" text-anchor="middle">现在 8% → 将达 46%</text>
+
+  <rect x="301" y="64" width="250" height="54" rx="8" fill="#fce7f3" stroke="#ec4899" stroke-width="1.5"/>
+  <text x="426" y="86.2" font-size="12" fill="#9d174d" text-anchor="middle">能量开销</text>
+  <text x="426" y="104.2" font-size="12" fill="#9d174d" text-anchor="middle">现在 15% → 将达 47%</text>
+
+  <rect x="23" y="146" width="528" height="42" rx="8" fill="#fef3c7" stroke="#f59e0b" stroke-width="1.5"/>
+  <text x="287" y="171.2" font-size="12" fill="#b45309" text-anchor="middle">同一个原因的两个侧面：所有行都被同样对待</text>
+</svg>
