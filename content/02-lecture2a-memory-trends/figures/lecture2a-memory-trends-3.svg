@@ -1,7 +1,7 @@
 <svg xmlns="http://www.w3.org/2000/svg" viewBox="37 0 546 347" width="546" height="347"
      role="img" aria-labelledby="fig-l2a-3-title fig-l2a-3-desc">
   <title id="fig-l2a-3-title">核数往上走，每核分到的容量往下走</title>
-  <desc id="fig-l2a-3-desc">核数约每两年翻一倍，而每核能分到的内存容量约每两年减少 30%，两条趋势线反向张开。</desc>
+  <desc id="fig-l2a-3-desc">核数约每两年翻一倍（这一条是按源讲义给出的「内存条容量每三年翻倍」与「每核容量每两年降 30%」两个速率推出的），每核能分到的内存容量约每两年减少 30%，两条趋势线反向张开。</desc>
 
   <defs>
     <style>
