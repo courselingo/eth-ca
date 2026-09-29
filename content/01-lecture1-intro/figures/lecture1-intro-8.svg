@@ -1,7 +1,7 @@
 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 418 308" width="418" height="308"
      role="img" aria-labelledby="fig-l1-8-title fig-l1-8-desc">
   <title id="fig-l1-8-title">内存内计算的两条路</title>
-  <desc id="fig-l1-8-desc">路一把计算单元放进内存芯片这一侧，路二直接用内存阵列本身做运算。</desc>
+  <desc id="fig-l1-8-desc">路一把计算单元放进内存芯片这一侧（图上只画了这一种放法，另一种是放进与内存同一封装里的逻辑裸片），路二直接用内存阵列本身做运算。</desc>
 
   <defs>
     <style>

@@ -20,7 +20,7 @@
 | --- | --- | --- |
 | 1 | `lecture1-intro` | `lecture1-intro-afterlecture.pdf` |
 | 2 | `lecture2a-memory-trends` | `lecture2a-memory-trends-challenges-opportunities-afterlecture.pdf` |
-| 3 | `lecture2b-courselogistics` | `lecture2b-courselogistics-afterlecture.pdf` |
+| 3 | `lecture2b-courselogistics` ⚑**行政讲次** | `lecture2b-courselogistics-afterlecture.pdf` |
 | 4 | `lecture3-processing-using-memory` | `lecture3-processing-using-memory-afterlecture.pdf` |
 | 5 | `lecture4-processing-near-memory` | `lecture4-processing-near-memory-afterlecture.pdf` |
 | 6 | `lecture6-rowhammer` | `lecture6-rowhammer-and-secureandreliablememory-afterlecture.pdf` |
@@ -52,6 +52,18 @@
 
 **⇒ 31 个讲授单元。**（讨论课 `discussionsession1/2/3` 与习题课 `problem-solving-iv` 不计入正课；
 若第 2 轮之后要收，另开一档。）
+
+## 关于「行政讲次」
+
+`lecture2b-courselogistics`（第 3 讲）是**行政讲次**：源讲义 20 页只讲课程信息、评估权重与学习建议，
+没有技术内容。范围决定（2026-09-29，Lead 定）：
+
+- **照常产出**——删掉它「全量 31 讲」这个口径就不诚实了；
+- **篇幅按内容走**（1500–2500 汉字、3–4 张图），**不硬凑图**；
+- **红线不变**：作业与考试的**题面、解答**一律不发布，页内明写；
+- 定位写成「这门课怎么上：读者需要知道的规则与路径」，并注明规则是 2022 秋季学期的版本。
+
+⇒ 标在这里，是为了让**范围决定本身**留在文件里、可审计。
 
 ## 备注
 
